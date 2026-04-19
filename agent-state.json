@@ -1,6 +1,9 @@
 {
   "updated": "2026-04-19T13:11:04Z",
-  "lock": null,
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-04-19T15:10:40Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -41,7 +44,7 @@
       "status": "in-progress",
       "last_run": "2026-04-19",
       "last_commit": "c80ba02",
-      "next_task": "In src/App.tsx replace agreement remove button text ✕ with t('agreements.delete'); replace charter preview fallback Our Team with new i18n key in en.json+ru.json.",
+      "next_task": "In src/App.tsx replace agreement remove button text \u2715 with t('agreements.delete'); replace charter preview fallback Our Team with new i18n key in en.json+ru.json.",
       "blockers": []
     },
     "improvement-board": {
