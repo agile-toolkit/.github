@@ -1,5 +1,3 @@
-# Agile Toolkit
-
 **Small, focused web apps for day-to-day agile practice** — planning, facilitation, metrics, and team health. Each tool is its own repository: same stack (React, TypeScript, Vite), shipped where it helps teams most.
 
 ---
