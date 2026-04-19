@@ -42,14 +42,14 @@ Apply **one** status in this priority (evaluate in a sensible order: build first
 | Condition | `status` |
 |-----------|----------|
 | No **`src/`** directory, or **`src/`** contains only empty / placeholder scaffold (no real components, no meaningful routes) | `not-started` |
-| Has real components **`and`** `npm run build` **fails** | `blocked` |
-| Has components **`and`** build passes **`and`** all README features are implemented **`and`** there are **no** i18n gaps from steps B–C **`and`** no open TODOs from step D that affect shipped scope | `done` |
-| Has components **`and`** build passes **`but`** README features are incomplete **or** i18n wiring is incomplete **or** TODOs remain for shipped features | `in-progress` |
+| Has real components **and** `npm run build` **fails** | `blocked` |
+| Has components **and** build passes **and** all README features are implemented **and** there are **no** i18n gaps from steps B–C **and** no open TODOs from step D that affect shipped scope | `stable` |
+| Has components **and** build passes **but** README features are incomplete **or** i18n wiring is incomplete **or** TODOs remain for shipped features | `in-progress` |
 
 **Notes**
 
 - **Build** means the repo’s normal CI build (e.g. `npm run build`).
-- **`done`** requires both **README coverage** and **no** outstanding i18n/TODO gaps from the rules above — not merely “green build.”
+- **`stable`** requires both **README coverage** and **no** outstanding i18n/TODO gaps from the rules above — not merely “green build.”
 
 ---
 
@@ -57,7 +57,7 @@ Apply **one** status in this priority (evaluate in a sensible order: build first
 
 - Set **`next_task`** to the **first** **specific** missing feature or bug discovered when walking **A → B → C → D** (same order as above).
 - It must be **actionable without re-reading the entire repo** (exact files, keys, symbols) — see **`agent-state.FIELDS.md`**.
-- If status is **`done`**, set **`next_task`** to **`null`**.
+- If status is **`stable`**, set **`next_task`** to **`null`**.
 - If status is **`blocked`**, **`next_task`** should describe the **first build failure** (command, file, error) so the next run can fix the toolchain before features.
 
 ---
@@ -68,4 +68,4 @@ If a **`BRIEF.md`** is added later, it **supersedes** this derivation for scope 
 
 ## 5. Backfill
 
-Older **`agent-state.json`** rows may still use legacy values (e.g. `stable`) or claim **`done`** without this checklist. Agents should **re-run** sections 1–3 once per app repo and then update **`agile-toolkit/.github`** so **`status`** and **`next_task`** match evidence.
+Older **`agent-state.json`** rows may claim **`stable`** without this checklist. Agents should **re-run** sections 1–3 once per app repo and then update **`agile-toolkit/.github`** so **`status`** and **`next_task`** match evidence.
