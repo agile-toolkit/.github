@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-19T20:14:37Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-04-19T20:20:00Z"
-  },
+  "updated": "2026-04-19T20:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "moving-motivators",
+    "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -27,10 +24,10 @@
       "blockers": []
     },
     "kanban-designer": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-04-19",
-      "last_commit": "8dff792",
-      "next_task": "For orphan designer.* keys in en.json (no literal t() in src): add UI in src/components/BoardDesigner.tsx or ColumnCard.tsx, or delete keys from en.json and ru.json.",
+      "last_commit": "d2e2ff0",
+      "next_task": "check needs-review issues for human feedback",
       "blockers": []
     },
     "salary-formula": {
