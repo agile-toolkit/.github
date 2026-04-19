@@ -1,23 +1,39 @@
 # `agent-state.json` field reference
 
-`agent-state.json` in this repository is the cross-repo snapshot for agent runs. Each entry under `apps.<repo-name>` uses the same shape.
+State for the **Agile Tools** autonomous agent lives in `**agile-toolkit/.github`** — file `**agent-state.json**`. Full run protocol: `**AGENT_AUTONOMOUS.md**`.
 
-| Field | Description |
-|--------|---------------|
-| `updated` | ISO-8601 UTC timestamp of when this file was last written. |
-| `lock` | Optional lock object for coordinating concurrent agents; use `null` when no lock is held. |
-| `apps` | Map of repository name (GitHub repo slug) to that app’s state object. |
-| `status` | **New status after this run’s work.** Allowed values: `not-started`, `blocked`, `in-progress`, `stable`. See **`agent-state.NO-BRIEF.md`** for how to assign them when **`BRIEF.md`** is missing. |
-| `last_run` | **Today’s date** in `YYYY-MM-DD` for the run that produced this snapshot. |
-| `last_commit` | **Short SHA** of the commit **just pushed** to the target repo (the app repository on GitHub). |
-| `next_task` | **Specific description** of what the **next** agent run **must** do so it can act **without re-reading the whole repo**; use `null` if nothing is queued. Name exact files, symbols, dependencies, and i18n keys. |
-| `blockers` | **List of human-input blockers** (strings). Use an **empty array `[]`** when there are none. |
+## Top-level fields
+
+
+| Field         | Description                                                                                                                                                                                                                                                                                      |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `updated`     | ISO-8601 UTC timestamp when this file was last written (after lock release).                                                                                                                                                                                                                     |
+| `lock`        | `null`, or `{ "repo": "<slug>", "started_at": "<ISO UTC>" }` — see `**AGENT_AUTONOMOUS.md` § Locking**.                                                                                                                                                                                          |
+| `last_picked` | Object with **exactly** these keys, each `**null`** or a **repo slug**: `blocked`, `in-progress`, `scaffolded`, `not-started`, `stable`. Used for **round-robin target selection** within the active status. Update to the repo that was **picked** this run (status **before** any transition). |
+| `apps`        | Map **repo slug → app state**. **All 10** suite repos must always be present.                                                                                                                                                                                                                    |
+
+
+## Per-app fields (`apps.<slug>`)
+
+
+| Field         | Description                                                                                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `status`      | After this run: one of `**not-started`**, `**scaffolded**`, `**in-progress**`, `**stable**`, `**blocked**`. Lifecycle and meanings: `**AGENT_AUTONOMOUS.md` § App Lifecycle**. |
+| `last_run`    | `YYYY-MM-DD` of this run, or `null` if no run touched the repo.                                                                                                                |
+| `last_commit` | Short SHA of the commit **just pushed** to that app repo, or `null` if no code commit (e.g. research-only).                                                                    |
+| `next_task`   | **Specific** next action for the **next** run — readable without re-scanning the whole repo. For `**stable`**, typically: *check needs-review issues for human feedback*.      |
+| `blockers`    | Human-input blockers (strings); `[]` if none.                                                                                                                                  |
+
 
 ### `next_task` quality bar
 
-- **Good:** actionable in one pass — e.g. *Implement share button in `ResultsView` using `html2canvas`; `results.share` i18n key already exists in `src/i18n/en.json` and `ru.json`.*
-- **Bad:** vague handoffs — e.g. *continue work*, *implement next feature*, *polish UX* (forces the next run to rediscover scope).
+- **Good:** *Implement share button in `ResultsView` using `html2canvas`; `results.share` exists in `src/i18n/en.json` and `ru.json`.* — or *check needs-review issues for human feedback*.
+- **Bad:** *continue work*, *implement next feature*.
 
-When **`BRIEF.md`** is absent in an app repo, derive features and status using **`agent-state.NO-BRIEF.md`** (README → `en.json` vs UI → hardcoded strings → TODOs).
+## When `BRIEF` scope is unclear
 
-When you finish a run: bump `updated`, set each touched app’s `status`, `last_run`, `last_commit`, `next_task`, and `blockers`, then open a PR or push to `main` on **`agile-toolkit/.github`**.
+If `**.artefacts/BRIEF.md*`* is missing or empty, derive once using `**agent-state.NO-BRIEF.md**` (README → `en.json` vs UI → hardcoded strings → TODOs). After that, `**.artefacts/BRIEF.md**` is maintained per `**AGENT_AUTONOMOUS.md` § BRIEF.md Updates**.
+
+## Writing state
+
+After **one** app repo run: update `**lock`**, `**apps**`, `**last_picked**`, `**updated**`; commit and push `**agile-toolkit/.github**` once (combine lock release + state write when possible — `**AGENT_AUTONOMOUS.md**`).

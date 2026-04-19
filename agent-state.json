@@ -1,75 +1,82 @@
 {
-  "updated": "2026-04-19T12:34:21Z",
+  "updated": "2026-04-19T13:11:04Z",
   "lock": null,
+  "last_picked": {
+    "blocked": null,
+    "in-progress": "moving-motivators",
+    "scaffolded": null,
+    "not-started": null,
+    "stable": "improvement-board"
+  },
   "apps": {
-    "change-planner": {
-      "status": "stable",
+    "moving-motivators": {
+      "status": "in-progress",
       "last_run": "2026-04-19",
-      "last_commit": "828f6f8",
-      "next_task": null,
+      "last_commit": "e0f9d92",
+      "next_task": "npm install html2canvas; in src/components/ResultsView.tsx next to Start Over (~line 202) add button with t('results.share') that captures results column to PNG/clipboard; keys exist in src/i18n/en.json and ru.json.",
+      "blockers": []
+    },
+    "scrum-facilitator": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "f715aa2",
+      "next_task": "In src/i18n/en.json+ru.json remove or wire app.subtitle, retro.add, retro.openBoard, common.close; in src/App.tsx replace raw EN/RU toggle labels with t('lang.en')/t('lang.ru').",
+      "blockers": []
+    },
+    "kanban-designer": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "8dff792",
+      "next_task": "For orphan designer.* keys in en.json (no literal t() in src): add UI in src/components/BoardDesigner.tsx or ColumnCard.tsx, or delete keys from en.json and ru.json.",
+      "blockers": []
+    },
+    "salary-formula": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "c463f5f",
+      "next_task": "In src/components/ComparisonView.tsx wire comparison.empty when list empty and comparison.add on add control, or delete comparison.add and comparison.empty from en.json+ru.json.",
+      "blockers": []
+    },
+    "team-identity": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "c80ba02",
+      "next_task": "In src/App.tsx replace agreement remove button text ✕ with t('agreements.delete'); replace charter preview fallback Our Team with new i18n key in en.json+ru.json.",
       "blockers": []
     },
     "improvement-board": {
       "status": "stable",
       "last_run": "2026-04-19",
-      "last_commit": "5cdb5d2",
-      "next_task": null,
-      "blockers": []
-    },
-    "kanban-designer": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "14c7b43",
-      "next_task": null,
-      "blockers": []
-    },
-    "moving-motivators": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "4c58271",
-      "next_task": "In moving-motivators: add dependency html2canvas to package.json and npm install. In src/components/ResultsView.tsx (button row ~line 202 near Start Over), add a button labeled t('results.share') that html2canvas-captures the results column (title + ranked cards + impact section) and triggers download or clipboard; results.share already exists in src/i18n/en.json and ru.json. Optionally mirror for team aggregate UI in src/components/TeamSession.tsx TeamResultsView after solo path works.",
-      "blockers": []
-    },
-    "planning-poker": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "f9c45b2",
-      "next_task": null,
-      "blockers": []
-    },
-    "salary-formula": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "bc34990",
-      "next_task": null,
-      "blockers": []
-    },
-    "scrum-facilitator": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "8b31ba6",
-      "next_task": null,
-      "blockers": []
-    },
-    "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "22666e3",
-      "next_task": null,
-      "blockers": []
-    },
-    "team-identity": {
-      "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "df0b359",
-      "next_task": null,
+      "last_commit": "c2a6aef",
+      "next_task": "check needs-review issues for human feedback (gh issue list --repo agile-toolkit/improvement-board --state open --json number,title,labels)",
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
+      "status": "in-progress",
       "last_run": "2026-04-19",
-      "last_commit": "173d553",
-      "next_task": null,
+      "last_commit": "cefc969",
+      "next_task": "Grep src for profiles.title, profiles.work_types, matrix.all_skills, credits.total_points, credits.delete; remove unused keys from en.json+ru.json or wire in ProfilesView.tsx, SkillMatrix.tsx, CreditsView.tsx.",
+      "blockers": []
+    },
+    "planning-poker": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "a1f6e0e",
+      "next_task": "Remove dead voting.*, revealed.*, cards.* from src/i18n/en.json+ru.json OR wire cards.* as button title/tooltip in src/components/SessionView.tsx and add home.start_team CTA in src/App.tsx; replace raw EN/RU in App.tsx header with i18n.",
+      "blockers": []
+    },
+    "sprint-metrics": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "dfdae5b",
+      "next_task": "Remove dashboard.ideal and data.delete from src/i18n/en.json+ru.json if unused, or wire dashboard.ideal to dashboard UI and data.delete to delete control.",
+      "blockers": []
+    },
+    "change-planner": {
+      "status": "in-progress",
+      "last_run": "2026-04-19",
+      "last_commit": "d95761c",
+      "next_task": "Wire or remove common.next, canvas.save, canvas.load, actions.placeholder_due|facet_label|mark_done|mark_todo|delete in src/i18n/en.json+ru.json; replace hardcoded ' done' in src/components/ActionTracker.tsx with t().",
       "blockers": []
     }
   }

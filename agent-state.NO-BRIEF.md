@@ -1,8 +1,8 @@
-# When `BRIEF.md` is missing
+# When `.artefacts/BRIEF.md` is missing
 
-Some repos were seeded before an agent run and have **no `BRIEF.md`**. Use this procedure to derive the feature list and **`agent-state.json`** fields **without inventing scope**.
+Use this **once** to bootstrap scope. Ongoing work uses **`.artefacts/BRIEF.md`** per **`AGENT_AUTONOMOUS.md`**. Canonical lifecycle and `agent-state.json` format: **`AGENT_AUTONOMOUS.md`**.
 
-**Do not** add features that appear in neither **`README.md`** nor **`src/i18n/en.json`** (and sibling locale files). Those two sources bound product intent for this pass.
+**Do not** invent features absent from both **`README.md`** and **`src/i18n/en.json`** (and sibling locale files).
 
 ---
 
@@ -10,62 +10,48 @@ Some repos were seeded before an agent run and have **no `BRIEF.md`**. Use this 
 
 ### Step A — `README.md`
 
-Read **`README.md`** at the repo root and extract the **explicit feature list** (bullets, sections like “Features”, user stories, or numbered capabilities). Treat that list as the **authoritative backlog** for “what should exist.”
+Extract the explicit feature list (bullets, “Features”, etc.).
 
 ### Step B — `src/i18n/en.json` vs UI
 
-Read **`src/i18n/en.json`** and flatten nested keys to dot paths (e.g. `results.share`).
+Flatten string leaves to dot paths. For each key, find `t('path')` / templates in **`src/`**. Unreferenced user-facing keys → missing wiring (or remove keys). Respect dynamic keys like `` t(`foo.${id}.bar`) ``.
 
-For each key whose **value is user-visible copy** (not structural / not dev-only):
+### Step C — Hardcoded user-visible strings
 
-- Search **`src/`** for references: `t('…')`, `` t(`…`) ``, or `i18n.t('…')` with a path that resolves to that key (account for shared prefixes and dynamic segments where applicable).
-- If **no** `.tsx` / `.ts` file under **`src/`** ever uses that key in a way that **renders** that string to the user, treat it as a **missing feature** (copy exists in locale files but no UI) until wired or intentionally removed from locales.
+Literals in JSX/UI not going through **`t(...)`** → i18n bugs.
 
-**Invention rule:** do **not** add backlog items that appear in **neither** **`README.md`** **nor** **`src/i18n/en.json`** (and related locale files). Keys present only in **`ru.json`** but not **`en.json`** should still be checked against **`en.json`** as the primary inventory for parity.
+### Step D — `TODO` / `FIXME` / `XXX` in `src/`
 
-### Step C — Hardcoded user-visible strings (i18n bugs)
-
-Search **`src/`** for **user-visible** English (or other) literals in JSX or UI logic **without** going through **`t(...)`** (or equivalent i18n helper). Examples: raw text in `<button>…</button>`, `placeholder="…"`, `title="…"`, `alert('…')` meant for users.
-
-Each such string is an **i18n bug** and counts as a **missing feature** for parity (README + locales are the contract; the UI must be translatable as the rest of the app).
-
-### Step D — `TODO` in `src/`
-
-Search **`src/`** for `TODO`, `FIXME`, `XXX` (comments). Each item is a **tracked gap** unless README explicitly excludes it. Map the comment to a **concrete** `next_task` (file + action).
+Map each to a concrete `next_task`.
 
 ---
 
-## 2. Classify `status`
+## 2. Classify `status` (initial bootstrap only)
 
-Apply **one** status in this priority (evaluate in a sensible order: build first, then scaffold, then gaps):
+Align with **`AGENT_AUTONOMOUS.md` § App Lifecycle** (`not-started` → `scaffolded` → `in-progress` → `stable` → …).
 
 | Condition | `status` |
 |-----------|----------|
-| No **`src/`** directory, or **`src/`** contains only empty / placeholder scaffold (no real components, no meaningful routes) | `not-started` |
-| Has real components **and** `npm run build` **fails** | `blocked` |
-| Has components **and** build passes **and** all README features are implemented **and** there are **no** i18n gaps from steps B–C **and** no open TODOs from step D that affect shipped scope | `stable` |
-| Has components **and** build passes **but** README features are incomplete **or** i18n wiring is incomplete **or** TODOs remain for shipped features | `in-progress` |
+| No meaningful `src/` yet | `not-started` |
+| Vite scaffold, deps, no real features | `scaffolded` |
+| `npm run build` fails | `blocked` |
+| Build passes but README / i18n / TODO gaps remain | `in-progress` |
+| All known **BRIEF** features implemented, CI green, no tracked gaps | `stable` |
 
-**Notes**
-
-- **Build** means the repo’s normal CI build (e.g. `npm run build`).
-- **`stable`** requires both **README coverage** and **no** outstanding i18n/TODO gaps from the rules above — not merely “green build.”
+For **`stable`** after bootstrap, set **`next_task`** per autonomous agent rules (e.g. *check needs-review issues for human feedback*) — see **`AGENT_AUTONOMOUS.md`**.
 
 ---
 
 ## 3. Set `next_task`
 
-- Set **`next_task`** to the **first** **specific** missing feature or bug discovered when walking **A → B → C → D** (same order as above).
-- It must be **actionable without re-reading the entire repo** (exact files, keys, symbols) — see **`agent-state.FIELDS.md`**.
-- If status is **`stable`**, set **`next_task`** to **`null`**.
-- If status is **`blocked`**, **`next_task`** should describe the **first build failure** (command, file, error) so the next run can fix the toolchain before features.
+Walk **A → D**; first concrete gap → **`next_task`**. Must be actionable without re-reading the whole repo (**`agent-state.FIELDS.md`**).
 
 ---
 
-## 4. Optional: `BRIEF.md` later
+## 4. After bootstrap
 
-If a **`BRIEF.md`** is added later, it **supersedes** this derivation for scope on subsequent runs; keep **`README.md`** and locales in sync with it.
+Create **`.artefacts/BRIEF.md`** using the structure in **`AGENT_AUTONOMOUS.md` § BRIEF.md Updates**. Future runs update that file; **`agent-state.json`** is updated in **`agile-toolkit/.github`** per **`AGENT_AUTONOMOUS.md`**.
 
 ## 5. Backfill
 
-Older **`agent-state.json`** rows may claim **`stable`** without this checklist. Agents should **re-run** sections 1–3 once per app repo and then update **`agile-toolkit/.github`** so **`status`** and **`next_task`** match evidence.
+If **`agent-state.json`** or **`.artefacts/BRIEF.md`** drifted, re-run this checklist once per app, then push corrections.
