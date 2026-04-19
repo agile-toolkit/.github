@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19T12:20:00Z",
+  "updated": "2026-04-19T12:22:41Z",
   "lock": null,
   "apps": {
     "change-planner": {
@@ -27,7 +27,7 @@
       "status": "in-progress",
       "last_run": "2026-04-19",
       "last_commit": "4c58271",
-      "next_task": "TeamSession + Firebase: tighten loading/error UX; optional export or share of aggregate results (e.g. copy image or link).",
+      "next_task": "In moving-motivators: add dependency html2canvas to package.json and npm install. In src/components/ResultsView.tsx (button row ~line 202 near Start Over), add a button labeled t('results.share') that html2canvas-captures the results column (title + ranked cards + impact section) and triggers download or clipboard; results.share already exists in src/i18n/en.json and ru.json. Optionally mirror for team aggregate UI in src/components/TeamSession.tsx TeamResultsView after solo path works.",
       "blockers": []
     },
     "planning-poker": {

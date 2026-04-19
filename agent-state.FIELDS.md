@@ -10,7 +10,12 @@
 | `status` | **New status after this run’s work** (e.g. `stable`, `in-progress`, `blocked`). |
 | `last_run` | **Today’s date** in `YYYY-MM-DD` for the run that produced this snapshot. |
 | `last_commit` | **Short SHA** of the commit **just pushed** to the target repo (the app repository on GitHub). |
-| `next_task` | **Specific description** of what the **next** agent run **must** do; use `null` if nothing is queued. |
+| `next_task` | **Specific description** of what the **next** agent run **must** do so it can act **without re-reading the whole repo**; use `null` if nothing is queued. Name exact files, symbols, dependencies, and i18n keys. |
 | `blockers` | **List of human-input blockers** (strings). Use an **empty array `[]`** when there are none. |
+
+### `next_task` quality bar
+
+- **Good:** actionable in one pass — e.g. *Implement share button in `ResultsView` using `html2canvas`; `results.share` i18n key already exists in `src/i18n/en.json` and `ru.json`.*
+- **Bad:** vague handoffs — e.g. *continue work*, *implement next feature*, *polish UX* (forces the next run to rediscover scope).
 
 When you finish a run: bump `updated`, set each touched app’s `status`, `last_run`, `last_commit`, `next_task`, and `blockers`, then open a PR or push to `main` on **`agile-toolkit/.github`**.
