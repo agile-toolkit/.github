@@ -27,9 +27,3 @@ GitHub Pages URLs follow **`https://agile-toolkit.github.io/<repo>/`** (same as 
 | 8 | Planning Poker | `planning-poker` | [repo](https://github.com/agile-toolkit/planning-poker) | [Pages](https://agile-toolkit.github.io/planning-poker/) |
 | 9 | Sprint Metrics | `sprint-metrics` | [repo](https://github.com/agile-toolkit/sprint-metrics) | [Pages](https://agile-toolkit.github.io/sprint-metrics/) |
 | 10 | Change Planner | `change-planner` | [repo](https://github.com/agile-toolkit/change-planner) | [Pages](https://agile-toolkit.github.io/change-planner/) |
-
----
-
-## Organization profile
-
-The file [`profile/README.md`](profile/README.md) is rendered on the [agile-toolkit](https://github.com/agile-toolkit) organization home page.

@@ -30,12 +30,6 @@
 
 ---
 
-## Organization profile
-
-This file lives in **`agile-toolkit/.github`**. GitHub renders **`profile/README.md`** on the [**agile-toolkit**](https://github.com/agile-toolkit) organization home page, above pinned repositories.
-
----
-
 ## Contributing
 
 Pick a repo, clone it, run `npm ci` and `npm run dev`. Issues and PRs belong in that app’s repository; cross-cutting ideas can start in any repo and we’ll split work as needed.
