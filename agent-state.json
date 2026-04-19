@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-19T13:11:04Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-04-19T15:10:40Z"
-  },
+  "updated": "2026-04-19T13:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "moving-motivators",
+    "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -20,10 +17,10 @@
       "blockers": []
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-04-19",
-      "last_commit": "f715aa2",
-      "next_task": "In src/i18n/en.json+ru.json remove or wire app.subtitle, retro.add, retro.openBoard, common.close; in src/App.tsx replace raw EN/RU toggle labels with t('lang.en')/t('lang.ru').",
+      "last_commit": "2f5d9a4",
+      "next_task": "check needs-review issues for human feedback",
       "blockers": []
     },
     "kanban-designer": {
