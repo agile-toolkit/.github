@@ -26,7 +26,7 @@
     "kanban-designer": {
       "status": "stable",
       "last_run": "2026-04-19",
-      "last_commit": "d2e2ff0",
+      "last_commit": "37681da",
       "next_task": "check needs-review issues for human feedback",
       "blockers": []
     },
