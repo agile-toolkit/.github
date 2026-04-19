@@ -1,23 +1,23 @@
 {
-  "updated": "2026-04-19T12:22:41Z",
+  "updated": "2026-04-19T12:24:59Z",
   "lock": null,
   "apps": {
     "change-planner": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "828f6f8",
       "next_task": null,
       "blockers": []
     },
     "improvement-board": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "5cdb5d2",
       "next_task": null,
       "blockers": []
     },
     "kanban-designer": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "14c7b43",
       "next_task": null,
@@ -31,42 +31,42 @@
       "blockers": []
     },
     "planning-poker": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "f9c45b2",
       "next_task": null,
       "blockers": []
     },
     "salary-formula": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "bc34990",
       "next_task": null,
       "blockers": []
     },
     "scrum-facilitator": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "8b31ba6",
       "next_task": null,
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "22666e3",
       "next_task": null,
       "blockers": []
     },
     "team-identity": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "df0b359",
       "next_task": null,
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
+      "status": "done",
       "last_run": "2026-04-19",
       "last_commit": "173d553",
       "next_task": null,
