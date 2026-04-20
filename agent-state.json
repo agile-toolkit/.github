@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-20T10:22:21Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-04-20T15:15:03Z"
-  },
+  "updated": "2026-04-20T15:20:38Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "moving-motivators",
+    "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -41,10 +38,10 @@
       "blockers": []
     },
     "team-identity": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "c80ba02",
-      "next_task": "In src/App.tsx replace agreement remove button text \u2715 with t('agreements.delete'); replace charter preview fallback Our Team with new i18n key in en.json+ru.json.",
+      "status": "stable",
+      "last_run": "2026-04-20",
+      "last_commit": "c0cc971",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     },
     "improvement-board": {
