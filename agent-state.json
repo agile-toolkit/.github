@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-20T00:23:31Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-04-20T05:13:08Z"
-  },
+  "updated": "2026-04-20T05:16:04Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "moving-motivators",
+    "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -34,10 +31,10 @@
       "blockers": []
     },
     "salary-formula": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "c463f5f",
-      "next_task": "In src/components/ComparisonView.tsx wire comparison.empty when list empty and comparison.add on add control, or delete comparison.add and comparison.empty from en.json+ru.json.",
+      "status": "stable",
+      "last_run": "2026-04-20",
+      "last_commit": "45044e6",
+      "next_task": "check needs-review issues for human feedback",
       "blockers": []
     },
     "team-identity": {
