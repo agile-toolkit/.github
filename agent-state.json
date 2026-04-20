@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-20T15:20:38Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-04-20T20:13:07Z"
-  },
+  "updated": "2026-04-20T20:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "team-identity",
+    "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "cefc969",
-      "next_task": "Grep src for profiles.title, profiles.work_types, matrix.all_skills, credits.total_points, credits.delete; remove unused keys from en.json+ru.json or wire in ProfilesView.tsx, SkillMatrix.tsx, CreditsView.tsx.",
+      "status": "stable",
+      "last_run": "2026-04-20",
+      "last_commit": "c78e900",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     },
     "planning-poker": {
