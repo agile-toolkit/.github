@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-19T20:30:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-04-20T00:21:42Z"
-  },
+  "updated": "2026-04-20T00:23:31Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "kanban-designer",
+    "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -14,9 +11,9 @@
   "apps": {
     "moving-motivators": {
       "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "7d2a867",
-      "next_task": "Wire results.insight string as a hint paragraph below the interpretation panel in src/components/ResultsView.tsx; key exists in en.json and ru.json.",
+      "last_run": "2026-04-20",
+      "last_commit": "3dd1897",
+      "next_task": "Add facilitation guide screen \u2014 FacilitationGuide.tsx already exists; wire it into App.tsx routing and add a link from HomeScreen.tsx; facilitation.* i18n keys already in en.json/ru.json",
       "blockers": []
     },
     "scrum-facilitator": {
