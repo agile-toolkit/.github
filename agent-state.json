@@ -1,22 +1,19 @@
 {
-  "updated": "2026-04-20T05:16:04Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-04-20T10:13:55Z"
-  },
+  "updated": "2026-04-20T10:22:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "salary-formula",
+    "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-04-20",
-      "last_commit": "3dd1897",
-      "next_task": "Add facilitation guide screen \u2014 FacilitationGuide.tsx already exists; wire it into App.tsx routing and add a link from HomeScreen.tsx; facilitation.* i18n keys already in en.json/ru.json",
+      "last_commit": "c2de921",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     },
     "scrum-facilitator": {
