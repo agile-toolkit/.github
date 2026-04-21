@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-21T00:27:20Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-04-21T10:14:00Z"
-  },
+  "updated": "2026-04-21T10:17:53Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "planning-poker",
+    "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "dfdae5b",
-      "next_task": "Remove dashboard.ideal and data.delete from src/i18n/en.json+ru.json if unused, or wire dashboard.ideal to dashboard UI and data.delete to delete control.",
+      "status": "stable",
+      "last_run": "2026-04-21",
+      "last_commit": "6f21801",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     },
     "change-planner": {
