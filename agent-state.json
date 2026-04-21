@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-20T20:30:00Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-04-21T00:22:29Z"
-  },
+  "updated": "2026-04-21T00:27:20Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "work-profiles",
+    "in-progress": "planning-poker",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -62,10 +59,10 @@
       "blockers": []
     },
     "planning-poker": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "a1f6e0e",
-      "next_task": "Remove dead voting.*, revealed.*, cards.* from src/i18n/en.json+ru.json OR wire cards.* as button title/tooltip in src/components/SessionView.tsx and add home.start_team CTA in src/App.tsx; replace raw EN/RU in App.tsx header with i18n.",
+      "status": "stable",
+      "last_run": "2026-04-21",
+      "last_commit": "5f19739",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     },
     "sprint-metrics": {
