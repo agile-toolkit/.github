@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-21T10:17:53Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-04-22T00:00:00Z"
-  },
+  "updated": "2026-04-22T00:10:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "sprint-metrics",
+    "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "in-progress",
-      "last_run": "2026-04-19",
-      "last_commit": "d95761c",
-      "next_task": "Wire or remove common.next, canvas.save, canvas.load, actions.placeholder_due|facet_label|mark_done|mark_todo|delete in src/i18n/en.json+ru.json; replace hardcoded ' done' in src/components/ActionTracker.tsx with t().",
+      "status": "stable",
+      "last_run": "2026-04-22",
+      "last_commit": "b52cbab",
+      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
       "blockers": []
     }
   }
