@@ -1,22 +1,19 @@
 {
-  "updated": "2026-04-24T10:20:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-04-24T15:16:41Z"
-  },
+  "updated": "2026-04-24T15:19:27Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-04-20",
-      "last_commit": "c2de921",
-      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
+      "last_run": "2026-04-24",
+      "last_commit": "7038d5b",
+      "next_task": "check needs-review issues for human feedback (#9 ES+BE locales, #10 Work Profiles integration, #11 QR code sharing)",
       "blockers": []
     },
     "scrum-facilitator": {
