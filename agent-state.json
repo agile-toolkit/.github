@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-24T05:00:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-04-24T05:00:00Z"
-  },
+  "updated": "2026-04-24T05:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-04-21",
-      "last_commit": "6f21801",
-      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
+      "last_run": "2026-04-24",
+      "last_commit": "0bd0f76",
+      "next_task": "check needs-review issues for human feedback (#2 ES/BE locales, #3 Planning Poker integration, #4 sprint goal+export)",
       "blockers": []
     },
     "change-planner": {
