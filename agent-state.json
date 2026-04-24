@@ -1,6 +1,9 @@
 {
-  "updated": "2026-04-23T20:21:17Z",
-  "lock": null,
+  "updated": "2026-04-24T00:30:00Z",
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-04-24T00:30:00Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-04-19",
       "last_commit": "c2a6aef",
-      "next_task": "check needs-review issues for human feedback (gh issue list --repo agile-toolkit/improvement-board --state open --json number,title,labels)",
+      "next_task": "check needs-review issues for human feedback",
       "blockers": []
     },
     "work-profiles": {
