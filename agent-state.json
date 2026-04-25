@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-25T05:19:15Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-04-25T15:13:05Z"
-  },
+  "updated": "2026-04-25T15:16:46Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-04-20",
-      "last_commit": "c0cc971",
-      "next_task": "check needs-review issues for human feedback; run research cycle for market/integration/UX improvements",
+      "last_run": "2026-04-25",
+      "last_commit": "0cbe59a",
+      "next_task": "check needs-review issues for human feedback (#3 ES+BE locales, #4 charter image export, #5 Moving Motivators integration)",
       "blockers": []
     },
     "improvement-board": {
