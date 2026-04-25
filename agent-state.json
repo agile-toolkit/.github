@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-25T15:16:46Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-04-25T20:13:13Z"
-  },
+  "updated": "2026-04-25T20:24:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-04-19",
-      "last_commit": "c2a6aef",
-      "next_task": "check needs-review issues for human feedback",
+      "last_run": "2026-04-25",
+      "last_commit": "6f1a770",
+      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 board export, #4 Sprint Metrics integration)",
       "blockers": []
     },
     "work-profiles": {
