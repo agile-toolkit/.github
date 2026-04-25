@@ -1,6 +1,9 @@
 {
   "updated": "2026-04-25T05:19:15Z",
-  "lock": null,
+  "lock": {
+    "repo": "team-identity",
+    "started_at": "2026-04-25T15:13:05Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
