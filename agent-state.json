@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-26T10:17:38Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-04-26T20:14:38Z"
-  },
+  "updated": "2026-04-26T20:17:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-04-24",
-      "last_commit": null,
-      "next_task": "check needs-review issues for human feedback (#3 ES/BE locales, #4 Moving Motivators integration, #5 export/share)",
+      "last_run": "2026-04-26",
+      "last_commit": "1943f48",
+      "next_task": "check needs-review issues for human feedback (#3 ES/BE locales, #4 Moving Motivators integration, #5 export/share, #6 JSON backup, #7 templates, #8 Scrum/Sprint integration)",
       "blockers": []
     }
   }
