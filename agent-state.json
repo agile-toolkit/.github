@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-25T20:24:59Z",
-  "lock": {"repo": "work-profiles", "started_at": "2026-04-26T00:21:00Z"},
+  "updated": "2026-04-26T00:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -53,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-04-23",
-      "last_commit": "d00f419",
-      "next_task": "check needs-review issues for human feedback (#2 ES/BE locales, #3 suite integration, #4 skill search+gap analysis)",
+      "last_run": "2026-04-26",
+      "last_commit": "b959025",
+      "next_task": "check needs-review issues for human feedback (#2 ES/BE locales, #3 suite integration, #4 skill search+gap analysis, #5 export, #6 role templates, #7 PWA)",
       "blockers": []
     },
     "planning-poker": {
