@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-27T10:18:31Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-04-27T15:16:38Z"
-  },
+  "updated": "2026-04-27T15:19:06Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-04-25",
-      "last_commit": "61c1d68",
-      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 Work Profiles integration, #4 export/share)",
+      "last_run": "2026-04-27",
+      "last_commit": "e309d4a",
+      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 Work Profiles integration, #4 export/share, #5 accessibility, #6 scenario comparison, #7 Sprint Metrics integration)",
       "blockers": []
     },
     "team-identity": {
