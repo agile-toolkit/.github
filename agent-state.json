@@ -1,22 +1,19 @@
 {
-  "updated": "2026-04-27T00:00:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-04-27T00:00:00Z"
-  },
+  "updated": "2026-04-27T00:05:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-04-24",
-      "last_commit": "7038d5b",
-      "next_task": "check needs-review issues for human feedback (#9 ES+BE locales, #10 Work Profiles integration, #11 QR code sharing)",
+      "last_run": "2026-04-27",
+      "last_commit": "40f1900",
+      "next_task": "check needs-review issues for human feedback (#9 ES+BE locales, #10 Work Profiles integration, #11 QR code sharing, #12 PWA offline, #13 print/PDF export, #14 Sprint Metrics integration)",
       "blockers": []
     },
     "scrum-facilitator": {
