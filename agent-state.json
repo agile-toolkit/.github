@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-27T05:30:00Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-04-27T10:16:05Z"
-  },
+  "updated": "2026-04-27T10:18:31Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-04-25",
-      "last_commit": "7bb7137",
-      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 card drag-and-drop, #4 board image export)",
+      "last_run": "2026-04-27",
+      "last_commit": "e126319",
+      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 card drag-and-drop, #4 board image export, #5 card colour labels, #6 Sprint Metrics integration, #7 shareable URL)",
       "blockers": []
     },
     "salary-formula": {
