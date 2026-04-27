@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-27T05:16:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-04-27T05:16:00Z"
-  },
+  "updated": "2026-04-27T05:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-04-24",
-      "last_commit": null,
-      "next_task": "check needs-review issues for human feedback (#4 ES+BE locales, #5 Sprint Metrics integration, #6 ceremony session history)",
+      "last_run": "2026-04-27",
+      "last_commit": "c128744",
+      "next_task": "check needs-review issues for human feedback (#4 ES+BE locales, #5 Sprint Metrics integration, #6 ceremony session history, #7 retro formats, #8 timer alerts, #9 Planning Poker integration)",
       "blockers": []
     },
     "kanban-designer": {
