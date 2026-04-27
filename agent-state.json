@@ -1,12 +1,12 @@
 {
-  "updated": "2026-04-27T15:19:06Z",
-  "lock": {"repo": "team-identity", "started_at": "2026-04-27T20:00:00Z"},
+  "updated": "2026-04-27T20:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -39,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-04-25",
-      "last_commit": "0cbe59a",
-      "next_task": "check needs-review issues for human feedback (#3 ES+BE locales, #4 charter image export, #5 Moving Motivators integration)",
+      "last_run": "2026-04-27",
+      "last_commit": "30a8f6b",
+      "next_task": "check needs-review issues for human feedback (#3 ES+BE locales, #4 charter image export, #5 Moving Motivators integration, #6 Work Profiles participant import, #7 URL sharing, #8 Scrum Facilitator banner)",
       "blockers": []
     },
     "improvement-board": {
