@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-28T00:27:51Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-04-28T05:15:01Z"
-  },
+  "updated": "2026-04-28T05:18:22Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "change-planner",
+    "in-progress": "improvement-board",
     "scaffolded": null,
     "not-started": null,
     "stable": "improvement-board"
@@ -48,10 +45,10 @@
       "blockers": []
     },
     "improvement-board": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-04-28",
-      "last_commit": "36fff13",
-      "next_task": "implement issue #4 (Integration: Sprint Metrics -> Improvement Board deep-link) \u2014 approved; add a footer or board card link that opens sprint-metrics app with a pre-filled team parameter",
+      "last_commit": "c8bcff8",
+      "next_task": "check needs-review issues for human feedback \u2014 only #3 (PNG export snapshot) remains; run research on board UX improvements",
       "blockers": []
     },
     "work-profiles": {
