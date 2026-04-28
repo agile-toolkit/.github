@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-28T05:18:22Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-04-28T10:15:06Z"
-  },
+  "updated": "2026-04-28T10:28:54Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "improvement-board",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
-      "last_run": "2026-04-26",
-      "last_commit": "b959025",
-      "next_task": "check needs-review issues for human feedback (#2 ES/BE locales, #3 suite integration, #4 skill search+gap analysis, #5 export, #6 role templates, #7 PWA)",
+      "status": "in-progress",
+      "last_run": "2026-04-28",
+      "last_commit": "6031577b",
+      "next_task": "implement Integration: link Work Profiles capacity data to Planning Poker and Sprint Metrics (issue #3) \u2014 write profile skill data to localStorage key wp-profiles-export so Planning Poker and Sprint Metrics can read it",
       "blockers": []
     },
     "planning-poker": {
