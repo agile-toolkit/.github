@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-29T08:30:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-04-29T10:15:04Z"
-  },
+  "updated": "2026-04-29T10:19:40Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "planning-poker",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-04-26",
-      "last_commit": "e85a326",
-      "next_task": "check needs-review issues for human feedback (#2 ES/BE locales, #3 Planning Poker integration, #4 sprint goal+export, #5 team mood, #6 Moving Motivators overlay, #7 print PDF)",
+      "status": "in-progress",
+      "last_run": "2026-04-29",
+      "last_commit": "4b071051",
+      "next_task": "implement issue #3 \u2014 Import velocity target from Planning Poker session: read pp-session localStorage key, pre-fill targetScope in ProjectConfig on the Data tab Settings panel",
       "blockers": []
     },
     "change-planner": {
