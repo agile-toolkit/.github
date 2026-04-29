@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-28T15:17:36Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-04-29T00:00:00Z"
-  },
+  "updated": "2026-04-29T00:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -62,10 +59,10 @@
       "blockers": []
     },
     "planning-poker": {
-      "status": "stable",
-      "last_run": "2026-04-26",
-      "last_commit": null,
-      "next_task": "check needs-review issues for human feedback (#3 ES/BE locales, #4 Sprint Metrics integration, #5 voting timer, #6 custom decks, #7 keyboard accessibility, #8 Change Planner integration)",
+      "status": "in-progress",
+      "last_run": "2026-04-29",
+      "last_commit": "80bd7f92",
+      "next_task": "implement issue #4 \u2014 export session results to Sprint Metrics: write completed stories (title + finalEstimate) to localStorage key sprintMetrics_planningPoker as JSON array after each session; also implement issue #6 custom deck selection (Fibonacci/T-shirt/powers-of-2)",
       "blockers": []
     },
     "sprint-metrics": {
