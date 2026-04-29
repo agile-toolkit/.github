@@ -1,6 +1,9 @@
 {
   "updated": "2026-04-28T15:17:36Z",
-  "lock": null,
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-04-29T00:00:00Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
