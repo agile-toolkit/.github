@@ -1,15 +1,12 @@
 {
-  "updated": "2026-04-29T15:19:42Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-04-29T20:14:06Z"
-  },
+  "updated": "2026-04-29T20:18:13Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "stable",
-      "last_run": "2026-04-26",
-      "last_commit": "1943f48",
-      "next_task": "check needs-review issues for human feedback (#3 ES/BE locales, #4 Moving Motivators integration, #5 export/share, #6 JSON backup, #7 templates, #8 Scrum/Sprint integration)",
+      "status": "in-progress",
+      "last_run": "2026-04-29",
+      "last_commit": "3d5ce3cd",
+      "next_task": "implement issue #4 \u2014 link Moving Motivators results to Mind-the-People facet (read from localStorage key moving-motivators-results, surface motivator profile in FacetPlanner mind panel)",
       "blockers": []
     }
   }
