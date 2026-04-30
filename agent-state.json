@@ -1,0 +1,86 @@
+{
+  "updated": "2026-04-30T05:22:11Z",
+  "lock": {
+    "repo": "change-planner",
+    "started_at": "2026-04-30T10:15:58Z"
+  },
+  "last_picked": {
+    "blocked": null,
+    "in-progress": "change-planner",
+    "scaffolded": null,
+    "not-started": null,
+    "stable": "change-planner"
+  },
+  "apps": {
+    "moving-motivators": {
+      "status": "stable",
+      "last_run": "2026-04-27",
+      "last_commit": "40f1900",
+      "next_task": "check needs-review issues for human feedback (#9 ES+BE locales, #10 Work Profiles integration, #11 QR code sharing, #12 PWA offline, #13 print/PDF export, #14 Sprint Metrics integration)",
+      "blockers": []
+    },
+    "scrum-facilitator": {
+      "status": "stable",
+      "last_run": "2026-04-27",
+      "last_commit": "c128744",
+      "next_task": "check needs-review issues for human feedback (#4 ES+BE locales, #5 Sprint Metrics integration, #6 ceremony session history, #7 retro formats, #8 timer alerts, #9 Planning Poker integration)",
+      "blockers": []
+    },
+    "kanban-designer": {
+      "status": "stable",
+      "last_run": "2026-04-27",
+      "last_commit": "e126319",
+      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 card drag-and-drop, #4 board image export, #5 card colour labels, #6 Sprint Metrics integration, #7 shareable URL)",
+      "blockers": []
+    },
+    "salary-formula": {
+      "status": "stable",
+      "last_run": "2026-04-27",
+      "last_commit": "e309d4a",
+      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 Work Profiles integration, #4 export/share, #5 accessibility, #6 scenario comparison, #7 Sprint Metrics integration)",
+      "blockers": []
+    },
+    "team-identity": {
+      "status": "stable",
+      "last_run": "2026-04-27",
+      "last_commit": "30a8f6b",
+      "next_task": "check needs-review issues for human feedback (#3 ES+BE locales, #4 charter image export, #5 Moving Motivators integration, #6 Work Profiles participant import, #7 URL sharing, #8 Scrum Facilitator banner)",
+      "blockers": []
+    },
+    "improvement-board": {
+      "status": "stable",
+      "last_run": "2026-04-28",
+      "last_commit": "c8bcff8",
+      "next_task": "check needs-review issues for human feedback \u2014 only #3 (PNG export snapshot) remains; run research on board UX improvements",
+      "blockers": []
+    },
+    "work-profiles": {
+      "status": "stable",
+      "last_run": "2026-04-28",
+      "last_commit": "763eab5",
+      "next_task": "check needs-review issues #4 (skill gap analysis) and #5 (CSV/HTML export) for revised human feedback; then implement Sprint Metrics side of wp-profiles-export integration (read teamCapacity from wp-profiles-export key)",
+      "blockers": []
+    },
+    "planning-poker": {
+      "status": "stable",
+      "last_run": "2026-04-29",
+      "last_commit": "9c55aa03",
+      "next_task": "check needs-review issues for human feedback (#5 voting timer, #7 keyboard accessibility, #8 Change Planner deep-link)",
+      "blockers": []
+    },
+    "sprint-metrics": {
+      "status": "stable",
+      "last_run": "2026-04-29",
+      "last_commit": "699b8746",
+      "next_task": "check needs-review issues for human feedback (#4 sprint goal + retrospective report, #5 team mood index, #6 Moving Motivators overlay, #7 browser print PDF)",
+      "blockers": []
+    },
+    "change-planner": {
+      "status": "in-progress",
+      "last_run": "2026-04-30",
+      "last_commit": "3f8bae44",
+      "next_task": "implement issue #8 \u2014 link Change Planner to Scrum Facilitator ceremonies and Sprint Metrics (Phase 1: clipboard copy of initiative summary for retro; check issue #8 body for full spec)",
+      "blockers": []
+    }
+  }
+}
