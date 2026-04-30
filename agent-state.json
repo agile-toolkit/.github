@@ -1,12 +1,9 @@
 {
-  "updated": "2026-04-29T20:18:13Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-04-30T05:15:13Z"
-  },
+  "updated": "2026-04-30T05:22:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "sprint-metrics",
+    "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
     "stable": "change-planner"
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "in-progress",
-      "last_run": "2026-04-29",
-      "last_commit": "3d5ce3cd",
-      "next_task": "implement issue #4 \u2014 link Moving Motivators results to Mind-the-People facet (read from localStorage key moving-motivators-results, surface motivator profile in FacetPlanner mind panel)",
+      "last_run": "2026-04-30",
+      "last_commit": "3f8bae44",
+      "next_task": "implement issue #8 \u2014 link Change Planner to Scrum Facilitator ceremonies and Sprint Metrics (Phase 1: clipboard copy of initiative summary for retro; check issue #8 body for full spec)",
       "blockers": []
     }
   }
