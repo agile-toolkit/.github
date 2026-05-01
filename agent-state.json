@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-01T05:30:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-01T10:16:09Z"
-  },
+  "updated": "2026-05-01T10:25:39Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -20,10 +17,10 @@
       "blockers": []
     },
     "scrum-facilitator": {
-      "status": "stable",
-      "last_run": "2026-04-27",
-      "last_commit": "c128744",
-      "next_task": "check needs-review issues for human feedback (#4 ES+BE locales, #5 Sprint Metrics integration, #6 ceremony session history, #7 retro formats, #8 timer alerts, #9 Planning Poker integration)",
+      "status": "in-progress",
+      "last_run": "2026-05-01",
+      "last_commit": "7416532",
+      "next_task": "implement issue #5 \u2014 Export Sprint Review outcomes to Sprint Metrics: add \"Export to Sprint Metrics\" button in ExportView.tsx that appears only for review ceremony type; writes a new sprint entry to sprint-metrics-data localStorage key; opens Sprint Metrics in new tab",
       "blockers": []
     },
     "kanban-designer": {
