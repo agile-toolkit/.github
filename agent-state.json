@@ -1,12 +1,9 @@
 {
-  "updated": "2026-05-01T10:25:39Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-01T15:17:22Z"
-  },
+  "updated": "2026-05-01T15:21:49Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "change-planner",
+    "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
     "stable": "scrum-facilitator"
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-05-01",
-      "last_commit": "7416532",
-      "next_task": "implement issue #5 \u2014 Export Sprint Review outcomes to Sprint Metrics: add \"Export to Sprint Metrics\" button in ExportView.tsx that appears only for review ceremony type; writes a new sprint entry to sprint-metrics-data localStorage key; opens Sprint Metrics in new tab",
+      "last_commit": "14904d3",
+      "next_task": "check needs-review issues for human feedback (#6 persistent ceremony history, #7 retro formats, #8 timer alerts, #9 Planning Poker integration); implement next approved issue",
       "blockers": []
     },
     "kanban-designer": {
@@ -81,6 +78,20 @@
       "last_commit": "c318e5bf",
       "next_task": "check needs-review issues for human feedback (#5 export/share, #6 JSON backup, #7 templates); then implement next approved backlog item",
       "blockers": []
+    }
+  },
+  "projects": {
+    "scrum-facilitator": {
+      "project_number": 7,
+      "project_id": "PVT_kwDOEGuPAc4BV33-",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV33-zhRQeD8",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
+        "Done": "98236657"
+      }
     }
   }
 }
