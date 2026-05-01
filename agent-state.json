@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-01T15:21:49Z",
-  "lock": null,
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-05-01T20:16:03Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
