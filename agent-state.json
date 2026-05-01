@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-01T15:21:49Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-01T20:16:03Z"
-  },
+  "updated": "2026-05-01T20:22:05Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-05-01",
-      "last_commit": "14904d3",
-      "next_task": "check needs-review issues for human feedback (#6 persistent ceremony history, #7 retro formats, #8 timer alerts, #9 Planning Poker integration); implement next approved issue",
+      "last_commit": "279feba",
+      "next_task": "implement issue #7 \u2014 multiple retrospective formats (4Ls, Mad-Sad-Glad, Sailboat); add format selector to home/retro step; column titles from i18n; store selected format in localStorage",
       "blockers": []
     },
     "kanban-designer": {
