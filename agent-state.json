@@ -1,9 +1,9 @@
 {
-  "updated": "2026-05-03T10:21:00Z",
+  "updated": "2026-05-03T15:27:33Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "scrum-facilitator",
+    "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
     "stable": "salary-formula"
@@ -33,8 +33,8 @@
     "salary-formula": {
       "status": "in-progress",
       "last_run": "2026-05-03",
-      "last_commit": "377b90c",
-      "next_task": "implement #3 (Work Profiles integration: \"Import from Work Profiles\" button on Skills Score slider in SalaryCalculator.tsx, reads work_profiles_v1 localStorage, maps aggregate skill score to 0.7-1.4 multiplier range, shows \"Linked to: <name>\" badge on slider when active)",
+      "last_commit": "62f0eeac",
+      "next_task": "check issues for human feedback (#4, #5, #6, #7); implement next approved backlog item",
       "blockers": []
     },
     "team-identity": {
