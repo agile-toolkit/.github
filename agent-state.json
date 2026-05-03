@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-03T00:27:46Z",
-  "lock": null,
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-05-03T01:00:00Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-04-28",
       "last_commit": "c8bcff8",
-      "next_task": "check needs-review issues for human feedback \u2014 only #3 (PNG export snapshot) remains; run research on board UX improvements",
+      "next_task": "check needs-review issues for human feedback — only #3 (PNG export snapshot) remains; run research on board UX improvements",
       "blockers": []
     },
     "work-profiles": {
