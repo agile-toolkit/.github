@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-03T00:27:46Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-03T01:00:00Z"
-  },
+  "updated": "2026-05-03T01:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-04-27",
-      "last_commit": "e126319",
-      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 card drag-and-drop, #4 board image export, #5 card colour labels, #6 Sprint Metrics integration, #7 shareable URL)",
+      "last_run": "2026-05-03",
+      "last_commit": "88ac26e",
+      "next_task": "implement #3 (card drag-and-drop between columns using @dnd-kit multi-container sortable: wrap cards in SortableContext per column, extract CardItem with useSortable, update onDragEnd to detect card vs column drag, add DragOverlay); also #6 (Sprint Metrics deep-link) is approved",
       "blockers": []
     },
     "salary-formula": {
@@ -88,6 +85,18 @@
       "project_number": 7,
       "project_id": "PVT_kwDOEGuPAc4BV33-",
       "status_field_id": "PVTSSF_lADOEGuPAc4BV33-zhRQeD8",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "kanban-designer": {
+      "project_number": 8,
+      "project_id": "PVT_kwDOEGuPAc4BV34Q",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV34QzhRQeT8",
       "option_ids": {
         "Backlog": "f75ad846",
         "Ready": "61e4505c",
