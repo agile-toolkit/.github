@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-03T01:30:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-03T10:15:07Z"
-  },
+  "updated": "2026-05-03T10:21:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -34,10 +31,10 @@
       "blockers": []
     },
     "salary-formula": {
-      "status": "stable",
-      "last_run": "2026-04-27",
-      "last_commit": "e309d4a",
-      "next_task": "check needs-review issues for human feedback (#2 ES+BE locales, #3 Work Profiles integration, #4 export/share, #5 accessibility, #6 scenario comparison, #7 Sprint Metrics integration)",
+      "status": "in-progress",
+      "last_run": "2026-05-03",
+      "last_commit": "377b90c",
+      "next_task": "implement #3 (Work Profiles integration: \"Import from Work Profiles\" button on Skills Score slider in SalaryCalculator.tsx, reads work_profiles_v1 localStorage, maps aggregate skill score to 0.7-1.4 multiplier range, shows \"Linked to: <name>\" badge on slider when active)",
       "blockers": []
     },
     "team-identity": {
@@ -105,6 +102,16 @@
         "Ready": "61e4505c",
         "In Progress": "47fc9ee4",
         "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "salary-formula": {
+      "project_number": 11,
+      "project_id": "PVT_kwDOEGuPAc4BWgjk",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BWgjkzhR0NOU",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "In Progress": "47fc9ee4",
         "Done": "98236657"
       }
     }
