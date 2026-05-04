@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-03T20:19:45Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-04T05:18:18Z"
-  },
+  "updated": "2026-05-04T05:21:56Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
@@ -34,10 +31,10 @@
       "blockers": []
     },
     "salary-formula": {
-      "status": "in-progress",
-      "last_run": "2026-05-03",
-      "last_commit": "094a0aa",
-      "next_task": "implement #7 (Sprint Metrics integration \u2014 \"Share with Sprint Metrics\" button in ComparisonView writes sprint_metrics_salary_bridge_v1 localStorage key with array of {name, annualSalary, currency}); also check #4 and #5 for human feedback",
+      "status": "stable",
+      "last_run": "2026-05-04",
+      "last_commit": "d9e69c3",
+      "next_task": "check issues for human feedback (#4 export, #5 accessibility); run research for new backlog items",
       "blockers": []
     },
     "team-identity": {
