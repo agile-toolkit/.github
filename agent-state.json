@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-08T05:09:59Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-08T10:07:24Z"
-  },
+  "updated": "2026-05-08T10:11:09Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-04-28",
-      "last_commit": "763eab5",
-      "next_task": "check needs-review issues #4 (skill gap analysis) and #5 (CSV/HTML export) for revised human feedback; then implement Sprint Metrics side of wp-profiles-export integration (read teamCapacity from wp-profiles-export key)",
+      "last_run": "2026-05-08",
+      "last_commit": "a1132fb",
+      "next_task": "implement #7 (PWA support using vite-plugin-pwa: npm install -D vite-plugin-pwa, configure in vite.config.ts with registerType autoUpdate and manifest, add placeholder icons in public/; resolve open questions per UX best practices \u2014 add reload toast, use placeholder icons initially, pilot on work-profiles first)",
       "blockers": []
     },
     "planning-poker": {
@@ -125,6 +122,18 @@
       "option_ids": {
         "Backlog": "f75ad846",
         "In Progress": "47fc9ee4",
+        "Done": "98236657"
+      }
+    },
+    "work-profiles": {
+      "project_number": 10,
+      "project_id": "PVT_kwDOEGuPAc4BV35d",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV35dzhRQfbA",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
         "Done": "98236657"
       }
     }
