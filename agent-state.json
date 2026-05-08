@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-08T00:01:00Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-08T05:06:43Z"
-  },
+  "updated": "2026-05-08T05:09:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-04-28",
-      "last_commit": "c8bcff8",
-      "next_task": "check needs-review issues for human feedback \u2014 only #3 (PNG export snapshot) remains; run research on board UX improvements",
+      "last_run": "2026-05-08",
+      "last_commit": "994f89b",
+      "next_task": "check issues for human feedback; implement whichever issue is approved first (#3 PNG export uses html2canvas from moving-motivators; #7 Kanban Designer deep-link; #8 team priority voting; #9 accessibility audit)",
       "blockers": []
     },
     "work-profiles": {
@@ -112,6 +109,16 @@
       "project_number": 11,
       "project_id": "PVT_kwDOEGuPAc4BWgjk",
       "status_field_id": "PVTSSF_lADOEGuPAc4BWgjkzhR0NOU",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "In Progress": "47fc9ee4",
+        "Done": "98236657"
+      }
+    },
+    "improvement-board": {
+      "project_number": 12,
+      "project_id": "PVT_kwDOEGuPAc4BXEOS",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BXEOSzhSTuhE",
       "option_ids": {
         "Backlog": "f75ad846",
         "In Progress": "47fc9ee4",
