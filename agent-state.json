@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-04T05:21:56Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-08T00:00:00Z"
-  },
+  "updated": "2026-05-08T00:01:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-04-27",
-      "last_commit": "30a8f6b",
-      "next_task": "check needs-review issues for human feedback (#3 ES+BE locales, #4 charter image export, #5 Moving Motivators integration, #6 Work Profiles participant import, #7 URL sharing, #8 Scrum Facilitator banner)",
+      "last_run": "2026-05-08",
+      "last_commit": "9b271c1",
+      "next_task": "check issues for human feedback; implement #4 (charter image export via html2canvas \u2014 charter-card id already present, add Share/Copy Image button beside Print) if approved; note #8 (Scrum Facilitator banner) approved but scoped to scrum-facilitator repo",
       "blockers": []
     },
     "improvement-board": {
