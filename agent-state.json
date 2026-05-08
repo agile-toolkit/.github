@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-08T10:11:09Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-08T15:07:12Z"
-  },
+  "updated": "2026-05-08T15:12:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-04-29",
-      "last_commit": "9c55aa03",
-      "next_task": "check needs-review issues for human feedback (#5 voting timer, #7 keyboard accessibility, #8 Change Planner deep-link)",
+      "last_run": "2026-05-08",
+      "last_commit": "0fd7404",
+      "next_task": "check issues for human feedback (#5 voting timer, #7 keyboard accessibility)",
       "blockers": []
     },
     "sprint-metrics": {
@@ -132,6 +129,18 @@
       "project_number": 10,
       "project_id": "PVT_kwDOEGuPAc4BV35d",
       "status_field_id": "PVTSSF_lADOEGuPAc4BV35dzhRQfbA",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "planning-poker": {
+      "project_number": 6,
+      "project_id": "PVT_kwDOEGuPAc4BV33w",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV33wzhRQd3A",
       "option_ids": {
         "Backlog": "f75ad846",
         "Ready": "61e4505c",
