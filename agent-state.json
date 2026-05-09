@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-09T15:10:38Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-09T20:06:43Z"
-  },
+  "updated": "2026-05-09T20:14:17Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-01",
-      "last_commit": "cb9ece9",
-      "next_task": "check needs-review issues for human feedback (#10 Work Profiles integration, #11 QR code sharing, #12 PWA offline, #13 print/PDF export, #14 Sprint Metrics integration); also check #5 favicon (research-more)",
+      "last_run": "2026-05-09",
+      "last_commit": "a7d681a",
+      "next_task": "check issues for human feedback; implement first approved item \u2014 #16 (localStorage session persistence + Dashboard card reader: write moving-motivators:lastSession in App.tsx on solo-results transition; add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts) or #5 (favicon: replace corrupted public/favicon.svg with teal #0d9488 SVG)",
       "blockers": []
     },
     "scrum-facilitator": {
@@ -168,6 +165,18 @@
       "project_number": 5,
       "project_id": "PVT_kwDOEGuPAc4BV324",
       "status_field_id": "PVTSSF_lADOEGuPAc4BV324zhRQdFA",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "moving-motivators": {
+      "project_number": 4,
+      "project_id": "PVT_kwDOEGuPAc4BV32j",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV32jzhRQcxY",
       "option_ids": {
         "Backlog": "f75ad846",
         "Ready": "61e4505c",
