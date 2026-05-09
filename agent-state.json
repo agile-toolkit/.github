@@ -1,12 +1,9 @@
 {
-  "updated": "2026-05-09T05:09:22Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-09T06:00:00Z"
-  },
+  "updated": "2026-05-09T06:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "salary-formula",
+    "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
     "stable": "sprint-metrics"
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-05-09",
-      "last_commit": null,
-      "next_task": "implement #4: (1) add goal?: string to SprintData type in types.ts; (2) add sprint goal text input in SprintDataTable.tsx and SprintDataView.tsx; (3) display goal as subheading in dashboard charts tooltip/legend; (4) add Copy Image button on dashboard using html2canvas (npm install html2canvas); all 4 locales need new keys: data.goal, results.copyImage",
+      "last_commit": "52e23de",
+      "next_task": "check issues for human feedback (#5 team mood index, #6 Moving Motivators overlay, #7 browser print PDF)",
       "blockers": []
     },
     "change-planner": {
