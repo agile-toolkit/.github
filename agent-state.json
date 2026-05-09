@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-08T15:12:15Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-09T05:07:06Z"
-  },
+  "updated": "2026-05-09T05:09:22Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "salary-formula",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-04-29",
-      "last_commit": "699b8746",
-      "next_task": "check needs-review issues for human feedback (#4 sprint goal + retrospective report, #5 team mood index, #6 Moving Motivators overlay, #7 browser print PDF)",
+      "status": "in-progress",
+      "last_run": "2026-05-09",
+      "last_commit": null,
+      "next_task": "implement #4: (1) add goal?: string to SprintData type in types.ts; (2) add sprint goal text input in SprintDataTable.tsx and SprintDataView.tsx; (3) display goal as subheading in dashboard charts tooltip/legend; (4) add Copy Image button on dashboard using html2canvas (npm install html2canvas); all 4 locales need new keys: data.goal, results.copyImage",
       "blockers": []
     },
     "change-planner": {
@@ -144,6 +141,18 @@
       "project_number": 6,
       "project_id": "PVT_kwDOEGuPAc4BV33w",
       "status_field_id": "PVTSSF_lADOEGuPAc4BV33wzhRQd3A",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "Ready": "61e4505c",
+        "In Progress": "47fc9ee4",
+        "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "sprint-metrics": {
+      "project_number": 9,
+      "project_id": "PVT_kwDOEGuPAc4BV35Q",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BV35QzhRQfOY",
       "option_ids": {
         "Backlog": "f75ad846",
         "Ready": "61e4505c",
