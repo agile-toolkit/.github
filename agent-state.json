@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-10T09:56:42Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-10T10:07:39Z"
-  },
+  "updated": "2026-05-10T10:13:35Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-05-03",
-      "last_commit": "88ac26e",
-      "next_task": "implement #3 (card drag-and-drop between columns using @dnd-kit multi-container sortable: wrap cards in SortableContext per column, extract CardItem with useSortable, update onDragEnd to detect card vs column drag, add DragOverlay); also #6 (Sprint Metrics deep-link) is approved",
+      "last_run": "2026-05-10",
+      "last_commit": "aab7681",
+      "next_task": "check issues for human feedback (#4 board image export, #5 card colour labels, #7 shareable URL)",
       "blockers": []
     },
     "salary-formula": {
