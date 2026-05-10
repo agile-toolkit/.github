@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-10T15:13:12Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-10T15:15:00Z"
-  },
+  "updated": "2026-05-10T15:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-05-08",
-      "last_commit": "9b271c1",
-      "next_task": "check issues for human feedback; implement #4 (charter image export via html2canvas \u2014 charter-card id already present, add Share/Copy Image button beside Print) if approved; note #8 (Scrum Facilitator banner) approved but scoped to scrum-facilitator repo",
+      "last_run": "2026-05-10",
+      "last_commit": "e5d3921",
+      "next_task": "check issues for human feedback; implement first approved item \u2014 #10 (write team-identity:lastSession in App.tsx saveCharter(), update dashboard reader in agile-toolkit.github.io), #11 (add @media print block to src/index.css, hide nav/header, white charter background), or #12 (arrow-key nav + ARIA roles for symbol grid and values selection)",
       "blockers": []
     },
     "improvement-board": {
@@ -185,6 +182,16 @@
         "Ready": "61e4505c",
         "In Progress": "47fc9ee4",
         "In Review": "df73e18b",
+        "Done": "98236657"
+      }
+    },
+    "team-identity": {
+      "project_number": 13,
+      "project_id": "PVT_kwDOEGuPAc4BXTDB",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BXTDBzhSgzvU",
+      "option_ids": {
+        "Backlog": "f75ad846",
+        "In Progress": "47fc9ee4",
         "Done": "98236657"
       }
     }
