@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-11T10:14:36Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-11T15:08:31Z"
-  },
+  "updated": "2026-05-11T15:11:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-05-09",
-      "last_commit": "52e23de",
-      "next_task": "check issues for human feedback (#5 team mood index, #6 Moving Motivators overlay, #7 browser print PDF)",
+      "status": "in-progress",
+      "last_run": "2026-05-11",
+      "last_commit": "c8704c2",
+      "next_task": "implement #5 \u2014 team mood/happiness index: add mood?: number to SprintData type; emoji scale input (\ud83d\ude2b\ud83d\ude15\ud83d\ude10\ud83d\ude42\ud83d\ude04 = 1\u20135) in SprintDataTable and SprintDataView add-sprint forms; upgrade VelocityChart to ComposedChart with secondary Line on right Y-axis scaled 1\u20135 for mood trend; skip sprints with no mood score; add data.mood and data.moodLabel i18n keys to all 4 locales (EN/ES/BE/RU)",
       "blockers": []
     },
     "change-planner": {
