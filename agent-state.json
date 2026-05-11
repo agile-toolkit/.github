@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-11T00:16:19Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-11T00:20:00Z"
-  },
+  "updated": "2026-05-11T05:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-08",
-      "last_commit": "a1132fb",
-      "next_task": "implement #7 (PWA support using vite-plugin-pwa: npm install -D vite-plugin-pwa, configure in vite.config.ts with registerType autoUpdate and manifest, add placeholder icons in public/; resolve open questions per UX best practices \u2014 add reload toast, use placeholder icons initially, pilot on work-profiles first)",
+      "last_run": "2026-05-11",
+      "last_commit": "e0c10f4",
+      "next_task": "check issues for human feedback; #7 (PWA) is In Review awaiting sign-off; remaining backlog: #4 (skill gap analysis, changes-requested), #5 (CSV/HTML export, changes-requested)",
       "blockers": []
     },
     "planning-poker": {
