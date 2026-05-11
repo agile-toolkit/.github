@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-11T05:20:00Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-11T10:10:26Z"
-  },
+  "updated": "2026-05-11T10:14:36Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-08",
-      "last_commit": "0fd7404",
-      "next_task": "check issues for human feedback (#5 voting timer, #7 keyboard accessibility)",
+      "last_run": "2026-05-11",
+      "last_commit": "40f4d72",
+      "next_task": "check issues for human feedback; implement first approved item among #12 (planning-poker:lastSession Dashboard key), #13 (session history persistence), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
       "blockers": []
     },
     "sprint-metrics": {
