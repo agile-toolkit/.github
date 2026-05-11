@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-10T15:30:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-05-11T00:13:04Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
