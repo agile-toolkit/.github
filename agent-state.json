@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-10T15:30:00Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-11T00:13:04Z"
-  },
+  "updated": "2026-05-11T00:16:19Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-08",
-      "last_commit": "994f89b",
-      "next_task": "check issues for human feedback; implement whichever issue is approved first (#3 PNG export uses html2canvas from moving-motivators; #7 Kanban Designer deep-link; #8 team priority voting; #9 accessibility audit)",
+      "last_run": "2026-05-11",
+      "last_commit": "48a013f",
+      "next_task": "check issues for human feedback; implement first approved item \u2014 #10 (write improvement-board:lastSession in App.tsx updateItems/updateMembers calls, add readImprovementBoard() reader to agile-toolkit.github.io/src/), #11 (due dates field in types.ts + AddItemModal + card badges), #12 (item aging indicator using updatedAt)",
       "blockers": []
     },
     "work-profiles": {
