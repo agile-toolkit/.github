@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-12T00:15:35Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-12T05:07:20Z"
-  },
+  "updated": "2026-05-12T05:11:47Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-05-12",
-      "last_commit": "810b740",
-      "next_task": "implement #6 \u2014 Moving Motivators motivation-velocity overlay: read moving-motivators:lastSession localStorage key; display top motivator name as label annotation on VelocityChart at the most recent sprint (add ReferenceLine or custom label in ComposedChart; handle gracefully when key is absent or has no topMotivators)",
+      "last_commit": "f8dcf66",
+      "next_task": "check issues for human feedback",
       "blockers": []
     },
     "change-planner": {
