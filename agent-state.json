@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-11T20:12:40Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-12T00:11:56Z"
-  },
+  "updated": "2026-05-12T00:15:35Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "in-progress",
-      "last_run": "2026-05-11",
-      "last_commit": "131116e",
-      "next_task": "implement #6 \u2014 Moving Motivators motivation-velocity overlay: read moving-motivators:lastSession localStorage key; display top motivator name as label annotation on VelocityChart at the most recent sprint; or implement #7 \u2014 browser print API: add @media print CSS to src/index.css hiding nav/header, Print Report button in App.tsx calling window.print()",
+      "last_run": "2026-05-12",
+      "last_commit": "810b740",
+      "next_task": "implement #6 \u2014 Moving Motivators motivation-velocity overlay: read moving-motivators:lastSession localStorage key; display top motivator name as label annotation on VelocityChart at the most recent sprint (add ReferenceLine or custom label in ComposedChart; handle gracefully when key is absent or has no topMotivators)",
       "blockers": []
     },
     "change-planner": {
