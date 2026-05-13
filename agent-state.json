@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-12T05:11:47Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-13T20:10:00Z"
-  },
+  "updated": "2026-05-13T20:16:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-05-09",
-      "last_commit": "d630174",
-      "next_task": "check issues for human feedback (#5 export/share, #6 JSON backup, #7 templates, #12 archive/completedAt, #13 overdue action indicator, #14 Improvement Board import); implement first approved item",
+      "last_run": "2026-05-13",
+      "last_commit": "abf1f22",
+      "next_task": "check issues for human feedback; implement first approved item among #5 (export/share), #6 (JSON backup), #7 (templates), #12 (archive/completedAt), #13 (overdue indicator), #14 (Improvement Board import), #15 (Team Identity auto-fill), #16 (action priority), #17 (progress visualization)",
       "blockers": []
     }
   },
