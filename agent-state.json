@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-14T00:45:00Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-14T10:07:17Z"
-  },
+  "updated": "2026-05-14T10:10:56Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-05-10",
-      "last_commit": "aab7681",
-      "next_task": "check issues for human feedback (#4 board image export, #5 card colour labels, #7 shareable URL)",
+      "last_run": "2026-05-14",
+      "last_commit": "c5a8fe3",
+      "next_task": "check issues for human feedback; implement first approved item among #4 (html2canvas board image export), #5 (card colour labels: color? on Card type + 4px top border stripe in ColumnCard.tsx + swatch picker in BoardDesigner.tsx), #7 (shareable URL: base64/LZ-string hash sync + Copy link button + toast), #10 (kanban-designer:lastSession localStorage key in App.tsx updateBoard()), #11 (swim lane rows: CSS grid layout in BoardDesigner.tsx + card lane assignment), #12 (keyboard a11y: ARIA roles + tabIndex + arrow key handlers)",
       "blockers": []
     },
     "salary-formula": {
