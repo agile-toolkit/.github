@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-13T20:16:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-14T00:10:06Z"
-  },
+  "updated": "2026-05-14T00:14:45Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-09",
-      "last_commit": "a7d681a",
-      "next_task": "check issues for human feedback; implement first approved item \u2014 #16 (localStorage session persistence + Dashboard card reader: write moving-motivators:lastSession in App.tsx on solo-results transition; add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts) or #5 (favicon: replace corrupted public/favicon.svg with teal #0d9488 SVG)",
+      "last_run": "2026-05-14",
+      "last_commit": "7c5d7c1",
+      "next_task": "check issues for human feedback; implement first approved item \u2014 #16 (localStorage solo session persistence: write moving-motivators:lastSession in App.tsx on solo-results transition; add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts) or #5 (favicon: replace public/favicon.svg with teal #0d9488 SVG, single-file change)",
       "blockers": []
     },
     "scrum-facilitator": {
