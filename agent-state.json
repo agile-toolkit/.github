@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-15T00:14:20Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-15T05:07:13Z"
-  },
+  "updated": "2026-05-15T05:10:19Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-11",
-      "last_commit": "48a013f",
-      "next_task": "check issues for human feedback; implement first approved item \u2014 #10 (write improvement-board:lastSession in App.tsx updateItems/updateMembers calls, add readImprovementBoard() reader to agile-toolkit.github.io/src/), #11 (due dates field in types.ts + AddItemModal + card badges), #12 (item aging indicator using updatedAt)",
+      "last_run": "2026-05-15",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; implement first approved item among #10 (improvement-board:lastSession localStorage key \u2014 write in App.tsx updateItems/updateMembers, add readImprovementBoard() to agile-toolkit.github.io), #13 (Moving Motivators integration \u2014 same utm_source URL param pattern as Sprint Metrics), or #14 (Sprint cycle reset \u2014 End Sprint button, archive done items, sprint history in localStorage)",
       "blockers": []
     },
     "work-profiles": {
