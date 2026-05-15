@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-15T05:10:19Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-15T10:09:45Z"
-  },
+  "updated": "2026-05-15T10:14:16Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-11",
-      "last_commit": "e0c10f4",
-      "next_task": "check issues for human feedback; #7 (PWA) is In Review awaiting sign-off; remaining backlog: #4 (skill gap analysis, changes-requested), #5 (CSV/HTML export, changes-requested)",
+      "last_run": "2026-05-15",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; implement first approved item among #4 (skill filter in ProfilesView + Gap Analysis screen with new /gap-analysis route), #5 (Export CSV + Print Directory buttons in ProfilesView header), #12 (work-profiles:lastSession key in App.tsx updateProfiles()), #14 (CSV import with preview modal)",
       "blockers": []
     },
     "planning-poker": {
