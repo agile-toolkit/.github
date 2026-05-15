@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-14T15:11:25Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-15T00:11:19Z"
-  },
+  "updated": "2026-05-15T00:14:20Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-05-10",
-      "last_commit": "e5d3921",
-      "next_task": "check issues for human feedback; implement first approved item \u2014 #10 (write team-identity:lastSession in App.tsx saveCharter(), update dashboard reader in agile-toolkit.github.io), #11 (add @media print block to src/index.css, hide nav/header, white charter background), or #12 (arrow-key nav + ARIA roles for symbol grid and values selection)",
+      "last_run": "2026-05-15",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; implement first approved item among #10 (team-identity:lastSession Dashboard key: write in App.tsx saveCharter(), add readTeamIdentity() to agile-toolkit.github.io/src/), #11 (add @media print block to src/index.css, hide nav/header, white charter background, remove gradient), #12 (arrow-key nav + ARIA roles for symbol grid and values selection)",
       "blockers": []
     },
     "improvement-board": {
