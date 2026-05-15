@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-15T10:14:16Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-15T15:07:37Z"
-  },
+  "updated": "2026-05-15T15:11:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-11",
-      "last_commit": "40f4d72",
-      "next_task": "check issues for human feedback; implement first approved item among #12 (planning-poker:lastSession Dashboard key), #13 (session history persistence), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
+      "last_run": "2026-05-15",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; implement first approved item among #15 (Team Identity participant import: read team-identity-charter localStorage, pre-populate SetupView participant list, add setup.import_team i18n keys), #16 (Scrum Facilitator deep-link: confirm contract in BRIEF.md Tech notes), #17 (results export: Clipboard API copy-text + html2canvas PNG download in results screen), #12 (planning-poker:lastSession localStorage key), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard a11y)",
       "blockers": []
     },
     "sprint-metrics": {
