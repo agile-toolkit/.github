@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-16T05:12:02Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-16T10:07:14Z"
-  },
+  "updated": "2026-05-16T10:13:26Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-14",
-      "last_commit": "7c5d7c1",
-      "next_task": "check issues for human feedback; implement first approved item \u2014 #16 (localStorage solo session persistence: write moving-motivators:lastSession in App.tsx on solo-results transition; add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts) or #5 (favicon: replace public/favicon.svg with teal #0d9488 SVG, single-file change)",
+      "last_run": "2026-05-16",
+      "last_commit": "95ca119",
+      "next_task": "check issues for human feedback; implement first approved item \u2014 priority candidates: #16 (localStorage persistence + Dashboard reader: write moving-motivators:lastSession in App.tsx on solo-results transition, add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts), #5 (favicon: replace public/favicon.svg with teal #0d9488 staircase SVG, single-file), #17 (keyboard a11y: add KeyboardSensor + sortableKeyboardCoordinates to RankingBoard.tsx sensors array + aria-label + focus ring)",
       "blockers": []
     },
     "scrum-facilitator": {
