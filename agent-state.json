@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-15T20:13:20Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-16T05:06:36Z"
-  },
+  "updated": "2026-05-16T05:12:02Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-05-13",
-      "last_commit": "abf1f22",
-      "next_task": "check issues for human feedback; implement first approved item among #5 (export/share), #6 (JSON backup), #7 (templates), #12 (archive/completedAt), #13 (overdue indicator), #14 (Improvement Board import), #15 (Team Identity auto-fill), #16 (action priority), #17 (progress visualization)",
+      "last_run": "2026-05-16",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; implement first approved item among #5 (export/share), #6 (JSON backup), #7 (templates), #12 (archive/completedAt), #13 (overdue indicator), #14 (Improvement Board import), #15 (Team Identity auto-fill), #16 (action priority), #17 (progress visualization), #19 (experiment hypothesis: If/Then/Because + outcome field on Action type, ActionTracker collapsible section), #20 (stakeholder map: 2x2 quadrant SVG in Mind facet, extends StakeholderProfile), #21 (home screen health: open-action count + facet-coverage dots + sort)",
       "blockers": []
     }
   },
