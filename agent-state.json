@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-17T15:09:42Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-17T20:06:33Z"
-  },
+  "updated": "2026-05-17T20:10:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-15",
+      "last_run": "2026-05-17",
       "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #4 (skill filter in ProfilesView + Gap Analysis screen with new /gap-analysis route), #5 (Export CSV + Print Directory buttons in ProfilesView header), #12 (work-profiles:lastSession key in App.tsx updateProfiles()), #14 (CSV import with preview modal)",
+      "next_task": "check issues for human feedback; implement first approved item among #4 (skill filter in ProfilesView + Gap Analysis screen at /gap-analysis route \u2014 both phases together, no library needed), #5 (Export CSV button in ProfilesView header, Blob + URL.createObjectURL, no library, Skill: Level \u2013 Label format), #12 (work-profiles:lastSession key in App.tsx updateProfiles() with profileCount/avgCapacity/topSkills/lastUpdated), #14 (CSV import with FileReader + preview modal + merge by name), #16 (empty state in ProfilesView when profiles.length===0: 3 action cards + step checklist), #17 (archived?: boolean in WorkProfile + Archive button in ProfileCard + Show archived toggle)",
       "blockers": []
     },
     "planning-poker": {
