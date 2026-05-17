@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-17T10:10:33Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-17T15:06:31Z"
-  },
+  "updated": "2026-05-17T15:09:42Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-15",
+      "last_run": "2026-05-17",
       "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #10 (improvement-board:lastSession localStorage key \u2014 write in App.tsx updateItems/updateMembers, add readImprovementBoard() to agile-toolkit.github.io), #13 (Moving Motivators integration \u2014 same utm_source URL param pattern as Sprint Metrics), or #14 (Sprint cycle reset \u2014 End Sprint button, archive done items, sprint history in localStorage)",
+      "next_task": "check issues for human feedback; implement first approved item among #10 (improvement-board:lastSession localStorage key \u2014 write in App.tsx updateItems/updateMembers, add readImprovementBoard() to agile-toolkit.github.io), #13 (Moving Motivators integration \u2014 ?prefill&utm_source=moving-motivators URL param + localStorage import in AddItemModal), #14 (Sprint cycle reset \u2014 End Sprint button in BoardView header + archive done items + sprintHistory localStorage key), #18 (bulk status actions \u2014 multi-select checkboxes + sticky action bar in BoardView)",
       "blockers": []
     },
     "work-profiles": {
