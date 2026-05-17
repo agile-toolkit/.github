@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-16T20:09:58Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-17T00:09:29Z"
-  },
+  "updated": "2026-05-17T00:13:32Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-05-14",
+      "last_run": "2026-05-17",
       "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item \u2014 #15 (salary-formula:lastSession Dashboard key: write in App.tsx on profile/scenario save, add reader to agile-toolkit.github.io), #16 (formula templates: static templates.ts + FormulaBuilder UI), or #17 (shareable URL: URL hash encode/decode in App.tsx + Copy link button)",
+      "next_task": "check issues for human feedback; implement first approved item among #15 (salary-formula:lastSession Dashboard key), #16 (formula templates), #17 (shareable URL), #18 (pay equity view), #19 (Scrum Facilitator meeting cost: write salary-formula:teamHourlyRate in App.tsx handleSaveProfile), #20 (Change Planner: pendingChangeRecord key on scenario save in FormulaBuilder.tsx)",
       "blockers": []
     },
     "team-identity": {
