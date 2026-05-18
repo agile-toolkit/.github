@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-17T20:10:15Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-18T00:12:13Z"
-  },
+  "updated": "2026-05-18T00:17:02Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-15",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #15 (Team Identity participant import: read team-identity-charter localStorage, pre-populate SetupView participant list, add setup.import_team i18n keys), #16 (Scrum Facilitator deep-link: confirm contract in BRIEF.md Tech notes), #17 (results export: Clipboard API copy-text + html2canvas PNG download in results screen), #12 (planning-poker:lastSession localStorage key), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard a11y)",
+      "last_run": "2026-05-18",
+      "last_commit": "05385c0",
+      "next_task": "check issues for human feedback; implement #16 (Scrum Facilitator deep-link: update BRIEF.md Tech notes to document ?stories= suite integration point \u2014 documentation only, no Planning Poker code needed); then implement #12 (write planning-poker:lastSession key in handleSessionBack with sessionName/deckType/storyCount/estimatedCount/avgPoints/date); then implement #17 (results export: Clipboard API copy-text + html2canvas PNG in results screen)",
       "blockers": []
     },
     "sprint-metrics": {
