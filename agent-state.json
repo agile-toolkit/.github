@@ -1,12 +1,9 @@
 {
-  "updated": "2026-05-18T15:12:32Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-18T20:07:34Z"
-  },
+  "updated": "2026-05-18T20:11:51Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "sprint-metrics",
+    "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
     "stable": "change-planner"
@@ -78,8 +75,8 @@
     "change-planner": {
       "status": "in-progress",
       "last_run": "2026-05-18",
-      "last_commit": "35c23d0",
-      "next_task": "implement #6 (JSON backup: export all initiatives as JSON file via Blob+URL.createObjectURL download button in toolbar, import from JSON file via FileReader + confirm dialog; no new deps, ~60 LOC); then implement #12 (add completedAt?: number to Initiative type, archived toggle in InitiativeCanvas toolbar, filter on HomeScreen)",
+      "last_commit": "bd8d971",
+      "next_task": "implement #13 (overdue action item visual indicator \u2014 red highlight in ActionTracker.tsx when dueDate < today and status === todo, no new deps); then implement #7 (quick-start initiative templates from src/data/templates.ts)",
       "blockers": []
     }
   },
