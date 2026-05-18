@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-18T10:16:10Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-18T15:08:36Z"
-  },
+  "updated": "2026-05-18T15:12:32Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "stable",
-      "last_run": "2026-05-16",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #5 (export/share), #6 (JSON backup), #7 (templates), #12 (archive/completedAt), #13 (overdue indicator), #14 (Improvement Board import), #15 (Team Identity auto-fill), #16 (action priority), #17 (progress visualization), #19 (experiment hypothesis: If/Then/Because + outcome field on Action type, ActionTracker collapsible section), #20 (stakeholder map: 2x2 quadrant SVG in Mind facet, extends StakeholderProfile), #21 (home screen health: open-action count + facet-coverage dots + sort)",
+      "status": "in-progress",
+      "last_run": "2026-05-18",
+      "last_commit": "35c23d0",
+      "next_task": "implement #6 (JSON backup: export all initiatives as JSON file via Blob+URL.createObjectURL download button in toolbar, import from JSON file via FileReader + confirm dialog; no new deps, ~60 LOC); then implement #12 (add completedAt?: number to Initiative type, archived toggle in InitiativeCanvas toolbar, filter on HomeScreen)",
       "blockers": []
     }
   },
