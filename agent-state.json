@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-18T00:17:02Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-18T05:08:11Z"
-  },
+  "updated": "2026-05-18T05:11:30Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-05-15",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #15 (CSV export: Blob download in App.tsx + Export CSV button in dashboard header + results.exportCsv i18n key in all 4 locales), #16 (team capacity normalization: add teamSize/absenceDays to SprintData, inputs in both add-sprint forms, normalizedVelocity tooltip on VelocityChart bars), #17 (Improvement Board integration: read improvement-board-items localStorage key after sprint save, show dismissible toast with open improvement count + link)",
+      "status": "in-progress",
+      "last_run": "2026-05-18",
+      "last_commit": "5cdb3b7",
+      "next_task": "implement #16 \u2014 add teamSize?: number and absenceDays?: number to SprintData type; add optional inputs for team size and absence days in both SprintDataTable and SprintDataView add-sprint forms; derive normalizedVelocity = completed / ((teamSize * sprintLengthWeeks * 5) - absenceDays); display as small chip/tooltip on VelocityChart bars; add data.teamSize, data.absenceDays, data.normalizedVelocity i18n keys to all 4 locales; also check #17 (approved: Improvement Board integration \u2014 read improvement-board-items after sprint save, show dismissible toast)",
       "blockers": []
     },
     "change-planner": {
