@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-18T20:11:51Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-19T00:06:37Z"
-  },
+  "updated": "2026-05-19T00:09:28Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "in-progress",
-      "last_run": "2026-05-18",
-      "last_commit": "bd8d971",
-      "next_task": "implement #13 (overdue action item visual indicator \u2014 red highlight in ActionTracker.tsx when dueDate < today and status === todo, no new deps); then implement #7 (quick-start initiative templates from src/data/templates.ts)",
+      "last_run": "2026-05-19",
+      "last_commit": "8dbbf82",
+      "next_task": "implement #7 (quick-start initiative templates \u2014 create src/data/templates.ts with 3\u20135 typed Partial<Initiative> objects for common Agile change scenarios; add Start from template modal on home screen NewInitiative flow; i18n keys templates.* in all 4 locales)",
       "blockers": []
     }
   },
