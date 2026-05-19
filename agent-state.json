@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-19T05:12:10Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-19T15:07:21Z"
-  },
+  "updated": "2026-05-19T15:10:44Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -78,8 +75,8 @@
     "change-planner": {
       "status": "in-progress",
       "last_run": "2026-05-19",
-      "last_commit": "55d353f",
-      "next_task": "check issues for human feedback; implement first approved item among #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]), #15 (Team Identity auto-fill: reads team-identity-charter localStorage, pre-fills stakeholders textarea), #16 (action priority: adds priority field to Action type, color-coded badges in ActionTracker), #17 (per-facet progress bars in ProgressView), #19 (experiment hypothesis format), #20 (stakeholder influence/interest map), #21 (home screen initiative health summary)",
+      "last_commit": "faf2859",
+      "next_task": "check issues for human feedback; implement #16 (action priority: add priority field to Action type in types.ts with High/Medium/Low values, color-coded badges in ActionTracker.tsx, default sort by priority descending \u2014 High first, then by dueDate)",
       "blockers": []
     }
   },
