@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-19T00:09:28Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-19T05:06:27Z"
-  },
+  "updated": "2026-05-19T05:12:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -78,8 +75,8 @@
     "change-planner": {
       "status": "in-progress",
       "last_run": "2026-05-19",
-      "last_commit": "8dbbf82",
-      "next_task": "implement #7 (quick-start initiative templates \u2014 create src/data/templates.ts with 3\u20135 typed Partial<Initiative> objects for common Agile change scenarios; add Start from template modal on home screen NewInitiative flow; i18n keys templates.* in all 4 locales)",
+      "last_commit": "55d353f",
+      "next_task": "check issues for human feedback; implement first approved item among #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]), #15 (Team Identity auto-fill: reads team-identity-charter localStorage, pre-fills stakeholders textarea), #16 (action priority: adds priority field to Action type, color-coded badges in ActionTracker), #17 (per-facet progress bars in ProgressView), #19 (experiment hypothesis format), #20 (stakeholder influence/interest map), #21 (home screen initiative health summary)",
       "blockers": []
     }
   },
