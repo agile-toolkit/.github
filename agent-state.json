@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-19T15:10:44Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-19T20:06:22Z"
-  },
+  "updated": "2026-05-19T20:10:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -78,8 +75,8 @@
     "change-planner": {
       "status": "in-progress",
       "last_run": "2026-05-19",
-      "last_commit": "faf2859",
-      "next_task": "check issues for human feedback; implement #16 (action priority: add priority field to Action type in types.ts with High/Medium/Low values, color-coded badges in ActionTracker.tsx, default sort by priority descending \u2014 High first, then by dueDate)",
+      "last_commit": "d1a648f",
+      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress visualization in ProgressView: done/total count per facet, global completion %, pure CSS progress bars in ProgressView.tsx)",
       "blockers": []
     }
   },
