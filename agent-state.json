@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-19T20:10:21Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-20T00:06:45Z"
-  },
+  "updated": "2026-05-20T00:11:24Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "in-progress",
-      "last_run": "2026-05-19",
-      "last_commit": "d1a648f",
-      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress visualization in ProgressView: done/total count per facet, global completion %, pure CSS progress bars in ProgressView.tsx)",
+      "last_run": "2026-05-20",
+      "last_commit": "c0dd7c5",
+      "next_task": "check issues for human feedback; implement #20 (stakeholder influence/interest map \u2014 2x2 quadrant SVG in Mind facet, StakeholderProfile extended with influence/interest 1\u20135 scores) or #21 (home screen initiative health summary \u2014 open-action count, facet-coverage dots, relative last-updated, sort control) whichever is approved; implement #17 (per-facet progress visualization in ProgressView) if approved",
       "blockers": []
     }
   },
