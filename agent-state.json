@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-20T20:10:30Z",
-  "lock": null,
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-05-20T23:30:26Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -77,6 +80,13 @@
       "last_run": "2026-05-20",
       "last_commit": "a72b2cd",
       "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress bars in ProgressView \u2014 done/total per facet, global %, pure CSS) if approved; implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]) if approved",
+      "blockers": []
+    },
+    "agile-toolkit.github.io": {
+      "status": "in-progress",
+      "last_run": null,
+      "last_commit": null,
+      "next_task": "implement design system AppHeader + LanguagePicker (issue #3)",
       "blockers": []
     }
   },
