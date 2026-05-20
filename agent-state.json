@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-20T20:10:30Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-05-20T23:30:26Z"
-  },
+  "updated": "2026-05-20T23:36:47Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -83,10 +80,10 @@
       "blockers": []
     },
     "agile-toolkit.github.io": {
-      "status": "in-progress",
-      "last_run": null,
-      "last_commit": null,
-      "next_task": "implement design system AppHeader + LanguagePicker (issue #3)",
+      "status": "stable",
+      "last_run": "2026-05-20",
+      "last_commit": "590fe5b",
+      "next_task": "check issues for human feedback; implement header and theme adoption in each app as issues are approved",
       "blockers": []
     }
   },
