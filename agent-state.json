@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-20T10:12:08Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-20T20:06:38Z"
-  },
+  "updated": "2026-05-20T20:10:30Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
-      "status": "stable",
-      "last_run": "2026-05-16",
-      "last_commit": "95ca119",
-      "next_task": "check issues for human feedback; implement first approved item \u2014 priority candidates: #16 (localStorage persistence + Dashboard reader: write moving-motivators:lastSession in App.tsx on solo-results transition, add readMovingMotivators() to agile-toolkit.github.io/src/readers.ts), #5 (favicon: replace public/favicon.svg with teal #0d9488 staircase SVG, single-file), #17 (keyboard a11y: add KeyboardSensor + sortableKeyboardCoordinates to RankingBoard.tsx sensors array + aria-label + focus ring)",
+      "status": "in-progress",
+      "last_run": "2026-05-20",
+      "last_commit": "13d2faa",
+      "next_task": "implement Dashboard reader side of #16: in agile-toolkit.github.io run add readMovingMotivators() to src/readers.ts reading moving-motivators:lastSession (top 3 ranked motivator IDs + change + date as chips), replace null in readAll(); then check remaining approved issues #17 (KeyboardSensor a11y), #21 (shift tracking), #22 (Change Planner integration)",
       "blockers": []
     },
     "scrum-facilitator": {
