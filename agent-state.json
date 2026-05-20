@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-20T05:12:19Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-20T10:06:51Z"
-  },
+  "updated": "2026-05-20T10:12:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-05-20",
-      "last_commit": "37e813e",
-      "next_task": "check issues for human feedback; implement #20 (stakeholder influence/interest map \u2014 2x2 quadrant SVG in Mind facet, StakeholderProfile extended with influence/interest 1\u20135 scores) if approved; implement #17 (per-facet progress visualization in ProgressView) if approved; remaining open: #14 (Improvement Board import)",
+      "last_commit": "a72b2cd",
+      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress bars in ProgressView \u2014 done/total per facet, global %, pure CSS) if approved; implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]) if approved",
       "blockers": []
     }
   },
