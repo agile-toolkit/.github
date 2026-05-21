@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-21T10:14:38Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-21T15:06:55Z"
-  },
+  "updated": "2026-05-21T15:12:29Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
       "last_run": "2026-05-21",
-      "last_commit": "008fc78",
-      "next_task": "check issues for human feedback; implement #17 (KeyboardSensor a11y: add KeyboardSensor to RankingBoard useSensors with activationConstraint space/enter) if approved",
+      "last_commit": "a54c0e8",
+      "next_task": "check issues for human feedback; implement #21 (solo motivator shift tracking: extend moving-motivators:lastSession to sessionHistory array of 5, show rank-change arrows in ResultsView.tsx comparing current vs previous session) if approved",
       "blockers": []
     },
     "scrum-facilitator": {
