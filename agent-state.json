@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-21T02:19:53Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-21T10:06:39Z"
-  },
+  "updated": "2026-05-21T10:14:38Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -13,10 +10,10 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-05-21",
-      "last_commit": "4858dab",
-      "next_task": "implement #25 (light/dark theme): add darkMode:\"class\" to tailwind.config.js, add anti-flash script to index.html, copy ThemeToggle.tsx from design-system/components/ to src/components/, add dark: Tailwind variants across all src/ files per token map in design-system/tokens.css",
+      "last_commit": "008fc78",
+      "next_task": "check issues for human feedback; implement #17 (KeyboardSensor a11y: add KeyboardSensor to RankingBoard useSensors with activationConstraint space/enter) if approved",
       "blockers": []
     },
     "scrum-facilitator": {
