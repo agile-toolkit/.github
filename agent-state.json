@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-21T15:12:29Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-21T20:07:32Z"
-  },
+  "updated": "2026-05-21T20:13:18Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-05-16",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement #1 (favicon: replace public/favicon.svg with indigo Option B SVG + update tailwind.config.js with corrected 9-shade indigo scale: 50/100/200/300/400/500/600/700/800) on approval; implement #8 (Web Audio API 440Hz beep + animate-pulse on timer zero) on approval",
+      "last_run": "2026-05-21",
+      "last_commit": "5d0472a",
+      "next_task": "check issues for human feedback; implement #18 (AppHeader + LanguagePicker unification: copy design-system components, replace inline header in App.tsx ~line 111) on approval; implement #16 (keyboard shortcuts) on approval; implement #15 (Dashboard card \u2014 surface active session and last ceremony) on approval",
       "blockers": []
     },
     "kanban-designer": {
