@@ -1,12 +1,9 @@
 {
-  "updated": "2026-05-20T23:36:47Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-21T00:06:54Z"
-  },
+  "updated": "2026-05-21T00:10:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "change-planner",
+    "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
     "stable": "agile-toolkit.github.io"
@@ -14,9 +11,9 @@
   "apps": {
     "moving-motivators": {
       "status": "in-progress",
-      "last_run": "2026-05-20",
-      "last_commit": "13d2faa",
-      "next_task": "implement Dashboard reader side of #16: in agile-toolkit.github.io run add readMovingMotivators() to src/readers.ts reading moving-motivators:lastSession (top 3 ranked motivator IDs + change + date as chips), replace null in readAll(); then check remaining approved issues #17 (KeyboardSensor a11y), #21 (shift tracking), #22 (Change Planner integration)",
+      "last_run": "2026-05-21",
+      "last_commit": "bda9d0d",
+      "next_task": "implement #25 (light/dark theme): add darkMode:\"class\" to tailwind.config.js, add anti-flash script to index.html, copy ThemeToggle.tsx from design-system/components/ to src/components/, add dark: Tailwind variants across all src/ files per token map in design-system/tokens.css",
       "blockers": []
     },
     "scrum-facilitator": {
