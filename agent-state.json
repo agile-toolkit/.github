@@ -1,9 +1,6 @@
 {
-  "updated": "2026-05-23T07:00:00Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-23T15:07:10Z"
-  },
+  "updated": "2026-05-23T15:11:45Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-05-23",
-      "last_commit": "77d8256",
-      "next_task": "implement #14 (CSV bulk import in ProfilesView: hidden file input + FileReader + preview modal showing found count + merge-by-name into profiles array, no library needed; expected CSV columns: Name, Role, Capacity, Work Types, Skills as 'Skill: Level \u2013 Label' pairs)",
+      "last_commit": "d388aae",
+      "next_task": "check issues for human feedback; if #17 (profile archive: archived?: boolean in WorkProfile in types.ts, Archive button in ProfileCard.tsx, Show archived toggle in ProfilesView header) is approved, implement it",
       "blockers": []
     },
     "planning-poker": {
