@@ -1,9 +1,9 @@
 {
-  "updated": "2026-05-23T05:13:08Z",
-  "lock": {"repo": "work-profiles", "started_at": "2026-05-23T06:00:00Z"},
+  "updated": "2026-05-23T07:00:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "moving-motivators",
+    "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
     "stable": "work-profiles"
@@ -20,7 +20,7 @@
       "status": "stable",
       "last_run": "2026-05-21",
       "last_commit": "5d0472a",
-      "next_task": "check issues for human feedback; implement #18 (AppHeader + LanguagePicker unification: copy design-system components, replace inline header in App.tsx ~line 111) on approval; implement #16 (keyboard shortcuts) on approval; implement #15 (Dashboard card \u2014 surface active session and last ceremony) on approval",
+      "next_task": "check issues for human feedback; implement #18 (AppHeader + LanguagePicker unification: copy design-system components, replace inline header in App.tsx ~line 111) on approval; implement #16 (keyboard shortcuts) on approval; implement #15 (Dashboard card — surface active session and last ceremony) on approval",
       "blockers": []
     },
     "kanban-designer": {
@@ -54,15 +54,15 @@
     "work-profiles": {
       "status": "in-progress",
       "last_run": "2026-05-23",
-      "last_commit": "b6f572c",
-      "next_task": "implement next approved issue \u2014 pick from: #14 (CSV bulk import in ProfilesView: FileReader + preview modal + merge-by-name, no library), #16 (empty state when profiles.length===0: headline + 3 action cards + step checklist), #17 (archived?: boolean in WorkProfile + Archive button in ProfileCard + Show archived toggle in ProfilesView), #18 (AppHeader + LanguagePicker unification: copy from design-system/components/), #19 (dark mode: darkMode:class in tailwind.config.js + anti-flash in index.html + ThemeToggle.tsx + dark: variants); also handle changes-requested issues #4 and #5 (update issue bodies with revised specs)",
+      "last_commit": "77d8256",
+      "next_task": "implement #14 (CSV bulk import in ProfilesView: hidden file input + FileReader + preview modal showing found count + merge-by-name into profiles array, no library needed; expected CSV columns: Name, Role, Capacity, Work Types, Skills as 'Skill: Level – Label' pairs)",
       "blockers": []
     },
     "planning-poker": {
       "status": "stable",
       "last_run": "2026-05-18",
       "last_commit": "05385c0",
-      "next_task": "check issues for human feedback; implement #16 (Scrum Facilitator deep-link: update BRIEF.md Tech notes to document ?stories= suite integration point \u2014 documentation only, no Planning Poker code needed); then implement #12 (write planning-poker:lastSession key in handleSessionBack with sessionName/deckType/storyCount/estimatedCount/avgPoints/date); then implement #17 (results export: Clipboard API copy-text + html2canvas PNG in results screen)",
+      "next_task": "check issues for human feedback; implement #16 (Scrum Facilitator deep-link: update BRIEF.md Tech notes to document ?stories= suite integration point — documentation only, no Planning Poker code needed); then implement #12 (write planning-poker:lastSession key in handleSessionBack with sessionName/deckType/storyCount/estimatedCount/avgPoints/date); then implement #17 (results export: Clipboard API copy-text + html2canvas PNG in results screen)",
       "blockers": []
     },
     "sprint-metrics": {
@@ -76,7 +76,7 @@
       "status": "stable",
       "last_run": "2026-05-20",
       "last_commit": "a72b2cd",
-      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress bars in ProgressView \u2014 done/total per facet, global %, pure CSS) if approved; implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]) if approved",
+      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress bars in ProgressView — done/total per facet, global %, pure CSS) if approved; implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category→facet, creates Action[]) if approved",
       "blockers": []
     },
     "agile-toolkit.github.io": {
