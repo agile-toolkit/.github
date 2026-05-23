@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-22T10:35:00Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-23T00:09:06Z"
-  },
+  "updated": "2026-05-23T00:13:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-17",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #10 (improvement-board:lastSession localStorage key \u2014 write in App.tsx updateItems/updateMembers, add readImprovementBoard() to agile-toolkit.github.io), #13 (Moving Motivators integration \u2014 ?prefill&utm_source=moving-motivators URL param + localStorage import in AddItemModal), #14 (Sprint cycle reset \u2014 End Sprint button in BoardView header + archive done items + sprintHistory localStorage key), #18 (bulk status actions \u2014 multi-select checkboxes + sticky action bar in BoardView)",
+      "last_run": "2026-05-23",
+      "last_commit": "5b440db",
+      "next_task": "implement #11 (due dates on improvement items: add dueDate?: number to ImprovementItem in types.ts, date picker in AddItemModal, coloured badge on cards in Board/Kanban views, sort-by-due-date option, i18n keys board.due/board.overdue/board.due_today in all 4 locales)",
       "blockers": []
     },
     "work-profiles": {
