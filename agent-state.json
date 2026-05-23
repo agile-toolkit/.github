@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-23T15:11:45Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-23T20:06:42Z"
-  },
+  "updated": "2026-05-23T20:09:40Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-18",
-      "last_commit": "05385c0",
-      "next_task": "check issues for human feedback; implement #16 (Scrum Facilitator deep-link: update BRIEF.md Tech notes to document ?stories= suite integration point \u2014 documentation only, no Planning Poker code needed); then implement #12 (write planning-poker:lastSession key in handleSessionBack with sessionName/deckType/storyCount/estimatedCount/avgPoints/date); then implement #17 (results export: Clipboard API copy-text + html2canvas PNG in results screen)",
+      "last_run": "2026-05-23",
+      "last_commit": "eff0965",
+      "next_task": "implement #19 (header unification: copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io/design-system/components/ into src/components/, replace dark header block ~lines 148-209 in App.tsx with standard white AppHeader component)",
       "blockers": []
     },
     "sprint-metrics": {
