@@ -1,6 +1,6 @@
 {
   "updated": "2026-05-23T05:13:08Z",
-  "lock": null,
+  "lock": {"repo": "work-profiles", "started_at": "2026-05-23T06:00:00Z"},
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
