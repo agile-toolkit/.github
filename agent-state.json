@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-23T00:13:10Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-23T05:08:01Z"
-  },
+  "updated": "2026-05-23T05:13:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
-      "last_run": "2026-05-17",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; implement first approved item among #4 (skill filter in ProfilesView + Gap Analysis screen at /gap-analysis route \u2014 both phases together, no library needed), #5 (Export CSV button in ProfilesView header, Blob + URL.createObjectURL, no library, Skill: Level \u2013 Label format), #12 (work-profiles:lastSession key in App.tsx updateProfiles() with profileCount/avgCapacity/topSkills/lastUpdated), #14 (CSV import with FileReader + preview modal + merge by name), #16 (empty state in ProfilesView when profiles.length===0: 3 action cards + step checklist), #17 (archived?: boolean in WorkProfile + Archive button in ProfileCard + Show archived toggle)",
+      "status": "in-progress",
+      "last_run": "2026-05-23",
+      "last_commit": "b6f572c",
+      "next_task": "implement next approved issue \u2014 pick from: #14 (CSV bulk import in ProfilesView: FileReader + preview modal + merge-by-name, no library), #16 (empty state when profiles.length===0: headline + 3 action cards + step checklist), #17 (archived?: boolean in WorkProfile + Archive button in ProfileCard + Show archived toggle in ProfilesView), #18 (AppHeader + LanguagePicker unification: copy from design-system/components/), #19 (dark mode: darkMode:class in tailwind.config.js + anti-flash in index.html + ThemeToggle.tsx + dark: variants); also handle changes-requested issues #4 and #5 (update issue bodies with revised specs)",
       "blockers": []
     },
     "planning-poker": {
