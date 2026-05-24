@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-23T20:09:40Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-24T05:07:27Z"
-  },
+  "updated": "2026-05-24T05:10:42Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-05-18",
-      "last_commit": "0a2b266",
-      "next_task": "check issues for human feedback",
+      "status": "in-progress",
+      "last_run": "2026-05-24",
+      "last_commit": "d4646e9",
+      "next_task": "implement #21 (dark mode: add darkMode: class to tailwind.config.js; add anti-flash script to index.html; copy ThemeToggle.tsx from design-system to src/components/; add <ThemeToggle /> inside AppHeader children slot in App.tsx; add dark: Tailwind variants to all color classes across src/ per token map in design-system/tokens.css)",
       "blockers": []
     },
     "change-planner": {
