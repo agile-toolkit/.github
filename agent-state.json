@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-24T10:16:22Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-05-24T15:06:42Z"
-  },
+  "updated": "2026-05-24T15:11:17Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-05-20",
-      "last_commit": "a72b2cd",
-      "next_task": "check issues for human feedback; implement #17 (per-facet action completion progress bars in ProgressView \u2014 done/total per facet, global %, pure CSS) if approved; implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[]) if approved",
+      "last_run": "2026-05-24",
+      "last_commit": "09c5e37",
+      "next_task": "implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[] \u2014 add import button to ActionTracker or InitiativeCanvas with a modal showing items to import)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
