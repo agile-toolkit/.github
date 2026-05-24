@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-24T15:11:17Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-24T20:06:53Z"
-  },
+  "updated": "2026-05-24T20:14:37Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-21",
-      "last_commit": "a54c0e8",
-      "next_task": "check issues for human feedback; implement #21 (solo motivator shift tracking: extend moving-motivators:lastSession to sessionHistory array of 5, show rank-change arrows in ResultsView.tsx comparing current vs previous session) if approved",
+      "last_run": "2026-05-24",
+      "last_commit": "29d45f0",
+      "next_task": "check issues for human feedback; implement #22 (Moving Motivators \u2194 Change Planner integration: export motivators snapshot via URL param on results share, read URL param on load in Change Planner to pre-fill change description) if approved",
       "blockers": []
     },
     "scrum-facilitator": {
