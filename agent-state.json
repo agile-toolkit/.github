@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-25T00:13:17Z",
-  "lock": null,
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-05-25T15:07:48.741Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -13,7 +16,7 @@
       "status": "stable",
       "last_run": "2026-05-24",
       "last_commit": "29d45f0",
-      "next_task": "check issues for human feedback; implement #22 (Moving Motivators \u2194 Change Planner integration: export motivators snapshot via URL param on results share, read URL param on load in Change Planner to pre-fill change description) if approved",
+      "next_task": "check issues for human feedback; implement #22 (Moving Motivators ↔ Change Planner integration: export motivators snapshot via URL param on results share, read URL param on load in Change Planner to pre-fill change description) if approved",
       "blockers": []
     },
     "scrum-facilitator": {
@@ -76,7 +79,7 @@
       "status": "stable",
       "last_run": "2026-05-24",
       "last_commit": "09c5e37",
-      "next_task": "implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category\u2192facet, creates Action[] \u2014 add import button to ActionTracker or InitiativeCanvas with a modal showing items to import)",
+      "next_task": "implement #14 (Improvement Board import: reads improvement-board-items localStorage, maps category→facet, creates Action[] — add import button to ActionTracker or InitiativeCanvas with a modal showing items to import)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
