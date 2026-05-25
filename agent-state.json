@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-25T00:13:17Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-25T15:07:48.741Z"
-  },
+  "updated": "2026-05-25T15:12:54.856Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-05-22",
-      "last_commit": "ef113bf",
-      "next_task": "implement #5 (card colour labels: add color?: string to Card type in types.ts, 4px top border stripe on ColumnCard.tsx cards, colour swatch picker in card edit modal in BoardDesigner.tsx, i18n keys designer.card_color and designer.no_color in all 4 locales)",
+      "last_run": "2026-05-25",
+      "last_commit": "2d0bf68",
+      "next_task": "implement #7 (shareable board URL: base64-encode board state to window.location.hash on every onUpdate call in App.tsx, hydrate from hash on load, \"Copy link\" toolbar button with navigator.clipboard.writeText, designer.copy_link / designer.link_copied i18n keys in all 4 locales)",
       "blockers": []
     },
     "salary-formula": {
