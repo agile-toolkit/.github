@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-24T20:14:37Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-25T00:09:31Z"
-  },
+  "updated": "2026-05-25T00:13:17Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-05-21",
-      "last_commit": "5d0472a",
-      "next_task": "check issues for human feedback; implement #18 (AppHeader + LanguagePicker unification: copy design-system components, replace inline header in App.tsx ~line 111) on approval; implement #16 (keyboard shortcuts) on approval; implement #15 (Dashboard card \u2014 surface active session and last ceremony) on approval",
+      "last_run": "2026-05-25",
+      "last_commit": "6329a72",
+      "next_task": "implement #19 (light/dark theme: darkMode: \"class\" in tailwind.config.js, anti-flash script in index.html, copy ThemeToggle.tsx to src/components/, add <ThemeToggle /> inside AppHeader children slot, add dark: variants across all Tailwind color classes in src/)",
       "blockers": []
     },
     "kanban-designer": {
