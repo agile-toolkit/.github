@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-25T15:12:54.856Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-25T20:06:51Z"
-  },
+  "updated": "2026-05-25T20:11:31Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-05-22",
-      "last_commit": "e3dd816",
-      "next_task": "add readSalaryFormula() reader to agile-toolkit.github.io/src/ and update Dashboard card (separate run on agile-toolkit.github.io); then in salary-formula implement next approved issue: #16 (formula templates library), #17 (shareable URL), #18 (pay equity view), #19 (Scrum Facilitator: write salary-formula:teamHourlyRate in App.tsx handleSaveProfile), #20 (Change Planner: write salary-formula:pendingChangeRecord in handleSaveScenario in App.tsx)",
+      "last_run": "2026-05-25",
+      "last_commit": "878f126",
+      "next_task": "implement #17 (shareable formula URL: base64-encode FormulaConfig to window.location.hash on every factors change, hydrate from hash on load, \"Copy link\" button in FormulaBuilder with navigator.clipboard.writeText, builder.copy_link / builder.link_copied i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
