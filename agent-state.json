@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-25T20:11:31Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-26T00:09:02Z"
-  },
+  "updated": "2026-05-26T00:11:16Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -41,10 +38,10 @@
       "blockers": []
     },
     "team-identity": {
-      "status": "stable",
-      "last_run": "2026-05-22",
-      "last_commit": "6b71bec",
-      "next_task": "check issues for human feedback; implement #10 (write team-identity:lastSession in App.tsx saveCharter(), add readTeamIdentity() to agile-toolkit.github.io/src/) if approved; implement #11 (add @media print block to src/index.css) if approved; implement #12 (arrow-key nav + ARIA roles for symbol grid and values selection) if approved",
+      "status": "in-progress",
+      "last_run": "2026-05-26",
+      "last_commit": "0b2ec45",
+      "next_task": "implement #10 (Dashboard card integration): in App.tsx saveCharter(), add localStorage.setItem(\"team-identity:lastSession\", JSON.stringify({teamName: charter.teamName, symbol: charter.customSymbol || charter.symbol, valuesCount: charter.values.length, agreementsCount: charter.agreements.length, savedAt: Date.now()})) after the existing team-identity-charter write; update agile-toolkit.github.io dashboard to add readTeamIdentity() reader function and display team name/symbol/counts on the Team Identity card",
       "blockers": []
     },
     "improvement-board": {
