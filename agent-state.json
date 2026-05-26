@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-26T15:13:10Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-26T20:08:22Z"
-  },
+  "updated": "2026-05-26T20:13:58Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-23",
-      "last_commit": "d388aae",
-      "next_task": "check issues for human feedback; if #17 (profile archive: archived?: boolean in WorkProfile in types.ts, Archive button in ProfileCard.tsx, Show archived toggle in ProfilesView header) is approved, implement it",
+      "last_run": "2026-05-26",
+      "last_commit": "3361ab2",
+      "next_task": "implement #18 (AppHeader unification: copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io/design-system/components/ into src/components/, replace inline header block in App.tsx with <AppHeader title={t(\"app.title\")} onTitleClick={() => setScreen(\"profiles\")} navItems={...}><LanguagePicker /></AppHeader>)",
       "blockers": []
     },
     "planning-poker": {
