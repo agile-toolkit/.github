@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-27T10:13:19Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-05-27T20:07:26Z"
-  },
+  "updated": "2026-05-27T20:11:22Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-05-21",
-      "last_commit": "1865e10",
-      "next_task": "check issues for human feedback; implement header and theme adoption in each app as issues are approved",
+      "last_run": "2026-05-27",
+      "last_commit": "3967601",
+      "next_task": "check issues for human feedback; conduct research cycle on UX improvements and integration opportunities between suite apps",
       "blockers": []
     }
   },
