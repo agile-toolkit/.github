@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-27T00:12:34Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-05-27T05:06:56Z"
-  },
+  "updated": "2026-05-27T05:10:01Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-05-24",
-      "last_commit": "84c41a7",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-05-27",
+      "last_commit": "a7a1f21",
+      "next_task": "check issues for human feedback; implement #24 (velocity forecasting in ForecastView: optimistic/average/pessimistic rolling-average projection, backlog remaining input, finishBy date display) if approved",
       "blockers": []
     },
     "change-planner": {
