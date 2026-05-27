@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-26T20:13:58Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-27T00:08:34Z"
-  },
+  "updated": "2026-05-27T00:12:34Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-23",
-      "last_commit": "eff0965",
-      "next_task": "implement #19 (header unification: copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io/design-system/components/ into src/components/, replace dark header block ~lines 148-209 in App.tsx with standard white AppHeader component)",
+      "last_run": "2026-05-27",
+      "last_commit": "5b8c094",
+      "next_task": "check issues for human feedback; implement next approved item among #20 (dark mode), #17 (results export), #21 (Firebase team), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
       "blockers": []
     },
     "sprint-metrics": {
