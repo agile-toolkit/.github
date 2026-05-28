@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-28T01:10:00Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-28T10:07:35.112Z"
-  },
+  "updated": "2026-05-28T10:12:58.810Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-05-25",
-      "last_commit": "2d0bf68",
-      "next_task": "implement #7 (shareable board URL: base64-encode board state to window.location.hash on every onUpdate call in App.tsx, hydrate from hash on load, \"Copy link\" toolbar button with navigator.clipboard.writeText, designer.copy_link / designer.link_copied i18n keys in all 4 locales)",
+      "last_run": "2026-05-28",
+      "last_commit": "90681dc",
+      "next_task": "check issues for human feedback; implement #10 (write kanban-designer:lastSession key in App.tsx updateBoard: { boardName, columnCount, cardCount, boardCount, updatedAt })",
       "blockers": []
     },
     "salary-formula": {
