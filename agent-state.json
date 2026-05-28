@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-27T20:11:22Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-28T00:10:54Z"
-  },
+  "updated": "2026-05-28T00:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-24",
-      "last_commit": "29d45f0",
-      "next_task": "check issues for human feedback; implement #22 (Moving Motivators \u2194 Change Planner integration: export motivators snapshot via URL param on results share, read URL param on load in Change Planner to pre-fill change description) if approved",
+      "last_run": "2026-05-28",
+      "last_commit": "9251d7a",
+      "next_task": "implement Change Planner side of issue #22 in change-planner repo: read ?mm_snapshot= URL param on load (base64 JSON decode: JSON.parse(decodeURIComponent(atob(param)))), display read-only Motivator context sidebar in App.tsx/change detail view showing ranked motivators with impact badges; also check issues for human feedback",
       "blockers": []
     },
     "scrum-facilitator": {
