@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-28T00:20:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-28T00:25:00Z"
-  },
+  "updated": "2026-05-28T01:10:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-05-25",
-      "last_commit": "6329a72",
-      "next_task": "implement #19 (light/dark theme: darkMode: \"class\" in tailwind.config.js, anti-flash script in index.html, copy ThemeToggle.tsx to src/components/, add <ThemeToggle /> inside AppHeader children slot, add dark: variants across all Tailwind color classes in src/)",
+      "last_run": "2026-05-28",
+      "last_commit": "8127597",
+      "next_task": "implement #16 (keyboard shortcuts: Space=start/pause timer, ArrowRight=next step, ArrowLeft=prev step, R=reset timer, M=mute toggle; useEffect in CeremonyRunner.tsx with keydown listener; keyboard.* i18n keys in all 4 locales)",
       "blockers": []
     },
     "kanban-designer": {
