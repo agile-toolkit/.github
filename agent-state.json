@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-29T05:30:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "team-identity",
+    "started_at": "2026-05-29T10:06:54Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
@@ -34,7 +37,7 @@
       "status": "stable",
       "last_run": "2026-05-29",
       "last_commit": "093c779",
-      "next_task": "implement #18 (pay equity analysis view — EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
+      "next_task": "implement #18 (pay equity analysis view \u2014 EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
