@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-29T05:30:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-29T10:06:54Z"
-  },
+  "updated": "2026-05-29T10:11:37Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-05-26",
-      "last_commit": "ad14ba8",
-      "next_task": "in agile-toolkit.github.io: add readTeamIdentity() function parsing team-identity:lastSession and display team name/symbol/valuesCount/agreementsCount on the Team Identity dashboard card",
+      "last_run": "2026-05-29",
+      "last_commit": "fbde878",
+      "next_task": "implement #5 (Moving Motivators -> Team Identity: import motivators as values; read moving-motivators:lastSession from localStorage and offer ranked motivators as selectable values on the values step with a \"From Moving Motivators\" badge)",
       "blockers": []
     },
     "improvement-board": {
