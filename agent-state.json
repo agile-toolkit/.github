@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-28T10:12:58.810Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-29T05:06:42Z"
-  },
+  "updated": "2026-05-29T05:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-05-25",
-      "last_commit": "878f126",
-      "next_task": "implement #17 (shareable formula URL: base64-encode FormulaConfig to window.location.hash on every factors change, hydrate from hash on load, \"Copy link\" button in FormulaBuilder with navigator.clipboard.writeText, builder.copy_link / builder.link_copied i18n keys in all 4 locales)",
+      "last_run": "2026-05-29",
+      "last_commit": "093c779",
+      "next_task": "implement #18 (pay equity analysis view — EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
@@ -120,7 +117,7 @@
       "project_id": "PVT_kwDOEGuPAc4BWgjk",
       "status_field_id": "PVTSSF_lADOEGuPAc4BWgjkzhR0NOU",
       "option_ids": {
-        "Backlog": "f75ad846",
+        "Todo": "f75ad846",
         "In Progress": "47fc9ee4",
         "Done": "98236657"
       }
