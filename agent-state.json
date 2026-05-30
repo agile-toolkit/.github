@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-29T15:20:00Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-05-30T00:07:25.866Z"
-  },
+  "updated": "2026-05-30T00:11:12.664Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-26",
-      "last_commit": "3361ab2",
-      "next_task": "implement #18 (AppHeader unification: copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io/design-system/components/ into src/components/, replace inline header block in App.tsx with <AppHeader title={t(\"app.title\")} onTitleClick={() => setScreen(\"profiles\")} navItems={...}><LanguagePicker /></AppHeader>)",
+      "last_run": "2026-05-30",
+      "last_commit": "4218808",
+      "next_task": "implement #19 (light/dark theme: tailwind darkMode: \"class\", anti-flash script in index.html, copy ThemeToggle.tsx from design-system into src/components/, add <ThemeToggle /> inside AppHeader children slot, add dark: variants to all Tailwind color classes per tokens.css token map)",
       "blockers": []
     },
     "planning-poker": {
