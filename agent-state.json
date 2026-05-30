@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T10:13:50.148608Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-30T15:08:26Z"
-  },
+  "updated": "2026-05-30T15:11:49Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-05-28",
-      "last_commit": "90681dc",
-      "next_task": "check issues for human feedback; implement #10 (write kanban-designer:lastSession key in App.tsx updateBoard: { boardName, columnCount, cardCount, boardCount, updatedAt })",
+      "last_run": "2026-05-30",
+      "last_commit": "72c8ff5",
+      "next_task": "implement #11 (swim lane rows \u2014 horizontal board striping: CSS grid when swimLanes.length > 0, filter cards by swimLane in ColumnCard, pill badge on cards, designer.swim_lane_none / designer.swim_lane_assign i18n keys in all 4 locales)",
       "blockers": []
     },
     "salary-formula": {
