@@ -179,7 +179,7 @@ blocked → in-progress → scaffolded → not-started → stable
 
 ### B — Round-robin within that status
 
-1. List repos in that status in **suite table order** (1–10).
+1. List repos in that status in **suite table order** (0–10, dashboard included).
 2. Read **`last_picked[active_status]`**.
 3. Pick the **next** repo after that entry (wrap); if **`null`** or missing from list, pick the **first**.
 
