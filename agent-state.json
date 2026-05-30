@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T15:58:37Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-05-30T20:04:14.857728Z"
-  },
+  "updated": "2026-05-30T20:08:46.811432Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-29",
-      "last_commit": "fc4a7ac",
-      "next_task": "implement #3 (Export board snapshot as PNG using html2canvas \u2014 add npm install html2canvas; \"Export PNG\" button in BoardView header; download as improvement-board-YYYY-MM-DD.png with toast confirmation; also works in Kanban view; i18n keys board.export_png, board.export_copied, board.export_downloading in EN/ES/BE/RU)",
+      "last_run": "2026-05-30",
+      "last_commit": "9c32aba",
+      "next_task": "check issues for human feedback",
       "blockers": []
     },
     "work-profiles": {
