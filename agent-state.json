@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-30T15:11:49Z",
-  "lock": null,
+  "lock": {
+    "repo": "salary-formula",
+    "started_at": "2026-05-30T15:47:58Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
