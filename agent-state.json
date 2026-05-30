@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T21:39:14.495093Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-30T21:40:43.894399Z"
-  },
+  "updated": "2026-05-30T21:44:23.979596Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -64,8 +61,8 @@
     "planning-poker": {
       "status": "stable",
       "last_run": "2026-05-30",
-      "last_commit": "65bf628",
-      "next_task": "implement #17 (session results export: Copy Results button writes plain-text table to clipboard via Clipboard API; Save as PNG button captures results card via html2canvas and triggers download; i18n keys results.copyResults and results.saveImage in EN/ES/BE/RU)",
+      "last_commit": "fea797e",
+      "next_task": "check issues for human feedback; implement next approved item among #21 (Firebase team sessions), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
       "blockers": []
     },
     "sprint-metrics": {
