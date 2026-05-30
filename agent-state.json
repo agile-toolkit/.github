@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T22:06:14.094Z",
+  "updated": "2026-05-30T22:16:56.989Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -82,8 +82,8 @@
     "agile-toolkit.github.io": {
       "status": "stable",
       "last_run": "2026-05-30",
-      "last_commit": "2200540",
-      "next_task": "check issues for human feedback (multi-team workspace #10, reader updates #7, sprint-metrics key #8, sort-by-recency #9)",
+      "last_commit": "ce39fca",
+      "next_task": "check issues for human feedback",
       "blockers": []
     }
   },
