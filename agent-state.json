@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T15:52:08Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-05-30T15:53:29Z"
-  },
+  "updated": "2026-05-30T15:58:37Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-05-29",
-      "last_commit": "fbde878",
-      "next_task": "implement #5 (Moving Motivators -> Team Identity: import motivators as values; read moving-motivators:lastSession from localStorage and offer ranked motivators as selectable values on the values step with a \"From Moving Motivators\" badge)",
+      "last_run": "2026-05-30",
+      "last_commit": "7f2cfae",
+      "next_task": "implement #6 (Work Profiles -> Team Identity: participant import via localStorage \u2014 read work-profiles:savedProfiles, offer participant names on a new Team Members step or as prefilled agreements)",
       "blockers": []
     },
     "improvement-board": {
