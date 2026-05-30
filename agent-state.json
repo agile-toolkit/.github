@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T21:51:10.657339Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-05-30T21:55:43.147Z"
-  },
+  "updated": "2026-05-30T22:00:58.852Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -85,8 +82,8 @@
     "agile-toolkit.github.io": {
       "status": "stable",
       "last_run": "2026-05-30",
-      "last_commit": null,
-      "next_task": "check issues for human feedback",
+      "last_commit": "f0124ef",
+      "next_task": "check issues for human feedback (export/import #11, multi-team workspace #10)",
       "blockers": []
     }
   },
