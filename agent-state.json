@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T00:11:12.664Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-05-30T05:07:14.413Z"
-  },
+  "updated": "2026-05-30T05:15:14.057Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-27",
-      "last_commit": "5b8c094",
-      "next_task": "check issues for human feedback; implement next approved item among #20 (dark mode), #17 (results export), #21 (Firebase team), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
+      "last_run": "2026-05-30",
+      "last_commit": "65bf628",
+      "next_task": "implement #17 (session results export: Copy Results button writes plain-text table to clipboard via Clipboard API; Save as PNG button captures results card via html2canvas and triggers download; i18n keys results.copyResults and results.saveImage in EN/ES/BE/RU)",
       "blockers": []
     },
     "sprint-metrics": {
