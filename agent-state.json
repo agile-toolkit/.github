@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-30T09:22:41.813Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-30T09:38:41.560926Z"
-  },
+  "updated": "2026-05-30T09:47:56.070608Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-28",
-      "last_commit": "9251d7a",
-      "next_task": "implement Change Planner side of issue #22 in change-planner repo: read ?mm_snapshot= URL param on load (base64 JSON decode: JSON.parse(decodeURIComponent(atob(param)))), display read-only Motivator context sidebar in App.tsx/change detail view showing ranked motivators with impact badges; also check issues for human feedback",
+      "last_run": "2026-05-30",
+      "last_commit": "b30565b",
+      "next_task": "implement #19 (side-by-side individual comparison in team session revealed view: toggle below aggregate showing motivator\u00d7participant grid, rank values, green top-3/red bottom-3 color coding, host-controlled anonymization showing P1/P2 instead of names)",
       "blockers": []
     },
     "scrum-facilitator": {
