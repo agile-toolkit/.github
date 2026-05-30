@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T08:14:25.934Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-05-30T09:19:00.215Z"
-  },
+  "updated": "2026-05-30T09:22:41.813Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-05-27",
-      "last_commit": "3967601",
-      "next_task": "check issues for human feedback; conduct research cycle on UX improvements and integration opportunities between suite apps",
+      "last_run": "2026-05-30",
+      "last_commit": null,
+      "next_task": "check issues for human feedback",
       "blockers": []
     }
   },
@@ -201,6 +198,16 @@
       "status_field_id": "PVTSSF_lADOEGuPAc4BXTDBzhSgzvU",
       "option_ids": {
         "Backlog": "f75ad846",
+        "In Progress": "47fc9ee4",
+        "Done": "98236657"
+      }
+    },
+    "agile-toolkit.github.io": {
+      "project_number": 14,
+      "project_id": "PVT_kwDOEGuPAc4BX_dK",
+      "status_field_id": "PVTSSF_lADOEGuPAc4BX_dKzhTIXzE",
+      "option_ids": {
+        "Todo": "f75ad846",
         "In Progress": "47fc9ee4",
         "Done": "98236657"
       }
