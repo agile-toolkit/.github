@@ -1,6 +1,9 @@
 {
   "updated": "2026-05-30T05:15:14.057Z",
-  "lock": null,
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-05-30T08:03:45Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
@@ -34,7 +37,7 @@
       "status": "stable",
       "last_run": "2026-05-29",
       "last_commit": "093c779",
-      "next_task": "implement #18 (pay equity analysis view — EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
+      "next_task": "implement #18 (pay equity analysis view \u2014 EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-05-29",
       "last_commit": "fc4a7ac",
-      "next_task": "implement #3 (Export board snapshot as PNG using html2canvas — add npm install html2canvas; \"Export PNG\" button in BoardView header; download as improvement-board-YYYY-MM-DD.png with toast confirmation; also works in Kanban view; i18n keys board.export_png, board.export_copied, board.export_downloading in EN/ES/BE/RU)",
+      "next_task": "implement #3 (Export board snapshot as PNG using html2canvas \u2014 add npm install html2canvas; \"Export PNG\" button in BoardView header; download as improvement-board-YYYY-MM-DD.png with toast confirmation; also works in Kanban view; i18n keys board.export_png, board.export_copied, board.export_downloading in EN/ES/BE/RU)",
       "blockers": []
     },
     "work-profiles": {
