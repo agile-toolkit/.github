@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-30T15:11:49Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-05-30T15:47:58Z"
-  },
+  "updated": "2026-05-30T15:52:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-05-29",
-      "last_commit": "093c779",
-      "next_task": "implement #18 (pay equity analysis view \u2014 EquityView.tsx with salary distribution bars, equity ratio, per-factor spread; no chart library; new nav item 'equity' in App.tsx navItems; equity.* i18n keys in all 4 locales)",
+      "last_run": "2026-05-30",
+      "last_commit": "fd7c1c1",
+      "next_task": "implement #19 (Scrum Facilitator integration \u2014 write salary-formula:teamHourlyRate localStorage key from saved profiles: {hourlyRate: total annual salaries / 52 / 40 as team avg, currency, profileCount, updatedAt}; button in ComparisonView header; comparison.share_hourly_rate and comparison.share_hourly_done i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
