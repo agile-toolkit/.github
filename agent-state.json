@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-31T05:11:48.115Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-05-31T10:07:14.000Z"
-  },
+  "updated": "2026-05-31T10:14:04.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "83e3df6",
-      "next_task": "implement #17 (mobile/tablet responsiveness: timer circle and retro board layout on small screens; responsive breakpoints for CeremonyRunner, CountdownTimer, RetroBoard, StickyColumn)",
+      "last_run": "2026-05-31",
+      "last_commit": "ff04fa0",
+      "next_task": "implement #15 (Dashboard card — surface active session and last ceremony from scrum-facilitator-session and scrum-facilitator-history localStorage keys on the dashboard)",
       "blockers": []
     },
     "kanban-designer": {
