@@ -1,15 +1,12 @@
 {
-  "updated": "2026-05-31T10:14:04.000Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-05-31T20:07:00.334212Z"
-  },
+  "updated": "2026-05-31T20:10:15.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -27,10 +24,10 @@
       "blockers": []
     },
     "kanban-designer": {
-      "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "72c8ff5",
-      "next_task": "implement #11 (swim lane rows \u2014 horizontal board striping: CSS grid when swimLanes.length > 0, filter cards by swimLane in ColumnCard, pill badge on cards, designer.swim_lane_none / designer.swim_lane_assign i18n keys in all 4 locales)",
+      "status": "in-progress",
+      "last_run": "2026-05-31",
+      "last_commit": "ad4d5a7",
+      "next_task": "implement #12 (keyboard accessibility: tabIndex=0 on CardItem + role=listitem+aria-label; role=region/aria-label on board container; role=list+aria-label on column card lists; Enter/F2 opens inline edit; Delete/Backspace deletes card with toast; ArrowUp/ArrowDown moves focus to prev/next card in column; skip-to-board link; designer.delete_card_confirm i18n key in all 4 locales)",
       "blockers": []
     },
     "salary-formula": {
