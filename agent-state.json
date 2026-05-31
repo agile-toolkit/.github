@@ -1,22 +1,19 @@
 {
-  "updated": "2026-05-30T22:16:56.989Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-05-31T05:07:08.534Z"
-  },
+  "updated": "2026-05-31T05:11:48.115Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "b30565b",
-      "next_task": "implement #19 (side-by-side individual comparison in team session revealed view: toggle below aggregate showing motivator×participant grid, rank values, green top-3/red bottom-3 color coding, host-controlled anonymization showing P1/P2 instead of names)",
+      "last_run": "2026-05-31",
+      "last_commit": "d65f24b",
+      "next_task": "check issues for human feedback; implement #14 (Sprint Metrics integration — write moving-motivators:motivationSnapshot localStorage key from team revealed results, shape: {teamName, date, topMotivators, participantCount})",
       "blockers": []
     },
     "scrum-facilitator": {
