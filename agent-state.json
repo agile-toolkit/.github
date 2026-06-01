@@ -1,12 +1,9 @@
 {
-  "updated": "2026-05-31T20:10:15.000Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-01T10:07:06.536Z"
-  },
+  "updated": "2026-06-01T10:14:58.792Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "team-identity",
+    "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
     "stable": "kanban-designer"
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "in-progress",
-      "last_run": "2026-05-31",
-      "last_commit": "ad4d5a7",
-      "next_task": "implement #12 (keyboard accessibility: tabIndex=0 on CardItem + role=listitem+aria-label; role=region/aria-label on board container; role=list+aria-label on column card lists; Enter/F2 opens inline edit; Delete/Backspace deletes card with toast; ArrowUp/ArrowDown moves focus to prev/next card in column; skip-to-board link; designer.delete_card_confirm i18n key in all 4 locales)",
+      "last_run": "2026-06-01",
+      "last_commit": "ff00a5b9",
+      "next_task": "check issues for human feedback; implement #13 (card search and filter — text search input in BoardDesigner toolbar; filter by title/color/swimLane; filtered cards rendered instead of full column.cards; clear filter button; designer.search_placeholder / designer.filter_color / designer.filter_lane / designer.clear_filters i18n keys in all 4 locales)",
       "blockers": []
     },
     "salary-formula": {
