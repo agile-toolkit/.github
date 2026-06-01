@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-01T10:14:58.792Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-01T10:30:00.000Z"
-  },
+  "updated": "2026-06-01T11:00:00.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
@@ -16,35 +13,35 @@
       "status": "stable",
       "last_run": "2026-05-31",
       "last_commit": "d65f24b",
-      "next_task": "check issues for human feedback; implement #14 (Sprint Metrics integration \u2014 write moving-motivators:motivationSnapshot localStorage key from team revealed results, shape: {teamName, date, topMotivators, participantCount})",
+      "next_task": "check issues for human feedback; implement #14 (Sprint Metrics integration — write moving-motivators:motivationSnapshot localStorage key from team revealed results, shape: {teamName, date, topMotivators, participantCount})",
       "blockers": []
     },
     "scrum-facilitator": {
       "status": "stable",
       "last_run": "2026-05-31",
       "last_commit": "ff04fa0",
-      "next_task": "implement #15 (Dashboard card \u2014 surface active session and last ceremony from scrum-facilitator-session and scrum-facilitator-history localStorage keys on the dashboard)",
+      "next_task": "implement #15 (Dashboard card — surface active session and last ceremony from scrum-facilitator-session and scrum-facilitator-history localStorage keys on the dashboard)",
       "blockers": []
     },
     "kanban-designer": {
       "status": "in-progress",
       "last_run": "2026-06-01",
-      "last_commit": "ff00a5b9",
-      "next_task": "check issues for human feedback; implement #13 (card search and filter \u2014 text search input in BoardDesigner toolbar; filter by title/color/swimLane; filtered cards rendered instead of full column.cards; clear filter button; designer.search_placeholder / designer.filter_color / designer.filter_lane / designer.clear_filters i18n keys in all 4 locales)",
+      "last_commit": "e55da75d",
+      "next_task": "check issues for human feedback; implement #14 (WIP limit progress bar — colour-coded gauge per column: green/amber/orange/red based on utilisation ratio; shown below WIP limit input in ColumnCard and ColumnHeaderStrip; no i18n needed)",
       "blockers": []
     },
     "salary-formula": {
       "status": "stable",
       "last_run": "2026-05-30",
       "last_commit": "fd7c1c1",
-      "next_task": "implement #19 (Scrum Facilitator integration \u2014 write salary-formula:teamHourlyRate localStorage key from saved profiles: {hourlyRate: total annual salaries / 52 / 40 as team avg, currency, profileCount, updatedAt}; button in ComparisonView header; comparison.share_hourly_rate and comparison.share_hourly_done i18n keys in all 4 locales)",
+      "next_task": "implement #19 (Scrum Facilitator integration — write salary-formula:teamHourlyRate localStorage key from saved profiles: {hourlyRate: total annual salaries / 52 / 40 as team avg, currency, profileCount, updatedAt}; button in ComparisonView header; comparison.share_hourly_rate and comparison.share_hourly_done i18n keys in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-05-30",
       "last_commit": "7f2cfae",
-      "next_task": "implement #6 (Work Profiles -> Team Identity: participant import via localStorage \u2014 read work-profiles:savedProfiles, offer participant names on a new Team Members step or as prefilled agreements)",
+      "next_task": "implement #6 (Work Profiles -> Team Identity: participant import via localStorage — read work-profiles:savedProfiles, offer participant names on a new Team Members step or as prefilled agreements)",
       "blockers": []
     },
     "improvement-board": {
