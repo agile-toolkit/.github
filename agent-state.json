@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T00:35:00.000Z",
+  "updated": "2026-06-02T15:17:00.000Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -26,8 +26,8 @@
     "kanban-designer": {
       "status": "in-progress",
       "last_run": "2026-06-02",
-      "last_commit": "8b6b9a47f1f36921646f568d6f6fb8e4bdb83167",
-      "next_task": "check issues for human feedback; implement #16 (Unify header — AppHeader component + LanguagePicker from design-system; replace inline header in App.tsx with shared AppHeader component)",
+      "last_commit": "460f2af2ed761abc4a8c462b9b7b36a5a3aaef69",
+      "next_task": "check issues for human feedback; implement #17 (light/dark theme: tailwind darkMode: \"class\", anti-flash script in index.html, ThemeToggle.tsx already in src/components/, add <ThemeToggle /> in AppHeader children slot in App.tsx, add dark: variants to all Tailwind color classes per tokens.css token map)",
       "blockers": []
     },
     "salary-formula": {
