@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-01T20:12:38.702Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-02T00:07:58.667809Z"
-  },
+  "updated": "2026-06-02T00:35:00.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "in-progress",
-      "last_run": "2026-06-01",
-      "last_commit": "c2e9ce891266f8731e4c91e90a7102f5fd4064e6",
-      "next_task": "check issues for human feedback; implement #15 (Planning Poker integration — write kanban-designer:currentBoard key from updateBoard() with shape {boardName, columns:[{name,cards:[{title,description}]}],updatedAt}; add \"Send to Planning Poker\" button in BoardDesigner toolbar that deep-links to planning-poker with ?kanban-board=<base64-board-name>)",
+      "last_run": "2026-06-02",
+      "last_commit": "8b6b9a47f1f36921646f568d6f6fb8e4bdb83167",
+      "next_task": "check issues for human feedback; implement #16 (Unify header — AppHeader component + LanguagePicker from design-system; replace inline header in App.tsx with shared AppHeader component)",
       "blockers": []
     },
     "salary-formula": {
