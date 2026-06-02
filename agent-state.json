@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-02T15:17:00.000Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-02T23:47:03.000Z"
-  },
+  "updated": "2026-06-02T23:59:00.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
@@ -27,10 +24,10 @@
       "blockers": []
     },
     "kanban-designer": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-02",
-      "last_commit": "460f2af2ed761abc4a8c462b9b7b36a5a3aaef69",
-      "next_task": "check issues for human feedback; implement #17 (light/dark theme: tailwind darkMode: \"class\", anti-flash script in index.html, ThemeToggle.tsx already in src/components/, add <ThemeToggle /> in AppHeader children slot in App.tsx, add dark: variants to all Tailwind color classes per tokens.css token map)",
+      "last_commit": "2ac10aed5dda2b9d0cfb66f569e9697863c43cfc",
+      "next_task": "check issues for human feedback",
       "blockers": []
     },
     "salary-formula": {
