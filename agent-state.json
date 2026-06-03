@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-02T23:59:00.000Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-03T10:07:14.226653Z"
-  },
+  "updated": "2026-06-03T10:11:51.414382Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "fd7c1c1",
-      "next_task": "implement #19 (Scrum Facilitator integration \u2014 write salary-formula:teamHourlyRate localStorage key from saved profiles: {hourlyRate: total annual salaries / 52 / 40 as team avg, currency, profileCount, updatedAt}; button in ComparisonView header; comparison.share_hourly_rate and comparison.share_hourly_done i18n keys in all 4 locales)",
+      "last_run": "2026-06-03",
+      "last_commit": "2acdaec98a24501b177cd1ec6577079b11141bfd",
+      "next_task": "implement #20 (Change Planner integration \u2014 write salary-formula:pendingChangeRecord localStorage key on scenario save with shape {scenarioName, factors, currency, savedAt}; pre-fills Change Planner new-change form via that key)",
       "blockers": []
     },
     "team-identity": {
