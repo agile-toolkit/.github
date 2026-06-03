@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-03T15:13:38.830121Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-03T20:07:22.835033Z"
-  },
+  "updated": "2026-06-03T20:12:33.168112Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "9c32aba",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-06-03",
+      "last_commit": "02f879fe7560e95dac1958bdf2dad6a69dbd6ed8",
+      "next_task": "implement #14 (Sprint cycle reset \u2014 archive done items with sprint summary; add \"End Sprint\" button in Board view, archive done items to localStorage key improvement-board:sprintHistory, show sprint count badge, clear done column, i18n keys in EN/ES/BE/RU)",
       "blockers": []
     },
     "work-profiles": {
