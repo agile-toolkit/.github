@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-03T10:11:51.414382Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-03T15:08:14.901956Z"
-  },
+  "updated": "2026-06-03T15:13:38.830121Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "7f2cfae",
-      "next_task": "implement #6 (Work Profiles -> Team Identity: participant import via localStorage \u2014 read work-profiles:savedProfiles, offer participant names on a new Team Members step or as prefilled agreements)",
+      "last_run": "2026-06-03",
+      "last_commit": "ec12b377ebdb1ba4b00b60bf3ec1414ba1f2ecfb",
+      "next_task": "check issues for human feedback",
       "blockers": []
     },
     "improvement-board": {
