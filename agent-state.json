@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-03T20:12:33.168112Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-04T01:15:09.337272Z"
-  },
+  "updated": "2026-06-04T01:20:24.772165Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "a30b204",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-06-04",
+      "last_commit": "9b8d6e9",
+      "next_task": "check issues for human feedback; if #4 (skill gap analysis) or #5 (CSV export) or #27 (profile comparison) or #28 (skill history) or #29 (availability/timezone) approved, implement the first one",
       "blockers": []
     },
     "planning-poker": {
