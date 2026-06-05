@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-04T01:20:24.772165Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-05T10:08:40.967554Z"
-  },
+  "updated": "2026-06-05T10:14:57.393722Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "fea797e",
-      "next_task": "check issues for human feedback; implement next approved item among #21 (Firebase team sessions), #13 (session history), #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
+      "last_run": "2026-06-05",
+      "last_commit": "a5ed5dd2fc10a49b0e086a1d419acf7a978f2d01",
+      "next_task": "check issues for human feedback; implement next approved item among #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
       "blockers": []
     },
     "sprint-metrics": {
