@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-05T10:14:57.393722Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-05T15:08:25.453674Z"
-  },
+  "updated": "2026-06-05T15:15:45.335809Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "kanban-designer",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "33e4de7",
-      "next_task": "check issues for human feedback",
+      "status": "in-progress",
+      "last_run": "2026-06-05",
+      "last_commit": "57597aea36fd6c5ef21e9b18553935b11750bcf2",
+      "next_task": "implement #25 (Sprint health composite score \u2014 computed per sprint from velocity+mood+capacity: velocity 0-4pts, mood 0-3pts, capacity 0-3pts; colored badge red/amber/green in sprint rows in SprintDataTable and SprintDataView; optional health trend line on VelocityChart right Y-axis as dotted gray line; data.healthScore, data.healthScoreLow, data.healthScoreMid, data.healthScoreHigh i18n keys all 4 locales)",
       "blockers": []
     },
     "change-planner": {
