@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-05T15:15:45.335809Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-05T20:07:36.445648Z"
-  },
+  "updated": "2026-06-05T20:13:44.579841Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "kanban-designer",
+    "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
     "stable": "sprint-metrics"
@@ -71,8 +68,8 @@
     "sprint-metrics": {
       "status": "in-progress",
       "last_run": "2026-06-05",
-      "last_commit": "57597aea36fd6c5ef21e9b18553935b11750bcf2",
-      "next_task": "implement #25 (Sprint health composite score \u2014 computed per sprint from velocity+mood+capacity: velocity 0-4pts, mood 0-3pts, capacity 0-3pts; colored badge red/amber/green in sprint rows in SprintDataTable and SprintDataView; optional health trend line on VelocityChart right Y-axis as dotted gray line; data.healthScore, data.healthScoreLow, data.healthScoreMid, data.healthScoreHigh i18n keys all 4 locales)",
+      "last_commit": "323150997cbc56c2c19985003be850c9cd35886c",
+      "next_task": "implement #26 (Sprint Metrics \u2192 Change Planner velocity/mood decline alert \u2014 dismissible banner when velocity or mood declines 2+ consecutive sprints, with link to Change Planner; integration.changePlannerAlert, integration.changePlannerLink i18n keys in all 4 locales)",
       "blockers": []
     },
     "change-planner": {
