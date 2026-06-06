@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-06T01:15:05.876698Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-06T05:07:50Z"
-  },
+  "updated": "2026-06-06T05:20:04.944749Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "d51c4d4",
-      "next_task": "implement #32 (light/dark theme: tailwind darkMode: \"class\", anti-flash script in index.html, copy ThemeToggle.tsx from design-system into src/components/, add <ThemeToggle /> inside AppHeader children slot, add dark: variants to all Tailwind color classes per tokens.css token map)",
+      "last_run": "2026-06-06",
+      "last_commit": "83d4bceb09d1a90a78ae5bb60275f4ce1473770a",
+      "next_task": "check issues for human feedback",
       "blockers": []
     },
     "agile-toolkit.github.io": {
