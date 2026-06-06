@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-06T05:20:04.944749Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-06-06T13:37:30.361566Z"
-  },
+  "updated": "2026-06-06T13:39:35.405510Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -83,10 +80,10 @@
       "blockers": []
     },
     "agile-toolkit.github.io": {
-      "status": "stable",
-      "last_run": "2026-05-30",
-      "last_commit": "ce39fca",
-      "next_task": "check issues for human feedback",
+      "status": "in-progress",
+      "last_run": "2026-06-06",
+      "last_commit": "d19e1cd",
+      "next_task": "implement #10 (WorkspaceManager in Dashboard \u2014 workspace selector dropdown in nav, save current, new workspace, manage drawer with load/delete/rename; agile-toolkit:workspaces stores {[name]: {[key]: value, savedAt}}; agile-toolkit:activeWorkspace stores active name; wire into App.tsx nav bar alongside ExportImport; update data-keys.ts to exclude workspace keys from app export sets)",
       "blockers": []
     }
   },
