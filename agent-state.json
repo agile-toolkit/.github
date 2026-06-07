@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-07T10:10:00.588811+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "salary-formula",
+    "started_at": "2026-06-07T15:07:07Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
