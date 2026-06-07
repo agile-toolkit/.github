@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-07T00:15:38.098Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-07T05:08:05.377015Z"
-  },
+  "updated": "2026-06-07T05:16:03.742390Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-05-31",
-      "last_commit": "ff04fa0",
-      "next_task": "implement #15 (Dashboard card \u2014 surface active session and last ceremony from scrum-facilitator-session and scrum-facilitator-history localStorage keys on the dashboard)",
+      "last_run": "2026-06-07",
+      "last_commit": "cb3f85dc2a486a6d18f0d9dab6111c85eb4ffd85",
+      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator \u2014 add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
       "blockers": []
     },
     "kanban-designer": {
