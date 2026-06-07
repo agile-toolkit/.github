@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-07T15:12:37.627660+00:00",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-07T20:06:28.066758+00:00"
-  },
+  "updated": "2026-06-07T20:12:18.303516+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-03",
-      "last_commit": "ec12b377ebdb1ba4b00b60bf3ec1414ba1f2ecfb",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-06-07",
+      "last_commit": "1d8a2f784776d9ddd58a1ce69d857c3d038c1c55",
+      "next_task": "check issues for human feedback; implement next approved item among #7 (URL hash sharing), #12 (keyboard accessibility), #19 (facilitator display mode), #26 (multi-team support)",
       "blockers": []
     },
     "improvement-board": {
