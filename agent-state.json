@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-06T18:46:58.667969Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-07T00:09:38.959854Z"
-  },
+  "updated": "2026-06-07T00:15:38.098Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-05-31",
-      "last_commit": "d65f24b",
-      "next_task": "check issues for human feedback; implement #14 (Sprint Metrics integration — write moving-motivators:motivationSnapshot localStorage key from team revealed results, shape: {teamName, date, topMotivators, participantCount})",
+      "last_run": "2026-06-07",
+      "last_commit": "6a847ecfc3b7f1bb8985cbe598a96b6c25613bb4",
+      "next_task": "check issues for human feedback; implement #34 (named session storage — \"Save as...\" button in ResultsView, label field on sessionHistory entries, history cap increase, Restore button re-populates ranking board)",
       "blockers": []
     },
     "scrum-facilitator": {
