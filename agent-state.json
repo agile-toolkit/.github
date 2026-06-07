@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-07T10:10:00.588811+00:00",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-07T15:07:07Z"
-  },
+  "updated": "2026-06-07T15:12:37.627660+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-03",
-      "last_commit": "2acdaec98a24501b177cd1ec6577079b11141bfd",
-      "next_task": "implement #20 (Change Planner integration \u2014 write salary-formula:pendingChangeRecord localStorage key on scenario save with shape {scenarioName, factors, currency, savedAt}; pre-fills Change Planner new-change form via that key)",
+      "last_run": "2026-06-07",
+      "last_commit": "e9e1033563cb26a27a3607ef33a4dd1b24bfb114",
+      "next_task": "implement Change Planner side of #20 in change-planner repo (on mount: read salary-formula:pendingChangeRecord, show banner with [Create change record] button, pre-fill new initiative title from record.title, clear key after user confirms)",
       "blockers": []
     },
     "team-identity": {
