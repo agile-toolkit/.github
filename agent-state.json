@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-08T05:12:39.615886Z",
-  "lock": null,
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-06-08T10:07:41.762245Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
