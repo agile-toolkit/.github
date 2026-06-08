@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-08T05:12:39.615886Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-08T10:07:41.762245Z"
-  },
+  "updated": "2026-06-08T10:14:04.117426Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-05",
-      "last_commit": "a5ed5dd2fc10a49b0e086a1d419acf7a978f2d01",
-      "next_task": "check issues for human feedback; implement next approved item among #14 (reveal animation), #5 (voting timer), #7 (keyboard accessibility)",
+      "last_run": "2026-06-08",
+      "last_commit": "567f1c8f5eeff0a78dcbcd4d5ab1286f40559614",
+      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer \u2014 per-round countdown with auto-reveal), #7 (keyboard accessibility \u2014 aria-pressed, focus management, keyboard shortcuts)",
       "blockers": []
     },
     "sprint-metrics": {
