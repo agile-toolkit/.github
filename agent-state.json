@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-07T20:12:18.303516+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-06-08T00:11:15.430Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -13,14 +16,14 @@
       "status": "stable",
       "last_run": "2026-06-07",
       "last_commit": "6a847ecfc3b7f1bb8985cbe598a96b6c25613bb4",
-      "next_task": "check issues for human feedback; implement #34 (named session storage \u2014 \"Save as...\" button in ResultsView, label field on sessionHistory entries, history cap increase, Restore button re-populates ranking board)",
+      "next_task": "check issues for human feedback; implement #34 (named session storage — \"Save as...\" button in ResultsView, label field on sessionHistory entries, history cap increase, Restore button re-populates ranking board)",
       "blockers": []
     },
     "scrum-facilitator": {
       "status": "stable",
       "last_run": "2026-06-07",
       "last_commit": "cb3f85dc2a486a6d18f0d9dab6111c85eb4ffd85",
-      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator \u2014 add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
+      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator — add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
       "blockers": []
     },
     "kanban-designer": {
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-06-03",
       "last_commit": "02f879fe7560e95dac1958bdf2dad6a69dbd6ed8",
-      "next_task": "implement #14 (Sprint cycle reset \u2014 archive done items with sprint summary; add \"End Sprint\" button in Board view, archive done items to localStorage key improvement-board:sprintHistory, show sprint count badge, clear done column, i18n keys in EN/ES/BE/RU)",
+      "next_task": "implement #14 (Sprint cycle reset — archive done items with sprint summary; add \"End Sprint\" button in Board view, archive done items to localStorage key improvement-board:sprintHistory, show sprint count badge, clear done column, i18n keys in EN/ES/BE/RU)",
       "blockers": []
     },
     "work-profiles": {
