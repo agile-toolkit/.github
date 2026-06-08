@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-08T10:14:04.117426Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-08T15:09:57.851124Z"
-  },
+  "updated": "2026-06-08T15:17:59.270386Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-06-06",
-      "last_commit": "5a9b0dacfd7e120ca8bf427308f421a6a8b49f20",
-      "next_task": "check issues for human feedback; if any approved, implement next one",
+      "last_run": "2026-06-08",
+      "last_commit": "56e8e6a207b83722f23fc3283e45e17432f7380a",
+      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales)",
       "blockers": []
     },
     "change-planner": {
