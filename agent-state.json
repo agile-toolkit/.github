@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-08T00:16:36.515Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-08T05:08:15.619339Z"
-  },
+  "updated": "2026-06-08T05:12:39.615886Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-06-04",
-      "last_commit": "9b8d6e9",
-      "next_task": "check issues for human feedback; if #4 (skill gap analysis) or #5 (CSV export) or #27 (profile comparison) or #28 (skill history) or #29 (availability/timezone) approved, implement the first one",
+      "last_run": "2026-06-08",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; if #4 (skill gap analysis) or #5 (CSV export) approved, implement #4 first (Phase 1 filter bar in ProfilesView + Phase 2 Gap Analysis screen with /gap-analysis nav item); if none approved, auto-approve #27-#29 after 2026-06-11",
       "blockers": []
     },
     "planning-poker": {
