@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-09T05:17:23.109009+00:00",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-09T10:08:13.224Z"
-  },
+  "updated": "2026-06-09T10:14:03.837Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-06-07",
-      "last_commit": "cb3f85dc2a486a6d18f0d9dab6111c85eb4ffd85",
-      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator — add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
+      "last_run": "2026-06-09",
+      "last_commit": "753c7f3c189f27f50c10bc707f1ff5bcc3ab18df",
+      "next_task": "check issues for human feedback; implement dashboard card for scrum-facilitator in agile-toolkit.github.io (issue #15 — add readScrumFacilitator() reader + card that reads scrum-facilitator-session: {ceremonyType, currentStepId, stepIndex, totalSteps, participantCount, retroNotesCount, teamName, savedAt} and scrum-facilitator-history array)",
       "blockers": []
     },
     "kanban-designer": {
