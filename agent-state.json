@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-09T05:17:23.109009+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-06-09T10:08:13.224Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -20,7 +23,7 @@
       "status": "stable",
       "last_run": "2026-06-07",
       "last_commit": "cb3f85dc2a486a6d18f0d9dab6111c85eb4ffd85",
-      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator \u2014 add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
+      "next_task": "check issues for human feedback; implement #15 (Dashboard card for scrum-facilitator — add readScrumFacilitator() reader and card to agile-toolkit.github.io that shows active ceremony + team name from scrum-facilitator-session and last ceremony from scrum-facilitator-history)",
       "blockers": []
     },
     "kanban-designer": {
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "b871f791c81c4d8dd7405a00d38f29bf0693c61f",
-      "next_task": "check issues for human feedback; implement #15 (item comment thread in Dialogue view \u2014 async team notes with timestamps on improvement items; add comments array to ImprovementItem in types.ts, textarea+submit UI in DialogueView, i18n keys in EN/ES/BE/RU)",
+      "next_task": "check issues for human feedback; implement #15 (item comment thread in Dialogue view — async team notes with timestamps on improvement items; add comments array to ImprovementItem in types.ts, textarea+submit UI in DialogueView, i18n keys in EN/ES/BE/RU)",
       "blockers": []
     },
     "work-profiles": {
@@ -62,14 +65,14 @@
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "567f1c8f5eeff0a78dcbcd4d5ab1286f40559614",
-      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer \u2014 per-round countdown with auto-reveal), #7 (keyboard accessibility \u2014 aria-pressed, focus management, keyboard shortcuts)",
+      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer — per-round countdown with auto-reveal), #7 (keyboard accessibility — aria-pressed, focus management, keyboard shortcuts)",
       "blockers": []
     },
     "sprint-metrics": {
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "56e8e6a207b83722f23fc3283e45e17432f7380a",
-      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
+      "next_task": "implement #28 (Sprint retrospective notes field — add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
       "blockers": []
     },
     "change-planner": {
@@ -83,7 +86,7 @@
       "status": "stable",
       "last_run": "2026-06-09",
       "last_commit": "28686e95dfa610da0d13c27202b169920e15782b",
-      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx \u2014 split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
+      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx — split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
       "blockers": []
     }
   },
