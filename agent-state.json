@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-09T00:16:20.286092+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-06-09T05:08:21.004628+00:00"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
