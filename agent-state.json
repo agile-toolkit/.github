@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-09T15:15:49.134Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-09T20:09:49.100072Z"
-  },
+  "updated": "2026-06-09T20:14:04.126901Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-07",
-      "last_commit": "e9e1033563cb26a27a3607ef33a4dd1b24bfb114",
-      "next_task": "implement Change Planner side of #20 in change-planner repo (on mount: read salary-formula:pendingChangeRecord, show banner with [Create change record] button, pre-fill new initiative title from record.title, clear key after user confirms)",
+      "last_run": "2026-06-09",
+      "last_commit": "9ca4173",
+      "next_task": "check issues for human feedback; implement next approved item among #5 (keyboard navigation/accessibility audit for factor sliders \u2014 aria-pressed, role=slider, keyboard-only focus rings), #12 (factor contribution breakdown chart \u2014 pure-CSS progress bars in SalaryCalculator.tsx), #13 (Team Identity import \u2014 read team-identity:charter localStorage), #14 (formula review date reminder \u2014 banner after 180 days)",
       "blockers": []
     },
     "team-identity": {
