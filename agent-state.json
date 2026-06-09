@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-09T10:14:03.837Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-09T15:10:20.862Z"
-  },
+  "updated": "2026-06-09T15:15:49.134Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-06-07",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; if any of #31 (undo/redo), #32 (card due dates), #33 (column collapse) approved, implement first one",
+      "last_run": "2026-06-09",
+      "last_commit": "5014a80d5b338f36342d3273eeb6d78e6b412d9e",
+      "next_task": "check issues for human feedback; if #32 (card due dates) or #33 (column collapse) approved, implement #32 first (dueDate?: string on KanbanCard; date input in inline edit; badge with gray/amber/red states based on days until/past deadline)",
       "blockers": []
     },
     "salary-formula": {
