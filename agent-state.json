@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-08T20:11:23.600316Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-06-09T00:10:55.754183+00:00"
-  },
+  "updated": "2026-06-09T00:16:20.286092+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -72,7 +69,7 @@
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "56e8e6a207b83722f23fc3283e45e17432f7380a",
-      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales)",
+      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
       "blockers": []
     },
     "change-planner": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-06-06",
-      "last_commit": "3a745f6378aadd72927195bb1d00b67a1cc219b2",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-06-09",
+      "last_commit": "28686e95dfa610da0d13c27202b169920e15782b",
+      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx \u2014 split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
       "blockers": []
     }
   },
