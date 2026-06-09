@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-09T00:16:20.286092+00:00",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-09T05:08:21.004628+00:00"
-  },
+  "updated": "2026-06-09T05:17:23.109009+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-06-07",
-      "last_commit": "6a847ecfc3b7f1bb8985cbe598a96b6c25613bb4",
-      "next_task": "check issues for human feedback; implement #34 (named session storage \u2014 \"Save as...\" button in ResultsView, label field on sessionHistory entries, history cap increase, Restore button re-populates ranking board)",
+      "last_run": "2026-06-09",
+      "last_commit": "e218cf445b62441c3e6f2ff6cd123fb00dbb01cd",
+      "next_task": "check issues for human feedback; implement next approved item among #12 (PWA offline), #11 (QR sharing), #10 (Work Profiles integration)",
       "blockers": []
     },
     "scrum-facilitator": {
