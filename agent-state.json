@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-09T20:14:04.126901Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-10T00:12:00.956295Z"
-  },
+  "updated": "2026-06-10T00:14:18.114374Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -41,10 +38,10 @@
       "blockers": []
     },
     "team-identity": {
-      "status": "stable",
-      "last_run": "2026-06-07",
-      "last_commit": "1d8a2f784776d9ddd58a1ce69d857c3d038c1c55",
-      "next_task": "check issues for human feedback; implement next approved item among #7 (URL hash sharing), #12 (keyboard accessibility), #19 (facilitator display mode), #26 (multi-team support)",
+      "status": "in-progress",
+      "last_run": "2026-06-10",
+      "last_commit": "56e5691",
+      "next_task": "implement #7 \u2014 add Share button on charter step; base64-encode charter JSON to location.hash; copy URL to clipboard; show \"Link copied!\" toast (auto-dismiss 2s); on app load decode hash and hydrate charter state, jumping to charter step if valid; open in editable (not read-only) mode; URL-only no QR library; keep existing localStorage path unchanged; i18n keys charter.share_url/share_copied in EN/ES/BE/RU",
       "blockers": []
     },
     "improvement-board": {
