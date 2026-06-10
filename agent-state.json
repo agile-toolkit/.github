@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-10T11:16:14.999069Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-10T15:11:02.864Z"
-  },
+  "updated": "2026-06-10T15:27:21.942Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-06-08",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; if #4 (skill gap analysis) or #5 (CSV export) approved, implement #4 first (Phase 1 filter bar in ProfilesView + Phase 2 Gap Analysis screen with /gap-analysis nav item); if none approved, auto-approve #27-#29 after 2026-06-11",
+      "last_run": "2026-06-10",
+      "last_commit": "035f168",
+      "next_task": "close test issues #33 and #34 (body=test, created accidentally); create 3 research issues: (1) skill category tagging on Skill interface — category?: string, predefined list, GroupByCategory toggle in SkillMatrix, category pill filter, expose in wp-profiles-export; (2) Salary Formula integration — Import from Work Profiles button reads wp-profiles-export to pre-fill team member names/roles; (3) print-optimized individual profile card — Print button in ProfileCard, #print-target div, @media print CSS A4 layout; add all to project Backlog; also auto-approve #27-#29 (7-day threshold reached 2026-06-11)",
       "blockers": []
     },
     "planning-poker": {
