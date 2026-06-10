@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-10T05:12:09.952938Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-10T11:10:29.625375Z"
-  },
+  "updated": "2026-06-10T11:16:14.999069Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-08",
-      "last_commit": "b871f791c81c4d8dd7405a00d38f29bf0693c61f",
-      "next_task": "check issues for human feedback; implement #15 (item comment thread in Dialogue view \u2014 async team notes with timestamps on improvement items; add comments array to ImprovementItem in types.ts, textarea+submit UI in DialogueView, i18n keys in EN/ES/BE/RU)",
+      "last_run": "2026-06-10",
+      "last_commit": "a6abb9b875348bccebc1fa0dbfc08bc64feae849",
+      "next_task": "check issues for human feedback; implement #8 (team priority voting on improvement items \u2014 upvote/downvote on cards in Board/Kanban views, vote count badge, sort-by-votes option, persist votes array in ImprovementItem) if approved, else #16 (PWA offline mode via vite-plugin-pwa)",
       "blockers": []
     },
     "work-profiles": {
