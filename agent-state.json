@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-11T15:17:43.595776+00:00",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-11T15:21:36+00:00"
-  },
+  "updated": "2026-06-11T15:30:00+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -71,8 +68,8 @@
     "sprint-metrics": {
       "status": "in-progress",
       "last_run": "2026-06-11",
-      "last_commit": "3e7e43c62803cd05510793602a0cf33dbca42379",
-      "next_task": "implement #28 (Sprint retrospective notes field \u2014 retrospective?: string in SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables; CSV column; data.retrospective i18n key in all 4 locales)",
+      "last_commit": "92d955feb446ecda286f1dc54507436493c2011f",
+      "next_task": "implement #30 (Work Profiles team size auto-fill \u2014 read work-profiles:savedProfiles on mount; pre-fill teamSize input with profile count; hint \"Based on N Work Profiles\"; integration.teamSizeFromProfiles i18n key all 4 locales)",
       "blockers": []
     },
     "change-planner": {
