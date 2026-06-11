@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-11T05:14:44.986053Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-11T13:45:18.316467+00:00"
-  },
+  "updated": "2026-06-11T13:49:44.299329+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-06-08",
-      "last_commit": "56e8e6a207b83722f23fc3283e45e17432f7380a",
-      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
+      "status": "in-progress",
+      "last_run": "2026-06-11",
+      "last_commit": null,
+      "next_task": "implement #32 (Guided empty state \u2014 replace sprints.length === 0 blank card in App.tsx with heading \"Track your team's velocity\" + subtitle + 3-step indicator (configure project / add first sprint / watch trends) + \"Add First Sprint\" primary CTA + \"Load sample data\" secondary; 6 i18n keys: dashboard.empty_heading, dashboard.empty_subtitle, dashboard.empty_step1, dashboard.empty_step2, dashboard.empty_step3, dashboard.add_first_sprint in all 4 locales; touch App.tsx + i18n/{en,es,be,ru}.json only; no new deps)",
       "blockers": []
     },
     "change-planner": {
