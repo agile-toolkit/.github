@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-10T15:27:21.942Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-11T05:08:38.105778Z"
-  },
+  "updated": "2026-06-11T05:14:44.986053Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-08",
-      "last_commit": "567f1c8f5eeff0a78dcbcd4d5ab1286f40559614",
-      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer \u2014 per-round countdown with auto-reveal), #7 (keyboard accessibility \u2014 aria-pressed, focus management, keyboard shortcuts)",
+      "last_run": "2026-06-11",
+      "last_commit": "f1e31475a132b66410f2650f6496d817269f5fc2",
+      "next_task": "implement #7 (keyboard accessibility: aria-pressed on card buttons, focus-visible ring for keyboard-only, focus to first card on story transition, keyboard shortcut Enter=reveal/arrow-right=next-story/R=reset-votes, aria-label on x remove buttons, ? key opens shortcut legend overlay)",
       "blockers": []
     },
     "sprint-metrics": {
