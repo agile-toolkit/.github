@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-10T15:27:21.942Z",
-  "lock": null,
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-06-11T05:08:38.105778Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "team-identity",
@@ -20,7 +23,7 @@
       "status": "stable",
       "last_run": "2026-06-09",
       "last_commit": "753c7f3c189f27f50c10bc707f1ff5bcc3ab18df",
-      "next_task": "check issues for human feedback; implement dashboard card for scrum-facilitator in agile-toolkit.github.io (issue #15 — add readScrumFacilitator() reader + card that reads scrum-facilitator-session: {ceremonyType, currentStepId, stepIndex, totalSteps, participantCount, retroNotesCount, teamName, savedAt} and scrum-facilitator-history array)",
+      "next_task": "check issues for human feedback; implement dashboard card for scrum-facilitator in agile-toolkit.github.io (issue #15 \u2014 add readScrumFacilitator() reader + card that reads scrum-facilitator-session: {ceremonyType, currentStepId, stepIndex, totalSteps, participantCount, retroNotesCount, teamName, savedAt} and scrum-facilitator-history array)",
       "blockers": []
     },
     "kanban-designer": {
@@ -34,42 +37,42 @@
       "status": "stable",
       "last_run": "2026-06-09",
       "last_commit": "9ca4173",
-      "next_task": "check issues for human feedback; implement next approved item among #5 (keyboard navigation/accessibility audit for factor sliders — aria-pressed, role=slider, keyboard-only focus rings), #12 (factor contribution breakdown chart — pure-CSS progress bars in SalaryCalculator.tsx), #13 (Team Identity import — read team-identity:charter localStorage), #14 (formula review date reminder — banner after 180 days)",
+      "next_task": "check issues for human feedback; implement next approved item among #5 (keyboard navigation/accessibility audit for factor sliders \u2014 aria-pressed, role=slider, keyboard-only focus rings), #12 (factor contribution breakdown chart \u2014 pure-CSS progress bars in SalaryCalculator.tsx), #13 (Team Identity import \u2014 read team-identity:charter localStorage), #14 (formula review date reminder \u2014 banner after 180 days)",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-06-10",
       "last_commit": "9829d7d891080edce71893b5c8ebfea16953c17c",
-      "next_task": "check issues for human feedback; implement #11 (print-optimized @media print CSS — hide nav/buttons, white charter background) or #12 (keyboard accessibility for symbol grid and values) if approved",
+      "next_task": "check issues for human feedback; implement #11 (print-optimized @media print CSS \u2014 hide nav/buttons, white charter background) or #12 (keyboard accessibility for symbol grid and values) if approved",
       "blockers": []
     },
     "improvement-board": {
       "status": "stable",
       "last_run": "2026-06-10",
       "last_commit": "a6abb9b875348bccebc1fa0dbfc08bc64feae849",
-      "next_task": "check issues for human feedback; implement #8 (team priority voting on improvement items — upvote/downvote on cards in Board/Kanban views, vote count badge, sort-by-votes option, persist votes array in ImprovementItem) if approved, else #16 (PWA offline mode via vite-plugin-pwa)",
+      "next_task": "check issues for human feedback; implement #8 (team priority voting on improvement items \u2014 upvote/downvote on cards in Board/Kanban views, vote count badge, sort-by-votes option, persist votes array in ImprovementItem) if approved, else #16 (PWA offline mode via vite-plugin-pwa)",
       "blockers": []
     },
     "work-profiles": {
       "status": "stable",
       "last_run": "2026-06-10",
       "last_commit": "035f168",
-      "next_task": "close test issues #33 and #34 (body=test, created accidentally); create 3 research issues: (1) skill category tagging on Skill interface — category?: string, predefined list, GroupByCategory toggle in SkillMatrix, category pill filter, expose in wp-profiles-export; (2) Salary Formula integration — Import from Work Profiles button reads wp-profiles-export to pre-fill team member names/roles; (3) print-optimized individual profile card — Print button in ProfileCard, #print-target div, @media print CSS A4 layout; add all to project Backlog; also auto-approve #27-#29 (7-day threshold reached 2026-06-11)",
+      "next_task": "close test issues #33 and #34 (body=test, created accidentally); create 3 research issues: (1) skill category tagging on Skill interface \u2014 category?: string, predefined list, GroupByCategory toggle in SkillMatrix, category pill filter, expose in wp-profiles-export; (2) Salary Formula integration \u2014 Import from Work Profiles button reads wp-profiles-export to pre-fill team member names/roles; (3) print-optimized individual profile card \u2014 Print button in ProfileCard, #print-target div, @media print CSS A4 layout; add all to project Backlog; also auto-approve #27-#29 (7-day threshold reached 2026-06-11)",
       "blockers": []
     },
     "planning-poker": {
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "567f1c8f5eeff0a78dcbcd4d5ab1286f40559614",
-      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer — per-round countdown with auto-reveal), #7 (keyboard accessibility — aria-pressed, focus management, keyboard shortcuts)",
+      "next_task": "check issues for human feedback; implement next approved item among #5 (voting timer \u2014 per-round countdown with auto-reveal), #7 (keyboard accessibility \u2014 aria-pressed, focus management, keyboard shortcuts)",
       "blockers": []
     },
     "sprint-metrics": {
       "status": "stable",
       "last_run": "2026-06-08",
       "last_commit": "56e8e6a207b83722f23fc3283e45e17432f7380a",
-      "next_task": "implement #28 (Sprint retrospective notes field — add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
+      "next_task": "implement #28 (Sprint retrospective notes field \u2014 add retrospective?: string to SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables truncated to 80 chars; Retrospective column in CSV; print view paragraph; data.retrospective i18n key in all 4 locales); then implement sprint-metrics side of Dashboard #8 (write sprint-metrics:lastSession key on every save: {teamName, sprintCount, lastVelocity, avgVelocity, trend: up|stable|down, updatedAt})",
       "blockers": []
     },
     "change-planner": {
@@ -83,7 +86,7 @@
       "status": "stable",
       "last_run": "2026-06-09",
       "last_commit": "28686e95dfa610da0d13c27202b169920e15782b",
-      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx — split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
+      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx \u2014 split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
       "blockers": []
     }
   },
