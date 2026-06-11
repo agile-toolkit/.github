@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-11T13:49:44.299329+00:00",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-11T15:10:39.180946+00:00"
-  },
+  "updated": "2026-06-11T15:17:43.595776+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "team-identity",
+    "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
     "stable": "sprint-metrics"
@@ -71,8 +68,8 @@
     "sprint-metrics": {
       "status": "in-progress",
       "last_run": "2026-06-11",
-      "last_commit": null,
-      "next_task": "implement #32 (Guided empty state \u2014 replace sprints.length === 0 blank card in App.tsx with heading \"Track your team's velocity\" + subtitle + 3-step indicator (configure project / add first sprint / watch trends) + \"Add First Sprint\" primary CTA + \"Load sample data\" secondary; 6 i18n keys: dashboard.empty_heading, dashboard.empty_subtitle, dashboard.empty_step1, dashboard.empty_step2, dashboard.empty_step3, dashboard.add_first_sprint in all 4 locales; touch App.tsx + i18n/{en,es,be,ru}.json only; no new deps)",
+      "last_commit": "3e7e43c62803cd05510793602a0cf33dbca42379",
+      "next_task": "implement #28 (Sprint retrospective notes field \u2014 retrospective?: string in SprintData; textarea in SprintDataTable and SprintDataView add-sprint forms; italic secondary row in tables; CSV column; data.retrospective i18n key in all 4 locales)",
       "blockers": []
     },
     "change-planner": {
