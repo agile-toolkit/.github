@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-11T15:30:00+00:00",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-12T03:36:58.333926Z"
-  },
+  "updated": "2026-06-12T03:41:35.435350Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "in-progress",
-      "last_run": "2026-06-11",
-      "last_commit": "92d955feb446ecda286f1dc54507436493c2011f",
-      "next_task": "implement #30 (Work Profiles team size auto-fill \u2014 read work-profiles:savedProfiles on mount; pre-fill teamSize input with profile count; hint \"Based on N Work Profiles\"; integration.teamSizeFromProfiles i18n key all 4 locales)",
+      "last_run": "2026-06-12",
+      "last_commit": "2e3a1d626328",
+      "next_task": "implement #31 (Sprint milestone/event annotations \u2014 milestone?: string in SprintData; optional input in both forms; ReferenceLines on VelocityChart and BurnUpChart; pill badge in table rows; milestone column in CSV export; data.milestone i18n key all 4 locales)",
       "blockers": []
     },
     "change-planner": {
