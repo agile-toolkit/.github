@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-12T10:11:43.254146Z",
-  "lock": null,
+  "lock": {
+    "repo": "change-planner",
+    "started_at": "2026-06-12T10:46:00.999287Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
