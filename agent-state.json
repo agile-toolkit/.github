@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-12T03:41:35.435350Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-12T05:07:14.372472Z"
-  },
+  "updated": "2026-06-12T05:12:16.455900Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -71,8 +68,8 @@
     "sprint-metrics": {
       "status": "in-progress",
       "last_run": "2026-06-12",
-      "last_commit": "2e3a1d626328",
-      "next_task": "implement #31 (Sprint milestone/event annotations \u2014 milestone?: string in SprintData; optional input in both forms; ReferenceLines on VelocityChart and BurnUpChart; pill badge in table rows; milestone column in CSV export; data.milestone i18n key all 4 locales)",
+      "last_commit": "6dcbd4d",
+      "next_task": "check issues for human feedback; if #29 (PWA offline via vite-plugin-pwa) approved, implement it; else run research cycle",
       "blockers": []
     },
     "change-planner": {
