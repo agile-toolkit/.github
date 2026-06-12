@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-12T05:12:16.455900Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-12T10:07:22.385147Z"
-  },
+  "updated": "2026-06-12T10:11:43.254146Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
@@ -69,10 +66,10 @@
       "blockers": []
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-12",
-      "last_commit": "6dcbd4d",
-      "next_task": "check issues for human feedback; if #29 (PWA offline via vite-plugin-pwa) approved, implement it; else run research cycle",
+      "last_commit": "a60efd5044d9589810a4d900b48c476c81b24639",
+      "next_task": "check issues for human feedback; implement #32 (guided empty state with onboarding steps) if approved; else research cycle",
       "blockers": []
     },
     "change-planner": {
