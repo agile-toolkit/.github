@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-13T10:11:09.012Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-13T15:06:44.388450Z"
-  },
+  "updated": "2026-06-13T15:11:45.660703Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-06-09",
-      "last_commit": "5014a80d5b338f36342d3273eeb6d78e6b412d9e",
-      "next_task": "check issues for human feedback; if #32 (card due dates) or #33 (column collapse) approved, implement #32 first (dueDate?: string on KanbanCard; date input in inline edit; badge with gray/amber/red states based on days until/past deadline)",
+      "last_run": "2026-06-13",
+      "last_commit": "690b3a61d9ca9414a897672f0aea30596582d816",
+      "next_task": "check issues for human feedback; if #33 (column collapse) approved, implement it (collapsed?: boolean on KanbanColumn; chevron toggle in column header in ColumnCard.tsx; narrow strip showing column name + card count badge when collapsed; DnD still works on collapsed columns; designer.collapse_column/expand_column i18n keys); else research cycle",
       "blockers": []
     },
     "salary-formula": {
