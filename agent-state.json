@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-13T01:16:54.458Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-13T05:06:35.165387Z"
-  },
+  "updated": "2026-06-13T05:13:26.498981Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-06-09",
-      "last_commit": "e218cf445b62441c3e6f2ff6cd123fb00dbb01cd",
-      "next_task": "check issues for human feedback; implement next approved item among #12 (PWA offline), #11 (QR sharing), #10 (Work Profiles integration)",
+      "last_run": "2026-06-13",
+      "last_commit": "de3cdb862c70489d3cab1e49ef6ad361f52770e2",
+      "next_task": "check issues for human feedback; implement #11 (QR code sharing for team sessions \u2014 qrcode.react or qrjs2 library, QR code overlay in team lobby showing join URL with PIN pre-filled, visible to host)",
       "blockers": []
     },
     "scrum-facilitator": {
