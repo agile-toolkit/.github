@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-12T15:13:00Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-06-13T01:13:48.960Z"
-  },
+  "updated": "2026-06-13T01:16:54.458Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-06-09",
-      "last_commit": "28686e95dfa610da0d13c27202b169920e15782b",
-      "next_task": "implement #9 (sort Dashboard cards by recency in App.tsx — split readAll() output into active/unused buckets, sort active by timestamp descending, render active first then unused, add Sorted by recent activity hint text when at least one app is active)",
+      "last_run": "2026-06-13",
+      "last_commit": "bbbfd53d4a98bde8f99855256933b1630cff737f",
+      "next_task": "check issues for human feedback; implement #8 (Sprint Metrics dashboard card) once sprint-metrics writes sprint-metrics:lastSession key",
       "blockers": []
     }
   },
