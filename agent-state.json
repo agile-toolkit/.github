@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-13T15:11:45.660703Z",
-  "lock": null,
+  "lock": {
+    "repo": "salary-formula",
+    "started_at": "2026-06-13T20:06:35.779275Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
