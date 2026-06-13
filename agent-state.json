@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-13T15:11:45.660703Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-13T20:06:35.779275Z"
-  },
+  "updated": "2026-06-13T20:11:47.184174Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-09",
-      "last_commit": "9ca4173",
-      "next_task": "check issues for human feedback; implement next approved item among #5 (keyboard navigation/accessibility audit for factor sliders \u2014 aria-pressed, role=slider, keyboard-only focus rings), #12 (factor contribution breakdown chart \u2014 pure-CSS progress bars in SalaryCalculator.tsx), #13 (Team Identity import \u2014 read team-identity:charter localStorage), #14 (formula review date reminder \u2014 banner after 180 days)",
+      "last_run": "2026-06-13",
+      "last_commit": "703fa563b0ce333b516ab7bd9a8159999d073804",
+      "next_task": "check issues for human feedback; implement #12 (factor contribution breakdown chart \u2014 pure-CSS progress bars per factor in SalaryCalculator.tsx showing each factor's % of total multiplier product, factor label + %, updates reactively with sliders; calculator.breakdown_title i18n key in all 4 locales)",
       "blockers": []
     },
     "team-identity": {
