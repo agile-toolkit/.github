@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-13T05:13:26.498981Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-13T10:06:43.968Z"
-  },
+  "updated": "2026-06-13T10:11:09.012Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-06-09",
-      "last_commit": "753c7f3c189f27f50c10bc707f1ff5bcc3ab18df",
-      "next_task": "check issues for human feedback; implement dashboard card for scrum-facilitator in agile-toolkit.github.io (issue #15 — add readScrumFacilitator() reader + card that reads scrum-facilitator-session: {ceremonyType, currentStepId, stepIndex, totalSteps, participantCount, retroNotesCount, teamName, savedAt} and scrum-facilitator-history array)",
+      "last_run": "2026-06-13",
+      "last_commit": "37a53a5",
+      "next_task": "check issues for human feedback; if #30-#32 approved, implement #32 first (targeted a11y fixes: aria-label on sticky note delete buttons, aria-expanded on StickyColumn accordion, sr-only aria-live region in CountdownTimer); else continue research cycle",
       "blockers": []
     },
     "kanban-designer": {
