@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-13T20:11:47.184174Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-14T01:11:15.947144Z"
-  },
+  "updated": "2026-06-14T01:16:41.284482Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-10",
-      "last_commit": "9829d7d891080edce71893b5c8ebfea16953c17c",
-      "next_task": "check issues for human feedback; implement #11 (print-optimized @media print CSS \u2014 hide nav/buttons, white charter background) or #12 (keyboard accessibility for symbol grid and values) if approved",
+      "last_run": "2026-06-14",
+      "last_commit": "5cd447401593019c060e56500ac4bc3c2a407bbf",
+      "next_task": "check issues for human feedback; implement #19 (facilitator/projector display mode \u2014 sessionStorage-persisted CSS class toggle on body for larger text+cards in in-person workshops) or #26 (multi-team support \u2014 charter library in team-identity:charters, My Teams screen, Load/Delete/Rename actions) if approved",
       "blockers": []
     },
     "improvement-board": {
