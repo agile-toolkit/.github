@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-14T15:13:21.460621Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-14T20:06:32.413958Z"
-  },
+  "updated": "2026-06-14T20:13:02.351289Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -57,8 +54,8 @@
     "work-profiles": {
       "status": "in-progress",
       "last_run": "2026-06-14",
-      "last_commit": "675ff71",
-      "next_task": "check issues for human feedback; implement #28 (skill progression history -- Skill interface gets optional history: {date: string, proficiency: ProficiencyLevel}[]; edit form shows Record change link; SkillMatrix gets delta column showing last change arrow + delta level)",
+      "last_commit": "47a9741fdf9a7d08c71df6f6c7a9d4c909af66a8",
+      "next_task": "check issues for human feedback; implement #29 (availability windows and timezone per profile \u2014 add timezone?: string (IANA) + workingHours?: {start: string, end: string} + oooUntil?: string to WorkProfile; timezone select in ProfileForm using Intl.supportedValuesOf(\"timeZone\"); OOO date input; surfaced in ProfileCard as timezone + OOO badge; new column in SkillMatrix showing TZ abbreviation; include in wp-profiles-export payload)",
       "blockers": []
     },
     "planning-poker": {
