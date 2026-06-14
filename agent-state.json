@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-14T05:12:23.597558Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-14T10:06:58.590663Z"
-  },
+  "updated": "2026-06-14T10:13:05.176777Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
-      "last_run": "2026-06-10",
-      "last_commit": "035f168",
-      "next_task": "close test issues #33 and #34 (body=test, created accidentally); create 3 research issues: (1) skill category tagging on Skill interface \u2014 category?: string, predefined list, GroupByCategory toggle in SkillMatrix, category pill filter, expose in wp-profiles-export; (2) Salary Formula integration \u2014 Import from Work Profiles button reads wp-profiles-export to pre-fill team member names/roles; (3) print-optimized individual profile card \u2014 Print button in ProfileCard, #print-target div, @media print CSS A4 layout; add all to project Backlog; also auto-approve #27-#29 (7-day threshold reached 2026-06-11)",
+      "status": "in-progress",
+      "last_run": "2026-06-14",
+      "last_commit": "6a51f40c80d9b95e96a831d66687af6a6e9ce2d9",
+      "next_task": "implement #27 \u2014 profile comparison view: ProfilesView gets multi-select checkboxes (max 4); \"Compare\" button appears when 2+ selected; CompareView.tsx shows side-by-side table (columns = profiles, rows = skill names); cells show proficiency number + Dreyfus label, colour-coded (green >= 4, amber 2-3, red <= 1, grey = not present); skills union across selected profiles; i18n key profiles.compare_button, compare.title, compare.not_present in all 4 locales",
       "blockers": []
     },
     "planning-poker": {
