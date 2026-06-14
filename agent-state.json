@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-14T01:16:41.284482Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-14T05:06:46.523851Z"
-  },
+  "updated": "2026-06-14T05:12:23.597558Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-10",
-      "last_commit": "a6abb9b875348bccebc1fa0dbfc08bc64feae849",
-      "next_task": "check issues for human feedback; implement #8 (team priority voting on improvement items \u2014 upvote/downvote on cards in Board/Kanban views, vote count badge, sort-by-votes option, persist votes array in ImprovementItem) if approved, else #16 (PWA offline mode via vite-plugin-pwa)",
+      "last_run": "2026-06-14",
+      "last_commit": "1cc620ed0bb635b525f7a179263cf093c8e96bb2",
+      "next_task": "check issues for human feedback; implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest, update banner) or #17 (Promote to Change Planner deep-link \u2014 icon button on ImprovementCard, builds URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, opens new tab) or #19 (header unification \u2014 AppHeader + LanguagePicker components) whichever is highest priority when approved",
       "blockers": []
     },
     "work-profiles": {
