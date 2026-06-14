@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-13T20:11:47.184174Z",
-  "lock": null,
+  "lock": {
+    "repo": "team-identity",
+    "started_at": "2026-06-14T01:11:15.947144Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "sprint-metrics",
