@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-14T10:13:05.176777Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-14T15:06:46.346007Z"
-  },
+  "updated": "2026-06-14T15:13:21.460621Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "sprint-metrics",
+    "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
     "stable": "work-profiles"
@@ -57,8 +54,8 @@
     "work-profiles": {
       "status": "in-progress",
       "last_run": "2026-06-14",
-      "last_commit": "6a51f40c80d9b95e96a831d66687af6a6e9ce2d9",
-      "next_task": "implement #27 \u2014 profile comparison view: ProfilesView gets multi-select checkboxes (max 4); \"Compare\" button appears when 2+ selected; CompareView.tsx shows side-by-side table (columns = profiles, rows = skill names); cells show proficiency number + Dreyfus label, colour-coded (green >= 4, amber 2-3, red <= 1, grey = not present); skills union across selected profiles; i18n key profiles.compare_button, compare.title, compare.not_present in all 4 locales",
+      "last_commit": "675ff71",
+      "next_task": "check issues for human feedback; implement #28 (skill progression history -- Skill interface gets optional history: {date: string, proficiency: ProficiencyLevel}[]; edit form shows Record change link; SkillMatrix gets delta column showing last change arrow + delta level)",
       "blockers": []
     },
     "planning-poker": {
