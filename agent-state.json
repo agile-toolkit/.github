@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-15T00:17:25.055602Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-15T05:08:05.058634Z"
-  },
+  "updated": "2026-06-15T05:16:10.010346Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-11",
-      "last_commit": "f1e31475a132b66410f2650f6496d817269f5fc2",
-      "next_task": "implement #7 (keyboard accessibility: aria-pressed on card buttons, focus-visible ring for keyboard-only, focus to first card on story transition, keyboard shortcut Enter=reveal/arrow-right=next-story/R=reset-votes, aria-label on x remove buttons, ? key opens shortcut legend overlay)",
+      "last_run": "2026-06-15",
+      "last_commit": "f1958bf2504a551ee5d4a3f86fbc120cae2ea132",
+      "next_task": "check issues for human feedback; research cycle for next improvements",
       "blockers": []
     },
     "sprint-metrics": {
