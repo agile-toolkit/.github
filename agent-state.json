@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-15T15:15:48.767713+00:00",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-15T20:08:00.032377Z"
-  },
+  "updated": "2026-06-15T20:13:17.356084Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "work-profiles",
+    "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
     "stable": "change-planner"
@@ -78,8 +75,8 @@
     "change-planner": {
       "status": "in-progress",
       "last_run": "2026-06-15",
-      "last_commit": "d193ee3463333a320b35deda3e20525b8a8af478",
-      "next_task": "implement #39 (action roadmap timeline view \u2014 4th workspace tab between Progress and Learn tabs; group actions by ISO week ascending; each week section shows priority badge+text+owner+facet dot+done/todo toggle; overdue weeks red tint, current week blue ring; undated actions in \"No date\" section at bottom; read-only view; roadmap.tab/no_date/week_of/empty i18n keys in 4 locales; new RoadmapView.tsx ~80 LOC)",
+      "last_commit": "06be88938310a952998d14ea69842e407abf9fdf",
+      "next_task": "implement #40 (Change Planner dashboard card in agile-toolkit.github.io \u2014 reads change-planner-initiatives, shows active count, top initiative name, facet coverage dots, link to app); or #41 (keyboard a11y for Action Tracker \u2014 aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut, focus management after add); check issues for human feedback first",
       "blockers": []
     },
     "agile-toolkit.github.io": {
