@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-15T10:14:40.309210Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-15T15:10:01.630856+00:00"
-  },
+  "updated": "2026-06-15T15:15:48.767713+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "stable",
-      "last_run": "2026-06-12",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; #38\u2013#40 reach 7-day auto-approve threshold on 2026-06-15; if any of #38\u2013#43 approved, implement first in order (#38 URL sharing \u2192 #39 roadmap \u2192 #40 dashboard card \u2192 #41 keyboard a11y \u2192 #42 action filter \u2192 #43 clone initiative)",
+      "status": "in-progress",
+      "last_run": "2026-06-15",
+      "last_commit": "d193ee3463333a320b35deda3e20525b8a8af478",
+      "next_task": "implement #39 (action roadmap timeline view \u2014 4th workspace tab between Progress and Learn tabs; group actions by ISO week ascending; each week section shows priority badge+text+owner+facet dot+done/todo toggle; overdue weeks red tint, current week blue ring; undated actions in \"No date\" section at bottom; read-only view; roadmap.tab/no_date/week_of/empty i18n keys in 4 locales; new RoadmapView.tsx ~80 LOC)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
