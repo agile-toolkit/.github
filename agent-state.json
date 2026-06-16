@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-16T05:11:27.985250+00:00",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-06-16T10:07:53.201488Z"
-  },
+  "updated": "2026-06-16T10:12:28.008133+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -85,8 +82,8 @@
     "agile-toolkit.github.io": {
       "status": "stable",
       "last_run": "2026-06-16",
-      "last_commit": "5fe3679",
-      "next_task": "check issues for human feedback; implement #8 (Sprint Metrics dashboard card) once sprint-metrics writes sprint-metrics:lastSession key",
+      "last_commit": "fcfe7fbf2db42dad258a88fe388d00091b02141a",
+      "next_task": "check issues for human feedback; research cycle for next Dashboard improvements",
       "blockers": []
     }
   },
