@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-16T10:12:28.008133+00:00",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-16T15:09:36.954111Z"
-  },
+  "updated": "2026-06-16T15:18:57.480070+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-06-13",
-      "last_commit": "de3cdb862c70489d3cab1e49ef6ad361f52770e2",
-      "next_task": "check issues for human feedback; implement #11 (QR code sharing for team sessions \u2014 qrcode.react or qrjs2 library, QR code overlay in team lobby showing join URL with PIN pre-filled, visible to host)",
+      "last_run": "2026-06-16",
+      "last_commit": "233b44a343846a79e8d71c0f2bc53a71963f6255",
+      "next_task": "check issues for human feedback; implement #10 (Work Profiles integration \u2014 export motivator snapshot to work-profiles:motivatorSnapshot localStorage key, deep-link to Work Profiles with motivator snapshot encoded as base64 JSON in URL param)",
       "blockers": []
     },
     "scrum-facilitator": {
