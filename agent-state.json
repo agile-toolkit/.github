@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-16T05:08:39.280013+00:00",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-16T05:08:39.279940+00:00"
-  },
+  "updated": "2026-06-16T05:11:27.985250+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -76,10 +73,10 @@
       "blockers": []
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-16",
       "last_commit": "582067d",
-      "next_task": "check #41 (keyboard a11y for ActionTracker \u2014 aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut to open add form, focus ring management after add); #41/#42/#43 reach 7-day auto-approve threshold 2026-06-19; implement #41 when approved",
+      "next_task": "check issues for human feedback; auto-approve #41/#42/#43 on or after 2026-06-19 (Feature, 7-day threshold from 2026-06-12); implement #41 first (aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut to open add form, focus ring management after add); then #42 (filter/search bar), then #43 (duplicate initiative)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
