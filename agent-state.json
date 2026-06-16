@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-16T15:18:57.480070+00:00",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-16T20:06:51.442198+00:00"
-  },
+  "updated": "2026-06-16T20:14:08.194114+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-06-13",
-      "last_commit": "37a53a5",
-      "next_task": "check issues for human feedback; if #30-#32 approved, implement #32 first (targeted a11y fixes: aria-label on sticky note delete buttons, aria-expanded on StickyColumn accordion, sr-only aria-live region in CountdownTimer); else continue research cycle",
+      "last_run": "2026-06-16",
+      "last_commit": "52ae1971d8b77f3d46073656de179a58dd192be7",
+      "next_task": "check issues for human feedback; implement #31 (retro dot voting \u2014 votes field on StickyNote type, toggle vote button on StickyNote.tsx with current count, sort-by-votes toggle in StickyColumn.tsx header, votes persisted in retroNotes session storage naturally)",
       "blockers": []
     },
     "kanban-designer": {
