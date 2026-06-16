@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-15T20:13:17.356084Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-16T00:10:04.283802Z"
-  },
+  "updated": "2026-06-16T00:19:38.701384Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
@@ -77,15 +74,15 @@
     },
     "change-planner": {
       "status": "in-progress",
-      "last_run": "2026-06-15",
-      "last_commit": "06be88938310a952998d14ea69842e407abf9fdf",
-      "next_task": "implement #40 (Change Planner dashboard card in agile-toolkit.github.io \u2014 reads change-planner-initiatives, shows active count, top initiative name, facet coverage dots, link to app); or #41 (keyboard a11y for Action Tracker \u2014 aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut, focus management after add); check issues for human feedback first",
+      "last_run": "2026-06-16",
+      "last_commit": "582067d",
+      "next_task": "check #41 (keyboard a11y for ActionTracker \u2014 aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut to open add form, focus ring management after add); #41/#42/#43 reach 7-day auto-approve threshold 2026-06-19; implement #41 when approved",
       "blockers": []
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-06-13",
-      "last_commit": "bbbfd53d4a98bde8f99855256933b1630cff737f",
+      "last_run": "2026-06-16",
+      "last_commit": "5fe3679",
       "next_task": "check issues for human feedback; implement #8 (Sprint Metrics dashboard card) once sprint-metrics writes sprint-metrics:lastSession key",
       "blockers": []
     }
