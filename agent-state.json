@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-16T20:14:08.194114+00:00",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-17T00:09:33.803465+00:00"
-  },
+  "updated": "2026-06-17T00:19:15.399615+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-06-13",
-      "last_commit": "690b3a61d9ca9414a897672f0aea30596582d816",
-      "next_task": "check issues for human feedback; if #33 (column collapse) approved, implement it (collapsed?: boolean on KanbanColumn; chevron toggle in column header in ColumnCard.tsx; narrow strip showing column name + card count badge when collapsed; DnD still works on collapsed columns; designer.collapse_column/expand_column i18n keys); else research cycle",
+      "last_run": "2026-06-17",
+      "last_commit": "4f18c698ed4aa28b0f5d30991351e2754a00de3b",
+      "next_task": "check issues for human feedback; research cycle for next improvements \u2014 all BRIEF backlog items done",
       "blockers": []
     },
     "salary-formula": {
