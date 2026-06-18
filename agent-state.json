@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-17T00:19:15.399615+00:00",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-18T23:45:41.833468+00:00"
-  },
+  "updated": "2026-06-18T23:51:49.369602+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-13",
-      "last_commit": "703fa563b0ce333b516ab7bd9a8159999d073804",
-      "next_task": "check issues for human feedback; implement #12 (factor contribution breakdown chart \u2014 pure-CSS progress bars per factor in SalaryCalculator.tsx showing each factor's % of total multiplier product, factor label + %, updates reactively with sliders; calculator.breakdown_title i18n key in all 4 locales)",
+      "last_run": "2026-06-18",
+      "last_commit": "071d7f64d908b9d4b640e55f83fe40586ac8aef2",
+      "next_task": "check issues for human feedback; implement #13 (Team Identity import \u2014 read team-identity:charter localStorage key, show Import Team Members button in SalaryCalculator.tsx or ComparisonView.tsx, map charter.members[] as profile name pre-fills with default factor values, comparison.import_team_identity i18n key in 4 locales); also auto-approve #21 (header unification) and #22 (light/dark theme) both \u22657 days old",
       "blockers": []
     },
     "team-identity": {
