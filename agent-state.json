@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-19T00:13:36.761439+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-06-19T05:06:27.536986+00:00"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
