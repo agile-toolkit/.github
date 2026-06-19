@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-19T05:10:54.096517+00:00",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-19T10:06:41.004357Z"
-  },
+  "updated": "2026-06-19T10:10:28.952489Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "change-planner",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-06-15",
-      "last_commit": "4695780",
-      "next_task": "check issues for human feedback; if #35 (skill category tagging), #36 (Salary Formula integration), or #37 (print-optimized profile card) approved, implement first in that order; else research cycle",
+      "last_run": "2026-06-19",
+      "last_commit": "729b11b",
+      "next_task": "check issues for human feedback; implement #32 (peer skill endorsement \u2014 endorsedBy?: string[] on Skill interface in types.ts; +1 button next to each skill chip in ProfileCard.tsx that appends an endorser name selected from a dropdown of profile names; endorsement count badge checkmark N shown when endorsedBy has entries; self-endorsement blocked; stored in work-profiles-data localStorage key; no new key needed)",
       "blockers": []
     },
     "planning-poker": {
