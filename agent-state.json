@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-19T15:09:07.532952Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-19T15:10:00Z"
-  },
+  "updated": "2026-06-19T20:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "change-planner",
+    "in-progress": "planning-poker",
     "scaffolded": null,
     "not-started": null,
     "stable": "planning-poker"
@@ -62,10 +59,10 @@
       "blockers": []
     },
     "planning-poker": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-19",
-      "last_commit": "4736e0a",
-      "next_task": "implement #21 Firebase real-time team sessions \u2014 add src/firebase.ts (isFirebaseConfigured + getFirebaseDb, copy moving-motivators pattern); add src/components/TeamSession.tsx (host creates 4-digit PIN session written to Realtime DB, participants join by PIN, voting phase with hidden votes, host reveals, end writes to sprintMetrics_planningPoker and planning-poker:lastSession localStorage); enable home.start_team CTA when Firebase configured; add team.* i18n keys (host_session, join_session, pin_label, waiting_for_players, start_voting, your_vote, waiting_for_votes, reveal, final_estimate, next_story, end_session) to EN/ES/BE/RU; solo mode unaffected when Firebase not configured",
+      "last_commit": "37cefeb136cd6d424d46dc7656a5985c3b0c99d2",
+      "next_task": "check issues for human feedback; research cycle for next improvements \u2014 all known BRIEF features done",
       "blockers": []
     },
     "sprint-metrics": {
