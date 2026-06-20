@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-20T15:13:22.000Z",
-  "lock": null,
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-06-20T20:06:14Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
