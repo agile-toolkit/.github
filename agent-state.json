@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-20T10:10:31.578Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-20T15:06:29Z"
-  },
+  "updated": "2026-06-20T15:13:22.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "planning-poker",
+    "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
-      "status": "stable",
-      "last_run": "2026-06-16",
-      "last_commit": "233b44a343846a79e8d71c0f2bc53a71963f6255",
-      "next_task": "check issues for human feedback; implement #10 (Work Profiles integration \u2014 export motivator snapshot to work-profiles:motivatorSnapshot localStorage key, deep-link to Work Profiles with motivator snapshot encoded as base64 JSON in URL param)",
+      "status": "in-progress",
+      "last_run": "2026-06-20",
+      "last_commit": "bc6104029c18e6841d214543c5bf3c4d15f6a58f",
+      "next_task": "implement #10 (Work Profiles integration \u2014 in ResultsView.tsx add \"Export to Work Profiles\" button below \"Assess in Change Planner\"; snapshot {date, ranked: MotivatorId[], topMotivators: MotivatorId[3]}; write to localStorage key work-profiles:motivatorSnapshot; encode as base64 JSON in ?motivators= URL param; open https://agile-toolkit.github.io/work-profiles/ in new tab; add results.exportToWorkProfiles i18n key to all 4 locales; solo mode only)",
       "blockers": []
     },
     "scrum-facilitator": {
