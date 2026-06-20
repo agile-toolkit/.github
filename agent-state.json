@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-20T00:11:15Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-20T05:06:31Z"
-  },
+  "updated": "2026-06-20T05:11:20Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "planning-poker",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-06-16",
-      "last_commit": "582067d",
-      "next_task": "check issues for human feedback; auto-approve #41/#42/#43 on or after 2026-06-19 (Feature, 7-day threshold from 2026-06-12); implement #41 first (aria-pressed on priority/facet buttons, aria-expanded on hypothesis toggle, N-key shortcut to open add form, focus ring management after add); then #42 (filter/search bar), then #43 (duplicate initiative)",
+      "last_run": "2026-06-20",
+      "last_commit": "486149667e4fcc28593d2d4854743d01d24c5f92",
+      "next_task": "check issues for human feedback; implement #42 (collapsible filter bar with facet/priority/status toggle chips and text search; active filter count badge; no new dependencies)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
