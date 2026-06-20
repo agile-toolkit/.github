@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-20T05:11:20Z",
-  "lock": null,
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-06-20T10:06:29.018Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "planning-poker",
@@ -13,63 +16,63 @@
       "status": "stable",
       "last_run": "2026-06-16",
       "last_commit": "233b44a343846a79e8d71c0f2bc53a71963f6255",
-      "next_task": "check issues for human feedback; implement #10 (Work Profiles integration \u2014 export motivator snapshot to work-profiles:motivatorSnapshot localStorage key, deep-link to Work Profiles with motivator snapshot encoded as base64 JSON in URL param)",
+      "next_task": "check issues for human feedback; implement #10 (Work Profiles integration — export motivator snapshot to work-profiles:motivatorSnapshot localStorage key, deep-link to Work Profiles with motivator snapshot encoded as base64 JSON in URL param)",
       "blockers": []
     },
     "scrum-facilitator": {
       "status": "stable",
       "last_run": "2026-06-16",
       "last_commit": "52ae1971d8b77f3d46073656de179a58dd192be7",
-      "next_task": "check issues for human feedback; implement #31 (retro dot voting \u2014 votes field on StickyNote type, toggle vote button on StickyNote.tsx with current count, sort-by-votes toggle in StickyColumn.tsx header, votes persisted in retroNotes session storage naturally)",
+      "next_task": "check issues for human feedback; implement #31 (retro dot voting — votes field on StickyNote type, toggle vote button on StickyNote.tsx with current count, sort-by-votes toggle in StickyColumn.tsx header, votes persisted in retroNotes session storage naturally)",
       "blockers": []
     },
     "kanban-designer": {
       "status": "stable",
       "last_run": "2026-06-17",
       "last_commit": "4f18c698ed4aa28b0f5d30991351e2754a00de3b",
-      "next_task": "check issues for human feedback; research cycle for next improvements \u2014 all BRIEF backlog items done",
+      "next_task": "check issues for human feedback; research cycle for next improvements — all BRIEF backlog items done",
       "blockers": []
     },
     "salary-formula": {
       "status": "stable",
       "last_run": "2026-06-18",
       "last_commit": "071d7f64d908b9d4b640e55f83fe40586ac8aef2",
-      "next_task": "check issues for human feedback; implement #13 (Team Identity import \u2014 read team-identity:charter localStorage key, show Import Team Members button in SalaryCalculator.tsx or ComparisonView.tsx, map charter.members[] as profile name pre-fills with default factor values, comparison.import_team_identity i18n key in 4 locales); also auto-approve #21 (header unification) and #22 (light/dark theme) both \u22657 days old",
+      "next_task": "check issues for human feedback; implement #13 (Team Identity import — read team-identity:charter localStorage key, show Import Team Members button in SalaryCalculator.tsx or ComparisonView.tsx, map charter.members[] as profile name pre-fills with default factor values, comparison.import_team_identity i18n key in 4 locales); also auto-approve #21 (header unification) and #22 (light/dark theme) both ≥7 days old",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-06-19",
       "last_commit": "89e0a6a93f298ea2f552e6ee85a624484f339ae8",
-      "next_task": "check issues for human feedback; implement #26 (multi-team support \u2014 charter library in team-identity:charters localStorage key, My Teams screen with list of saved charters, Load/Rename/Delete actions per charter) if approved; else research cycle",
+      "next_task": "check issues for human feedback; implement #26 (multi-team support — charter library in team-identity:charters localStorage key, My Teams screen with list of saved charters, Load/Rename/Delete actions per charter) if approved; else research cycle",
       "blockers": []
     },
     "improvement-board": {
       "status": "stable",
       "last_run": "2026-06-19",
       "last_commit": "17821a0b6938c6e845ffbc4bc4d54469be89ebff",
-      "next_task": "check issues for human feedback; implement #17 (Promote improvement item to Change Planner \u2014 icon button on ImprovementCard.tsx, build URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, open in new tab, optional changeplannerUrl field on ImprovementItem for back-link badge); also #20 (light/dark theme \u2014 ThemeToggle in AppHeader children slot, dark: Tailwind variants on all components)",
+      "next_task": "check issues for human feedback; implement #17 (Promote improvement item to Change Planner — icon button on ImprovementCard.tsx, build URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, open in new tab, optional changeplannerUrl field on ImprovementItem for back-link badge); also #20 (light/dark theme — ThemeToggle in AppHeader children slot, dark: Tailwind variants on all components)",
       "blockers": []
     },
     "work-profiles": {
       "status": "stable",
       "last_run": "2026-06-19",
       "last_commit": "729b11b",
-      "next_task": "check issues for human feedback; implement #32 (peer skill endorsement \u2014 endorsedBy?: string[] on Skill interface in types.ts; +1 button next to each skill chip in ProfileCard.tsx that appends an endorser name selected from a dropdown of profile names; endorsement count badge checkmark N shown when endorsedBy has entries; self-endorsement blocked; stored in work-profiles-data localStorage key; no new key needed)",
+      "next_task": "check issues for human feedback; implement #32 (peer skill endorsement — endorsedBy?: string[] on Skill interface in types.ts; +1 button next to each skill chip in ProfileCard.tsx that appends an endorser name selected from a dropdown of profile names; endorsement count badge checkmark N shown when endorsedBy has entries; self-endorsement blocked; stored in work-profiles-data localStorage key; no new key needed)",
       "blockers": []
     },
     "planning-poker": {
       "status": "stable",
       "last_run": "2026-06-19",
       "last_commit": "37cefeb136cd6d424d46dc7656a5985c3b0c99d2",
-      "next_task": "check issues for human feedback; research cycle for next improvements \u2014 all known BRIEF features done",
+      "next_task": "check issues for human feedback; research cycle for next improvements — all known BRIEF features done",
       "blockers": []
     },
     "sprint-metrics": {
       "status": "stable",
       "last_run": "2026-06-20",
       "last_commit": "13a5290b044af5cdccf248b8fb17406b9e75f58b",
-      "next_task": "check issues for human feedback; implement #45 (multi-project portfolio velocity comparison \u2014 named project library in localStorage; project switcher in header; portfolio view with side-by-side velocity comparison) \u2014 approved",
+      "next_task": "check issues for human feedback; implement #45 (multi-project portfolio velocity comparison — named project library in localStorage; project switcher in header; portfolio view with side-by-side velocity comparison) — approved",
       "blockers": []
     },
     "change-planner": {
