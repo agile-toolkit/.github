@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-19T20:20:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-20T00:07:04.290912Z"
-  },
+  "updated": "2026-06-20T00:11:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "planning-poker",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-06-15",
-      "last_commit": "5171843",
-      "next_task": "check issues for human feedback; if #43 (Start Retrospective deep-link) approved, implement it (secondary button in App.tsx when sprints.length > 0, opens SF retro URL in new tab, calls writeLastSession() first, integration.startRetro i18n key in 4 locales); if #44 (CFD) or #45 (multi-project) approved, implement in that order; #28 awaits human decision on retro tool path (research-more)",
+      "last_run": "2026-06-20",
+      "last_commit": "13a5290b044af5cdccf248b8fb17406b9e75f58b",
+      "next_task": "check issues for human feedback; implement #45 (multi-project portfolio velocity comparison \u2014 named project library in localStorage; project switcher in header; portfolio view with side-by-side velocity comparison) \u2014 approved",
       "blockers": []
     },
     "change-planner": {
