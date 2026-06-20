@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-20T15:13:22.000Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-20T20:06:14Z"
-  },
+  "updated": "2026-06-20T20:10:57.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -15,8 +12,8 @@
     "moving-motivators": {
       "status": "in-progress",
       "last_run": "2026-06-20",
-      "last_commit": "bc6104029c18e6841d214543c5bf3c4d15f6a58f",
-      "next_task": "implement #10 (Work Profiles integration \u2014 in ResultsView.tsx add \"Export to Work Profiles\" button below \"Assess in Change Planner\"; snapshot {date, ranked: MotivatorId[], topMotivators: MotivatorId[3]}; write to localStorage key work-profiles:motivatorSnapshot; encode as base64 JSON in ?motivators= URL param; open https://agile-toolkit.github.io/work-profiles/ in new tab; add results.exportToWorkProfiles i18n key to all 4 locales; solo mode only)",
+      "last_commit": "a5910047ccfa337ea86dd1714900f9f18a6c0952",
+      "next_task": "check issues for human feedback; implement #13 (print/PDF export of results \u2014 CSS @media print approach, add print button in ResultsView.tsx, zero new deps, @media print hides action buttons and shows only results content) or #18 (team session history \u2014 last 10 sessions in localStorage moving-motivators:teamSessionHistory key, SessionHistoryPanel shown in TeamSession.tsx revealed view)",
       "blockers": []
     },
     "scrum-facilitator": {
