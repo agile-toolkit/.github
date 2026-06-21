@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-21T01:13:51.000Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-21T05:06:41.295Z"
-  },
+  "updated": "2026-06-21T05:12:12.792Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -15,8 +12,8 @@
     "moving-motivators": {
       "status": "in-progress",
       "last_run": "2026-06-21",
-      "last_commit": "9689a14f907c591f68f524afbb00931582545038",
-      "next_task": "check issues for human feedback; implement #18 (team session history — last 10 revealed team sessions in localStorage moving-motivators:teamSessionHistory key, aggregate data only: PIN/teamName, date, topMotivators, participantCount; SessionHistoryPanel shown in TeamSession.tsx revealed view for host)",
+      "last_commit": "4d04f42f056cda4127ad7eb67fbc45dcd0a9ff2e",
+      "next_task": "check issues for human feedback; implement #16 (Dashboard card reader — add readMovingMotivators() in agile-toolkit.github.io/src/readers.ts reading moving-motivators:lastSession, show top 3 motivators + change + date chip); or implement #24 (header unification — AppHeader + LanguagePicker in src/components/); many other approved issues remain",
       "blockers": []
     },
     "scrum-facilitator": {
