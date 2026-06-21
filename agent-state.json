@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-21T05:12:12.792Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-21T10:06:26.989446Z"
-  },
+  "updated": "2026-06-21T10:10:34.337516Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -13,10 +10,10 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-21",
-      "last_commit": "4d04f42f056cda4127ad7eb67fbc45dcd0a9ff2e",
-      "next_task": "check issues for human feedback; implement #16 (Dashboard card reader \u2014 add readMovingMotivators() in agile-toolkit.github.io/src/readers.ts reading moving-motivators:lastSession, show top 3 motivators + change + date chip); or implement #24 (header unification \u2014 AppHeader + LanguagePicker in src/components/); many other approved issues remain",
+      "last_commit": "5bd70d0",
+      "next_task": "check issues for human feedback; research cycle \u2014 market/UX/integration improvements; pending cross-repo: #16 Dashboard card reader in agile-toolkit.github.io, #22 Change Planner side in change-planner",
       "blockers": []
     },
     "scrum-facilitator": {
