@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-20T20:10:57.000Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-21T01:08:38.618532Z"
-  },
+  "updated": "2026-06-21T01:13:51.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
@@ -14,9 +11,9 @@
   "apps": {
     "moving-motivators": {
       "status": "in-progress",
-      "last_run": "2026-06-20",
-      "last_commit": "a5910047ccfa337ea86dd1714900f9f18a6c0952",
-      "next_task": "check issues for human feedback; implement #13 (print/PDF export of results \u2014 CSS @media print approach, add print button in ResultsView.tsx, zero new deps, @media print hides action buttons and shows only results content) or #18 (team session history \u2014 last 10 sessions in localStorage moving-motivators:teamSessionHistory key, SessionHistoryPanel shown in TeamSession.tsx revealed view)",
+      "last_run": "2026-06-21",
+      "last_commit": "9689a14f907c591f68f524afbb00931582545038",
+      "next_task": "check issues for human feedback; implement #18 (team session history \u2014 last 10 revealed team sessions in localStorage moving-motivators:teamSessionHistory key, aggregate data only: PIN/teamName, date, topMotivators, participantCount; SessionHistoryPanel shown in TeamSession.tsx revealed view for host)",
       "blockers": []
     },
     "scrum-facilitator": {
