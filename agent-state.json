@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-22T15:15:17Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-22T20:06:16.251123Z"
-  },
+  "updated": "2026-06-22T20:10:17.569077Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-19",
-      "last_commit": "37cefeb136cd6d424d46dc7656a5985c3b0c99d2",
-      "next_task": "check issues for human feedback; research cycle for next improvements \u2014 all known BRIEF features done",
+      "last_run": "2026-06-22",
+      "last_commit": "8867b55",
+      "next_task": "check issues for human feedback; implement first approved item among #32 (observer mode in TeamSession.tsx: isObserver flag, no card deck for observers, exclude from vote denominator), #33 (story drag-to-reorder: HTML5 drag events on story list in SessionView.tsx), #34 (Sprint Metrics velocity hint: read sprint-metrics:sprints localStorage in SessionView.tsx, show trailing 3-sprint avg chip)",
       "blockers": []
     },
     "sprint-metrics": {
