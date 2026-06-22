@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-21T20:10:17.040982Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-22T03:41:48.791654Z"
-  },
+  "updated": "2026-06-22T03:46:09.617091Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-18",
-      "last_commit": "071d7f64d908b9d4b640e55f83fe40586ac8aef2",
-      "next_task": "check issues for human feedback; implement #13 (Team Identity import \u2014 read team-identity:charter localStorage key, show Import Team Members button in SalaryCalculator.tsx or ComparisonView.tsx, map charter.members[] as profile name pre-fills with default factor values, comparison.import_team_identity i18n key in 4 locales); also auto-approve #21 (header unification) and #22 (light/dark theme) both \u22657 days old",
+      "last_run": "2026-06-22",
+      "last_commit": "b148c1c6acc541e15c693cc5b0ec69eb415efdb0",
+      "next_task": "implement #14 (formula review date reminder \u2014 add salary-formula:lastReviewed localStorage key; Mark as reviewed button in FormulaBuilder.tsx; yellow banner in SalaryCalculator.tsx if lastReviewed absent or >180 days old; dismiss button; calculator.review_due, calculator.review_dismiss, builder.mark_reviewed, builder.review_done i18n keys in all 4 locales); also auto-approve stale #21 (header unification) and #22 (light/dark theme)",
       "blockers": []
     },
     "team-identity": {
