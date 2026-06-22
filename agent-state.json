@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-22T05:12:35.593797Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-22T14:04:45Z"
-  },
+  "updated": "2026-06-22T14:25:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-19",
-      "last_commit": "17821a0b6938c6e845ffbc4bc4d54469be89ebff",
-      "next_task": "check issues for human feedback; implement #17 (Promote improvement item to Change Planner \u2014 icon button on ImprovementCard.tsx, build URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, open in new tab, optional changeplannerUrl field on ImprovementItem for back-link badge); also #20 (light/dark theme \u2014 ThemeToggle in AppHeader children slot, dark: Tailwind variants on all components)",
+      "last_run": "2026-06-22",
+      "last_commit": "3de97c7",
+      "next_task": "implement #20 (light/dark theme \u2014 ThemeToggle in AppHeader children slot, dark: Tailwind variants on all components; ThemeToggle.tsx already exists in src/components)",
       "blockers": []
     },
     "work-profiles": {
