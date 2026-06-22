@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-22T03:46:09.617091Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-22T05:06:20.176394Z"
-  },
+  "updated": "2026-06-22T05:12:35.593797Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-19",
-      "last_commit": "89e0a6a93f298ea2f552e6ee85a624484f339ae8",
-      "next_task": "check issues for human feedback; implement #26 (multi-team support \u2014 charter library in team-identity:charters localStorage key, My Teams screen with list of saved charters, Load/Rename/Delete actions per charter) if approved; else research cycle",
+      "last_run": "2026-06-22",
+      "last_commit": "513ca3490d93977ce44f3303125d7930d8ca0a60",
+      "next_task": "check issues for human feedback; auto-approve stale needs-review items #20 (header unification) and #21 (light/dark theme) if >=7 days old; then research cycle",
       "blockers": []
     },
     "improvement-board": {
