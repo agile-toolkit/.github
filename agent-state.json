@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-23T15:14:17.760622+00:00",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-23T20:06:38.293981+00:00"
-  },
+  "updated": "2026-06-23T20:10:30.072755+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -20,10 +17,10 @@
       "blockers": []
     },
     "scrum-facilitator": {
-      "status": "stable",
-      "last_run": "2026-06-21",
-      "last_commit": "6e10ca1f410a58d904802667169c67dc8f2ac61f",
-      "next_task": "check issues for human feedback; #32 (a11y audit) awaits approval \u2014 check if approved and implement; else research cycle",
+      "status": "in-progress",
+      "last_run": "2026-06-23",
+      "last_commit": "ab5bfeb",
+      "next_task": "implement #32 (a11y audit \u2014 5 targeted ARIA fixes: aria-label on StickyNote.tsx delete button t(\"retro.deleteNote\"); aria-expanded+aria-controls on StickyColumn.tsx accordion toggle button pointing to notes container id; aria-label on retro <textarea> inputs e.g. \"Add note to Well Done\"; aria-pressed on ParticipantPanel.tsx status buttons (pending/speaking/done); aria-live=\"polite\" sr-only span in CountdownTimer.tsx announcing time at 30-second marks; add retro.deleteNote, retro.addNoteLabel, timer.announceTime i18n keys to all 4 locales)",
       "blockers": []
     },
     "kanban-designer": {
