@@ -1,22 +1,19 @@
 {
-  "updated": "2026-06-23T10:12:28.689315+00:00",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-06-23T15:08:03.477883Z"
-  },
+  "updated": "2026-06-23T15:14:17.760622+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-06-21",
-      "last_commit": "5bd70d0",
-      "next_task": "check issues for human feedback; research cycle \u2014 market/UX/integration improvements; pending cross-repo: #16 Dashboard card reader in agile-toolkit.github.io, #22 Change Planner side in change-planner",
+      "last_run": "2026-06-23",
+      "last_commit": "fcdabf8",
+      "next_task": "check issues for human feedback; if #5 (favicon bug), #46 (team trend chart), #47 (JSON export), or #48 (solo rank trend) approved, implement first approved; else research cycle",
       "blockers": []
     },
     "scrum-facilitator": {
