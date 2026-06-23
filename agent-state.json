@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-23T00:07:46.352836Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-23T00:07:46.352788Z"
-  },
+  "updated": "2026-06-23T00:19:15.038428Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-06-20",
-      "last_commit": "13a5290b044af5cdccf248b8fb17406b9e75f58b",
-      "next_task": "check issues for human feedback; implement #45 (multi-project portfolio velocity comparison \u2014 named project library in localStorage; project switcher in header; portfolio view with side-by-side velocity comparison) \u2014 approved",
+      "last_run": "2026-06-23",
+      "last_commit": "91d2501",
+      "next_task": "check issues for human feedback; if #44 (CFD chart for Kanban teams) approved implement it; else research cycle",
       "blockers": []
     },
     "change-planner": {
