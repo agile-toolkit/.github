@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-23T05:11:44.238075Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-06-23T10:06:34.206966+00:00"
-  },
+  "updated": "2026-06-23T10:12:28.689315+00:00",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "moving-motivators",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-06-20",
-      "last_commit": "da6dc95",
-      "next_task": "check issues for human feedback; implement #21 (Planning Poker reader \u2192 planning-poker:lastSession), #22 (Improvement Board reader \u2192 improvement-board:lastSession), or #23 (Team Identity draft live indicator) if approved",
+      "last_run": "2026-06-23",
+      "last_commit": "7652bdd2ef3c36e55db67ae8a80dd3086e840d0f",
+      "next_task": "check issues for human feedback; implement first approved item among #21 (Planning Poker reader), #22 (Improvement Board reader), #23 (Team Identity draft), #24 (MM session count), #25 (SF team name), #26 (empty state UX)",
       "blockers": []
     }
   },
