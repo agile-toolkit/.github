@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-24T00:30:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-24T15:07:59.010692Z"
-  },
+  "updated": "2026-06-24T15:13:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-22",
-      "last_commit": "513ca3490d93977ce44f3303125d7930d8ca0a60",
-      "next_task": "check issues for human feedback; auto-approve stale needs-review items #20 (header unification) and #21 (light/dark theme) if >=7 days old; then research cycle",
+      "last_run": "2026-06-24",
+      "last_commit": "83f639de26084a6c6d772a0f6fad271d4f40ccad",
+      "next_task": "check issues for human feedback; implement #14 (charter history \u2014 team-identity:history localStorage key, history panel, version compare) if approved; else auto-approve stale needs-review #20 (header unification, >=35 days old) and #21 (light/dark theme, >=35 days old) and add to project In Progress; then research cycle",
       "blockers": []
     },
     "improvement-board": {
