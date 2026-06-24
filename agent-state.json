@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-24T00:00:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-06-24T00:00:00Z"
-  },
+  "updated": "2026-06-24T00:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-22",
-      "last_commit": "b148c1c6acc541e15c693cc5b0ec69eb415efdb0",
-      "next_task": "implement #14 (formula review date reminder \u2014 add salary-formula:lastReviewed localStorage key; Mark as reviewed button in FormulaBuilder.tsx; yellow banner in SalaryCalculator.tsx if lastReviewed absent or >180 days old; dismiss button; calculator.review_due, calculator.review_dismiss, builder.mark_reviewed, builder.review_done i18n keys in all 4 locales); also auto-approve stale #21 (header unification) and #22 (light/dark theme)",
+      "last_run": "2026-06-24",
+      "last_commit": "fb812b74e3b097f347dcec267f3f459ad15a2f81",
+      "next_task": "implement #21 (header unification \u2014 copy design-system/components/AppHeader.tsx and design-system/components/LanguagePicker.tsx to src/components/, replace inline header block in App.tsx with <AppHeader onHome={() => setScreen(\"home\")}><LanguagePicker /></AppHeader>, remove cycle-button logic); then queue #22 (light/dark theme)",
       "blockers": []
     },
     "team-identity": {
