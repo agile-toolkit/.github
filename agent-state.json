@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-24T00:11:31.181744+00:00",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-06-24T05:06:34Z"
-  },
+  "updated": "2026-06-24T00:00:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-06-21",
-      "last_commit": "453469a255b4b5a34c9dbdce038e92fa408c92e3",
-      "next_task": "check issues for human feedback; if any of #37 (card tags), #38 (Team Identity member assignment), #39 (stats panel) approved, implement first one; else research cycle",
+      "last_run": "2026-06-24",
+      "last_commit": "c7031a0",
+      "next_task": "check issues for human feedback; if any of #37 (card tags), #38 (Team Identity member assignment), #39 (stats panel), #40 (card aging), #41 (custom templates), #42 (card checklists) approved, implement first approved one; else research cycle",
       "blockers": []
     },
     "salary-formula": {
