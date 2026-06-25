@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-25T05:13:47.484487Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-25T10:06:29.022994Z"
-  },
+  "updated": "2026-06-25T10:17:11.830762Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -57,8 +54,8 @@
     "work-profiles": {
       "status": "in-progress",
       "last_run": "2026-06-25",
-      "last_commit": "1d01f7e9a4fe0a7001f92d255a6ceb021ba6659f",
-      "next_task": "check issues for human feedback; implement #30 (keyboard accessibility \u2014 scope on SkillMatrix headers, aria-label on action buttons, focus trap on import modal, focus-visible:ring-2, aria-live region in App.tsx) or #37 (print-optimized profile card \u2014 Print button in ProfileCard, #print-target div, @media print CSS in index.css) \u2014 whichever is still approved; else implement #31 (Improvement Board integration \u2014 read improvement-board-items/improvement-board-members localStorage at startup, show open items on profile cards)",
+      "last_commit": "94ac6415dfeaae159677bb6453fc4c45147df7a9",
+      "next_task": "implement #30 (keyboard accessibility \u2014 scope on SkillMatrix headers, aria-label on action buttons with profile name, focus trap on import modal with role=dialog/aria-modal/aria-labelledby, focus-visible:ring-2, aria-live=polite region in App.tsx for save/delete announcements)",
       "blockers": []
     },
     "planning-poker": {
