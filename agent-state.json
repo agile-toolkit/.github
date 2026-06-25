@@ -1,9 +1,6 @@
 {
-  "updated": "2026-06-25T15:15:17.139509Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-25T20:06:20.801Z"
-  },
+  "updated": "2026-06-25T20:10:40.435Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-06-25",
-      "last_commit": "5a57149cc74ee1a6b4b3c6c64334341e8608bbb6",
-      "next_task": "implement #31 (Improvement Board integration — at startup read improvement-board-items localStorage key; on matching profile cards in ProfilesView.tsx show collapsible section listing open items with assignee name; no writes needed; profiles.ib_items i18n key in EN/ES/BE/RU)",
+      "last_commit": "6f90b97531fcce5e58f90a928ee04dbde42a5f2c",
+      "next_task": "check issues for human feedback; if #4 (gap analysis) or #5 (CSV export) approved, implement first; else research cycle",
       "blockers": []
     },
     "planning-poker": {
