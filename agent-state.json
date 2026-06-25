@@ -1,12 +1,9 @@
 {
-  "updated": "2026-06-25T00:15:44.320262+00:00",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-25T05:06:28.564874Z"
-  },
+  "updated": "2026-06-25T05:13:47.484487Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "scrum-facilitator",
+    "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
     "stable": "work-profiles"
@@ -57,8 +54,8 @@
     "work-profiles": {
       "status": "in-progress",
       "last_run": "2026-06-25",
-      "last_commit": null,
-      "next_task": "implement #35 (skill category tagging \u2014 add category?: string to Skill in types.ts; SKILL_CATEGORIES const [Frontend/Backend/DevOps/Design/Testing/Soft Skills/Data & AI/Other]; category dropdown in ProfileForm.tsx skill editor; Group by category toggle + category pill filter row in SkillMatrix.tsx; include category in publishExport() in App.tsx; i18n key matrix.group_by_category in EN/ES/BE/RU; predefined categories only, not user-editable; update ROLE_TEMPLATES to pre-fill categories)",
+      "last_commit": "1d01f7e9a4fe0a7001f92d255a6ceb021ba6659f",
+      "next_task": "check issues for human feedback; implement #30 (keyboard accessibility \u2014 scope on SkillMatrix headers, aria-label on action buttons, focus trap on import modal, focus-visible:ring-2, aria-live region in App.tsx) or #37 (print-optimized profile card \u2014 Print button in ProfileCard, #print-target div, @media print CSS in index.css) \u2014 whichever is still approved; else implement #31 (Improvement Board integration \u2014 read improvement-board-items/improvement-board-members localStorage at startup, show open items on profile cards)",
       "blockers": []
     },
     "planning-poker": {
