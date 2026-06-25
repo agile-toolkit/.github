@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-25T15:15:17.139509Z",
-  "lock": null,
+  "lock": {
+    "repo": "work-profiles",
+    "started_at": "2026-06-25T20:06:20.801Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -34,14 +37,14 @@
       "status": "stable",
       "last_run": "2026-06-24",
       "last_commit": "fb812b74e3b097f347dcec267f3f459ad15a2f81",
-      "next_task": "implement #21 (header unification \u2014 copy design-system/components/AppHeader.tsx and design-system/components/LanguagePicker.tsx to src/components/, replace inline header block in App.tsx with <AppHeader onHome={() => setScreen(\"home\")}><LanguagePicker /></AppHeader>, remove cycle-button logic); then queue #22 (light/dark theme)",
+      "next_task": "implement #21 (header unification — copy design-system/components/AppHeader.tsx and design-system/components/LanguagePicker.tsx to src/components/, replace inline header block in App.tsx with <AppHeader onHome={() => setScreen(\"home\")}><LanguagePicker /></AppHeader>, remove cycle-button logic); then queue #22 (light/dark theme)",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-06-24",
       "last_commit": "83f639de26084a6c6d772a0f6fad271d4f40ccad",
-      "next_task": "check issues for human feedback; implement #14 (charter history \u2014 team-identity:history localStorage key, history panel, version compare) if approved; else auto-approve stale needs-review #20 (header unification, >=35 days old) and #21 (light/dark theme, >=35 days old) and add to project In Progress; then research cycle",
+      "next_task": "check issues for human feedback; implement #14 (charter history — team-identity:history localStorage key, history panel, version compare) if approved; else auto-approve stale needs-review #20 (header unification, >=35 days old) and #21 (light/dark theme, >=35 days old) and add to project In Progress; then research cycle",
       "blockers": []
     },
     "improvement-board": {
@@ -55,7 +58,7 @@
       "status": "in-progress",
       "last_run": "2026-06-25",
       "last_commit": "5a57149cc74ee1a6b4b3c6c64334341e8608bbb6",
-      "next_task": "implement #31 (Improvement Board integration \u2014 at startup read improvement-board-items localStorage key; on matching profile cards in ProfilesView.tsx show collapsible section listing open items with assignee name; no writes needed; profiles.ib_items i18n key in EN/ES/BE/RU)",
+      "next_task": "implement #31 (Improvement Board integration — at startup read improvement-board-items localStorage key; on matching profile cards in ProfilesView.tsx show collapsible section listing open items with assignee name; no writes needed; profiles.ib_items i18n key in EN/ES/BE/RU)",
       "blockers": []
     },
     "planning-poker": {
@@ -76,7 +79,7 @@
       "status": "stable",
       "last_run": "2026-06-23",
       "last_commit": "f1651081e0d8aec64a03621a73c4a1cd65f90dff",
-      "next_task": "implement #43 (duplicate/clone initiative \u2014 Duplicate option in HomeScreen.tsx card overflow menu; deep-clone initiative, reset action statuses to todo, clear completedAt/hypothesis outcomes, auto-name \"Copy of \u2026\", append to initiatives array, persist, navigate to new initiative; home.duplicate and home.duplicate_prefix i18n keys in EN/ES/BE/RU; ~40 LOC in HomeScreen.tsx)",
+      "next_task": "implement #43 (duplicate/clone initiative — Duplicate option in HomeScreen.tsx card overflow menu; deep-clone initiative, reset action statuses to todo, clear completedAt/hypothesis outcomes, auto-name \"Copy of …\", append to initiatives array, persist, navigate to new initiative; home.duplicate and home.duplicate_prefix i18n keys in EN/ES/BE/RU; ~40 LOC in HomeScreen.tsx)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
