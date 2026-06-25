@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-25T00:15:44.320262+00:00",
-  "lock": null,
+  "lock": {
+    "repo": "work-profiles",
+    "started_at": "2026-06-25T05:06:28.564874Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
