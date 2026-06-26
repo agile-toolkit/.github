@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-26T05:15:04.736232Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-26T10:06:35.557523Z"
-  },
+  "updated": "2026-06-26T10:12:27.475250Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-06-23",
-      "last_commit": "f1651081e0d8aec64a03621a73c4a1cd65f90dff",
-      "next_task": "implement #43 (duplicate/clone initiative \u2014 Duplicate option in HomeScreen.tsx card overflow menu; deep-clone initiative, reset action statuses to todo, clear completedAt/hypothesis outcomes, auto-name \"Copy of \u2026\", append to initiatives array, persist, navigate to new initiative; home.duplicate and home.duplicate_prefix i18n keys in EN/ES/BE/RU; ~40 LOC in HomeScreen.tsx)",
+      "last_run": "2026-06-26",
+      "last_commit": "56d7d5c9dd505e3eac44ad1af57ee85eb902d963",
+      "next_task": "verify CI for 56d7d5c (PR #48, feat: duplicate/clone initiative); then check issues for human feedback; research cycle if no approved items pending",
       "blockers": []
     },
     "agile-toolkit.github.io": {
