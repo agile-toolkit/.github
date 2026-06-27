@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-26T20:14:55.950129Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-27T00:07:55.842972Z"
-  },
+  "updated": "2026-06-27T00:13:30.107429Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-06-24",
-      "last_commit": "732944c0cd99399af9eebdbece32a4483c401e94",
-      "next_task": "check issues for human feedback; research cycle if no approved items pending; #1 (favicon + brand rebrand) still has research-more label awaiting human approval",
+      "last_run": "2026-06-27",
+      "last_commit": "6ccca77",
+      "next_task": "check issues for human feedback; if #36 (Sprint Goal), #37 (retro action ownership), or #38 (impediment log) approved, implement first approved; else research cycle; #1 (favicon) still awaiting approved label",
       "blockers": []
     },
     "kanban-designer": {
