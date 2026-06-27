@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-27T15:12:54.714062Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-27T20:06:34.377082Z"
-  },
+  "updated": "2026-06-27T20:11:17.695271Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-24",
-      "last_commit": "cab6e88",
-      "next_task": "check issues for human feedback; if #9 (keyboard accessibility), #16 (PWA offline mode), or #17 (Promote to Change Planner) approved, implement first approved; else research cycle",
+      "last_run": "2026-06-27",
+      "last_commit": "3e05b7021a73646b76777a19a92f93ed4d3bdd86",
+      "next_task": "check issues for human feedback; implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest with brand-600 theme color, update banner) or #17 (Promote improvement item to Change Planner \u2014 icon button on ImprovementCard, builds URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, opens new tab); many approved issues remain",
       "blockers": []
     },
     "work-profiles": {
