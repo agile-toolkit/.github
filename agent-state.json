@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-28T00:11:29.102079Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-28T05:06:31.730245Z"
-  },
+  "updated": "2026-06-28T05:11:06.712748Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-26",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; if any of #32 (observer mode), #33 (story drag-reorder), #34 (velocity hint), #35 (blind voting), #36 (PP\u2192Change Planner sync), #37 (story notes) approved, implement first approved; else research cycle",
+      "last_run": "2026-06-28",
+      "last_commit": "1477ff9",
+      "next_task": "check issues for human feedback; #32, #33, #34 reach 7-day auto-approve threshold on 2026-06-29 \u2014 implement first approved among observer mode (#32), story drag-reorder (#33), velocity hint (#34); #35-#37 reach threshold on 2026-07-03; #38-#40 newly created",
       "blockers": []
     },
     "sprint-metrics": {
