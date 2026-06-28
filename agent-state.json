@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-28T10:12:00Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-28T10:20:00Z"
-  },
+  "updated": "2026-06-28T10:35:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-06-26",
-      "last_commit": "56d7d5c9dd505e3eac44ad1af57ee85eb902d963",
-      "next_task": "verify CI for 56d7d5c (PR #48, feat: duplicate/clone initiative); then check issues for human feedback; research cycle if no approved items pending",
+      "last_run": "2026-06-28",
+      "last_commit": "36002ae",
+      "next_task": "check issues for human feedback; if #49 (readiness assessment \u2014 Assess tab, Initiative.assessments[], pentagon SVG radar), #50 (Kanban board view \u2014 Board tab, extends ActionStatus with in-progress, swim lanes per facet), or #51 (milestone markers on roadmap \u2014 Initiative.milestones[], diamond markers in RoadmapView.tsx) approved implement first; else research cycle (7-day auto-approve threshold 2026-07-05)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
