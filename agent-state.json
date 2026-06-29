@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-29T00:15:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-06-29T05:07:29.831Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -34,7 +37,7 @@
       "status": "stable",
       "last_run": "2026-06-27",
       "last_commit": "b07d9ebd7f79243a1c0a7894eb6f83307e854bf4",
-      "next_task": "implement #22 (light/dark theme \u2014 add darkMode: \"class\" to tailwind.config.js; add anti-flash inline script to index.html; copy ThemeToggle.tsx from design-system/components/ to src/components/; add <ThemeToggle /> inside AppHeader children slot in App.tsx; add dark: variants to all Tailwind color classes across src/ per token map in design-system/tokens.css)",
+      "next_task": "implement #22 (light/dark theme — add darkMode: \"class\" to tailwind.config.js; add anti-flash inline script to index.html; copy ThemeToggle.tsx from design-system/components/ to src/components/; add <ThemeToggle /> inside AppHeader children slot in App.tsx; add dark: variants to all Tailwind color classes across src/ per token map in design-system/tokens.css)",
       "blockers": []
     },
     "team-identity": {
@@ -48,7 +51,7 @@
       "status": "stable",
       "last_run": "2026-06-27",
       "last_commit": "3e05b7021a73646b76777a19a92f93ed4d3bdd86",
-      "next_task": "check issues for human feedback; implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest with brand-600 theme color, update banner) or #17 (Promote improvement item to Change Planner \u2014 icon button on ImprovementCard, builds URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, opens new tab); many approved issues remain",
+      "next_task": "check issues for human feedback; implement #16 (PWA offline mode via vite-plugin-pwa — cache-first strategy, manifest with brand-600 theme color, update banner) or #17 (Promote improvement item to Change Planner — icon button on ImprovementCard, builds URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, opens new tab); many approved issues remain",
       "blockers": []
     },
     "work-profiles": {
@@ -62,7 +65,7 @@
       "status": "stable",
       "last_run": "2026-06-28",
       "last_commit": "1477ff9",
-      "next_task": "check issues for human feedback; #32, #33, #34 reach 7-day auto-approve threshold on 2026-06-29 \u2014 implement first approved among observer mode (#32), story drag-reorder (#33), velocity hint (#34); #35-#37 reach threshold on 2026-07-03; #38-#40 newly created",
+      "next_task": "check issues for human feedback; #32, #33, #34 reach 7-day auto-approve threshold on 2026-06-29 — implement first approved among observer mode (#32), story drag-reorder (#33), velocity hint (#34); #35-#37 reach threshold on 2026-07-03; #38-#40 newly created",
       "blockers": []
     },
     "sprint-metrics": {
@@ -76,7 +79,7 @@
       "status": "stable",
       "last_run": "2026-06-28",
       "last_commit": "36002ae",
-      "next_task": "check issues for human feedback; if #49 (readiness assessment \u2014 Assess tab, Initiative.assessments[], pentagon SVG radar), #50 (Kanban board view \u2014 Board tab, extends ActionStatus with in-progress, swim lanes per facet), or #51 (milestone markers on roadmap \u2014 Initiative.milestones[], diamond markers in RoadmapView.tsx) approved implement first; else research cycle (7-day auto-approve threshold 2026-07-05)",
+      "next_task": "check issues for human feedback; if #49 (readiness assessment — Assess tab, Initiative.assessments[], pentagon SVG radar), #50 (Kanban board view — Board tab, extends ActionStatus with in-progress, swim lanes per facet), or #51 (milestone markers on roadmap — Initiative.milestones[], diamond markers in RoadmapView.tsx) approved implement first; else research cycle (7-day auto-approve threshold 2026-07-05)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
