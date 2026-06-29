@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-29T00:15:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-06-29T05:07:29.831Z"
-  },
+  "updated": "2026-06-29T05:12:34.662Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-06-27",
-      "last_commit": "6ccca77",
-      "next_task": "check issues for human feedback; if #36 (Sprint Goal), #37 (retro action ownership), or #38 (impediment log) approved, implement first approved; else research cycle; #1 (favicon) still awaiting approved label",
+      "last_run": "2026-06-29",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; if any of #36 (Sprint Goal), #37 (retro action ownership), #38 (impediment log), #39 (demo checklist), #40 (time stats), #41 (stakeholder feedback) approved implement first approved; auto-approve #36–#38 on 2026-07-04 if still needs-review and implement first; #1 (favicon + indigo rebrand) still awaiting approved label — 2 file changes: public/favicon.svg (Option B geometric SVG) + tailwind.config.js (corrected 9-shade indigo scale)",
       "blockers": []
     },
     "kanban-designer": {
