@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-29T16:30:00.000Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-06-29T17:00:00.000Z"
-  },
+  "updated": "2026-06-29T20:15:00.000Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-27",
-      "last_commit": "4a3f671b47cbb4e5de8a1a9932879b0b67d79359",
-      "next_task": "verify CI for 4a3f671 (PR #35, feat: charter history #14); then check issues for human feedback; auto-approve stale needs-review #11 (print CSS, 48 days), #20 (header unification, 37 days), #21 (light/dark theme, 38 days) and implement first approved",
+      "last_run": "2026-06-29",
+      "last_commit": "041090c03be7e35f3efc4813e46c0aff8317cd74",
+      "next_task": "verify CI for 041090c (PR #36, feat: print-optimized charter layout #11); implement #20 (header unification \u2014 copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io design-system/components/ into src/components/, replace both header blocks); then #21 (light/dark theme via ThemeToggle + dark: Tailwind variants)",
       "blockers": []
     },
     "improvement-board": {
