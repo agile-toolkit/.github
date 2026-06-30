@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-29T20:15:00.000Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-06-30T00:08:50Z"
-  },
+  "updated": "2026-06-30T00:14:05Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-27",
-      "last_commit": "3e05b7021a73646b76777a19a92f93ed4d3bdd86",
-      "next_task": "check issues for human feedback; implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest with brand-600 theme color, update banner) or #17 (Promote improvement item to Change Planner \u2014 icon button on ImprovementCard, builds URL with ?prefill=<title>&description=<desc>&utm_source=improvement-board, opens new tab); many approved issues remain",
+      "last_run": "2026-06-30",
+      "last_commit": "7a4140ee285800d4ed4c98dab89700ed893d5cec",
+      "next_task": "implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest with brand-600 theme color, update banner); then research cycle",
       "blockers": []
     },
     "work-profiles": {
