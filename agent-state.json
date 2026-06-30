@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-30T00:14:05Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-06-30T05:06:46Z"
-  },
+  "updated": "2026-06-30T05:12:01Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-06-28",
-      "last_commit": "df36e67",
-      "next_task": "check issues for human feedback; if #4 (gap analysis) or #5 (CSV export) approved implement first; if #48 (skill autocomplete), #49 (team overview tab), or #50 (Scrum Facilitator capacity key) approved implement first approved; else research cycle",
+      "last_run": "2026-06-30",
+      "last_commit": "b73cbb8",
+      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#53 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; else research cycle",
       "blockers": []
     },
     "planning-poker": {
