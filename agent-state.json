@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-30T10:15:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-06-30T15:07:10.277125Z"
-  },
+  "updated": "2026-06-30T15:12:12.117793Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-06-28",
-      "last_commit": "fb2210a",
-      "next_task": "check issues for human feedback; if #49 (inline sprint editing), #50 (Kanban Designer CFD auto-fill), or #51 (Recharts dark tooltip) approved implement first approved; else research cycle",
+      "last_run": "2026-06-30",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first; #52 (retro notes import), #53 (quarterly rollup), #54 (a11y charts) created this run \u2014 await review; else research cycle",
       "blockers": []
     },
     "change-planner": {
