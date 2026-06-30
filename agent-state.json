@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-30T15:12:12.117793Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-06-30T20:07:36Z"
-  },
+  "updated": "2026-06-30T20:24:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-06-28",
-      "last_commit": "36002ae",
-      "next_task": "check issues for human feedback; if #49 (readiness assessment \u2014 Assess tab, Initiative.assessments[], pentagon SVG radar), #50 (Kanban board view \u2014 Board tab, extends ActionStatus with in-progress, swim lanes per facet), or #51 (milestone markers on roadmap \u2014 Initiative.milestones[], diamond markers in RoadmapView.tsx) approved implement first; else research cycle (7-day auto-approve threshold 2026-07-05)",
+      "last_run": "2026-06-30",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; if #49 (readiness assessment), #50 (Kanban board view), or #51 (milestone markers) approved implement first (7-day auto-approve threshold 2026-07-05); #53 (This Week digest), #54 (print view), #55 (RACI tagging) created this run \u2014 await review; else research cycle",
       "blockers": []
     },
     "agile-toolkit.github.io": {
