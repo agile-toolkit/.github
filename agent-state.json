@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-30T05:12:01Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-06-30T06:00:00Z"
-  },
+  "updated": "2026-06-30T10:15:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-28",
-      "last_commit": "1477ff9",
-      "next_task": "check issues for human feedback; #32, #33, #34 reach 7-day auto-approve threshold on 2026-06-29 \u2014 implement first approved among observer mode (#32), story drag-reorder (#33), velocity hint (#34); #35-#37 reach threshold on 2026-07-03; #38-#40 newly created",
+      "last_run": "2026-06-30",
+      "last_commit": "7174e2393136fdc688337359aeebf5e7f601c893",
+      "next_task": "verify CI for 7174e23 (PR #41, feat: observer mode #32); then implement #33 (story drag-to-reorder \u2014 HTML5 drag events in SessionView.tsx story list; grip handle CSS; solo always, team host-only; storyOrder: string[] in Firebase for team mode)",
       "blockers": []
     },
     "sprint-metrics": {
