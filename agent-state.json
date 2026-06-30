@@ -1,6 +1,9 @@
 {
   "updated": "2026-06-29T20:15:00.000Z",
-  "lock": null,
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-06-30T00:08:50Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
