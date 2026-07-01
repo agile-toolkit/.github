@@ -1,15 +1,12 @@
 {
-  "updated": "2026-06-30T20:24:00Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-07-01T00:07:26Z"
-  },
+  "updated": "2026-07-01T00:00:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-06-28",
-      "last_commit": "dd09250",
-      "next_task": "check issues for human feedback; auto-approve and implement #24 (Moving Motivators session count from sessionHistory), #25 (Scrum Facilitator team name chip), #26 (empty state onboarding hint) on or after 2026-06-30 when they hit 7-day threshold",
+      "last_run": "2026-07-01",
+      "last_commit": "2dd97fedf029af97535a6ce74056851b0e95ce34",
+      "next_task": "check issues for human feedback; research cycle for next improvements",
       "blockers": []
     }
   },
