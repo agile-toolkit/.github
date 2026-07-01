@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-01T00:00:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-07-01T20:07:00Z"
-  },
+  "updated": "2026-07-01T20:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-06-29",
-      "last_commit": "4ae5e2d7bc9f01a47cbd19e23662ca251b46e093",
-      "next_task": "check issues for human feedback",
+      "last_run": "2026-07-01",
+      "last_commit": null,
+      "next_task": "check issues for human feedback; if #38 (code-split html2canvas), #39 (add Vitest + unit tests), or #40 (mixed-currency equity view warning) approved implement first approved; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL is blocked in this environment (both `gh project` and direct GraphQL POST return 403 'GraphQL proxying is not enabled') so Project board status could not be set for #38-#40 — rely on needs-review label instead",
       "blockers": []
     },
     "team-identity": {
