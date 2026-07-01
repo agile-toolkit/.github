@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-01T10:13:25Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-07-01T15:07:09Z"
-  },
+  "updated": "2026-07-01T00:00:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-06-29",
-      "last_commit": "0578bea0371e6e44876a167ba9fdf1ed11336a9d",
-      "next_task": "check issues for human feedback; implement #38 (Team Identity assignment \u2014 assignee?: string on KanbanCard; reads team-identity:charter localStorage; member dropdown in card edit; initials badge on card face; designer.assignee/designer.unassigned/designer.filter_assignee i18n keys) or #39 (stats panel \u2014 StatsPanel.tsx with CSS bar chart per column, board summary row with total/at-capacity/empty counts, oldest card per column; nav.stats i18n key) \u2014 both auto-approved on 2026-06-29",
+      "last_run": "2026-07-01",
+      "last_commit": "024321d8debd6ac590c1c129eefc109007897ff7",
+      "next_task": "check issues for human feedback; implement #39 (stats panel \u2014 StatsPanel.tsx with CSS bar chart per column, board summary row with total/at-capacity/empty counts, oldest card per column; nav.stats i18n key) \u2014 auto-approved 2026-06-29; also auto-approve #40/#41/#42 (7+ days stale) if not yet done",
       "blockers": []
     },
     "salary-formula": {
