@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-02T00:20:00Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-07-02T05:06:52Z"
-  },
+  "updated": "2026-07-02T05:14:35Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-06-30",
-      "last_commit": "7a4140ee285800d4ed4c98dab89700ed893d5cec",
-      "next_task": "implement #16 (PWA offline mode via vite-plugin-pwa \u2014 cache-first strategy, manifest with brand-600 theme color, update banner); then research cycle",
+      "last_run": "2026-07-02",
+      "last_commit": "97fc58cfe42cdacb9cd2c8e361985dae79a930e8",
+      "next_task": "check issues for human feedback; auto-approve #13 (Moving Motivators integration) and #18 (bulk status actions), both needs-review and well past the 7-day threshold (created 2026-05-15/2026-05-17), implement first approved; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) are implemented and awaiting human Done close; else research cycle",
       "blockers": []
     },
     "work-profiles": {
