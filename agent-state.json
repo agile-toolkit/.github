@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-02T15:20:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-07-02T20:06:21Z"
-  },
+  "updated": "2026-07-02T15:45:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-06-30",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first; #52 (retro notes import), #53 (quarterly rollup), #54 (a11y charts) created this run \u2014 await review; else research cycle",
+      "last_run": "2026-07-02",
+      "last_commit": "e0f7c54",
+      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first approved; #52 (retro notes import)/#53 (quarterly rollup)/#54 (a11y charts) due 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) created this run \u2014 await review; else research cycle. Note: gh CLI and Projects v2 GraphQL mutations are blocked in this environment \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (no mutation tool exposed), rely on needs-review label.",
       "blockers": []
     },
     "change-planner": {
