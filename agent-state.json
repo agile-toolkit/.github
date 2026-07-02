@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-02T10:10:48Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-07-02T15:07:12Z"
-  },
+  "updated": "2026-07-02T15:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-06-30",
-      "last_commit": "7174e2393136fdc688337359aeebf5e7f601c893",
-      "next_task": "verify CI for 7174e23 (PR #41, feat: observer mode #32); then implement #33 (story drag-to-reorder \u2014 HTML5 drag events in SessionView.tsx story list; grip handle CSS; solo always, team host-only; storyOrder: string[] in Firebase for team mode)",
+      "last_run": "2026-07-02",
+      "last_commit": "7a0848aac39748570214afe4fdc2b2cd6482d8cc",
+      "next_task": "verify CI for 7a0848a (PR #42, feat: story drag-to-reorder #33) \u2014 build job succeeded but deploy-pages step exceeded 5min timeout during previous run, re-check Actions tab; then implement #34 (Sprint Metrics velocity hint \u2014 read sprint-metrics:sprints from localStorage in App.tsx/SessionView.tsx at session start, one-time read; if >=3 sprints exist compute trailing 3-sprint avg velocity; dismissible chip in SessionView header using planning-poker:velocityHintDismissed localStorage key reset per session; session.velocity_hint/session.velocity_hint_dismiss i18n keys in EN/ES/BE/RU; solo mode only per issue implementation notes, mirroring #33 scoping); #35/#36/#37 reach 7-day auto-approve threshold 2026-07-03",
       "blockers": []
     },
     "sprint-metrics": {
