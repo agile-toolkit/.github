@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-01T20:20:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-07-02T00:07:24Z"
-  },
+  "updated": "2026-07-02T00:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-06-29",
-      "last_commit": "041090c03be7e35f3efc4813e46c0aff8317cd74",
-      "next_task": "verify CI for 041090c (PR #36, feat: print-optimized charter layout #11); implement #20 (header unification \u2014 copy AppHeader.tsx + LanguagePicker.tsx from agile-toolkit.github.io design-system/components/ into src/components/, replace both header blocks); then #21 (light/dark theme via ThemeToggle + dark: Tailwind variants)",
+      "last_run": "2026-07-02",
+      "last_commit": "4be6c9b742688acbcf0d49eb8f5580b9f1164cae",
+      "next_task": "check issues for human feedback; implement #21 (light/dark theme \u2014 darkMode: 'class' in tailwind.config.js, anti-flash inline script in index.html, ThemeToggle.tsx from design-system/components/ into src/components/, dark: Tailwind variants across all src/ color classes per token map) if still approved; many other approved issues open (#3 ES/BE locales note: already done, #4/#5/#6/#7/#8/#10/#14/#15/#17/#19/#26 already implemented awaiting human Done close; #16/#18 out of scope for this repo)",
       "blockers": []
     },
     "improvement-board": {
