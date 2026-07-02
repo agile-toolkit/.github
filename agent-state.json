@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-02T10:07:27Z",
-  "lock": { "repo": "work-profiles", "started_at": "2026-07-02T10:07:27Z" },
+  "updated": "2026-07-02T10:10:48Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -53,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-06-30",
-      "last_commit": "b73cbb8",
-      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#53 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; else research cycle",
+      "last_run": "2026-07-02",
+      "last_commit": "a85d908",
+      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#56 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; else research cycle",
       "blockers": []
     },
     "planning-poker": {
