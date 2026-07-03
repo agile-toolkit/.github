@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-03T00:10:13Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-07-03T05:06:31Z"
-  },
+  "updated": "2026-07-03T05:11:02Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-07-01",
-      "last_commit": "2dd97fedf029af97535a6ce74056851b0e95ce34",
-      "next_task": "check issues for human feedback; research cycle for next improvements",
+      "last_run": "2026-07-03",
+      "last_commit": "601767f",
+      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips), #30 (Sprint Metrics mood emoji chip), #31 (attention badge for overdue/at-risk state) all needs-review, reach 7-day auto-approve threshold 2026-07-10; implement first approved item if any before then; else research cycle. Note: gh project item-add returns \"unknown owner type\" in this session (Projects v2 write blocked) \u2014 rely on needs-review label only, consistent with other repos.",
       "blockers": []
     }
   },
