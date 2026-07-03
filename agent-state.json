@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T15:15:00Z",
-  "lock": null,
+  "updated": "2026-07-03T20:06:43Z",
+  "lock": { "repo": "kanban-designer", "started_at": "2026-07-03T20:06:43Z" },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -13,35 +13,35 @@
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "fdd9ba3",
-      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel \u2014 compact motivator\u00d7session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
+      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel — compact motivator×session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
       "blockers": []
     },
     "scrum-facilitator": {
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "3c06e13",
-      "next_task": "check issues for human feedback; all approved issues #4-#32 confirmed already implemented, awaiting human Done close; #1 (favicon + indigo rebrand, research-more) rounds 5+6 exhausted with no new evidence, still awaiting approved label \u2014 do not add another repeat comment unless new evidence emerges; auto-approve #36/#37/#38 on 2026-07-04 if still needs-review and implement first approved; #39/#40/#41 threshold 2026-07-06; #42/#43/#44 threshold 2026-07-08; #45 (Vitest+RTL test coverage)/#46 (CountdownTimer animate-pulse ignores prefers-reduced-motion, WCAG 2.3.3)/#47 (StickyNote delete uses native window.confirm, breaks dark theme) created this run \u2014 await review. Note: gh CLI/API and GitHub Projects v2 are fully blocked in this session (403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
+      "next_task": "check issues for human feedback; all approved issues #4-#32 confirmed already implemented, awaiting human Done close; #1 (favicon + indigo rebrand, research-more) rounds 5+6 exhausted with no new evidence, still awaiting approved label — do not add another repeat comment unless new evidence emerges; auto-approve #36/#37/#38 on 2026-07-04 if still needs-review and implement first approved; #39/#40/#41 threshold 2026-07-06; #42/#43/#44 threshold 2026-07-08; #45 (Vitest+RTL test coverage)/#46 (CountdownTimer animate-pulse ignores prefers-reduced-motion, WCAG 2.3.3)/#47 (StickyNote delete uses native window.confirm, breaks dark theme) created this run — await review. Note: gh CLI/API and GitHub Projects v2 are fully blocked in this session (403 GitHub access not enabled) — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
       "blockers": []
     },
     "kanban-designer": {
       "status": "stable",
       "last_run": "2026-07-01",
       "last_commit": "024321d8debd6ac590c1c129eefc109007897ff7",
-      "next_task": "check issues for human feedback; implement #39 (stats panel \u2014 StatsPanel.tsx with CSS bar chart per column, board summary row with total/at-capacity/empty counts, oldest card per column; nav.stats i18n key) \u2014 auto-approved 2026-06-29; also auto-approve #40/#41/#42 (7+ days stale) if not yet done",
+      "next_task": "check issues for human feedback; implement #39 (stats panel — StatsPanel.tsx with CSS bar chart per column, board summary row with total/at-capacity/empty counts, oldest card per column; nav.stats i18n key) — auto-approved 2026-06-29; also auto-approve #40/#41/#42 (7+ days stale) if not yet done",
       "blockers": []
     },
     "salary-formula": {
       "status": "stable",
       "last_run": "2026-07-01",
       "last_commit": null,
-      "next_task": "check issues for human feedback; if #38 (code-split html2canvas), #39 (add Vitest + unit tests), or #40 (mixed-currency equity view warning) approved implement first approved; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL is blocked in this environment (both `gh project` and direct GraphQL POST return 403 'GraphQL proxying is not enabled') so Project board status could not be set for #38-#40 \u2014 rely on needs-review label instead",
+      "next_task": "check issues for human feedback; if #38 (code-split html2canvas), #39 (add Vitest + unit tests), or #40 (mixed-currency equity view warning) approved implement first approved; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL is blocked in this environment (both `gh project` and direct GraphQL POST return 403 'GraphQL proxying is not enabled') so Project board status could not be set for #38-#40 — rely on needs-review label instead",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-07-02",
       "last_commit": "4be6c9b742688acbcf0d49eb8f5580b9f1164cae",
-      "next_task": "check issues for human feedback; implement #21 (light/dark theme \u2014 darkMode: 'class' in tailwind.config.js, anti-flash inline script in index.html, ThemeToggle.tsx from design-system/components/ into src/components/, dark: Tailwind variants across all src/ color classes per token map) if still approved; many other approved issues open (#3 ES/BE locales note: already done, #4/#5/#6/#7/#8/#10/#14/#15/#17/#19/#26 already implemented awaiting human Done close; #16/#18 out of scope for this repo)",
+      "next_task": "check issues for human feedback; implement #21 (light/dark theme — darkMode: 'class' in tailwind.config.js, anti-flash inline script in index.html, ThemeToggle.tsx from design-system/components/ into src/components/, dark: Tailwind variants across all src/ color classes per token map) if still approved; many other approved issues open (#3 ES/BE locales note: already done, #4/#5/#6/#7/#8/#10/#14/#15/#17/#19/#26 already implemented awaiting human Done close; #16/#18 out of scope for this repo)",
       "blockers": []
     },
     "improvement-board": {
@@ -62,28 +62,28 @@
       "status": "stable",
       "last_run": "2026-07-02",
       "last_commit": "7a0848aac39748570214afe4fdc2b2cd6482d8cc",
-      "next_task": "verify CI for 7a0848a (PR #42, feat: story drag-to-reorder #33) \u2014 build job succeeded but deploy-pages step exceeded 5min timeout during previous run, re-check Actions tab; then implement #34 (Sprint Metrics velocity hint \u2014 read sprint-metrics:sprints from localStorage in App.tsx/SessionView.tsx at session start, one-time read; if >=3 sprints exist compute trailing 3-sprint avg velocity; dismissible chip in SessionView header using planning-poker:velocityHintDismissed localStorage key reset per session; session.velocity_hint/session.velocity_hint_dismiss i18n keys in EN/ES/BE/RU; solo mode only per issue implementation notes, mirroring #33 scoping); #35/#36/#37 reach 7-day auto-approve threshold 2026-07-03",
+      "next_task": "verify CI for 7a0848a (PR #42, feat: story drag-to-reorder #33) — build job succeeded but deploy-pages step exceeded 5min timeout during previous run, re-check Actions tab; then implement #34 (Sprint Metrics velocity hint — read sprint-metrics:sprints from localStorage in App.tsx/SessionView.tsx at session start, one-time read; if >=3 sprints exist compute trailing 3-sprint avg velocity; dismissible chip in SessionView header using planning-poker:velocityHintDismissed localStorage key reset per session; session.velocity_hint/session.velocity_hint_dismiss i18n keys in EN/ES/BE/RU; solo mode only per issue implementation notes, mirroring #33 scoping); #35/#36/#37 reach 7-day auto-approve threshold 2026-07-03",
       "blockers": []
     },
     "sprint-metrics": {
       "status": "stable",
       "last_run": "2026-07-02",
       "last_commit": "e0f7c54",
-      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first approved; #52 (retro notes import)/#53 (quarterly rollup)/#54 (a11y charts) due 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) created this run \u2014 await review; else research cycle. Note: gh CLI and Projects v2 GraphQL mutations are blocked in this environment \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (no mutation tool exposed), rely on needs-review label.",
+      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first approved; #52 (retro notes import)/#53 (quarterly rollup)/#54 (a11y charts) due 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) created this run — await review; else research cycle. Note: gh CLI and Projects v2 GraphQL mutations are blocked in this environment — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (no mutation tool exposed), rely on needs-review label.",
       "blockers": []
     },
     "change-planner": {
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": null,
-      "next_task": "check issues for human feedback; #49 (readiness assessment)/#50 (Kanban board)/#51 (milestone markers) reach 7-day auto-approve threshold 2026-07-05; #53 (This Week digest)/#54 (print view)/#55 (RACI tagging) reach it 2026-07-07; #56 (Vitest unit tests)/#57 (cross-initiative search)/#58 (ICS calendar export) created this run, await review; implement first approved item if any; else research cycle. Note: gh CLI write ops and Projects v2 GraphQL both blocked in this session (gh api returns 403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub writes; Project board Status field cannot be set, rely on needs-review label.",
+      "next_task": "check issues for human feedback; #49 (readiness assessment)/#50 (Kanban board)/#51 (milestone markers) reach 7-day auto-approve threshold 2026-07-05; #53 (This Week digest)/#54 (print view)/#55 (RACI tagging) reach it 2026-07-07; #56 (Vitest unit tests)/#57 (cross-initiative search)/#58 (ICS calendar export) created this run, await review; implement first approved item if any; else research cycle. Note: gh CLI write ops and Projects v2 GraphQL both blocked in this session (gh api returns 403 GitHub access not enabled) — use mcp__github__ tools for all GitHub writes; Project board Status field cannot be set, rely on needs-review label.",
       "blockers": []
     },
     "agile-toolkit.github.io": {
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "601767f",
-      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips), #30 (Sprint Metrics mood emoji chip), #31 (attention badge for overdue/at-risk state) all needs-review, reach 7-day auto-approve threshold 2026-07-10; implement first approved item if any before then; else research cycle. Note: gh project item-add returns \"unknown owner type\" in this session (Projects v2 write blocked) \u2014 rely on needs-review label only, consistent with other repos.",
+      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips), #30 (Sprint Metrics mood emoji chip), #31 (attention badge for overdue/at-risk state) all needs-review, reach 7-day auto-approve threshold 2026-07-10; implement first approved item if any before then; else research cycle. Note: gh project item-add returns \"unknown owner type\" in this session (Projects v2 write blocked) — rely on needs-review label only, consistent with other repos.",
       "blockers": []
     }
   },
