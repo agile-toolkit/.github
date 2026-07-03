@@ -1,22 +1,19 @@
 {
-  "updated": "2026-07-03T05:11:02Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-07-03T10:07:04Z"
-  },
+  "updated": "2026-07-03T10:11:58Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-07-01",
-      "last_commit": "d826f108fa1acf9d0d5eae27cc27b55002d20ee3",
-      "next_task": "check issues for human feedback; implement #47 (JSON export \u2014 export button in SessionShiftPanel using Blob/URL.createObjectURL, results.exportHistory i18n key in all 4 locales + team.history.export in SessionHistoryPanel) or #48 (solo rank trend table in SessionShiftPanel \u2014 motivator\u00d7session grid, last 6 sessions, green rank 1-3 / red rank 8-10 color coding); #5 (favicon) still awaiting approved label",
+      "last_run": "2026-07-03",
+      "last_commit": "fdd9ba3",
+      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel \u2014 compact motivator\u00d7session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
       "blockers": []
     },
     "scrum-facilitator": {
