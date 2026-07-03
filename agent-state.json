@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-02T15:45:00Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-07-03T00:07:13Z"
-  },
+  "updated": "2026-07-03T00:10:13Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-06-30",
+      "last_run": "2026-07-03",
       "last_commit": null,
-      "next_task": "check issues for human feedback; if #49 (readiness assessment), #50 (Kanban board view), or #51 (milestone markers) approved implement first (7-day auto-approve threshold 2026-07-05); #53 (This Week digest), #54 (print view), #55 (RACI tagging) created this run \u2014 await review; else research cycle",
+      "next_task": "check issues for human feedback; #49 (readiness assessment)/#50 (Kanban board)/#51 (milestone markers) reach 7-day auto-approve threshold 2026-07-05; #53 (This Week digest)/#54 (print view)/#55 (RACI tagging) reach it 2026-07-07; #56 (Vitest unit tests)/#57 (cross-initiative search)/#58 (ICS calendar export) created this run, await review; implement first approved item if any; else research cycle. Note: gh CLI write ops and Projects v2 GraphQL both blocked in this session (gh api returns 403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub writes; Project board Status field cannot be set, rely on needs-review label.",
       "blockers": []
     },
     "agile-toolkit.github.io": {
