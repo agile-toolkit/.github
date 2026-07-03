@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-03T20:06:43Z",
-  "lock": { "repo": "kanban-designer", "started_at": "2026-07-03T20:06:43Z" },
+  "updated": "2026-07-03T20:17:14Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -25,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-07-01",
-      "last_commit": "024321d8debd6ac590c1c129eefc109007897ff7",
-      "next_task": "check issues for human feedback; implement #39 (stats panel — StatsPanel.tsx with CSS bar chart per column, board summary row with total/at-capacity/empty counts, oldest card per column; nav.stats i18n key) — auto-approved 2026-06-29; also auto-approve #40/#41/#42 (7+ days stale) if not yet done",
+      "last_run": "2026-07-03",
+      "last_commit": "ae1cd7e1ebe6650f298ca0eba326bfe87d1c74eb",
+      "next_task": "check issues for human feedback; #40 (card aging), #41 (custom templates), #42 (card checklists) all auto-approved this run (9 days stale) — implement #40 first (enteredColumnAt?: string on KanbanCard set on create + column move; age chip gray 1–3d/amber 4–7d/red >7d on card face; designer.age_days/designer.age_weeks i18n keys); else #41 or #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) still needs-review, not yet stale (created 2026-06-27, stale threshold 2026-07-04)",
       "blockers": []
     },
     "salary-formula": {
