@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-04T01:22:02Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-07-04T05:06:29Z"
-  },
+  "updated": "2026-07-04T05:20:44Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-07-02",
-      "last_commit": "4be6c9b742688acbcf0d49eb8f5580b9f1164cae",
-      "next_task": "check issues for human feedback; implement #21 (light/dark theme \u2014 darkMode: 'class' in tailwind.config.js, anti-flash inline script in index.html, ThemeToggle.tsx from design-system/components/ into src/components/, dark: Tailwind variants across all src/ color classes per token map) if still approved; many other approved issues open (#3 ES/BE locales note: already done, #4/#5/#6/#7/#8/#10/#14/#15/#17/#19/#26 already implemented awaiting human Done close; #16/#18 out of scope for this repo)",
+      "last_run": "2026-07-04",
+      "last_commit": "5b03c1a",
+      "next_task": "check issues for human feedback; #21 (light/dark theme) implemented this run \u2014 all approved issues for this repo are now implemented and awaiting human Done close (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26); #8 (Scrum Facilitator banner) and #18 (Change Planner banner) are approved but scoped to those other repos, no team-identity action needed; #16 (Planning Poker + Sprint Metrics banner) needs-review, scoped to those repos; if nothing new is approved, run a research cycle for the next market/integration/UX opportunity",
       "blockers": []
     },
     "improvement-board": {
