@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T20:17:14Z",
-  "lock": null,
+  "updated": "2026-07-04T01:15:53Z",
+  "lock": { "repo": "salary-formula", "started_at": "2026-07-04T01:15:53Z" },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
