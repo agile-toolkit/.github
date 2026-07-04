@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T18:41:20Z",
-  "lock": { "repo": "work-profiles", "started_at": "2026-07-04T20:06:55Z" },
+  "updated": "2026-07-04T20:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -53,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-07-02",
-      "last_commit": "a85d908",
-      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#56 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; else research cycle",
+      "last_run": "2026-07-04",
+      "last_commit": "f807cf9",
+      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#59 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; #51/#52/#53 threshold 2026-07-07; #54/#55/#56 threshold 2026-07-09; #57 (Moving Motivators motivatorSnapshot integration)/#58 (unguarded localStorage.setItem in App.tsx)/#59 (credits trend over time) created this run 2026-07-04, await review; else research cycle. Note: gh CLI/API auth failed this session (GITHUB_PAT rejected by gh auth login) — used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
       "blockers": []
     },
     "planning-poker": {
