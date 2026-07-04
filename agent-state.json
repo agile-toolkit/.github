@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-04T05:20:44Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-07-04T18:29:58Z"
-  },
+  "updated": "2026-07-04T18:41:20Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-07-02",
-      "last_commit": "97fc58cfe42cdacb9cd2c8e361985dae79a930e8",
-      "next_task": "check issues for human feedback; auto-approve #13 (Moving Motivators integration) and #18 (bulk status actions), both needs-review and well past the 7-day threshold (created 2026-05-15/2026-05-17), implement first approved; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) are implemented and awaiting human Done close; else research cycle",
+      "last_run": "2026-07-04",
+      "last_commit": "c15b5b3",
+      "next_task": "check issues for human feedback; #18 (bulk status actions) is now approved (auto-approved this run, 2026-07-04) \u2014 implement next: \"Select items\" toggle in Board view header, checkbox per card in select mode, sticky bottom action bar (Mark Done / Mark In Progress / Mark Identified / Delete selected with confirm), Select all / Deselect all, Escape or toggle-off exits select mode and deselects, all via existing updateItems() batch path, i18n keys in EN/ES/BE/RU; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) already implemented, awaiting human Done close; else research cycle for new findings. Note: gh CLI is restricted by the environment proxy to a pinned set of PR-review GraphQL operations and Projects v2 field mutations are not exposed \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels instead.",
       "blockers": []
     },
     "work-profiles": {
