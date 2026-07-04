@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-04T01:15:53Z",
-  "lock": { "repo": "salary-formula", "started_at": "2026-07-04T01:15:53Z" },
+  "updated": "2026-07-04T01:22:02Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -32,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-07-01",
+      "last_run": "2026-07-04",
       "last_commit": null,
-      "next_task": "check issues for human feedback; if #38 (code-split html2canvas), #39 (add Vitest + unit tests), or #40 (mixed-currency equity view warning) approved implement first approved; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL is blocked in this environment (both `gh project` and direct GraphQL POST return 403 'GraphQL proxying is not enabled') so Project board status could not be set for #38-#40 — rely on needs-review label instead",
+      "next_task": "check issues for human feedback; #38 (code-split html2canvas)/#39 (add Vitest + unit tests)/#40 (mixed-currency equity view warning) reach 7-day auto-approve threshold 2026-07-08; #41 (CSV export in ComparisonView doesn't RFC4180-escape embedded quotes — corrupts export)/#42 (formatSalary vs formatCurrency: same salary shows as abbreviated $80K on Calculator/Comparison/Scenario views but full $80,000 on Equity/FormulaBuilder/TemplatesModal — pick one canonical formatter)/#43 (7 of 8 localStorage.setItem call sites unguarded, only ThemeToggle.tsx has try/catch — add safeSetItem helper in new src/utils/storage.ts, surface error instead of optimistic 'Saved!' on failure) all created this run 2026-07-04, await review; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL and gh CLI/API are fully blocked in this session (403 GitHub access not enabled) — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label instead",
       "blockers": []
     },
     "team-identity": {
