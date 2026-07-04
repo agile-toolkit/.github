@@ -1,12 +1,12 @@
 {
   "updated": "2026-07-04T18:41:20Z",
-  "lock": null,
+  "lock": { "repo": "work-profiles", "started_at": "2026-07-04T20:06:55Z" },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
