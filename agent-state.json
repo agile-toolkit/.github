@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-04T20:20:00Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-07-05T00:07:10Z"
-  },
+  "updated": "2026-07-05T00:18:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-07-02",
-      "last_commit": "7a0848aac39748570214afe4fdc2b2cd6482d8cc",
-      "next_task": "verify CI for 7a0848a (PR #42, feat: story drag-to-reorder #33) \u2014 build job succeeded but deploy-pages step exceeded 5min timeout during previous run, re-check Actions tab; then implement #34 (Sprint Metrics velocity hint \u2014 read sprint-metrics:sprints from localStorage in App.tsx/SessionView.tsx at session start, one-time read; if >=3 sprints exist compute trailing 3-sprint avg velocity; dismissible chip in SessionView header using planning-poker:velocityHintDismissed localStorage key reset per session; session.velocity_hint/session.velocity_hint_dismiss i18n keys in EN/ES/BE/RU; solo mode only per issue implementation notes, mirroring #33 scoping); #35/#36/#37 reach 7-day auto-approve threshold 2026-07-03",
+      "last_run": "2026-07-05",
+      "last_commit": "55a541cbb60844618a93a918f7ef47298b5808b4",
+      "next_task": "check issues for human feedback; #35 (blind voting)/#36 (PP\u2194Change Planner sync)/#37 (per-story notes) reached 7-day auto-approve threshold 2026-07-03 \u2014 auto-approve if still needs-review and implement first approved; #38 (QR PIN sharing)/#39 (swipe-to-vote)/#40 (estimation accuracy cross-reference) reach threshold 2026-07-05; else research cycle. Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (proxy restricts to pinned PR-review ops, 403 on other calls) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/planning-poker-velocity-hint).",
       "blockers": []
     },
     "sprint-metrics": {
