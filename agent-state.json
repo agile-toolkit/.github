@@ -1,6 +1,9 @@
 {
   "updated": "2026-07-05T15:20:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-07-05T20:07:22Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -13,56 +16,56 @@
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "fdd9ba3",
-      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel — compact motivator×session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
+      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel \u2014 compact motivator\u00d7session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
       "blockers": []
     },
     "scrum-facilitator": {
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "3c06e13",
-      "next_task": "check issues for human feedback; all approved issues #4-#32 confirmed already implemented, awaiting human Done close; #1 (favicon + indigo rebrand, research-more) rounds 5+6 exhausted with no new evidence, still awaiting approved label — do not add another repeat comment unless new evidence emerges; auto-approve #36/#37/#38 on 2026-07-04 if still needs-review and implement first approved; #39/#40/#41 threshold 2026-07-06; #42/#43/#44 threshold 2026-07-08; #45 (Vitest+RTL test coverage)/#46 (CountdownTimer animate-pulse ignores prefers-reduced-motion, WCAG 2.3.3)/#47 (StickyNote delete uses native window.confirm, breaks dark theme) created this run — await review. Note: gh CLI/API and GitHub Projects v2 are fully blocked in this session (403 GitHub access not enabled) — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
+      "next_task": "check issues for human feedback; all approved issues #4-#32 confirmed already implemented, awaiting human Done close; #1 (favicon + indigo rebrand, research-more) rounds 5+6 exhausted with no new evidence, still awaiting approved label \u2014 do not add another repeat comment unless new evidence emerges; auto-approve #36/#37/#38 on 2026-07-04 if still needs-review and implement first approved; #39/#40/#41 threshold 2026-07-06; #42/#43/#44 threshold 2026-07-08; #45 (Vitest+RTL test coverage)/#46 (CountdownTimer animate-pulse ignores prefers-reduced-motion, WCAG 2.3.3)/#47 (StickyNote delete uses native window.confirm, breaks dark theme) created this run \u2014 await review. Note: gh CLI/API and GitHub Projects v2 are fully blocked in this session (403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
       "blockers": []
     },
     "kanban-designer": {
       "status": "stable",
       "last_run": "2026-07-03",
       "last_commit": "ae1cd7e1ebe6650f298ca0eba326bfe87d1c74eb",
-      "next_task": "check issues for human feedback; #40 (card aging), #41 (custom templates), #42 (card checklists) all auto-approved this run (9 days stale) — implement #40 first (enteredColumnAt?: string on KanbanCard set on create + column move; age chip gray 1–3d/amber 4–7d/red >7d on card face; designer.age_days/designer.age_weeks i18n keys); else #41 or #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) still needs-review, not yet stale (created 2026-06-27, stale threshold 2026-07-04)",
+      "next_task": "check issues for human feedback; #40 (card aging), #41 (custom templates), #42 (card checklists) all auto-approved this run (9 days stale) \u2014 implement #40 first (enteredColumnAt?: string on KanbanCard set on create + column move; age chip gray 1\u20133d/amber 4\u20137d/red >7d on card face; designer.age_days/designer.age_weeks i18n keys); else #41 or #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) still needs-review, not yet stale (created 2026-06-27, stale threshold 2026-07-04)",
       "blockers": []
     },
     "salary-formula": {
       "status": "stable",
       "last_run": "2026-07-04",
       "last_commit": null,
-      "next_task": "check issues for human feedback; #38 (code-split html2canvas)/#39 (add Vitest + unit tests)/#40 (mixed-currency equity view warning) reach 7-day auto-approve threshold 2026-07-08; #41 (CSV export in ComparisonView doesn't RFC4180-escape embedded quotes — corrupts export)/#42 (formatSalary vs formatCurrency: same salary shows as abbreviated $80K on Calculator/Comparison/Scenario views but full $80,000 on Equity/FormulaBuilder/TemplatesModal — pick one canonical formatter)/#43 (7 of 8 localStorage.setItem call sites unguarded, only ThemeToggle.tsx has try/catch — add safeSetItem helper in new src/utils/storage.ts, surface error instead of optimistic 'Saved!' on failure) all created this run 2026-07-04, await review; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL and gh CLI/API are fully blocked in this session (403 GitHub access not enabled) — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label instead",
+      "next_task": "check issues for human feedback; #38 (code-split html2canvas)/#39 (add Vitest + unit tests)/#40 (mixed-currency equity view warning) reach 7-day auto-approve threshold 2026-07-08; #41 (CSV export in ComparisonView doesn't RFC4180-escape embedded quotes \u2014 corrupts export)/#42 (formatSalary vs formatCurrency: same salary shows as abbreviated $80K on Calculator/Comparison/Scenario views but full $80,000 on Equity/FormulaBuilder/TemplatesModal \u2014 pick one canonical formatter)/#43 (7 of 8 localStorage.setItem call sites unguarded, only ThemeToggle.tsx has try/catch \u2014 add safeSetItem helper in new src/utils/storage.ts, surface error instead of optimistic 'Saved!' on failure) all created this run 2026-07-04, await review; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL and gh CLI/API are fully blocked in this session (403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label instead",
       "blockers": []
     },
     "team-identity": {
       "status": "stable",
       "last_run": "2026-07-04",
       "last_commit": "5b03c1a",
-      "next_task": "check issues for human feedback; #21 (light/dark theme) implemented this run — all approved issues for this repo are now implemented and awaiting human Done close (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26); #8 (Scrum Facilitator banner) and #18 (Change Planner banner) are approved but scoped to those other repos, no team-identity action needed; #16 (Planning Poker + Sprint Metrics banner) needs-review, scoped to those repos; if nothing new is approved, run a research cycle for the next market/integration/UX opportunity",
+      "next_task": "check issues for human feedback; #21 (light/dark theme) implemented this run \u2014 all approved issues for this repo are now implemented and awaiting human Done close (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26); #8 (Scrum Facilitator banner) and #18 (Change Planner banner) are approved but scoped to those other repos, no team-identity action needed; #16 (Planning Poker + Sprint Metrics banner) needs-review, scoped to those repos; if nothing new is approved, run a research cycle for the next market/integration/UX opportunity",
       "blockers": []
     },
     "improvement-board": {
       "status": "stable",
       "last_run": "2026-07-04",
       "last_commit": "c15b5b3",
-      "next_task": "check issues for human feedback; #18 (bulk status actions) is now approved (auto-approved this run, 2026-07-04) — implement next: \"Select items\" toggle in Board view header, checkbox per card in select mode, sticky bottom action bar (Mark Done / Mark In Progress / Mark Identified / Delete selected with confirm), Select all / Deselect all, Escape or toggle-off exits select mode and deselects, all via existing updateItems() batch path, i18n keys in EN/ES/BE/RU; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) already implemented, awaiting human Done close; else research cycle for new findings. Note: gh CLI is restricted by the environment proxy to a pinned set of PR-review GraphQL operations and Projects v2 field mutations are not exposed — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels instead.",
+      "next_task": "check issues for human feedback; #18 (bulk status actions) is now approved (auto-approved this run, 2026-07-04) \u2014 implement next: \"Select items\" toggle in Board view header, checkbox per card in select mode, sticky bottom action bar (Mark Done / Mark In Progress / Mark Identified / Delete selected with confirm), Select all / Deselect all, Escape or toggle-off exits select mode and deselects, all via existing updateItems() batch path, i18n keys in EN/ES/BE/RU; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) already implemented, awaiting human Done close; else research cycle for new findings. Note: gh CLI is restricted by the environment proxy to a pinned set of PR-review GraphQL operations and Projects v2 field mutations are not exposed \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels instead.",
       "blockers": []
     },
     "work-profiles": {
       "status": "stable",
       "last_run": "2026-07-04",
       "last_commit": "f807cf9",
-      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#59 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; #51/#52/#53 threshold 2026-07-07; #54/#55/#56 threshold 2026-07-09; #57 (Moving Motivators motivatorSnapshot integration)/#58 (unguarded localStorage.setItem in App.tsx)/#59 (credits trend over time) created this run 2026-07-04, await review; else research cycle. Note: gh CLI/API auth failed this session (GITHUB_PAT rejected by gh auth login) — used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
+      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#59 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; #51/#52/#53 threshold 2026-07-07; #54/#55/#56 threshold 2026-07-09; #57 (Moving Motivators motivatorSnapshot integration)/#58 (unguarded localStorage.setItem in App.tsx)/#59 (credits trend over time) created this run 2026-07-04, await review; else research cycle. Note: gh CLI/API auth failed this session (GITHUB_PAT rejected by gh auth login) \u2014 used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
       "blockers": []
     },
     "planning-poker": {
       "status": "stable",
       "last_run": "2026-07-05",
       "last_commit": "55a541cbb60844618a93a918f7ef47298b5808b4",
-      "next_task": "check issues for human feedback; #35 (blind voting)/#36 (PP↔Change Planner sync)/#37 (per-story notes) reached 7-day auto-approve threshold 2026-07-03 — auto-approve if still needs-review and implement first approved; #38 (QR PIN sharing)/#39 (swipe-to-vote)/#40 (estimation accuracy cross-reference) reach threshold 2026-07-05; else research cycle. Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (proxy restricts to pinned PR-review ops, 403 on other calls) — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/planning-poker-velocity-hint).",
+      "next_task": "check issues for human feedback; #35 (blind voting)/#36 (PP\u2194Change Planner sync)/#37 (per-story notes) reached 7-day auto-approve threshold 2026-07-03 \u2014 auto-approve if still needs-review and implement first approved; #38 (QR PIN sharing)/#39 (swipe-to-vote)/#40 (estimation accuracy cross-reference) reach threshold 2026-07-05; else research cycle. Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (proxy restricts to pinned PR-review ops, 403 on other calls) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/planning-poker-velocity-hint).",
       "blockers": []
     },
     "sprint-metrics": {
@@ -76,14 +79,14 @@
       "status": "stable",
       "last_run": "2026-07-05",
       "last_commit": "bba363d8b895f44ee4e440cd56ddf22732223b12",
-      "next_task": "check issues for human feedback; #50 (action Kanban board view) and #51 (milestone markers) already auto-approved this run (7-day threshold reached 2026-07-05) — implement #50 next (Board tab, 3 columns Todo/In Progress/Done, extends ActionStatus with in-progress, swim lanes per facet, HTML5 drag-and-drop, ~130 LOC BoardView.tsx), else #51; #53/#54/#55 reach 7-day threshold 2026-07-07; #56/#57/#58 not yet stale (created 2026-07-03); #59 (hardcoded English placeholder bug in FacetCard.tsx, filed this run) awaiting review. Note: gh CLI/API auth and GraphQL fully blocked in this session (403) — used mcp__github__ tools for all GitHub ops; git push --delete for branch cleanup also 403d post-merge (harmless stray branch agent/change-planner-readiness-assessment left on remote, same as other repos this session); Project board Status field cannot be set, rely on needs-review/approved labels only.",
+      "next_task": "check issues for human feedback; #50 (action Kanban board view) and #51 (milestone markers) already auto-approved this run (7-day threshold reached 2026-07-05) \u2014 implement #50 next (Board tab, 3 columns Todo/In Progress/Done, extends ActionStatus with in-progress, swim lanes per facet, HTML5 drag-and-drop, ~130 LOC BoardView.tsx), else #51; #53/#54/#55 reach 7-day threshold 2026-07-07; #56/#57/#58 not yet stale (created 2026-07-03); #59 (hardcoded English placeholder bug in FacetCard.tsx, filed this run) awaiting review. Note: gh CLI/API auth and GraphQL fully blocked in this session (403) \u2014 used mcp__github__ tools for all GitHub ops; git push --delete for branch cleanup also 403d post-merge (harmless stray branch agent/change-planner-readiness-assessment left on remote, same as other repos this session); Project board Status field cannot be set, rely on needs-review/approved labels only.",
       "blockers": []
     },
     "agile-toolkit.github.io": {
       "status": "stable",
       "last_run": "2026-07-05",
       "last_commit": "e260b6228781b8b5cb8e694421aa605411e479f9",
-      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips)/#30 (Sprint Metrics mood emoji chip)/#31 (attention badge for overdue/at-risk state) reach 7-day auto-approve threshold 2026-07-10; #32 (Moving Motivators team-session data — motivationSnapshot/teamSessionHistory — unread by readMovingMotivators())/#33 (Sprint Metrics lastSprintGoal chip) created this run 2026-07-05, threshold 2026-07-12; implement first approved item if any before thresholds hit; else research cycle. Note: gh CLI/API and GraphQL fully blocked in this session (403, only pinned PR-review ops served) — used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (gh project item-add \"unknown owner type\" precedent), rely on needs-review label only; branch claude/modest-dirac-n09ijy left on remote post-merge (harmless, same pattern as sibling repos this session).",
+      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips)/#30 (Sprint Metrics mood emoji chip)/#31 (attention badge for overdue/at-risk state) reach 7-day auto-approve threshold 2026-07-10; #32 (Moving Motivators team-session data \u2014 motivationSnapshot/teamSessionHistory \u2014 unread by readMovingMotivators())/#33 (Sprint Metrics lastSprintGoal chip) created this run 2026-07-05, threshold 2026-07-12; implement first approved item if any before thresholds hit; else research cycle. Note: gh CLI/API and GraphQL fully blocked in this session (403, only pinned PR-review ops served) \u2014 used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (gh project item-add \"unknown owner type\" precedent), rely on needs-review label only; branch claude/modest-dirac-n09ijy left on remote post-merge (harmless, same pattern as sibling repos this session).",
       "blockers": []
     }
   },
