@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-05T00:18:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-07-05T05:06:45Z"
-  },
+  "updated": "2026-07-05T05:19:53Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-07-02",
-      "last_commit": "e0f7c54",
-      "next_task": "check issues for human feedback; auto-approve #49 (inline sprint editing), #50 (Kanban CFD auto-fill), #51 (dark tooltip) on 2026-07-05 if still needs-review and implement first approved; #52 (retro notes import)/#53 (quarterly rollup)/#54 (a11y charts) due 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) created this run \u2014 await review; else research cycle. Note: gh CLI and Projects v2 GraphQL mutations are blocked in this environment \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (no mutation tool exposed), rely on needs-review label.",
+      "last_run": "2026-07-05",
+      "last_commit": "7b0f525b8421a326fbc4dddbb93bbd6fb17f225d",
+      "next_task": "check issues for human feedback; implement #50 (Kanban Designer -> CFD auto-fill card counts from kanban-designer:currentBoard, positional column mapping first/middle/last -> todo/inProgress/done, hint label) next since already approved (auto-approved 2026-07-05 alongside #49/#51); else #51 (Recharts tooltip dark mode -- useIsDarkMode() hook + contentStyle on VelocityChart/BurnDownChart/BurnUpChart/CFDChart); #52 (Scrum Facilitator retro notes import)/#53 (quarterly rollup view)/#54 (a11y data tables under charts) reach 7-day threshold 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) not yet stale (created 2026-07-02). Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (403 GitHub access not enabled on gh run list; list_issue_fields only exposes org-level Priority/Effort/dates, no per-repo Project Status field) -- used mcp__github__ tools for all GitHub ops (comments, PR create/merge); Project board Status field cannot be set, rely on needs-review label only. git push --delete for branch cleanup also 403d post-merge (same as planning-poker) -- harmless stray branch agent/sprint-metrics-inline-sprint-editing left on remote.",
       "blockers": []
     },
     "change-planner": {
