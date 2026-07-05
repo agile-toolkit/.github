@@ -1,22 +1,19 @@
 {
-  "updated": "2026-07-05T15:20:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-07-05T20:07:22Z"
-  },
+  "updated": "2026-07-05T20:14:06Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-07-03",
-      "last_commit": "fdd9ba3",
-      "next_task": "check issues for human feedback; implement #48 (solo rank trend table in SessionShiftPanel \u2014 compact motivator\u00d7session grid, last 6 sessions, green/red color coding) if still approved; else auto-approve #49/#50/#51 (reached 7-day threshold 2026-07-03) and implement first approved; #52/#53 not yet stale; #5 (favicon) still awaiting approved label; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete",
+      "last_run": "2026-07-05",
+      "last_commit": "ecf83547e743095cebca98e3cd1ed9fc98e4278e",
+      "next_task": "check issues for human feedback; #48 (solo rank trend table) implemented this run \u2014 awaiting human Done close alongside #46/#47; #49/#50/#51 reached 7-day auto-approve threshold 2026-07-03 \u2014 auto-approve if still needs-review and implement first approved; #52/#53 needs-review, not yet stale; #5 (favicon) still awaiting approved label after research-more; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete. Note: gh CLI/API GraphQL and Actions API are blocked in this session (403 GitHub access not enabled / only pinned PR-review GraphQL ops served) \u2014 used mcp__github__ tools for all GitHub ops; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/moving-motivators-rank-trend-table).",
       "blockers": []
     },
     "scrum-facilitator": {
