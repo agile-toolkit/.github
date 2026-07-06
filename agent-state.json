@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-06T10:20:21Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-06T15:06:55Z"
-  },
+  "updated": "2026-07-06T15:20:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-07-06",
-      "last_commit": "323563db0f50f07372f51262205c2a3df12c25a6",
-      "next_task": "implement #38 next \u2014 Impediment log in Daily Scrum -> link to Improvement Board: `types.ts` add `impediments?: string[]` to `SessionState`/`ExportData`; `CeremonyRunner.tsx` collapsible \"Impediments\" panel active from `daily-2` onward (add-text input + list with remove buttons, persisted to `scrum-facilitator-session`, collapsed by default); `ExportView.tsx`/`CeremonyComplete.tsx` add `## Impediments` Markdown section + \"Open Improvement Board ->\" link to https://agile-toolkit.github.io/improvement-board/ when ceremony is `daily` and impediments exist; `HomeScreen.tsx` daily history entries show impediment count alongside participant count; `daily.impediments`/`daily.addImpediment`/`daily.openImprovementBoard` in all 4 locales. Then #39 (Sprint Review demo checklist), #40 (ceremony time efficiency stats), #41 (stakeholder feedback panel), in that order. #37 (retro action item ownership) implemented + merged this run (PR #50); verified end-to-end in a real browser via Playwright (marked a retro note as an action item, assigned an owner from the participant dropdown, confirmed the Markdown export Action Items checklist). Note: gh CLI/API and GitHub Actions API direct access (curl) remain fully blocked in this session (403 GitHub access not enabled) -- used mcp__github__ tools for all GitHub ops including CI status/logs and a workflow rerun; the first Pages deploy attempt for commit 323563d failed with a transient \"Deployment failed, try again later\" infra error (build job succeeded cleanly) -- rerun_failed_jobs succeeded on attempt 2, so this was not treated as a code blocker; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/scrum-facilitator-retro-action-ownership); Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
+      "last_commit": "d8efc96647bdeb7941fd995fdef3b94b1eb004b9",
+      "next_task": "implement #39 next \u2014 Sprint Review demo checklist: track items to demo during the review-2 step of Sprint Review; add a checklist UI (add-item text input + checkbox list) similar in spirit to the Impediments panel pattern, persisted to scrum-facilitator-session, surfaced in the Markdown export for review ceremonies. Then #40 (ceremony time efficiency stats \u2014 planned vs actual per step, shown post-ceremony), #41 (stakeholder feedback panel for Sprint Review), in that order. #38 (impediment log \u2192 Improvement Board link) implemented + merged this run (PR #51, commit d8efc96); verified end-to-end in a real browser via Playwright (confirmed panel absent on daily-1/present on daily-2, added an impediment, confirmed the complete-screen banner + Markdown export section + home screen history subtitle 'participants \u00b7 impediments'). CI green (deploy.yml run 28802314951, conclusion success). Note: gh CLI/API and GitHub Actions API direct access (curl) remain fully blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops including PR create/merge and CI status; git push --delete for branch cleanup also 403s post-merge (not attempted this run, consistent with prior sessions' harmless stray-branch pattern); Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
       "blockers": []
     },
     "kanban-designer": {
