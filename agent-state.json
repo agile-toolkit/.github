@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-06T05:19:30Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-06T10:07:10Z"
-  },
+  "updated": "2026-07-06T10:20:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-07-06",
-      "last_commit": "60edc6e58425cb07984b08ac5b040eee354e6db4",
-      "next_task": "implement #37 next \u2014 Retro action item ownership: assign an owner (from Daily Scrum participant list) to each sticky note in the retro's action-oriented column(s); persist via existing retroNotes/StickyNote structures; surface owner in Markdown export. Then #38 (impediment log \u2192 Improvement Board), #39 (Sprint Review demo checklist), #40 (ceremony time efficiency stats), #41 (stakeholder feedback panel), in that order \u2014 all approved 2026-07-06. #42/#43/#44 threshold 2026-07-08; #45/#46/#47 not yet stale (created 2026-07-03); #1 (favicon, research-more) still awaiting approved label, no new evidence \u2014 do not re-comment. #36 (Sprint Goal capture) implemented + merged this run (PR #49); issue #36's spec said the goal textarea belonged on step id planning-3, but that id is actually \"Capacity Check\" in ceremonies.ts \u2014 placed it on planning-1 (\"Define Sprint Goal\") instead to match the feature's intent; verified end-to-end in a real browser via Playwright (goal entry, pinned reminder badge, Markdown export blockquote, home-screen history subtitle). Note: gh CLI/API and GraphQL fully blocked in this session (403; git auth to github.com via gh also rejected) \u2014 used mcp__github__ tools for all GitHub ops and the local git proxy for clone/push; git push --delete for branch cleanup also 403d post-merge, harmless stray branch left (claude/fervent-bardeen-65xavl); Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
+      "last_commit": "323563db0f50f07372f51262205c2a3df12c25a6",
+      "next_task": "implement #38 next \u2014 Impediment log in Daily Scrum -> link to Improvement Board: `types.ts` add `impediments?: string[]` to `SessionState`/`ExportData`; `CeremonyRunner.tsx` collapsible \"Impediments\" panel active from `daily-2` onward (add-text input + list with remove buttons, persisted to `scrum-facilitator-session`, collapsed by default); `ExportView.tsx`/`CeremonyComplete.tsx` add `## Impediments` Markdown section + \"Open Improvement Board ->\" link to https://agile-toolkit.github.io/improvement-board/ when ceremony is `daily` and impediments exist; `HomeScreen.tsx` daily history entries show impediment count alongside participant count; `daily.impediments`/`daily.addImpediment`/`daily.openImprovementBoard` in all 4 locales. Then #39 (Sprint Review demo checklist), #40 (ceremony time efficiency stats), #41 (stakeholder feedback panel), in that order. #37 (retro action item ownership) implemented + merged this run (PR #50); verified end-to-end in a real browser via Playwright (marked a retro note as an action item, assigned an owner from the participant dropdown, confirmed the Markdown export Action Items checklist). Note: gh CLI/API and GitHub Actions API direct access (curl) remain fully blocked in this session (403 GitHub access not enabled) -- used mcp__github__ tools for all GitHub ops including CI status/logs and a workflow rerun; the first Pages deploy attempt for commit 323563d failed with a transient \"Deployment failed, try again later\" infra error (build job succeeded cleanly) -- rerun_failed_jobs succeeded on attempt 2, so this was not treated as a code blocker; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/scrum-facilitator-retro-action-ownership); Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
       "blockers": []
     },
     "kanban-designer": {
