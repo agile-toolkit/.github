@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T20:14:06Z",
-  "lock": { "repo": "scrum-facilitator", "started_at": "2026-07-06T01:19:51Z" },
+  "updated": "2026-07-06T01:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -17,10 +17,10 @@
       "blockers": []
     },
     "scrum-facilitator": {
-      "status": "stable",
-      "last_run": "2026-07-03",
-      "last_commit": "3c06e13",
-      "next_task": "check issues for human feedback; all approved issues #4-#32 confirmed already implemented, awaiting human Done close; #1 (favicon + indigo rebrand, research-more) rounds 5+6 exhausted with no new evidence, still awaiting approved label \u2014 do not add another repeat comment unless new evidence emerges; auto-approve #36/#37/#38 on 2026-07-04 if still needs-review and implement first approved; #39/#40/#41 threshold 2026-07-06; #42/#43/#44 threshold 2026-07-08; #45 (Vitest+RTL test coverage)/#46 (CountdownTimer animate-pulse ignores prefers-reduced-motion, WCAG 2.3.3)/#47 (StickyNote delete uses native window.confirm, breaks dark theme) created this run \u2014 await review. Note: gh CLI/API and GitHub Projects v2 are fully blocked in this session (403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
+      "status": "in-progress",
+      "last_run": "2026-07-06",
+      "last_commit": "4d49c9916d44f28619e015ea845b9940919e9297",
+      "next_task": "implement #36 first \u2014 Sprint Goal capture in Sprint Planning ceremony: types.ts add sprintGoal?: string to SessionState+ExportData; CeremonyRunner.tsx textarea on planning-3 step labelled t('planning.sprintGoalLabel'), auto-save to scrum-facilitator-session, pinned reminder badge in header during later planning steps; ExportView.tsx highlighted \"Sprint Goal\" blockquote at top of Markdown export when set; HomeScreen.tsx history entries for planning ceremonies show Sprint Goal as subtitle; add planning.sprintGoalLabel/planning.sprintGoalPlaceholder to all 4 locales (EN/ES/BE/RU). Then #37 (retro action item ownership), #38 (impediment log \u2192 Improvement Board), #39 (Sprint Review demo checklist), #40 (ceremony time efficiency stats), #41 (stakeholder feedback panel), in that order \u2014 all approved 2026-07-06 (7-day threshold reached, needs-review since 2026-06-27/2026-06-29). #42/#43/#44 threshold 2026-07-08; #45/#46/#47 not yet stale (created 2026-07-03); #1 (favicon, research-more) still awaiting approved label, no new evidence \u2014 do not re-comment. Note: used mcp__github__ tools for all GitHub ops (this session has working GitHub MCP server, gh CLI not used per environment instructions); list_issue_fields only exposes org-level Priority/Effort/dates, no per-repo Project Status field \u2014 rely on needs-review/approved labels only.",
       "blockers": []
     },
     "kanban-designer": {
