@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-06T15:20:21Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-06T20:07:37Z"
-  },
+  "updated": "2026-07-06T20:18:23Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-07-06",
-      "last_commit": "d8efc96647bdeb7941fd995fdef3b94b1eb004b9",
-      "next_task": "implement #39 next \u2014 Sprint Review demo checklist: track items to demo during the review-2 step of Sprint Review; add a checklist UI (add-item text input + checkbox list) similar in spirit to the Impediments panel pattern, persisted to scrum-facilitator-session, surfaced in the Markdown export for review ceremonies. Then #40 (ceremony time efficiency stats \u2014 planned vs actual per step, shown post-ceremony), #41 (stakeholder feedback panel for Sprint Review), in that order. #38 (impediment log \u2192 Improvement Board link) implemented + merged this run (PR #51, commit d8efc96); verified end-to-end in a real browser via Playwright (confirmed panel absent on daily-1/present on daily-2, added an impediment, confirmed the complete-screen banner + Markdown export section + home screen history subtitle 'participants \u00b7 impediments'). CI green (deploy.yml run 28802314951, conclusion success). Note: gh CLI/API and GitHub Actions API direct access (curl) remain fully blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops including PR create/merge and CI status; git push --delete for branch cleanup also 403s post-merge (not attempted this run, consistent with prior sessions' harmless stray-branch pattern); Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
+      "last_commit": "086d50e006692f6df9e34e91efbccecf17e73959",
+      "next_task": "implement #40 next \u2014 Ceremony time efficiency stats: track planned vs. actual time spent per step using useTimer's existing per-step duration and elapsed time; show a post-ceremony summary (small table or bar comparison) on CeremonyComplete.tsx/ExportView.tsx. Then #41 (stakeholder feedback panel for Sprint Review). #39 (Sprint Review demo checklist) implemented + merged this run (PR #52, commit 086d50e); verified end-to-end in a real browser via Playwright (pre-added 2 demo items on Home under the Sprint Review card, confirmed they carried into the review-2 in-ceremony panel, checked one off with a presenter name, confirmed the complete-screen 1/2 banner and the export\u2019s Markdown checklist lines matching the issue\u2019s example format). CI green (deploy.yml run 28820360907, conclusion success). Note: gh CLI/API and GraphQL remain fully blocked in this session (403 GitHub access not enabled, and direct REST curl calls to api.github.com also 403 through this session\u2019s proxy) \u2014 used mcp__github__ tools for all GitHub ops including PR create/merge and CI status; Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
       "blockers": []
     },
     "kanban-designer": {
