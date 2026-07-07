@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-07T15:10:51Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-07-07T20:08:07Z"
-  },
+  "updated": "2026-07-07T20:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -28,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-07-03",
-      "last_commit": "ae1cd7e1ebe6650f298ca0eba326bfe87d1c74eb",
-      "next_task": "check issues for human feedback; #40 (card aging), #41 (custom templates), #42 (card checklists) all auto-approved this run (9 days stale) \u2014 implement #40 first (enteredColumnAt?: string on KanbanCard set on create + column move; age chip gray 1\u20133d/amber 4\u20137d/red >7d on card face; designer.age_days/designer.age_weeks i18n keys); else #41 or #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) still needs-review, not yet stale (created 2026-06-27, stale threshold 2026-07-04)",
+      "last_run": "2026-07-07",
+      "last_commit": "8df23312a6f42323d3cf1f361174081aab6a87e7",
+      "next_task": "check issues for human feedback; #40 (card aging) implemented this run \u2014 enteredColumnAt timestamp on KanbanCard, age chip (gray 1-3d/amber 4-7d/red >7d, weeks past 14d) next to due-date badge, designer.age_days/age_weeks i18n keys in all 4 locales; PR #49 merged, CI green (run 28895580903); #41 (custom templates)/#42 (card checklists) still approved, awaiting implementation \u2014 implement #41 next (\"Save as template\" toolbar button; kanban-designer:customTemplates localStorage; strips card content, keeps structure; \"My Templates\" section in TemplatesView), else #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) needs-review, created 2026-06-27, 7-day auto-approve threshold 2026-07-04 already passed \u2014 recheck staleness and auto-approve if still needs-review on next pick; #2-#17/#31/#32/#33/#37/#38/#39 all approved and already implemented, awaiting human Done close. Note: gh CLI/API Actions endpoint blocked in this session (403 GitHub access is not enabled) \u2014 used mcp__github__ tools (actions_list/actions_get) for CI checks, which worked; git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/kanban-designer-card-aging left on remote.",
       "blockers": []
     },
     "salary-formula": {
