@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-07T00:20:47Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-07T10:07:52Z"
-  },
+  "updated": "2026-07-07T10:24:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -22,8 +19,8 @@
     "scrum-facilitator": {
       "status": "in-progress",
       "last_run": "2026-07-07",
-      "last_commit": "2aec7a506ce21f35b0cc7ecdf2eb97860a127489",
-      "next_task": "implement #41 next \u2014 Stakeholder feedback panel for Sprint Review: extend Participant with role?: 'team'|'stakeholder'; add feedbackItems?: FeedbackItem[] ({ id, text, from?, type: question|concern|praise }) to SessionState/ExportData; ParticipantPanel.tsx shows Team/Stakeholder toggle + distinct stakeholder section (\ud83e\udd1d badge, no pending/speaking/done status) when ceremonyType===review; CeremonyRunner.tsx collapsible Feedback panel during review-3 with quick-add + type selector; ExportView.tsx prepends ## Stakeholder Feedback section grouped by Questions/Concerns/Praise; i18n keys review.feedback/addFeedback/feedbackFrom/feedbackType.*, participant.role.* in all 4 locales. #40 (ceremony time efficiency stats) implemented + merged this run (PR #53, commit 2aec7a5); verified end-to-end in a real browser via Playwright (full Daily Stand-up run showing green time breakdown card + matching export table; 1s timebox override showing red over-budget delta; seeded history entry showing the new overtime badge). CI green (deploy.yml run 28832431439, conclusion success). Note: GitHub Projects v2 Status field remains unexposed via mcp__github__list_issue_fields (org-level Priority/Effort/dates only) \u2014 used mcp__github__ tools for all GitHub ops (issue read, PR create/merge, Actions run list); rely on needs-review/approved labels only for this repo's project board.",
+      "last_commit": "a0dd6a6c020216c2019c79beaa08f641d284f738",
+      "next_task": "check issues for human feedback; #41 (stakeholder feedback panel for Sprint Review) implemented + merged this run (PR #54, commit a0dd6a6); verified end-to-end in a real browser via Playwright (light+dark, EN+ES): added a Team member and a Stakeholder via ParticipantPanel's role toggle during Sprint Review, confirmed the distinct \ud83e\udd1d-badged stakeholder section; advanced to review-3, added a Question and a Concern via FeedbackPanel both attributed to the stakeholder (from-field remembered the last pick), finished the ceremony, confirmed the Markdown export's grouped ## Stakeholder Feedback section (### Questions/### Concerns) matched the issue's example format exactly. CI green (deploy.yml run 28859112977, conclusion success). All approved issues (#4-#41) are now implemented; remaining backlog #42 (additional retro formats)/#43 (sticky note drag-to-reorder)/#44 (Team Identity participant import) reach 7-day auto-approve threshold 2026-07-08 (created 2026-07-01, still needs-review as of last check); #45 (test coverage)/#46 (reduced-motion a11y)/#47 (delete-confirm UX) reach threshold 2026-07-10 (created 2026-07-03); auto-approve and implement first approved if still needs-review at threshold, else run a research cycle. Note: GitHub Projects v2 Status field remains unexposed via mcp__github__list_issue_fields (org-level Priority/Effort/dates only) \u2014 used mcp__github__ tools for all GitHub ops (issue read, PR create/merge, Actions run list); rely on needs-review/approved labels only for this repo's project board. gh CLI GraphQL (issue/PR list, all `gh project` commands) is blocked in this session (403/proxy-restricted to pinned PR-review ops) but repo-scoped REST via `gh api repos/{owner}/{repo}/...` works.",
       "blockers": []
     },
     "kanban-designer": {
