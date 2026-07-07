@@ -1,6 +1,9 @@
 {
   "updated": "2026-07-07T15:10:51Z",
-  "lock": null,
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-07-07T20:08:07Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
