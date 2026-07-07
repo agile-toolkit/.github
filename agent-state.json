@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-06T20:18:23Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-07T00:07:03Z"
-  },
+  "updated": "2026-07-07T00:20:47Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "in-progress",
-      "last_run": "2026-07-06",
-      "last_commit": "086d50e006692f6df9e34e91efbccecf17e73959",
-      "next_task": "implement #40 next \u2014 Ceremony time efficiency stats: track planned vs. actual time spent per step using useTimer's existing per-step duration and elapsed time; show a post-ceremony summary (small table or bar comparison) on CeremonyComplete.tsx/ExportView.tsx. Then #41 (stakeholder feedback panel for Sprint Review). #39 (Sprint Review demo checklist) implemented + merged this run (PR #52, commit 086d50e); verified end-to-end in a real browser via Playwright (pre-added 2 demo items on Home under the Sprint Review card, confirmed they carried into the review-2 in-ceremony panel, checked one off with a presenter name, confirmed the complete-screen 1/2 banner and the export\u2019s Markdown checklist lines matching the issue\u2019s example format). CI green (deploy.yml run 28820360907, conclusion success). Note: gh CLI/API and GraphQL remain fully blocked in this session (403 GitHub access not enabled, and direct REST curl calls to api.github.com also 403 through this session\u2019s proxy) \u2014 used mcp__github__ tools for all GitHub ops including PR create/merge and CI status; Project board Status field cannot be set via available MCP tools, rely on needs-review/approved labels only.",
+      "last_run": "2026-07-07",
+      "last_commit": "2aec7a506ce21f35b0cc7ecdf2eb97860a127489",
+      "next_task": "implement #41 next \u2014 Stakeholder feedback panel for Sprint Review: extend Participant with role?: 'team'|'stakeholder'; add feedbackItems?: FeedbackItem[] ({ id, text, from?, type: question|concern|praise }) to SessionState/ExportData; ParticipantPanel.tsx shows Team/Stakeholder toggle + distinct stakeholder section (\ud83e\udd1d badge, no pending/speaking/done status) when ceremonyType===review; CeremonyRunner.tsx collapsible Feedback panel during review-3 with quick-add + type selector; ExportView.tsx prepends ## Stakeholder Feedback section grouped by Questions/Concerns/Praise; i18n keys review.feedback/addFeedback/feedbackFrom/feedbackType.*, participant.role.* in all 4 locales. #40 (ceremony time efficiency stats) implemented + merged this run (PR #53, commit 2aec7a5); verified end-to-end in a real browser via Playwright (full Daily Stand-up run showing green time breakdown card + matching export table; 1s timebox override showing red over-budget delta; seeded history entry showing the new overtime badge). CI green (deploy.yml run 28832431439, conclusion success). Note: GitHub Projects v2 Status field remains unexposed via mcp__github__list_issue_fields (org-level Priority/Effort/dates only) \u2014 used mcp__github__ tools for all GitHub ops (issue read, PR create/merge, Actions run list); rely on needs-review/approved labels only for this repo's project board.",
       "blockers": []
     },
     "kanban-designer": {
