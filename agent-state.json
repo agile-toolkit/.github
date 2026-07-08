@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-07T20:20:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-07-08T00:07:29Z"
-  },
+  "updated": "2026-07-08T00:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-07-04",
-      "last_commit": null,
-      "next_task": "check issues for human feedback; #38 (code-split html2canvas)/#39 (add Vitest + unit tests)/#40 (mixed-currency equity view warning) reach 7-day auto-approve threshold 2026-07-08; #41 (CSV export in ComparisonView doesn't RFC4180-escape embedded quotes \u2014 corrupts export)/#42 (formatSalary vs formatCurrency: same salary shows as abbreviated $80K on Calculator/Comparison/Scenario views but full $80,000 on Equity/FormulaBuilder/TemplatesModal \u2014 pick one canonical formatter)/#43 (7 of 8 localStorage.setItem call sites unguarded, only ThemeToggle.tsx has try/catch \u2014 add safeSetItem helper in new src/utils/storage.ts, surface error instead of optimistic 'Saved!' on failure) all created this run 2026-07-04, await review; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done); note: GitHub Projects v2/GraphQL and gh CLI/API are fully blocked in this session (403 GitHub access not enabled) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label instead",
+      "last_run": "2026-07-08",
+      "last_commit": "676e8b47b9ca196eab3a71f55128da6fac82fdb0",
+      "next_task": "check issues for human feedback; #38 (code-split html2canvas) implemented and merged this run (PR #44) \u2014 static html2canvas import replaced with dynamic import() in ComparisonView.tsx handleExportImage, main bundle 488kB->286.58kB (gzip 137.59kB->88.85kB); auto-approval comment posted on #38 explaining reasoning; #39 (add Vitest + unit tests \u2014 new dependency, vitest has well over 1M weekly downloads, auto-approve eligible) and #40 (mixed-currency equity/comparison view warning \u2014 bug fix, auto-approve eligible) both also reached the 7-day needs-review threshold today (2026-07-08) but were left for next run under the one-task-per-run rule, not yet commented/approved \u2014 implement #39 first next run (or #40 if #39 is too large for one run); #41/#42/#43 reach 7-day threshold 2026-07-11; #3/#5/#7/#12/#13/#14/#15/#16/#17/#19 all already implemented, just awaiting human close (Done). Note: gh CLI/API GraphQL and Actions REST endpoint still blocked in this session (403 GitHub access not enabled, same as sibling repos) \u2014 used mcp__github__ tools for all GitHub ops (issue list/comment, PR create/merge, actions_list for CI check, which works via MCP even though direct curl to the Actions REST endpoint 403s); list_issue_fields only exposes org-level Priority/Effort/date fields for this repo, no per-repo Project Status field exposed \u2014 rely on needs-review label + BRIEF.md log only; git push --delete for branch cleanup 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/salary-formula-code-split-html2canvas left on remote.",
       "blockers": []
     },
     "team-identity": {
