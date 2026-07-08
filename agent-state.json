@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-08T10:18:48Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-07-08T15:06:43Z"
-  },
+  "updated": "2026-07-08T15:35:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "stable",
-      "last_run": "2026-07-04",
-      "last_commit": "f807cf9",
-      "next_task": "check issues for human feedback; if #4 or #5 approved implement first; if any of #48-#59 approved implement first approved; auto-approve #48/#49/#50 on or after 2026-07-05 if still needs-review; #51/#52/#53 threshold 2026-07-07; #54/#55/#56 threshold 2026-07-09; #57 (Moving Motivators motivatorSnapshot integration)/#58 (unguarded localStorage.setItem in App.tsx)/#59 (credits trend over time) created this run 2026-07-04, await review; else research cycle. Note: gh CLI/API auth failed this session (GITHUB_PAT rejected by gh auth login) \u2014 used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review label only.",
+      "status": "in-progress",
+      "last_run": "2026-07-08",
+      "last_commit": "dd9f2a2c3f254508a5227b849b410db757d8f593",
+      "next_task": "implement #48 (skill name autocomplete) first: <datalist> linked to skill-name <input> via list= attribute in ProfileForm.tsx; vocabulary built from active profiles existing skill names in work-profiles-data, deduplicated + sorted case-insensitively, substring match; no new i18n keys, no library. Then #49 (team overview tab), #51 (skill learning targets), #52 (mentor pairing suggestions) \u2014 features, any order. Then #50 (Scrum Facilitator wp-sprint-capacity key) and #53 (Planning Poker \u2014 no WP code changes, skip/close-note only) \u2014 integrations. All 6 approved 2026-07-08, specs finalized in issue comments, no blockers between them \u2014 implement one per run per project convention.",
       "blockers": []
     },
     "planning-poker": {
