@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-08T05:14:08Z",
-  "lock": { "repo": "improvement-board", "started_at": "2026-07-08T10:09:21Z" },
+  "updated": "2026-07-08T10:18:48Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -46,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-07-04",
-      "last_commit": "c15b5b3",
-      "next_task": "check issues for human feedback; #18 (bulk status actions) is now approved (auto-approved this run, 2026-07-04) — implement next: \"Select items\" toggle in Board view header, checkbox per card in select mode, sticky bottom action bar (Mark Done / Mark In Progress / Mark Identified / Delete selected with confirm), Select all / Deselect all, Escape or toggle-off exits select mode and deselects, all via existing updateItems() batch path, i18n keys in EN/ES/BE/RU; all other previously-approved issues (#3,#7-#12,#14-#17,#19,#20) already implemented, awaiting human Done close; else research cycle for new findings. Note: gh CLI is restricted by the environment proxy to a pinned set of PR-review GraphQL operations and Projects v2 field mutations are not exposed — use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels instead.",
+      "last_run": "2026-07-08",
+      "last_commit": "bcf369c6b083f8e5bd832cc44755768daabdd5dc",
+      "next_task": "check issues for human feedback; #18 (bulk status actions) implemented and merged this run (PR #36, CI green run 28935082394) — \"Select items\" toggle in Board view header, checkbox per card in select mode, sticky bottom action bar (Mark Done/In Progress/Identified, Delete selected with confirm, Select all/Deselect all), Escape or toggle-off exits select mode, routed through existing updateItems() batch path via new onBulkStatus/onBulkDelete handlers in App.tsx; scoped to Board view only (not Kanban) and simple confirm dialog for delete (not type-to-confirm) per existing codebase precedent — resolves the issue's two open questions; comment posted on #18 explaining reasoning; verified end-to-end with Playwright (toggle/select/mark/delete/escape all work). All previously-approved issues (#3,#7-#20) are now implemented, none remain unimplemented — every open issue is awaiting human \"Done\" close only. Next: no approved/incomplete/changes-requested/research-more issues pending — run a new research cycle (market/technical/integration/UX opportunities, max 3 new needs-review issues) on next pick. Note: gh CLI is restricted by the environment proxy to a pinned set of PR-review GraphQL operations (confirmed again this run: gh auth login fails with 403 GraphQL error) — used mcp__github__ tools for all GitHub ops (list_issues, create_pull_request, merge_pull_request, actions_list/actions_get for CI, add_issue_comment); Projects v2 field mutations are not exposed — Project board Status field cannot be set, rely on needs-review/approved labels instead.",
       "blockers": []
     },
     "work-profiles": {
