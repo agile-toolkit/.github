@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-08T00:20:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-07-08T05:08:09Z"
-  },
+  "updated": "2026-07-08T05:14:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "scrum-facilitator",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-07-04",
-      "last_commit": "5b03c1a",
-      "next_task": "check issues for human feedback; #21 (light/dark theme) implemented this run — all approved issues for this repo are now implemented and awaiting human Done close (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26); #8 (Scrum Facilitator banner) and #18 (Change Planner banner) are approved but scoped to those other repos, no team-identity action needed; #16 (Planning Poker + Sprint Metrics banner) needs-review, scoped to those repos; if nothing new is approved, run a research cycle for the next market/integration/UX opportunity",
+      "last_run": "2026-07-08",
+      "last_commit": "b11bbb41be92c3a73247c8ce07181cc9ceef87ff",
+      "next_task": "check issues for human feedback; all previously-approved work (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26) confirmed already implemented, awaiting human Done close; #8/#16/#18 confirmed scoped to other repos (scrum-facilitator/planning-poker+sprint-metrics/change-planner), no team-identity action needed; filed 3 new research findings this run — #39 (code-split html2canvas dynamic import, main bundle currently 461.76kB/gzip 128.48kB with zero splitting), #40 (add Vitest unit tests — zero test files exist currently, vitest well over 1M weekly downloads so auto-approve eligible), #41 (JSON export/import of team-identity:charters library for backup/cross-device transfer — answers the open question left unresolved in #14); all three needs-review, reach 7-day auto-approve threshold 2026-07-15 — auto-approve if still needs-review and implement first approved, else continue research cycle. Note: gh CLI/API GraphQL and Actions REST are blocked in this session (403, same as sibling repos) — used mcp__github__ tools for all GitHub ops (list_issues, issue_write); no MCP tool exposes Projects v2 item-add/field-edit, so the project board Status field could not be set for the new issues — rely on needs-review label only, matching every other repo's precedent this session; docs-only BRIEF.md update committed directly to main (commit b11bbb4) per research-only exception, no PR needed; Deploy-to-Pages workflow run 28919231703 was still in_progress when this run ended (docs-only change, local npm run build already verified passing) — spot-check CI status for commit b11bbb4 on next pick, low risk.",
       "blockers": []
     },
     "improvement-board": {
