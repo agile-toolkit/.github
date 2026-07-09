@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-09T18:40:00Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-07-09T20:07:18Z"
-  },
+  "updated": "2026-07-09T20:19:14Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -55,10 +52,10 @@
       "blockers": []
     },
     "work-profiles": {
-      "status": "in-progress",
+      "status": "stable",
       "last_run": "2026-07-09",
-      "last_commit": "1c3fe30db911447cf29df318d1e9c45019be79f2",
-      "next_task": "implement #49 (team overview tab) next: stat cards (member count, avg capacity, total skills, endorsements), role distribution bars, capacity histogram, SVG skill-category radar chart, most-endorsed skills list; pure SVG + Tailwind, no library; includes OOO/timezone stats, static radar, supplements Dashboard card (approved 2026-07-08). Then #51 (skill learning targets), #52 (mentor pairing suggestions) \u2014 features, any order. Then #50 (Scrum Facilitator wp-sprint-capacity key) and #53 (Planning Poker \u2014 no WP code changes, skip/close-note only) \u2014 integrations. #48 (skill name autocomplete) implemented and merged this run (PR #60, CI green run 29041435007) \u2014 note: live skill-editing UI is in ProfilesView.tsx, not ProfileForm.tsx (which is dead/unused code, left untouched).",
+      "last_commit": "4c25925fd22f0fb004e5e50fd094e4a3669a742c",
+      "next_task": "check issues for human feedback; #49 (team overview tab) implemented and merged this run (PR #61, CI green run 29047377745) \u2014 5th nav tab OverviewView.tsx with stat cards (members/avg capacity/skills/endorsements/OOO/timezones), role distribution bars, capacity histogram, pure-SVG 8-axis skill-category radar chart, most-endorsed-skills list; no new localStorage key, no npm dependency; answers all 3 open questions (OOO/timezone included, static radar, supplements Dashboard card). All previously-approved issues (#6,7,12,13,14,15,16,17,18,19,27,28,29,31,32,35,36,37,48,49) are now implemented, awaiting human Done close (except #13/#15/#36 whose implementation lives in team-identity/change-planner/salary-formula respectively). Next: implement #51 (skill learning targets \u2014 targetProficiency?: number on Skill interface; profile form Target select; ProfileCard \u2192N growth badge/\u2713 when met; SkillMatrix 'Show targets' toggle with gap sub-row; 3 new i18n keys; included in wp-profiles-export; no new localStorage key), then #52 (mentor pairing suggestions), then #50 (Scrum Facilitator wp-sprint-capacity key)/#53 (Planning Poker, no WP changes) integrations; #54/#55/#56 reached 7-day threshold 2026-07-09 (not yet auto-approved this run); #57/#58/#59 threshold 2026-07-11. Note: gh CLI/API Actions REST and GraphQL endpoints remain blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops (issue_read, create_pull_request, merge_pull_request, actions_list for CI); Projects v2 field mutations not exposed, Project board Status field cannot be set, rely on needs-review/approved labels only, same limitation as every sibling repo this session.",
       "blockers": []
     },
     "planning-poker": {
