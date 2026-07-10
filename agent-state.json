@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-10T00:26:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-07-10T05:07:51Z"
-  },
+  "updated": "2026-07-10T05:16:01Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-07-05",
-      "last_commit": "7b0f525b8421a326fbc4dddbb93bbd6fb17f225d",
-      "next_task": "check issues for human feedback; implement #50 (Kanban Designer -> CFD auto-fill card counts from kanban-designer:currentBoard, positional column mapping first/middle/last -> todo/inProgress/done, hint label) next since already approved (auto-approved 2026-07-05 alongside #49/#51); else #51 (Recharts tooltip dark mode -- useIsDarkMode() hook + contentStyle on VelocityChart/BurnDownChart/BurnUpChart/CFDChart); #52 (Scrum Facilitator retro notes import)/#53 (quarterly rollup view)/#54 (a11y data tables under charts) reach 7-day threshold 2026-07-07; #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) not yet stale (created 2026-07-02). Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (403 GitHub access not enabled on gh run list; list_issue_fields only exposes org-level Priority/Effort/dates, no per-repo Project Status field) -- used mcp__github__ tools for all GitHub ops (comments, PR create/merge); Project board Status field cannot be set, rely on needs-review label only. git push --delete for branch cleanup also 403d post-merge (same as planning-poker) -- harmless stray branch agent/sprint-metrics-inline-sprint-editing left on remote.",
+      "last_run": "2026-07-10",
+      "last_commit": "2e514d1939e3566ef88dea7a4a47ffb84c0bf30c",
+      "next_task": "check issues for human feedback; #50 (Kanban Designer -> CFD auto-fill card counts) implemented and merged this run (PR #59, CI green run 29070874067) \u2014 readKanbanCfdCounts() reads kanban-designer:currentBoard on Add Sprint form open in SprintDataTable.tsx and SprintDataView.tsx; positional mapping first->todo, last->done, middle summed->inProgress; pre-fills only empty CFD fields; dismissible hint names the source board; integration.kanbanCfdHint i18n key in all 4 locales; verified via tsc+vite build and a headless Chromium load seeding a 3-column board (3/1/2 cards), CFD fields and hint populated exactly as expected, no console errors introduced. Implement #51 next (Recharts tooltip dark mode - useIsDarkMode() hook + contentStyle on VelocityChart/BurnDownChart/BurnUpChart/CFDChart, already auto-approved and queued after #49/#50); else recheck #52 (Scrum Facilitator retro notes import)/#53 (quarterly rollup view)/#54 (a11y data tables under charts) which passed their 7-day needs-review threshold 2026-07-07 and #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) which passed threshold 2026-07-09 \u2014 auto-approve first still-needs-review issue in number order and implement it if #51 turns out already done. Note: gh CLI/API and GraphQL remain blocked in this session (403 GitHub access not enabled, same as every sibling repo) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, issue_read get_comments, create_pull_request, merge_pull_request, actions_list/actions_get for CI, which works via MCP even though direct gh/curl calls 403); git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/sprint-metrics-kanban-cfd-autofill left on remote; Project board Status field cannot be set (Projects v2 field mutations not exposed via MCP), rely on needs-review label + BRIEF.md log only, same limitation as every sibling repo this session.",
       "blockers": []
     },
     "change-planner": {
