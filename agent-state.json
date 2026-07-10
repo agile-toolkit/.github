@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-10T10:23:00Z",
-  "lock": { "repo": "agile-toolkit.github.io", "started_at": "2026-07-10T15:08:36Z" },
+  "updated": "2026-07-10T15:15:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -81,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-07-05",
-      "last_commit": "e260b6228781b8b5cb8e694421aa605411e479f9",
-      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips)/#30 (Sprint Metrics mood emoji chip)/#31 (attention badge for overdue/at-risk state) reach 7-day auto-approve threshold 2026-07-10; #32 (Moving Motivators team-session data — motivationSnapshot/teamSessionHistory — unread by readMovingMotivators())/#33 (Sprint Metrics lastSprintGoal chip) created this run 2026-07-05, threshold 2026-07-12; implement first approved item if any before thresholds hit; else research cycle. Note: gh CLI/API and GraphQL fully blocked in this session (403, only pinned PR-review ops served) — used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set (gh project item-add \"unknown owner type\" precedent), rely on needs-review label only; branch claude/modest-dirac-n09ijy left on remote post-merge (harmless, same pattern as sibling repos this session).",
+      "last_run": "2026-07-10",
+      "last_commit": "c53e7dd671ccd1b3b06675254cc2f156a77be8d1",
+      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips) implemented and merged this run (PR #35, CI green run 29102884200) — readScrumFacilitator() widened to read participantCount/retroNotesCount from scrum-facilitator-session, chips added (participant count always when >0, retro-notes count only when ceremonyType==='retro'); also auto-approved (comments posted, no label change) #30 (Sprint Metrics mood emoji chip) and #31 (attention badge for overdue/at-risk state) — both past their 7-day needs-review threshold reached today 2026-07-10; implement #30 next (readSprintMetrics() — MOOD_EMOJIS array, chip when lastMood 1-5), else #31 (AppData.attention?: boolean; third Badge variant; readChangePlanner()/readKanbanDesigner() set it); #32 (Moving Motivators team-session data — motivationSnapshot/teamSessionHistory unread by readMovingMotivators())/#33 (Sprint Metrics lastSprintGoal chip) created 2026-07-05, threshold 2026-07-12, not yet stale. Note: gh CLI/API and GraphQL fully blocked in this session (403 GitHub access is not enabled / only pinned PR-review GraphQL ops served, confirmed again this run — gh auth login and gh api both 403) — used mcp__github__ tools for all GitHub ops (get_file_contents, list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_list for CI, which works via MCP even though gh CLI direct calls 403); actions_list list_workflow_runs returns oversized output (~400KB) regardless of per_page — piped to file and grepped for id/status/conclusion/head_sha instead of reading inline; Project board Status field cannot be set (Projects v2 field mutations not exposed via MCP), rely on needs-review label + auto-approval comments only, same limitation as every sibling repo this session; branch claude/modest-dirac-wrt2we used for this run's PR (harness-assigned per-session branch, same pattern as change-planner precedent) — left on remote post-merge, harmless.",
       "blockers": []
     }
   },
