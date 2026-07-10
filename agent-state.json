@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-09T20:19:14Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-07-10T00:17:11Z"
-  },
+  "updated": "2026-07-10T00:26:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-07-05",
-      "last_commit": "55a541cbb60844618a93a918f7ef47298b5808b4",
-      "next_task": "check issues for human feedback; #35 (blind voting)/#36 (PP\u2194Change Planner sync)/#37 (per-story notes) reached 7-day auto-approve threshold 2026-07-03 \u2014 auto-approve if still needs-review and implement first approved; #38 (QR PIN sharing)/#39 (swipe-to-vote)/#40 (estimation accuracy cross-reference) reach threshold 2026-07-05; else research cycle. Note: gh CLI/API and Projects v2 GraphQL are blocked in this session (proxy restricts to pinned PR-review ops, 403 on other calls) \u2014 use mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/planning-poker-velocity-hint).",
+      "last_run": "2026-07-10",
+      "last_commit": "b8cd75e4a7f1479c84204d3ca5ce443f9eb2f70a",
+      "next_task": "check issues for human feedback; #35 (blind voting) implemented and merged this run (PR #45, CI green run 29059870156) \u2014 blindMode toggle in team host setup, Firebase session field, anonymized \"Voter N\" roster added to the participant voting view (previously no participant-facing roster existed), real names after reveal unchanged, host always sees real names, solo mode unaffected; team.blind_mode_label/hint/anonymous_voter i18n keys in EN/ES/BE/RU; verified via tsc+vite build and a headless Chromium load (no console/page errors, solo mode regression-checked) \u2014 team mode itself not exercised end-to-end since Firebase is not configured in this session (home.start_team CTA disabled), same limitation as other Firebase-dependent work in this suite. Also auto-approved (comments posted, no label change) #36 (spec+plan posted per breaking/external-integration policy \u2014 writes new change-planner:pendingEstimates key, Change Planner read side tracked separately in that repo), #37 (per-story notes), #38 (QR PIN sharing \u2014 new dependency qrcode.react, well-established/high-download package, direct npm registry check blocked by this session's network restrictions), #39 (swipe-to-vote), #40 (estimation accuracy cross-reference) \u2014 all past their 7-day needs-review threshold with no human feedback; implement #36 next (spec already posted on the issue), else #37/#38/#39/#40 in issue-number order; #32/#33/#34 already implemented, awaiting human Done close. Note: gh CLI/API GraphQL and REST are blocked in this session (403 GitHub access is not enabled) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_list/actions_get for CI, which works via MCP even though direct gh/curl calls 403); git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/planning-poker-blind-voting left on remote.",
       "blockers": []
     },
     "sprint-metrics": {
