@@ -1,22 +1,19 @@
 {
-  "updated": "2026-07-10T15:15:15Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-07-10T20:06:41Z"
-  },
+  "updated": "2026-07-10T20:13:52Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io"
+    "stable": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
       "status": "stable",
-      "last_run": "2026-07-05",
-      "last_commit": "ecf83547e743095cebca98e3cd1ed9fc98e4278e",
-      "next_task": "check issues for human feedback; #48 (solo rank trend table) implemented this run \u2014 awaiting human Done close alongside #46/#47; #49/#50/#51 reached 7-day auto-approve threshold 2026-07-03 \u2014 auto-approve if still needs-review and implement first approved; #52/#53 needs-review, not yet stale; #5 (favicon) still awaiting approved label after research-more; #16 (Dashboard side, agile-toolkit.github.io) and #22 (Change Planner side, change-planner) both MM-side complete. Note: gh CLI/API GraphQL and Actions API are blocked in this session (403 GitHub access not enabled / only pinned PR-review GraphQL ops served) \u2014 used mcp__github__ tools for all GitHub ops; git push --delete for branch cleanup also 403s post-merge, harmless stray branch left (agent/moving-motivators-rank-trend-table).",
+      "last_run": "2026-07-10",
+      "last_commit": "91471a4a6b5ea13f081d75d5c1f7ccd9ee1a9ae8",
+      "next_task": "check issues for human feedback; #49 (first-run onboarding content) implemented and merged this run (PR #57, CI green) \u2014 reused the existing About panel on HomeScreen (default-open until dismissed) instead of building a new OnboardingOverlay component, adding a 'What happens after' section + drag/keyboard ranking mechanics sentence, all 4 locales; auto-approval comment posted on #49 explaining the scope decision, no label change. #50 (JSON import, companion to #47)/#51 (Team Identity pre-populate team name) also past the 7-day needs-review threshold (created 2026-06-26) \u2014 implement #50 next in issue-number order if still needs-review, else #51; #52/#53 (created 2026-06-29) also past threshold now \u2014 auto-approve after #50/#51 if reached; #5 (favicon, research-more) unchanged, skip unless new signal; #16 (Dashboard side, agile-toolkit.github.io)/#22 (Change Planner side, change-planner) both MM-side confirmed complete this run, no MM action needed. Note: gh CLI auth fails in this session (GITHUB_PAT invalid for `gh auth login`) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_list for CI); git push --delete for branch cleanup 403s post-merge (same pattern as prior sessions), harmless stray branch agent/moving-motivators-onboarding-about-panel left on remote; actions_list list_workflow_runs output is oversized (~400KB) regardless of per_page \u2014 piped to file and parsed with python instead of reading inline.",
       "blockers": []
     },
     "scrum-facilitator": {
