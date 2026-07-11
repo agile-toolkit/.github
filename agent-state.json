@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-10T20:13:52Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-11T01:11:24Z"
-  },
+  "updated": "2026-07-11T01:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-07-07",
-      "last_commit": "105963dad80eed0769fd6bde1d0670d46fcb6318",
-      "next_task": "check issues for human feedback; all previously-approved issues (#4-#41) implemented and awaiting human Done close; #42 (additional retro formats)/#43 (sticky note drag-to-reorder)/#44 (Team Identity participant import) reach 7-day auto-approve threshold 2026-07-08; #45 (test coverage)/#46 (reduced-motion a11y)/#47 (delete-confirm UX) reach threshold 2026-07-10; #55 (Discard button on resume banner has zero confirmation before wiping an in-progress ceremony session)/#56 (PWA: vite-plugin-pwa + manifest for offline/installable support, app is 100% localStorage-driven so ideal fit)/#57 (bulk export of ceremony history before the 5-entry cap silently evicts older records) created this run 2026-07-07, await review; #1 (favicon, research-more) unchanged since round 6, no new evidence, skip unless new signal appears; auto-approve and implement first approved item at/after its threshold if still needs-review, else continue research cycle. Status corrected from in-progress to stable this run: all currently-approved work (#4-#41) is implemented, matching the stable definition used by sibling repos (features done, CI green, evolves via research/backlog). Note: gh CLI/API GraphQL and Projects v2 (gh project item-add) remain blocked in this session (403/unknown owner type) \u2014 used mcp__github__ tools for all GitHub ops; Project board Status field cannot be set, rely on needs-review/approved labels only.",
+      "last_run": "2026-07-11",
+      "last_commit": "1fd9a7e6f326dcb5b359a536aa4cf766d06ccec5",
+      "next_task": "check issues for human feedback; #42 (additional retro formats \u2014 Starfish/DAKI/SSC) implemented and merged this run (PR #58) \u2014 added 3 entries to RETRO_FORMATS in src/data/retroFormats.ts, widened RetroFormat type, fixed RetroBoard.tsx grid-column logic to handle 5-column formats (previously capped at 4), added i18n keys to all 4 locales; npm run build (tsc+vite) passed clean; format/board selectors are data-driven off RETRO_FORMATS so no other UI changes were needed. CI (Deploy to GitHub Pages, run 29134447353, commit 1fd9a7e6) was still in_progress after ~6 minutes of polling when this run ended \u2014 spot-check its conclusion on next pick before trusting main is green (same in_progress\u2192timeout pattern noted as acceptable in the pipeline spec; build/typecheck already verified locally so risk is low). #43 (sticky note drag-to-reorder) and #44 (Team Identity participant import) are also past their 7-day needs-review threshold (created 2026-07-01) \u2014 implement #43 next if still needs-review, else #44; #45/#46/#47 (created 2026-07-03) also past threshold, queue after #43/#44; #55/#56/#57 (created 2026-07-07) reach threshold 2026-07-14, not yet stale; #1 (favicon, research-more) unchanged since round 6, skip unless new signal; #41/#40/#39/#38/#32 (approved) all confirmed already implemented in prior runs, just awaiting human Done close. Note: gh CLI/API and GraphQL remain blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, issue_read, create_pull_request, merge_pull_request, actions_list/actions_get for CI); actions_list list_workflow_runs output is ~400KB regardless of per_page \u2014 piped to file and parsed with python instead of reading inline; Projects v2 field mutations not exposed, Project board Status field cannot be set, rely on needs-review/approved labels + BRIEF.md log only.",
       "blockers": []
     },
     "kanban-designer": {
