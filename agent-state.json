@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-11T01:30:00Z",
-  "lock": { "repo": "kanban-designer", "started_at": "2026-07-11T05:07:18Z" },
+  "updated": "2026-07-11T05:19:19Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator"
+    "stable": "kanban-designer"
   },
   "apps": {
     "moving-motivators": {
@@ -25,9 +25,9 @@
     },
     "kanban-designer": {
       "status": "stable",
-      "last_run": "2026-07-07",
-      "last_commit": "8df23312a6f42323d3cf1f361174081aab6a87e7",
-      "next_task": "check issues for human feedback; #40 (card aging) implemented this run \u2014 enteredColumnAt timestamp on KanbanCard, age chip (gray 1-3d/amber 4-7d/red >7d, weeks past 14d) next to due-date badge, designer.age_days/age_weeks i18n keys in all 4 locales; PR #49 merged, CI green (run 28895580903); #41 (custom templates)/#42 (card checklists) still approved, awaiting implementation \u2014 implement #41 next (\"Save as template\" toolbar button; kanban-designer:customTemplates localStorage; strips card content, keeps structure; \"My Templates\" section in TemplatesView), else #42; #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) needs-review, created 2026-06-27, 7-day auto-approve threshold 2026-07-04 already passed \u2014 recheck staleness and auto-approve if still needs-review on next pick; #2-#17/#31/#32/#33/#37/#38/#39 all approved and already implemented, awaiting human Done close. Note: gh CLI/API Actions endpoint blocked in this session (403 GitHub access is not enabled) \u2014 used mcp__github__ tools (actions_list/actions_get) for CI checks, which worked; git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/kanban-designer-card-aging left on remote.",
+      "last_run": "2026-07-11",
+      "last_commit": "7a5e200b62497ea602a6c557784721813d02143f",
+      "next_task": "check issues for human feedback; #41 (save board as custom template) implemented and merged this run (PR #50, CI green run 29140969890) \u2014 CustomTemplate type + kanban-designer:customTemplates localStorage key (loadCustomTemplates/createCustomTemplate/deleteCustomTemplate/cloneCustomTemplate helpers in data/templates.ts); \"Save as Template\" button in BoardDesigner toolbar with inline name input (Enter/Escape) and 2s \"Saved!\" confirmation; \"My Templates\" section in TemplatesView.tsx above the built-in gallery with load + delete; card content stripped entirely per the issue spec (no human answer arrived during the 7-day review window on any of the 3 open questions \u2014 documented the resulting decisions in BRIEF.md); designer.save_as_template/template_name_placeholder + templates.my_templates/saved/delete_custom i18n keys in EN/ES/BE/RU; no new deps; verified via npm run build (tsc+vite clean) and an end-to-end Playwright pass against the production preview build (save\u2192localStorage write\u2192My Templates section\u2192load\u2192delete, zero console errors). #42 (card checklists) still approved, implement next \u2014 checklist?: {id,text,done}[] on KanbanCard; checklist section in card edit; progress chip on card face; designer.checklist/checklist_add/checklist_progress i18n keys; no new deps. #43 (card description)/#44 (shortcuts help overlay)/#45 (CSV export) needs-review, created 2026-06-27, 7-day auto-approve threshold long passed \u2014 auto-approve if still needs-review once #42 is done. #2-#17/#31/#32/#33/#37/#38/#39/#40 all approved and already implemented, awaiting human Done close. Note: gh CLI/API auth fails in this session (both GH_TOKEN and GITHUB_TOKEN env vars hold stale placeholder values that shadow GITHUB_PAT; gh auth login itself 403s on the GraphQL user-verification call, \"only pinned PR-review GraphQL ops served\") \u2014 used mcp__github__ tools for all GitHub ops (list_issues, issue_read, create_pull_request, merge_pull_request, actions_list/actions_get for CI, which works via MCP even though gh CLI direct calls fail); git operations (clone/fetch/push) work fine directly via the embedded x-access-token remote URL, unaffected by the gh CLI auth issue; actions_list list_workflow_runs output is ~400KB regardless of per_page \u2014 piped to file and parsed with python instead of reading inline, actions_get get_workflow_run for a single known run ID is much cheaper for polling; branch agent/kanban-designer-custom-templates left on remote post-merge (no delete-branch option exposed on the merge_pull_request MCP tool and no separate branch-delete MCP tool available), same harmless-stray-branch pattern as every sibling repo this session.",
       "blockers": []
     },
     "salary-formula": {
