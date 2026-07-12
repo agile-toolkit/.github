@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-12T01:22:46Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-07-12T05:07:03.205466Z"
-  },
+  "updated": "2026-07-12T05:16:33.298668Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-07-09",
-      "last_commit": "4c25925fd22f0fb004e5e50fd094e4a3669a742c",
-      "next_task": "check issues for human feedback; #49 (team overview tab) implemented and merged this run (PR #61, CI green run 29047377745) \u2014 5th nav tab OverviewView.tsx with stat cards (members/avg capacity/skills/endorsements/OOO/timezones), role distribution bars, capacity histogram, pure-SVG 8-axis skill-category radar chart, most-endorsed-skills list; no new localStorage key, no npm dependency; answers all 3 open questions (OOO/timezone included, static radar, supplements Dashboard card). All previously-approved issues (#6,7,12,13,14,15,16,17,18,19,27,28,29,31,32,35,36,37,48,49) are now implemented, awaiting human Done close (except #13/#15/#36 whose implementation lives in team-identity/change-planner/salary-formula respectively). Next: implement #51 (skill learning targets \u2014 targetProficiency?: number on Skill interface; profile form Target select; ProfileCard \u2192N growth badge/\u2713 when met; SkillMatrix 'Show targets' toggle with gap sub-row; 3 new i18n keys; included in wp-profiles-export; no new localStorage key), then #52 (mentor pairing suggestions), then #50 (Scrum Facilitator wp-sprint-capacity key)/#53 (Planning Poker, no WP changes) integrations; #54/#55/#56 reached 7-day threshold 2026-07-09 (not yet auto-approved this run); #57/#58/#59 threshold 2026-07-11. Note: gh CLI/API Actions REST and GraphQL endpoints remain blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops (issue_read, create_pull_request, merge_pull_request, actions_list for CI); Projects v2 field mutations not exposed, Project board Status field cannot be set, rely on needs-review/approved labels only, same limitation as every sibling repo this session.",
+      "last_run": "2026-07-12",
+      "last_commit": "a381877a8931a297b849c34d568f66d38da15817",
+      "next_task": "check issues for human feedback; #51 (skill learning targets) implemented and merged this run (PR #62, CI green run 29180852001) \u2014 targetProficiency?: number on Skill interface; ProfileForm new-skill row + existing-skill rows each get a Target select (blank/1\u20135 showing \u2192N); ProfileCard shows amber \u2192N badge when target > current, green \u2713 when met; SkillMatrix Show targets toggle reveals gap sub-row (amber \u2192N / green \u2713 / blank per cell) wrapped in React.Fragment for keyed sibling rows; 3 new i18n keys in EN/ES/BE/RU (profile_form.target_label, matrix.show_targets, profile_card.target_met); targets automatically included in wp-profiles-export via existing skills field; no new localStorage key, no npm dep; patch bump 0.1.3\u21920.1.4; npm run build tsc+vite clean. #52 (mentor pairing suggestions) still approved, implement next \u2014 Mentoring pairs collapsible panel in SkillMatrix.tsx below the table; match profiles with proficiency \u2265 4 (mentors) to profiles with \u2264 2 (learners) on same skill; active profiles only; no endorsement ranking; 4 new i18n keys; no new localStorage key; no npm dependency. #50 (Scrum Facilitator wp-sprint-capacity key) and #53 (Planning Poker \u2014 no WP changes) approved after that. #54\u2013#59 needs-review: all 6 issues are past the 7-day threshold (created 2026-07-02 and 2026-07-04) \u2014 auto-approve first still-needs-review in number order (#54) on next research pass.",
       "blockers": []
     },
     "planning-poker": {
