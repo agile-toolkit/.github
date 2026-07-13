@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-13T00:12:00Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-07-13T00:15:00Z"
-  },
+  "updated": "2026-07-13T05:15:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics"
+    "stable": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -77,9 +74,9 @@
     },
     "change-planner": {
       "status": "stable",
-      "last_run": "2026-07-10",
-      "last_commit": "ebe443404643967f8bdcc84341ddcd6dff7e6c05",
-      "next_task": "check issues for human feedback; #50 (action Kanban board view) implemented and merged this run (PR #61, CI green run 29086033148) \u2014 Board tab with 3 columns (Todo/In Progress/Done), collapsible swim lanes per facet, click-to-cycle status, HTML5 drag-and-drop; ActionStatus extended with 'in-progress'; ActionTracker.tsx gained an 'In Progress' toggle pill on each row; fixed 3 open-action counts (ProgressView retro list, HomeScreen sort + stats) that previously excluded in-progress actions; verified end-to-end via Playwright in light+dark mode. #51 (milestone markers) already auto-approved, implement next \u2014 Initiative.milestones[], diamond markers in RoadmapView.tsx, reached/unreached toggle, ~60 LOC; else #53/#54/#55 (7-day threshold reached 2026-07-07) or #56/#57/#58 (threshold reached 2026-07-10, not yet auto-approved) \u2014 auto-approve first still-needs-review issue in number order if #51 turns out already done; #59 (hardcoded placeholder bug) awaiting review. Note: gh CLI/API auth and GraphQL fully blocked in this session (403, gh auth login fails with invalid-token error even with GITHUB_PAT) \u2014 used mcp__github__ tools for all GitHub ops (issue_read, list_issues, create_pull_request, merge_pull_request, actions_list for CI); git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch claude/nifty-hamilton-9dd7rp left on remote; this session's harness assigned a fixed per-repo branch name (claude/nifty-hamilton-9dd7rp) rather than the CLAUDE.md-suggested agent/<repo>-<desc> pattern \u2014 used the assigned branch for the feature work (PR + squash-merge) to satisfy the 'never push to a different branch' constraint, while keeping this meta-repo's coordination-state writes on main directly as established by precedent (isolating agent-state.json on a branch would break the fleet's shared lock for every other repo's runs).",
+      "last_run": "2026-07-13",
+      "last_commit": "e97f6a0d73f54a518fdaabb12050c5bfec9a2df9",
+      "next_task": "check issues for human feedback; #51 (milestone markers) implemented and merged this run (PR #62, CI green run 29225816395) \u2014 added Milestone type + milestones?:Milestone[] to Initiative, rewrote RoadmapView with merged timeline (\u25c6 diamond dividers before week blocks, 3 visual states: reached/past-unreached/future), Add Milestone inline form, milestone list with reached-toggle + delete, onUpdateMilestones prop wired from App.tsx; 5 i18n keys in all 4 locales; no new deps; tsc+vite build clean (74 modules). Next: auto-approve #53 (cross-initiative This Week digest) if still needs-review (created 2026-06-30, well past 7-day threshold) and implement: collapsible panel on HomeScreen showing due/overdue actions across all initiatives sorted by date with links to parent initiative, home.this_week i18n key; else #54 (print-optimized view), #55 (RACI tagging), #56 (Vitest tests), #57 (home screen search), #58 (ICS export), #59 (1-line hardcoded placeholder bug fix in FacetCard.tsx:56)",
       "blockers": []
     },
     "agile-toolkit.github.io": {
