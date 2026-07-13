@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-12T20:15:30Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-07-13T00:00:00Z"
-  },
+  "updated": "2026-07-13T00:12:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -70,9 +67,9 @@
     },
     "sprint-metrics": {
       "status": "stable",
-      "last_run": "2026-07-10",
-      "last_commit": "2e514d1939e3566ef88dea7a4a47ffb84c0bf30c",
-      "next_task": "check issues for human feedback; #50 (Kanban Designer -> CFD auto-fill card counts) implemented and merged this run (PR #59, CI green run 29070874067) \u2014 readKanbanCfdCounts() reads kanban-designer:currentBoard on Add Sprint form open in SprintDataTable.tsx and SprintDataView.tsx; positional mapping first->todo, last->done, middle summed->inProgress; pre-fills only empty CFD fields; dismissible hint names the source board; integration.kanbanCfdHint i18n key in all 4 locales; verified via tsc+vite build and a headless Chromium load seeding a 3-column board (3/1/2 cards), CFD fields and hint populated exactly as expected, no console errors introduced. Implement #51 next (Recharts tooltip dark mode - useIsDarkMode() hook + contentStyle on VelocityChart/BurnDownChart/BurnUpChart/CFDChart, already auto-approved and queued after #49/#50); else recheck #52 (Scrum Facilitator retro notes import)/#53 (quarterly rollup view)/#54 (a11y data tables under charts) which passed their 7-day needs-review threshold 2026-07-07 and #55 (code-split html2canvas)/#56 (Team Identity badge)/#57 (delete undo toast) which passed threshold 2026-07-09 \u2014 auto-approve first still-needs-review issue in number order and implement it if #51 turns out already done. Note: gh CLI/API and GraphQL remain blocked in this session (403 GitHub access not enabled, same as every sibling repo) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, issue_read get_comments, create_pull_request, merge_pull_request, actions_list/actions_get for CI, which works via MCP even though direct gh/curl calls 403); git push --delete for branch cleanup also 403s post-merge (same pattern as sibling repos this session), harmless stray branch agent/sprint-metrics-kanban-cfd-autofill left on remote; Project board Status field cannot be set (Projects v2 field mutations not exposed via MCP), rely on needs-review label + BRIEF.md log only, same limitation as every sibling repo this session.",
+      "last_run": "2026-07-13",
+      "last_commit": "cd8144ec2ad5e6d8713a38beccfad8cd5f92648a",
+      "next_task": "verify CI for cd8144ec2ad5e6d8713a38beccfad8cd5f92648a (run 29214810729, Deploy to GitHub Pages) \u2014 was queued at lock release; then check issues for human feedback; #52 (Scrum Facilitator retro notes import \u2014 read scrum-facilitator-history localStorage, pre-fill retrospective textarea from most-recent retro sticky notes, integration.importRetroNotes i18n key in EN/ES/BE/RU, touches SprintDataTable.tsx + SprintDataView.tsx + 4 locale files, no new deps) is next auto-approve candidate (past 7-day threshold since 2026-07-07); implement #52 if still needs-review and auto-approved; else #53 (quarterly rollup), #54 (a11y data tables), #55 (html2canvas code-split), #56 (Team Identity badge), #57 (delete undo toast) in issue-number order",
       "blockers": []
     },
     "change-planner": {
