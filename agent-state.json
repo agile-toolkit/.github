@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-13T05:15:00Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-07-13T10:07:12.922795+00:00"
-  },
+  "updated": "2026-07-13T10:10:38Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "change-planner"
+    "stable": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -84,9 +81,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "stable",
-      "last_run": "2026-07-10",
-      "last_commit": "c53e7dd671ccd1b3b06675254cc2f156a77be8d1",
-      "next_task": "check issues for human feedback; #29 (Scrum Facilitator participant/retro-note chips) implemented and merged this run (PR #35, CI green run 29102884200) \u2014 readScrumFacilitator() widened to read participantCount/retroNotesCount from scrum-facilitator-session, chips added (participant count always when >0, retro-notes count only when ceremonyType==='retro'); also auto-approved (comments posted, no label change) #30 (Sprint Metrics mood emoji chip) and #31 (attention badge for overdue/at-risk state) \u2014 both past their 7-day needs-review threshold reached today 2026-07-10; implement #30 next (readSprintMetrics() \u2014 MOOD_EMOJIS array, chip when lastMood 1-5), else #31 (AppData.attention?: boolean; third Badge variant; readChangePlanner()/readKanbanDesigner() set it); #32 (Moving Motivators team-session data \u2014 motivationSnapshot/teamSessionHistory unread by readMovingMotivators())/#33 (Sprint Metrics lastSprintGoal chip) created 2026-07-05, threshold 2026-07-12, not yet stale. Note: gh CLI/API and GraphQL fully blocked in this session (403 GitHub access is not enabled / only pinned PR-review GraphQL ops served, confirmed again this run \u2014 gh auth login and gh api both 403) \u2014 used mcp__github__ tools for all GitHub ops (get_file_contents, list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_list for CI, which works via MCP even though gh CLI direct calls 403); actions_list list_workflow_runs returns oversized output (~400KB) regardless of per_page \u2014 piped to file and grepped for id/status/conclusion/head_sha instead of reading inline; Project board Status field cannot be set (Projects v2 field mutations not exposed via MCP), rely on needs-review label + auto-approval comments only, same limitation as every sibling repo this session; branch claude/modest-dirac-wrt2we used for this run's PR (harness-assigned per-session branch, same pattern as change-planner precedent) \u2014 left on remote post-merge, harmless.",
+      "last_run": "2026-07-13",
+      "last_commit": "4ef36832a20e7877c0d33143966cf31dfff323b5",
+      "next_task": "verify CI for 4ef36832a20e7877c0d33143966cf31dfff323b5 (run 29241779708, Deploy to GitHub Pages) \u2014 was in_progress at lock release; then check issues for human feedback; implement #31 (attention badge \u2014 extend AppData with attention?: boolean; add attention Badge variant in red/rose with static dot, label card.attention i18n key in EN/ES/BE/RU; set in readChangePlanner() when overdueCount > 0 and readKanbanDesigner() when any column overWip; AppCard.tsx badge priority: live > attention > active); then #32 (Moving Motivators team-session reader \u2014 read moving-motivators:motivationSnapshot and teamSessionHistory, build chips from team snapshot when solo lastSession absent, prefer newer timestamp when both exist), then #33 (Sprint Metrics lastSprintGoal chip \u2014 widen readSprintMetrics() type, push chip(trunc(session.lastSprintGoal, 40), goal) when non-empty)",
       "blockers": []
     }
   },
