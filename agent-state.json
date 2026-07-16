@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-16T15:12:46Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-07-16T20:08:06Z"
-  },
+  "updated": "2026-07-16T20:12:12Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula"
+    "stable": "team-identity"
   },
   "apps": {
     "moving-motivators": {
@@ -42,9 +39,9 @@
     },
     "team-identity": {
       "status": "stable",
-      "last_run": "2026-07-11",
-      "last_commit": "080b213",
-      "next_task": "check issues for human feedback; #39/#40/#41 (filed 2026-07-08) reach the 7-day auto-approve threshold 2026-07-15 -- auto-approve if still needs-review and implement first approved in issue-number order (#39 code-split html2canvas, then #40 Vitest tests, then #41 charter library JSON export/import); #42 (split App.tsx into per-screen components) and #43 (extend team context banner to improvement-board/kanban-designer/work-profiles/salary-formula) filed this run, threshold 2026-07-18. All previously-approved work (#3,#4,#5,#6,#7,#10,#11,#14,#15,#17,#19,#20,#21,#26) confirmed implemented, awaiting human Done close; #8/#16/#18 scoped to other repos, no action needed. Note: gh CLI auth is broken in this session (gh auth login / gh project item-list both fail with invalid token) -- used mcp__github__ tools for all GitHub ops (list_issues, issue_write); Projects v2 field mutations remain unavailable via MCP so new issues #42/#43 could not be added to the project board, rely on needs-review label only.",
+      "last_run": "2026-07-16",
+      "last_commit": "3ad29833f5c8a8a7b36c071bb74be54a25b65ae0",
+      "next_task": "verify CI for 3ad29833f5c8a8a7b36c071bb74be54a25b65ae0 (run 29531002346, Deploy to GitHub Pages) \u2014 was queued at lock release; then implement #40 (Vitest unit tests \u2014 npm install -D vitest; add \"test\": \"vitest run\" script to package.json; extract and test persistCharters() 20-item cap/eviction order, SCRUM_VALUE_MAP coverage counting, charter history diff sets, base64 URL-hash encode/decode round-trip; no UI/behavior change, build must still pass); then #41 (charter library JSON export/import \u2014 Export/Import buttons on My Teams screen; Blob download + FileReader parse; merge by id dedup with 20-cap; teams.export/import/import_result i18n keys in EN/ES/BE/RU; no new deps); #42 and #43 reach auto-approve threshold 2026-07-18",
       "blockers": []
     },
     "improvement-board": {
