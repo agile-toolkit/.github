@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-13T15:16:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-07-16T05:07:18Z"
-  },
+  "updated": "2026-07-16T05:13:12Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators"
+    "stable": "scrum-facilitator"
   },
   "apps": {
     "moving-motivators": {
@@ -21,9 +18,9 @@
     },
     "scrum-facilitator": {
       "status": "stable",
-      "last_run": "2026-07-11",
-      "last_commit": "1fd9a7e6f326dcb5b359a536aa4cf766d06ccec5",
-      "next_task": "check issues for human feedback; #42 (additional retro formats \u2014 Starfish/DAKI/SSC) implemented and merged this run (PR #58) \u2014 added 3 entries to RETRO_FORMATS in src/data/retroFormats.ts, widened RetroFormat type, fixed RetroBoard.tsx grid-column logic to handle 5-column formats (previously capped at 4), added i18n keys to all 4 locales; npm run build (tsc+vite) passed clean; format/board selectors are data-driven off RETRO_FORMATS so no other UI changes were needed. CI (Deploy to GitHub Pages, run 29134447353, commit 1fd9a7e6) confirmed green (conclusion: success) after polling. #43 (sticky note drag-to-reorder) and #44 (Team Identity participant import) are also past their 7-day needs-review threshold (created 2026-07-01) \u2014 implement #43 next if still needs-review, else #44; #45/#46/#47 (created 2026-07-03) also past threshold, queue after #43/#44; #55/#56/#57 (created 2026-07-07) reach threshold 2026-07-14, not yet stale; #1 (favicon, research-more) unchanged since round 6, skip unless new signal; #41/#40/#39/#38/#32 (approved) all confirmed already implemented in prior runs, just awaiting human Done close. Note: gh CLI/API and GraphQL remain blocked in this session (403 GitHub access not enabled) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, issue_read, create_pull_request, merge_pull_request, actions_list/actions_get for CI); actions_list list_workflow_runs output is ~400KB regardless of per_page \u2014 piped to file and parsed with python instead of reading inline; Projects v2 field mutations not exposed, Project board Status field cannot be set, rely on needs-review/approved labels + BRIEF.md log only.",
+      "last_run": "2026-07-16",
+      "last_commit": "f1029f10d4805dadf9c539736c335d6fc23d5617",
+      "next_task": "check issues for human feedback; #43 (sticky note drag-to-reorder) implemented and merged this run (PR #59, CI green run 29473260313, commit f1029f10) \u2014 draggable wrappers in StickyColumn.tsx, reorderNote() in RetroBoard.tsx, drag start auto-deactivates sort-by-votes, drop target ring-2 brand-400 highlight, dragged note opacity-40, cursor-grab; no new deps, no new i18n keys; patch 0.1.0\u21920.1.1. #44 (Team Identity participant import) next \u2014 past 7-day threshold since 2026-07-08, still needs-review: read team-identity-charter.members[].name from localStorage in ParticipantPanel.tsx when sf_participants is empty; show suggestion chip row \"Suggest from Team Identity: [name1] [name2]\"; clicking a chip adds the name to sf_participants; no new i18n key needed (chip label is data-driven). #45 (Vitest), #46 (a11y pulse), #47 (delete confirm UX), #55 (bulk history export), #56 (PWA), #57 (discard banner) all past threshold, queue after #44 in issue-number order. #1 (favicon, research-more) skip unless new signal. #41/#40/#39/#38/#32/#31/#30/#24/#19/#18/#17/#16/#15/#9/#8/#7/#6/#5/#4 (approved) all confirmed implemented, awaiting human Done close.",
       "blockers": []
     },
     "kanban-designer": {
