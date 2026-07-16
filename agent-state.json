@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-16T10:13:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-07-16T15:07:13Z"
-  },
+  "updated": "2026-07-16T15:12:46Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer"
+    "stable": "salary-formula"
   },
   "apps": {
     "moving-motivators": {
@@ -35,9 +32,9 @@
     },
     "salary-formula": {
       "status": "stable",
-      "last_run": "2026-07-11",
-      "last_commit": "1052f15d14b316101fe00c9e7a0d2363e993154a",
-      "next_task": "check issues for human feedback; #39 (Vitest unit test coverage) implemented and merged this run (PR #45, CI green run 29149055414) \u2014 vitest dev dep + npm test script + vitest.config.ts (node env); extracted median/equityRatio/equityRatioLevel out of EquityView.tsx into utils/equity.ts, encodeFormula/decodeFormula/decodeFormulaHash out of App.tsx into utils/formulaUrl.ts, proficiencyToSkillsMultiplier out of SalaryCalculator.tsx into utils/workProfiles.ts, new factorBreakdown helper in utils/salary.ts; 32 tests across 5 files; CI now runs npm test before npm run build; verified via npm test (32/32 pass), npm run build (clean), and a Playwright pass against the preview build (save profiles/Equity view/formula-hash reload, zero JS errors). Auto-approval comment posted on #39. #41 (CSV export quote-escaping bug in ComparisonView.tsx:77)/#42 (formatSalary vs formatCurrency inconsistency)/#43 (unguarded localStorage.setItem calls) all reached the 7-day needs-review auto-approve threshold today (2026-07-11) \u2014 implement #41 next run (smallest/clearest bug fix), else #43, else #42; #40 (mixed-currency warning, stale since 2026-07-08) queue after those; #3/#5/#7/#12-#17/#19 all implemented, awaiting human Done close. Note: gh CLI auth is unreliable in this session (GH_TOKEN/GITHUB_TOKEN env vars hold invalid placeholder values that shadow GITHUB_PAT and must be unset/overridden per-command for gh CLI; however `gh api` calls succeed once GH_TOKEN is set to GITHUB_PAT's value in the same command) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_list for CI) which work regardless; git operations (clone/fetch/push) work fine directly via the embedded x-access-token remote URL; git push --delete for branch cleanup 403s post-merge (same pattern as every sibling repo this session), harmless stray branch agent/salary-formula-vitest-tests left on remote; actions_list list_workflow_runs output is oversized (~396KB) regardless of per_page \u2014 piped to file and parsed with python instead of reading inline.",
+      "last_run": "2026-07-16",
+      "last_commit": "08f16dea95b9bd68f169d70c71660ce497ca87f3",
+      "next_task": "check issues for human feedback; implement #43 (localStorage safeSetItem \u2014 create src/utils/storage.ts safeSetItem(key,value):boolean that wraps setItem in try/catch returning success/failure; replace all 7 unguarded localStorage.setItem calls in App.tsx saveProfiles/saveScenarios/writeTeamHourlyRate/writeLastSession, FormulaBuilder.tsx writePendingChangeRecord/review-timestamp write, ComparisonView.tsx Sprint Metrics bridge write; in App.tsx handleSaveProfile/handleSaveScenario only flip Saved! confirmation when write succeeds, on failure show yellow-banner error reusing existing review-overdue banner pattern; no new deps, no new i18n keys for banner text yet); then #42 (replace formatSalary with formatCurrency in SalaryCalculator/ComparisonView/ScenarioView \u2014 delete formatSalary from presets.ts); then #40 (mixed-currency warning banner in EquityView when profiles span multiple currencies)",
       "blockers": []
     },
     "team-identity": {
