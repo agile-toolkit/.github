@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-17T00:11:43Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-07-17T05:07:03.183081Z"
-  },
+  "updated": "2026-07-17T05:13:48Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board"
+    "stable": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
@@ -56,9 +53,9 @@
     },
     "work-profiles": {
       "status": "stable",
-      "last_run": "2026-07-12",
-      "last_commit": "a381877a8931a297b849c34d568f66d38da15817",
-      "next_task": "check issues for human feedback; #51 (skill learning targets) implemented and merged this run (PR #62, CI green run 29180852001) \u2014 targetProficiency?: number on Skill interface; ProfileForm new-skill row + existing-skill rows each get a Target select (blank/1\u20135 showing \u2192N); ProfileCard shows amber \u2192N badge when target > current, green \u2713 when met; SkillMatrix Show targets toggle reveals gap sub-row (amber \u2192N / green \u2713 / blank per cell) wrapped in React.Fragment for keyed sibling rows; 3 new i18n keys in EN/ES/BE/RU (profile_form.target_label, matrix.show_targets, profile_card.target_met); targets automatically included in wp-profiles-export via existing skills field; no new localStorage key, no npm dep; patch bump 0.1.3\u21920.1.4; npm run build tsc+vite clean. #52 (mentor pairing suggestions) still approved, implement next \u2014 Mentoring pairs collapsible panel in SkillMatrix.tsx below the table; match profiles with proficiency \u2265 4 (mentors) to profiles with \u2264 2 (learners) on same skill; active profiles only; no endorsement ranking; 4 new i18n keys; no new localStorage key; no npm dependency. #50 (Scrum Facilitator wp-sprint-capacity key) and #53 (Planning Poker \u2014 no WP changes) approved after that. #54\u2013#59 needs-review: all 6 issues are past the 7-day threshold (created 2026-07-02 and 2026-07-04) \u2014 auto-approve first still-needs-review in number order (#54) on next research pass.",
+      "last_run": "2026-07-17",
+      "last_commit": "5caf23957d707a127cf9ab2252eca84218b44bde",
+      "next_task": "implement #50 (Scrum Facilitator wp-sprint-capacity localStorage key \u2014 add publishSprintCapacity() in App.tsx writing wp-sprint-capacity: {totalCapacity: sum(active.capacity), memberCount: active.length, availableCount: active.filter(!ooo).length, oooCount, oooMembers: names[], timezones: unique TZ list, lastUpdated: ISO} from active profiles; call after every updateProfiles; no new deps, no new i18n keys, no UI change); then check if #53 (Planning Poker \u2014 no WP changes) and auto-approve first still-needs-review in #54-#59 on next research pass; #52 merged PR #63, CI green run 29556726679, commit 5caf239",
       "blockers": []
     },
     "planning-poker": {
