@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-16T20:12:12Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-07-17T00:07:19Z"
-  },
+  "updated": "2026-07-17T00:11:43Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity"
+    "stable": "improvement-board"
   },
   "apps": {
     "moving-motivators": {
@@ -49,9 +46,9 @@
     },
     "improvement-board": {
       "status": "stable",
-      "last_run": "2026-07-12",
-      "last_commit": "f99c30c",
-      "next_task": "check issues for human feedback; #37/#38/#39 filed 2026-07-12, auto-approve threshold 2026-07-19 -- implement #37 (sprint history analytics tab using improvement-board:sprintHistory key -- new HistoryView.tsx with pure-SVG bar chart per sprint, category breakdown table, resolution rate badges, empty state; add history Screen type; nav.history i18n key in EN/ES/BE/RU) if approved first; else #38 (Scrum Facilitator retro import -- src/utils/scrumFacilitatorImport.ts reads scrum-facilitator-session, collapsible section in AddItemModal, ?prefill&utm_source=scrum-facilitator deep-link) or #39 (custom tags on ImprovementItem -- tags?: string[] field, tag pill input in AddItemModal and Kanban inline form, pills on cards, filter bar in Board/Kanban headers, autocomplete from existing tags); all 10 open approved issues (#3,#7-#12,#15,#17,#19) confirmed fully implemented, awaiting human Done close only",
+      "last_run": "2026-07-17",
+      "last_commit": "4725d73",
+      "next_task": "check issues for human feedback; auto-approve #37/#38/#39 on 2026-07-19 or after if still needs-review and implement first approved in issue-number order (#37 sprint history analytics \u2014 new HistoryView.tsx with pure-SVG bar chart per sprint, reads improvement-board:sprintHistory, new history Screen value in types.ts, nav.history i18n key in EN/ES/BE/RU, empty state, category breakdown table, resolution rate badge); #40 (Planning Poker deep-link, new src/utils/planningPokerLink.ts), #41 (CSV export), #42 (inline title edit) all needs-review threshold 2026-07-19",
       "blockers": []
     },
     "work-profiles": {
