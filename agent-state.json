@@ -1,15 +1,12 @@
 {
-  "updated": "2026-07-17T05:13:48Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-07-17T10:06:38.624514Z"
-  },
+  "updated": "2026-07-17T10:11:21.066904Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles"
+    "stable": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -63,9 +60,9 @@
     },
     "planning-poker": {
       "status": "stable",
-      "last_run": "2026-07-12",
-      "last_commit": "d8b2af4a42894fbc4035207d4582b9248ce84773",
-      "next_task": "check issues for human feedback; #37 (per-story discussion notes) implemented and merged this run (PR #47, CI green run 29207335050, commit d8b2af4a) \u2014 optional textarea after host records final estimate; note saved in SessionStory.note and SessionHistoryStory.note (types.ts); shown in completed-estimates table (SessionView.tsx) and history view (App.tsx); appended to Copy Results plain text export (flatMap inserts note line below each story line); session.story_note_placeholder i18n key in EN/ES/BE/RU; team mode Firebase note sync deferred (solo mode only); patch bump 0.1.4\u21920.1.5; tsc+vite build clean (70 modules, 0 TS errors). #38 (QR code PIN sharing) still auto-approved, implement next \u2014 install qrcode.react, render <QRCode value={joinUrl}> below PIN display in team host lobby view, derive joinUrl as window.location.origin + ?joinPin=PIN, read ?joinPin= param in App.tsx to pre-fill join name/PIN inputs on load, team.qr_scan_label i18n key in EN/ES/BE/RU; ~30 LOC in TeamSession.tsx + App.tsx, one new npm dep. #39 (swipe-to-vote) and #40 (estimation accuracy cross-reference) queued after #38. Note: gh CLI auth unreliable in this session (GH_TOKEN/GITHUB_TOKEN env vars hold stale placeholder values) \u2014 used mcp__github__ tools for all GitHub ops (list_issues, add_issue_comment, create_pull_request, merge_pull_request, actions_get for CI polling); actions_list list_workflow_runs returns oversized ~400KB output regardless of per_page \u2014 use actions_get get_workflow_run with known run ID to poll CI status instead; git push --delete for branch cleanup 403s post-merge, harmless stray branch agent/planning-poker-story-notes left on remote.",
+      "last_run": "2026-07-17",
+      "last_commit": "de9e268629f108776acb6a6f52cd3a9fb3efabd9",
+      "next_task": "verify CI for de9e268629f108776acb6a6f52cd3a9fb3efabd9 (run 29572558913, Deploy to GitHub Pages) \u2014 was in_progress at lock release; then check issues for human feedback; auto-approve #39 (swipe-to-select card gesture on mobile, created 2026-06-28, well past 7-day threshold) if still needs-review and implement: Pointer Events API in SessionView.tsx, onPointerDown/Move/Up on card container, horizontal delta >40px cycles selected card index, vertical upward delta >60px casts vote, session.swipe_hint i18n key in EN/ES/BE/RU (dismissible, stored in planning-poker:swipeHintSeen); ~50 LOC, no new dep; else #40 (estimation accuracy cross-reference with Sprint Metrics)",
       "blockers": []
     },
     "sprint-metrics": {
