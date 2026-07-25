@@ -66,7 +66,7 @@
     "team-identity": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "e2e38bc",
+      "last_commit": "91d390b",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #45 to main; ROADMAP next epics: Vitest test coverage (#40), charter library JSON export/import (#41), decompose 1017-line App.tsx (#42), all needs-review past 7-day threshold; note: committed .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
       "blockers": [],
       "maturity": "complete",
