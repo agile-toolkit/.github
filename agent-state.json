@@ -40,7 +40,7 @@
     "kanban-designer": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "affa7d1",
+      "last_commit": "6646b89",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #52 to main; ROADMAP next epics: #43 card description field, #44 keyboard shortcuts overlay, #45 CSV export, all needs-review past 7-day threshold; note: repo had a pre-existing uncommitted .gitignore change adding .artefacts/ ignore rule + uncommitted package-lock.json change, both left untouched/unstaged",
       "blockers": [],
       "maturity": "complete",
@@ -53,7 +53,7 @@
     "salary-formula": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "cc047dd",
+      "last_commit": "6a39384",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #47 to main; ROADMAP next epic E1 Data trust & robustness cleanup groups #40 (mixed-currency mislabeling), #42 (inconsistent salary formatting), #43 (unguarded localStorage writes), all needs-review past 7-day threshold; note: repo has a pre-existing uncommitted .gitignore change adding a bare .artefacts/ line (breaks !.artefacts/BRIEF.md negation) \u2014 left untouched, worth human review",
       "blockers": [],
       "maturity": "complete",
