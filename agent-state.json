@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:33:17Z",
+  "updated": "2026-07-25T06:33:26Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -116,11 +116,17 @@
       "version": "0.1.6"
     },
     "sprint-metrics": {
-      "status": "stable",
-      "last_run": "2026-07-13",
-      "last_commit": "cd8144ec2ad5e6d8713a38beccfad8cd5f92648a",
-      "next_task": "verify CI for cd8144ec2ad5e6d8713a38beccfad8cd5f92648a (run 29214810729, Deploy to GitHub Pages) \u2014 was queued at lock release; then check issues for human feedback; #52 (Scrum Facilitator retro notes import \u2014 read scrum-facilitator-history localStorage, pre-fill retrospective textarea from most-recent retro sticky notes, integration.importRetroNotes i18n key in EN/ES/BE/RU, touches SprintDataTable.tsx + SprintDataView.tsx + 4 locale files, no new deps) is next auto-approve candidate (past 7-day threshold since 2026-07-07); implement #52 if still needs-review and auto-approved; else #53 (quarterly rollup), #54 (a11y data tables), #55 (html2canvas code-split), #56 (Team Identity badge), #57 (delete undo toast) in issue-number order",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "0394f96",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #61 to main; ROADMAP next epics: E1 cross-app integrations (Scrum Facilitator retro import #52, Team Identity badge #56), E2 quarterly rollup (#53), E3 chart a11y + html2canvas code-split (#54,#55), E4 sprint-deletion undo toast (#57); #51 already shipped despite still open on GitHub; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "change-planner": {
       "status": "stable",
