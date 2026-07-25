@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:32:07Z",
+  "updated": "2026-07-25T06:32:18Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -25,11 +25,17 @@
       "version": "0.1.0"
     },
     "scrum-facilitator": {
-      "status": "stable",
-      "last_run": "2026-07-16",
-      "last_commit": "f1029f10d4805dadf9c539736c335d6fc23d5617",
-      "next_task": "check issues for human feedback; #43 (sticky note drag-to-reorder) implemented and merged this run (PR #59, CI green run 29473260313, commit f1029f10) \u2014 draggable wrappers in StickyColumn.tsx, reorderNote() in RetroBoard.tsx, drag start auto-deactivates sort-by-votes, drop target ring-2 brand-400 highlight, dragged note opacity-40, cursor-grab; no new deps, no new i18n keys; patch 0.1.0\u21920.1.1. #44 (Team Identity participant import) next \u2014 past 7-day threshold since 2026-07-08, still needs-review: read team-identity-charter.members[].name from localStorage in ParticipantPanel.tsx when sf_participants is empty; show suggestion chip row \"Suggest from Team Identity: [name1] [name2]\"; clicking a chip adds the name to sf_participants; no new i18n key needed (chip label is data-driven). #45 (Vitest), #46 (a11y pulse), #47 (delete confirm UX), #55 (bulk history export), #56 (PWA), #57 (discard banner) all past threshold, queue after #44 in issue-number order. #1 (favicon, research-more) skip unless new signal. #41/#40/#39/#38/#32/#31/#30/#24/#19/#18/#17/#16/#15/#9/#8/#7/#6/#5/#4 (approved) all confirmed implemented, awaiting human Done close.",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "c6f3daa",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #60 to main; ROADMAP next epics: Team Identity participant import (#44), destructive-action confirmation (#47,#55), quality hardening/tests+a11y (#45,#46), offline PWA (#56), bulk history export (#57), all needs-review past 7-day threshold; #1 favicon blocked on human decision; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.1"
     },
     "kanban-designer": {
       "status": "idle",
@@ -58,11 +64,17 @@
       "version": "0.1.0"
     },
     "team-identity": {
-      "status": "stable",
-      "last_run": "2026-07-16",
-      "last_commit": "3ad29833f5c8a8a7b36c071bb74be54a25b65ae0",
-      "next_task": "verify CI for 3ad29833f5c8a8a7b36c071bb74be54a25b65ae0 (run 29531002346, Deploy to GitHub Pages) \u2014 was queued at lock release; then implement #40 (Vitest unit tests \u2014 npm install -D vitest; add \"test\": \"vitest run\" script to package.json; extract and test persistCharters() 20-item cap/eviction order, SCRUM_VALUE_MAP coverage counting, charter history diff sets, base64 URL-hash encode/decode round-trip; no UI/behavior change, build must still pass); then #41 (charter library JSON export/import \u2014 Export/Import buttons on My Teams screen; Blob download + FileReader parse; merge by id dedup with 20-cap; teams.export/import/import_result i18n keys in EN/ES/BE/RU; no new deps); #42 and #43 reach auto-approve threshold 2026-07-18",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "e2e38bc",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #45 to main; ROADMAP next epics: Vitest test coverage (#40), charter library JSON export/import (#41), decompose 1017-line App.tsx (#42), all needs-review past 7-day threshold; note: committed .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "improvement-board": {
       "status": "stable",
