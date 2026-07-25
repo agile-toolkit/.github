@@ -79,7 +79,7 @@
     "improvement-board": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "7347ed1",
+      "last_commit": "c302947",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #43 to main; ROADMAP next epics: E1 cross-app integrations (Planning Poker #40, Scrum Facilitator #38), E2 reporting & analytics (CSV export #41, sprint history #37), E3 in-session card UX (inline quick-edit #42, custom tags #39), all needs-review past 7-day threshold; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
       "blockers": [],
       "maturity": "complete",
