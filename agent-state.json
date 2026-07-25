@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-25T14:05:00Z",
-  "lock": { "repo": "agile-toolkit.github.io", "started_at": "2026-07-25T15:00:00Z" },
+  "updated": "2026-07-25T15:30:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "work-profiles",
+    "in-progress": "agile-toolkit.github.io",
     "scaffolded": null,
     "not-started": null,
     "stable": "planning-poker",
@@ -144,14 +144,15 @@
     "agile-toolkit.github.io": {
       "status": "in-progress",
       "last_run": "2026-07-25",
-      "last_commit": "3981b80",
-      "next_task": "verify CI for 3981b80 (mcp mode skipped verification); Project status move to In Progress skipped (GraphQL blocked) — set manually or on next full-mode run; implement #31 attention badge (AppData.attention field, readChangePlanner/readKanbanDesigner, Badge 'attention' variant, i18n card.attention key EN/ES/BE/RU) per E1 spec in #40",
+      "last_commit": "9591d29",
+      "next_task": "verify CI for 9591d29 (mcp mode skipped verification); implement #32 Moving Motivators team/PIN session reader (readMovingMotivators currently only reads solo sessions) per E1 spec in #40",
       "blockers": [],
       "maturity": "complete",
       "tier": 0,
-      "current_epic": { "id": "E1", "title": "Reader completeness", "issue": 40, "started": "2026-07-25", "runs": 0 },
+      "current_epic": { "id": "E1", "title": "Reader completeness", "issue": 40, "started": "2026-07-25", "runs": 1 },
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
       "version": "0.1.0"
     }
