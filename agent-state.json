@@ -92,7 +92,7 @@
     "work-profiles": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "1419710",
+      "last_commit": "329659d",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #64 to main; ROADMAP next epics: automated test suite (#54), sibling-app integrations (Scrum Facilitator #50, Kanban Designer #55, Moving Motivators #57), data-portability/JSON backup (#56), search+export blocked on human (#4,#5), credits-trend (#59); #58 unguarded localStorage.setItem demoted to polish; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
       "blockers": [],
       "maturity": "complete",
