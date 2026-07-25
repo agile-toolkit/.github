@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:31:30Z",
+  "updated": "2026-07-25T06:31:41Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -32,11 +32,17 @@
       "blockers": []
     },
     "kanban-designer": {
-      "status": "stable",
-      "last_run": "2026-07-16",
-      "last_commit": "0ff2e67308ef731d362cc43d506a7440eb5f275d",
-      "next_task": "check issues for human feedback; #42 (card checklists) implemented and merged this run (PR #51, CI green run 29489949776, commit 0ff2e67308ef) \u2014 ChecklistItem interface + checklist?: ChecklistItem[] on KanbanCard; CardUpdates includes checklist; makeChecklistItem() helper with random id; edit mode: checkbox list + per-item delete + text input (Enter adds); view mode: \u2713 done/total progress chip (green when all done, gray otherwise); designer.checklist/checklist_add/checklist_progress i18n keys in EN/ES/BE/RU; patch 0.1.0\u21920.1.1; no new deps. Next: auto-approve #43 (card description field, created 2026-06-27, 19 days stale \u2014 needs-review only) and implement: <textarea> min-2/max-6 rows in CardItem edit mode, 1-line truncated preview on card face, CardUpdates.description, designer.description i18n key in EN/ES/BE/RU; no new deps. Also auto-approve #44 (shortcuts overlay) and #45 (CSV export), both created 2026-06-27, same threshold. #38 (Team Identity member assignment, needs-review, created 2026-06-29, 17 days stale) also auto-approve.",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "affa7d1",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #52 to main; ROADMAP next epics: #43 card description field, #44 keyboard shortcuts overlay, #45 CSV export, all needs-review past 7-day threshold; note: repo had a pre-existing uncommitted .gitignore change adding .artefacts/ ignore rule + uncommitted package-lock.json change, both left untouched/unstaged",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.1"
     },
     "salary-formula": {
       "status": "stable",
