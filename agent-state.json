@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:33:54Z",
+  "updated": "2026-07-25T13:36:51Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -131,7 +131,7 @@
     "change-planner": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "a2dcf47",
+      "last_commit": "e464373",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #63 to main; ROADMAP next epics: E1 Home screen discovery (#53 digest, #57 search), E2 export & sharing (#54 print view, #58 ICS export), E3 RACI tagging (#55), E4 automated test coverage (#56); #59 hardcoded placeholder bug fix demoted to polish backlog; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/, left untouched \u2014 worth a human decision on whether to formalize .artefacts/ ignore rules with explicit !.artefacts/GOAL.md and !.artefacts/ROADMAP.md exceptions across all 10 repos",
       "blockers": [],
       "maturity": "complete",
