@@ -1,6 +1,6 @@
 {
   "updated": "2026-07-25T13:36:51Z",
-  "lock": null,
+  "lock": { "repo": "agile-toolkit.github.io", "started_at": "2026-07-25T13:57:06Z" },
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
