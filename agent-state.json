@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:27:59Z",
+  "updated": "2026-07-25T06:31:30Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -12,11 +12,17 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "stable",
-      "last_run": "2026-07-13",
-      "last_commit": "475024b856d3183f988d2fff514a625fe1e4dbbd",
-      "next_task": "verify CI for 475024b856d3183f988d2fff514a625fe1e4dbbd (run 29261403875, Deploy to GitHub Pages) \u2014 was in_progress at lock release; then check issues for human feedback; auto-approve #51 (Team Identity \u2192 MM pre-populate team name, needs-review since 2026-06-26, 17 days stale) if still needs-review and implement: in TeamSession.tsx host lobby, read team-identity:draft from localStorage on mount; if non-empty .name, show suggestion chip \"Use team name from Team Identity: _name_\"; one-click sets teamName field in stored teamSessionHistory entry on reveal; team.useTeamIdentityName i18n key in all 4 locales; ~30 LOC; then #52 (coaching tips panel), #53 (Improvement Board deep link) in issue-number order; #5 (favicon, research-more) skip unless new signal; #16 (Dashboard side, agile-toolkit.github.io); #22 (Change Planner side, change-planner)",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "c37ac82",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #59 to main; ROADMAP next epics: E1 pre-populate team session display name from Team Identity (#51), E2 personalized coaching-tips panel on solo results (#52), both needs-review past 7-day threshold; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md were force-added (git add -f)",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "scrum-facilitator": {
       "status": "stable",
