@@ -1,15 +1,14 @@
 {
-  "updated": "2026-07-17T10:11:21.066904Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-07-25T06:24:35Z"
-  },
+  "updated": "2026-07-25T06:27:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker"
+    "stable": "planning-poker",
+    "needs-goal": "agile-toolkit.github.io",
+    "idle": null
   },
   "apps": {
     "moving-motivators": {
@@ -83,11 +82,17 @@
       "blockers": []
     },
     "agile-toolkit.github.io": {
-      "status": "stable",
-      "last_run": "2026-07-13",
-      "last_commit": "4ef36832a20e7877c0d33143966cf31dfff323b5",
-      "next_task": "verify CI for 4ef36832a20e7877c0d33143966cf31dfff323b5 (run 29241779708, Deploy to GitHub Pages) \u2014 was in_progress at lock release; then check issues for human feedback; implement #31 (attention badge \u2014 extend AppData with attention?: boolean; add attention Badge variant in red/rose with static dot, label card.attention i18n key in EN/ES/BE/RU; set in readChangePlanner() when overdueCount > 0 and readKanbanDesigner() when any column overWip; AppCard.tsx badge priority: live > attention > active); then #32 (Moving Motivators team-session reader \u2014 read moving-motivators:motivationSnapshot and teamSessionHistory, build chips from team snapshot when solo lastSession absent, prefer newer timestamp when both exist), then #33 (Sprint Metrics lastSprintGoal chip \u2014 widen readSprintMetrics() type, push chip(trunc(session.lastSprintGoal, 40), goal) when non-empty)",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "005479b",
+      "next_task": "check issues for human feedback; auto-approve #31/#32/#33 if still needs-review (all past 7-day threshold) and adopt as current_epic E1: Reader completeness (attention badge #31, Moving Motivators team-session reader #32, Sprint Metrics goal chip #33); GOAL.md/ROADMAP.md drafted this run in #37, merged PR #38 to main",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     }
   },
   "projects": {
