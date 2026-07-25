@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T13:36:51Z",
-  "lock": { "repo": "agile-toolkit.github.io", "started_at": "2026-07-25T13:57:06Z" },
+  "updated": "2026-07-25T14:05:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "work-profiles",
@@ -8,7 +8,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": null
+    "idle": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
@@ -142,13 +142,14 @@
       "version": "0.1.0"
     },
     "agile-toolkit.github.io": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-07-25",
-      "last_commit": "005479b",
-      "next_task": "check issues for human feedback; auto-approve #31/#32/#33 if still needs-review (all past 7-day threshold) and adopt as current_epic E1: Reader completeness (attention badge #31, Moving Motivators team-session reader #32, Sprint Metrics goal chip #33); GOAL.md/ROADMAP.md drafted this run in #37, merged PR #38 to main",
+      "last_commit": "3981b80",
+      "next_task": "verify CI for 3981b80 (mcp mode skipped verification); Project status move to In Progress skipped (GraphQL blocked) — set manually or on next full-mode run; implement #31 attention badge (AppData.attention field, readChangePlanner/readKanbanDesigner, Badge 'attention' variant, i18n card.attention key EN/ES/BE/RU) per E1 spec in #40",
       "blockers": [],
       "maturity": "complete",
-      "current_epic": null,
+      "tier": 0,
+      "current_epic": { "id": "E1", "title": "Reader completeness", "issue": 40, "started": "2026-07-25", "runs": 0 },
       "recent_runs": [
         "chore"
       ],
