@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:33:09Z",
+  "updated": "2026-07-25T06:33:17Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -90,11 +90,17 @@
       "version": "0.1.0"
     },
     "work-profiles": {
-      "status": "stable",
-      "last_run": "2026-07-17",
-      "last_commit": "5caf23957d707a127cf9ab2252eca84218b44bde",
-      "next_task": "implement #50 (Scrum Facilitator wp-sprint-capacity localStorage key \u2014 add publishSprintCapacity() in App.tsx writing wp-sprint-capacity: {totalCapacity: sum(active.capacity), memberCount: active.length, availableCount: active.filter(!ooo).length, oooCount, oooMembers: names[], timezones: unique TZ list, lastUpdated: ISO} from active profiles; call after every updateProfiles; no new deps, no new i18n keys, no UI change); then check if #53 (Planning Poker \u2014 no WP changes) and auto-approve first still-needs-review in #54-#59 on next research pass; #52 merged PR #63, CI green run 29556726679, commit 5caf239",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "1419710",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #64 to main; ROADMAP next epics: automated test suite (#54), sibling-app integrations (Scrum Facilitator #50, Kanban Designer #55, Moving Motivators #57), data-portability/JSON backup (#56), search+export blocked on human (#4,#5), credits-trend (#59); #58 unguarded localStorage.setItem demoted to polish; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "planning-poker": {
       "status": "idle",
