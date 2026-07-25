@@ -14,7 +14,7 @@
     "moving-motivators": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "c37ac82",
+      "last_commit": "94bb357",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #59 to main; ROADMAP next epics: E1 pre-populate team session display name from Team Identity (#51), E2 personalized coaching-tips panel on solo results (#52), both needs-review past 7-day threshold; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md were force-added (git add -f)",
       "blockers": [],
       "maturity": "complete",
@@ -27,7 +27,7 @@
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "c6f3daa",
+      "last_commit": "1ba7c82",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #60 to main; ROADMAP next epics: Team Identity participant import (#44), destructive-action confirmation (#47,#55), quality hardening/tests+a11y (#45,#46), offline PWA (#56), bulk history export (#57), all needs-review past 7-day threshold; #1 favicon blocked on human decision; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
       "blockers": [],
       "maturity": "complete",
