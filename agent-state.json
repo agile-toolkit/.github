@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:32:18Z",
+  "updated": "2026-07-25T06:32:27Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -77,11 +77,17 @@
       "version": "0.1.0"
     },
     "improvement-board": {
-      "status": "stable",
-      "last_run": "2026-07-17",
-      "last_commit": "4725d73",
-      "next_task": "check issues for human feedback; auto-approve #37/#38/#39 on 2026-07-19 or after if still needs-review and implement first approved in issue-number order (#37 sprint history analytics \u2014 new HistoryView.tsx with pure-SVG bar chart per sprint, reads improvement-board:sprintHistory, new history Screen value in types.ts, nav.history i18n key in EN/ES/BE/RU, empty state, category breakdown table, resolution rate badge); #40 (Planning Poker deep-link, new src/utils/planningPokerLink.ts), #41 (CSV export), #42 (inline title edit) all needs-review threshold 2026-07-19",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "7347ed1",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #43 to main; ROADMAP next epics: E1 cross-app integrations (Planning Poker #40, Scrum Facilitator #38), E2 reporting & analytics (CSV export #41, sprint history #37), E3 in-session card UX (inline quick-edit #42, custom tags #39), all needs-review past 7-day threshold; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "work-profiles": {
       "status": "stable",
