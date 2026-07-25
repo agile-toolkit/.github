@@ -118,7 +118,7 @@
     "sprint-metrics": {
       "status": "idle",
       "last_run": "2026-07-25",
-      "last_commit": "0394f96",
+      "last_commit": "e5863c9",
       "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #61 to main; ROADMAP next epics: E1 cross-app integrations (Scrum Facilitator retro import #52, Team Identity badge #56), E2 quarterly rollup (#53), E3 chart a11y + html2canvas code-split (#54,#55), E4 sprint-deletion undo toast (#57); #51 already shipped despite still open on GitHub; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
       "blockers": [],
       "maturity": "complete",
