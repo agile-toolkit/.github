@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:31:41Z",
+  "updated": "2026-07-25T06:32:07Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -45,11 +45,17 @@
       "version": "0.1.1"
     },
     "salary-formula": {
-      "status": "stable",
-      "last_run": "2026-07-16",
-      "last_commit": "08f16dea95b9bd68f169d70c71660ce497ca87f3",
-      "next_task": "check issues for human feedback; implement #43 (localStorage safeSetItem \u2014 create src/utils/storage.ts safeSetItem(key,value):boolean that wraps setItem in try/catch returning success/failure; replace all 7 unguarded localStorage.setItem calls in App.tsx saveProfiles/saveScenarios/writeTeamHourlyRate/writeLastSession, FormulaBuilder.tsx writePendingChangeRecord/review-timestamp write, ComparisonView.tsx Sprint Metrics bridge write; in App.tsx handleSaveProfile/handleSaveScenario only flip Saved! confirmation when write succeeds, on failure show yellow-banner error reusing existing review-overdue banner pattern; no new deps, no new i18n keys for banner text yet); then #42 (replace formatSalary with formatCurrency in SalaryCalculator/ComparisonView/ScenarioView \u2014 delete formatSalary from presets.ts); then #40 (mixed-currency warning banner in EquityView when profiles span multiple currencies)",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "cc047dd",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #47 to main; ROADMAP next epic E1 Data trust & robustness cleanup groups #40 (mixed-currency mislabeling), #42 (inconsistent salary formatting), #43 (unguarded localStorage writes), all needs-review past 7-day threshold; note: repo has a pre-existing uncommitted .gitignore change adding a bare .artefacts/ line (breaks !.artefacts/BRIEF.md negation) \u2014 left untouched, worth human review",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.0"
     },
     "team-identity": {
       "status": "stable",
