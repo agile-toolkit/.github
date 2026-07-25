@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T06:32:27Z",
+  "updated": "2026-07-25T06:33:09Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -97,11 +97,17 @@
       "blockers": []
     },
     "planning-poker": {
-      "status": "stable",
-      "last_run": "2026-07-17",
-      "last_commit": "de9e268629f108776acb6a6f52cd3a9fb3efabd9",
-      "next_task": "verify CI for de9e268629f108776acb6a6f52cd3a9fb3efabd9 (run 29572558913, Deploy to GitHub Pages) \u2014 was in_progress at lock release; then check issues for human feedback; auto-approve #39 (swipe-to-select card gesture on mobile, created 2026-06-28, well past 7-day threshold) if still needs-review and implement: Pointer Events API in SessionView.tsx, onPointerDown/Move/Up on card container, horizontal delta >40px cycles selected card index, vertical upward delta >60px casts vote, session.swipe_hint i18n key in EN/ES/BE/RU (dismissible, stored in planning-poker:swipeHintSeen); ~50 LOC, no new dep; else #40 (estimation accuracy cross-reference with Sprint Metrics)",
-      "blockers": []
+      "status": "idle",
+      "last_run": "2026-07-25",
+      "last_commit": "7d36ab2",
+      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #49 to main; ROADMAP next epics: #39 mobile swipe-to-vote gesture, #40 estimation-accuracy cross-reference with Sprint Metrics, both needs-review past 7-day threshold; note: pre-existing uncommitted .gitignore change adding blanket .artefacts/ ignore + package-lock.json version bump 0.1.5->0.1.6, left untouched \u2014 worth checking if .gitignore change was intentional (would also swallow BRIEF.md)",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore"
+      ],
+      "version": "0.1.6"
     },
     "sprint-metrics": {
       "status": "stable",
