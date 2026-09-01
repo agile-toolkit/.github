@@ -1,6 +1,9 @@
 {
   "updated": "2026-07-25T16:15:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-09-01T22:27:01Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -149,7 +152,13 @@
       "blockers": [],
       "maturity": "complete",
       "tier": 0,
-      "current_epic": { "id": "E1", "title": "Reader completeness", "issue": 40, "started": "2026-07-25", "runs": 2 },
+      "current_epic": {
+        "id": "E1",
+        "title": "Reader completeness",
+        "issue": 40,
+        "started": "2026-07-25",
+        "runs": 2
+      },
       "recent_runs": [
         "feature",
         "feature"
