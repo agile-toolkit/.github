@@ -1,9 +1,6 @@
 {
-  "updated": "2026-07-25T16:15:00Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-01T22:27:01Z"
-  },
+  "updated": "2026-09-01T22:42:06Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -146,24 +143,27 @@
     },
     "agile-toolkit.github.io": {
       "status": "in-progress",
-      "last_run": "2026-07-25",
-      "last_commit": "391889a",
-      "next_task": "verify CI for 391889a (mcp mode skipped verification); implement #33 Sprint Metrics lastSprintGoal chip in readSprintMetrics() per E1 spec in #40",
-      "blockers": [],
+      "last_run": "2026-09-01",
+      "last_commit": "059d2d8",
+      "next_task": "implement agile-toolkit:activeTeam contract (write helper + Dashboard header surface) per E2 Phase 1 spec in #41",
+      "blockers": [
+        "git tag push (v0.2.0) returned HTTP 403 \u2014 tag refs appear blocked for this session even though branch pushes work; release/tag not created, version bump + CHANGELOG entry shipped instead"
+      ],
       "maturity": "complete",
       "tier": 0,
       "current_epic": {
-        "id": "E1",
-        "title": "Reader completeness",
-        "issue": 40,
-        "started": "2026-07-25",
-        "runs": 2
+        "id": "E2",
+        "title": "Shared team identity primitive",
+        "issue": 41,
+        "started": "2026-09-01",
+        "runs": 1
       },
       "recent_runs": [
         "feature",
+        "feature",
         "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   },
   "projects": {
