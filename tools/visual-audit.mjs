@@ -47,7 +47,9 @@ const AXE_SRC = fs.readFileSync(axePath, 'utf8')
 
 fs.mkdirSync(outDir, { recursive: true })
 
-const browser = await chromium.launch()
+const executablePath = process.env.PLAYWRIGHT_CHROMIUM_PATH
+  ?? (fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined)
+const browser = await chromium.launch(executablePath ? { executablePath } : {})
 const a11yResults = {}
 let shotCount = 0
 
