@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:53:04Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-02T19:53:04Z"
-  },
+  "updated": "2026-09-02T19:55:24Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -128,10 +125,10 @@
       "version": "0.2.1"
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "d65940f",
-      "next_task": "Management 3.0 references removed, invisible brand-color bug fixed, first test coverage added (21 tests). Remaining: research issues #52/#53/#54/#55/#56 per prior next_task note.",
+      "last_commit": "aaf0a07",
+      "next_task": "UX audit fix: fixed low-contrast delete icons, i18n-ized 3 hardcoded Dismiss aria-labels.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -140,7 +137,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "change-planner": {
       "status": "idle",
