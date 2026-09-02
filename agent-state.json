@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:33:53Z",
-  "lock": null,
+  "updated": "2026-09-02T19:37:19Z",
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-09-02T19:37:19Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -12,7 +15,7 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "db95c66",
       "next_task": "user requested: remove Management 3.0 trademark + site references (narrow scope, per user clarification - only registered \"Management 3.0\" name + management30.com link, not descriptive practice names). Done for this repo.",
