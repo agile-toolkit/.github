@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T11:55:26Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-09-02T11:56:19Z"
-  },
+  "updated": "2026-09-02T12:40:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -16,16 +13,18 @@
   "apps": {
     "moving-motivators": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "94bb357",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #59 to main; ROADMAP next epics: E1 pre-populate team session display name from Team Identity (#51), E2 personalized coaching-tips panel on solo results (#52), both needs-review past 7-day threshold; note: .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md were force-added (git add -f)",
+      "last_run": "2026-09-02",
+      "last_commit": "7fb98b3",
+      "next_task": "research: check issues for human feedback first (E2 #52 personalized coaching tips is needs-review, past staleness threshold, eligible for auto-approval); #5 favicon fix has a verified SVG ready in issue comments but needs human approved label",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0",
+      "tier": 1
     },
     "scrum-facilitator": {
       "status": "idle",
