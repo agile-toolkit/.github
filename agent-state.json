@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:27:17Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-02T19:27:17Z"
-  },
+  "updated": "2026-09-02T19:33:53Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -143,18 +140,19 @@
       "version": "0.2.1"
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "15994b2",
-      "next_task": "research: check issues for human feedback (E1 remainder #57 search, E2 #54/#58 export/sharing, E3 #55 RACI tagging, E4 #56 Vitest coverage, all needs-review past staleness threshold, eligible for auto-approval)",
+      "last_commit": "bbb081f",
+      "next_task": "Management 3.0 references removed, invisible brand-color bug fixed, first test coverage added (31 tests, closes #56). Found and fixed a real decodeInitiative base64-padding bug along the way. This was the last unvisited repo in the Management-3.0/color-bug/test-coverage sweep.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "chore",
-        "feature"
+        "feature",
+        "chore"
       ],
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
