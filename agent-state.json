@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-01T22:42:06Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-02T11:46:28Z"
-  },
+  "updated": "2026-09-02T11:55:26Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -145,28 +142,23 @@
       "version": "0.1.0"
     },
     "agile-toolkit.github.io": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-01",
-      "last_commit": "059d2d8",
-      "next_task": "implement agile-toolkit:activeTeam contract (write helper + Dashboard header surface) per E2 Phase 1 spec in #41",
+      "last_commit": "cb62a43",
+      "next_task": "research: check issues for human feedback first; no epic queued in this repo \u2014 Phase 2 of E2 (activeTeam adoption in Scrum Facilitator / Moving Motivators / others) is each consumer repo's own future epic, not this one",
       "blockers": [
-        "git tag push (v0.2.0) returned HTTP 403 \u2014 tag refs appear blocked for this session even though branch pushes work; release/tag not created, version bump + CHANGELOG entry shipped instead"
+        "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
       "maturity": "complete",
       "tier": 0,
-      "current_epic": {
-        "id": "E2",
-        "title": "Shared team identity primitive",
-        "issue": 41,
-        "started": "2026-09-01",
-        "runs": 1
-      },
+      "current_epic": null,
       "recent_runs": [
+        "feature",
         "feature",
         "feature",
         "feature"
       ],
-      "version": "0.2.0"
+      "version": "0.3.0"
     }
   },
   "projects": {
