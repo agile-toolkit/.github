@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T13:40:43Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-02T13:40:43Z"
-  },
+  "updated": "2026-09-02T13:46:38Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -11,7 +8,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": "planning-poker"
+    "idle": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -129,16 +126,17 @@
     },
     "sprint-metrics": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "e5863c9",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #61 to main; ROADMAP next epics: E1 cross-app integrations (Scrum Facilitator retro import #52, Team Identity badge #56), E2 quarterly rollup (#53), E3 chart a11y + html2canvas code-split (#54,#55), E4 sprint-deletion undo toast (#57); #51 already shipped despite still open on GitHub; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
+      "last_run": "2026-09-02",
+      "last_commit": "3555d6a",
+      "next_task": "research: check issues for human feedback (E1 #52/#56 cross-app integrations, E2 #53 quarterly rollup, E3 #54/#55 chart a11y + bundle size, all needs-review past staleness threshold, eligible for auto-approval)",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     "change-planner": {
       "status": "idle",
