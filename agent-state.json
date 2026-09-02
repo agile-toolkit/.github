@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:38:48Z",
-  "lock": null,
+  "updated": "2026-09-02T19:38:53Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-09-02T19:38:53Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -155,7 +158,7 @@
       "version": "0.2.1"
     },
     "agile-toolkit.github.io": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "8abdbe7",
       "next_task": "user requested (2026-09-02): remove Management 3.0 references suite-wide. Dashboard done (title, hero badge, all app descriptions x4 locales). Continue same pass across remaining 10 repos.",
