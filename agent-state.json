@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-02T13:22:25Z",
-  "lock": null,
+  "lock": {
+    "repo": "work-profiles",
+    "started_at": "2026-09-02T13:22:36Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -8,7 +11,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": "improvement-board"
+    "idle": "work-profiles"
   },
   "apps": {
     "moving-motivators": {
