@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:52:58Z",
-  "lock": null,
+  "updated": "2026-09-02T19:53:04Z",
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-02T19:53:04Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -125,7 +128,7 @@
       "version": "0.2.1"
     },
     "sprint-metrics": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "d65940f",
       "next_task": "Management 3.0 references removed, invisible brand-color bug fixed, first test coverage added (21 tests). Remaining: research issues #52/#53/#54/#55/#56 per prior next_task note.",
