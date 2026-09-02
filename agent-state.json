@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T14:47:30Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-02T14:47:30Z"
-  },
+  "updated": "2026-09-02T14:52:33Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -74,8 +71,8 @@
     "team-identity": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "bceacd3",
-      "next_task": "research: check issues for human feedback (E1 #40 Vitest coverage, E3 #42 decompose App.tsx, both needs-review past staleness threshold, eligible for auto-approval)",
+      "last_commit": "499d6a6",
+      "next_task": "part of suite-wide UX/scope/test audit: fixed header nav ordering bug (About link vs language picker), added first test coverage (storage layer + scrumValuesCovered). E1 remainder (#40, charter diffing + base64 encode/decode still untested) and E3 (#42, decompose App.tsx) still queued",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -83,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     "improvement-board": {
       "status": "idle",
