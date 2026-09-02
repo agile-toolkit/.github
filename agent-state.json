@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T14:33:55Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-02T14:33:55Z"
-  },
+  "updated": "2026-09-02T14:37:09Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -157,9 +154,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "idle",
-      "last_run": "2026-09-01",
-      "last_commit": "326aa4f",
-      "next_task": "research: check issues for human feedback first; no epic queued in this repo \u2014 Phase 2 of E2 (activeTeam adoption in Scrum Facilitator / Moving Motivators / others) is each consumer repo's own future epic, not this one",
+      "last_run": "2026-09-02",
+      "last_commit": "3765a31",
+      "next_task": "part of suite-wide UX/scope/test audit: readers.ts now has full test coverage; next repos in audit queue: scrum-facilitator, kanban-designer, team-identity, improvement-board, planning-poker, sprint-metrics (add minimal vitest coverage for pure logic modules if none exists, verify build/tests clean)",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -172,7 +169,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.1"
+      "version": "0.3.2"
     }
   },
   "projects": {
