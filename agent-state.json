@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T12:48:14Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-09-02T12:48:20Z"
-  },
+  "updated": "2026-09-02T12:54:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -45,16 +42,17 @@
     },
     "kanban-designer": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "6646b89",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #52 to main; ROADMAP next epics: #43 card description field, #44 keyboard shortcuts overlay, #45 CSV export, all needs-review past 7-day threshold; note: repo had a pre-existing uncommitted .gitignore change adding .artefacts/ ignore rule + uncommitted package-lock.json change, both left untouched/unstaged",
+      "last_run": "2026-09-02",
+      "last_commit": "8b3da36",
+      "next_task": "research: check issues for human feedback (E1 #43 card description, E2 #44 keyboard shortcuts overlay, both needs-review past staleness threshold, eligible for auto-approval); polish backlog has a border-brand-200 invisible-border bug on 2 toolbar buttons",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.1"
+      "version": "0.2.0"
     },
     "salary-formula": {
       "status": "idle",
