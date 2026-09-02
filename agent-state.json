@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T20:06:11Z",
-  "lock": null,
+  "updated": "2026-09-02T20:06:18Z",
+  "lock": {
+    "repo": "salary-formula",
+    "started_at": "2026-09-02T20:06:18Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -55,7 +58,7 @@
       "version": "0.2.2"
     },
     "salary-formula": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "01bfa95",
       "next_task": "research: no epic queued, ROADMAP polish backlog has 2 items (Team Identity import reads wrong localStorage key team-identity:charter vs actual team-identity-charter; factorBreakdown() dedup) \u2014 consider batching into a chore run",
