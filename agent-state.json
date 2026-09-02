@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T14:41:15Z",
-  "lock": null,
+  "updated": "2026-09-02T14:41:21Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-09-02T14:41:21Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
