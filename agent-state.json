@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:37:19Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-09-02T19:37:19Z"
-  },
+  "updated": "2026-09-02T19:38:48Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -15,10 +12,10 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "db95c66",
-      "next_task": "user requested: remove Management 3.0 trademark + site references (narrow scope, per user clarification - only registered \"Management 3.0\" name + management30.com link, not descriptive practice names). Done for this repo.",
+      "last_commit": "d2bc924",
+      "next_task": "UX audit fix: low-contrast unranked/unselected controls fixed (gray-300/700 -> gray-400/600).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -26,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.2",
+      "version": "0.2.3",
       "tier": 1
     },
     "scrum-facilitator": {
