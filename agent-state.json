@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:47:10Z",
-  "lock": null,
+  "updated": "2026-09-02T19:47:16Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-09-02T19:47:16Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -41,7 +44,7 @@
       "version": "0.2.1"
     },
     "kanban-designer": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "504eef4",
       "next_task": "part of suite-wide UX/scope/test audit: fixed 11 invisible brand-color occurrences (missing 200/800/900 shades), added first test coverage (templates.ts). E1 #43 card description, E2 #44 keyboard shortcuts overlay still queued",
