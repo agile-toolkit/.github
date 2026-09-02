@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T18:49:54Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-02T18:49:54Z"
-  },
+  "updated": "2026-09-02T18:50:43Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -32,7 +29,7 @@
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "a10227b",
+      "last_commit": "7cf9058",
       "next_task": "part of suite-wide UX/scope/test audit: fixed ceremony timebox display bug (240/90 -> 135/65 min), added first test coverage (ceremonies/retroFormats). E2/E3 remainder/E4/E5 still queued; #1 favicon/rebrand blocked on human brand decision (research-more)",
       "blockers": [],
       "maturity": "complete",
