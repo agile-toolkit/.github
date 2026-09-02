@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T20:03:24Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-02T20:03:24Z"
-  },
+  "updated": "2026-09-02T20:06:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -72,10 +69,10 @@
       "version": "0.2.1"
     },
     "team-identity": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "72b5504",
-      "next_task": "part of suite-wide UX/scope/test audit: fixed header nav ordering bug (About link vs language picker), added first test coverage (storage layer + scrumValuesCovered). E1 remainder (#40, charter diffing + base64 encode/decode still untested) and E3 (#42, decompose App.tsx) still queued",
+      "last_commit": "f7bc0dc",
+      "next_task": "UX audit fix: added confirm-before-delete for saved teams in My Teams library.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -83,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     "improvement-board": {
       "status": "idle",
