@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T14:32:42Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-09-02T14:32:42Z"
-  },
+  "updated": "2026-09-02T14:33:36Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -17,8 +14,8 @@
     "moving-motivators": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "7fb98b3",
-      "next_task": "research: check issues for human feedback first (E2 #52 personalized coaching tips is needs-review, past staleness threshold, eligible for auto-approval); #5 favicon fix has a verified SVG ready in issue comments but needs human approved label",
+      "last_commit": "9d29dfa",
+      "next_task": "research: E2 personalized coaching tips (#52) needs-review past staleness; favicon fix (#5) has research-more label \u2014 do not self-approve, awaiting human review despite finished-looking proposal",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -26,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.0",
+      "version": "0.2.1",
       "tier": 1
     },
     "scrum-facilitator": {
