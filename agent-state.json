@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:19:18Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-02T19:19:18Z"
-  },
+  "updated": "2026-09-02T19:27:08Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -130,16 +127,17 @@
     "sprint-metrics": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "3555d6a",
-      "next_task": "research: check issues for human feedback (E1 #52/#56 cross-app integrations, E2 #53 quarterly rollup, E3 #54/#55 chart a11y + bundle size, all needs-review past staleness threshold, eligible for auto-approval)",
+      "last_commit": "d65940f",
+      "next_task": "Management 3.0 references removed, invisible brand-color bug fixed, first test coverage added (21 tests). Remaining: research issues #52/#53/#54/#55/#56 per prior next_task note.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "chore",
-        "feature"
+        "feature",
+        "chore"
       ],
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     "change-planner": {
       "status": "idle",
