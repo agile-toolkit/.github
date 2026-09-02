@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:50:47Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-09-02T19:50:47Z"
-  },
+  "updated": "2026-09-02T19:52:58Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -86,10 +83,10 @@
       "version": "0.2.2"
     },
     "improvement-board": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "35f4c13",
-      "next_task": "part of suite-wide UX/scope/test audit: fixed 4 invisible brand-color occurrences (missing 200/300/800/900 shades), added first test coverage (all 4 utils modules). E1 #40/#38 integrations, E2 #41/#37 reporting, E3 remainder #39 custom tags still queued",
+      "last_commit": "ead9ea3",
+      "next_task": "UX audit fix: added confirm-before-delete for single items (matching existing bulk-delete confirm), fixed low-contrast delete icons.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -97,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     "work-profiles": {
       "status": "idle",
