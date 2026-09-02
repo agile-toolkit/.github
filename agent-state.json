@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T14:37:16Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-02T14:37:16Z"
-  },
+  "updated": "2026-09-02T14:41:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -32,8 +29,8 @@
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "92c8233",
-      "next_task": "research: check issues for human feedback (E2 #47/#55 destructive-action confirm, E3 #45/#46 quality hardening, E4 #56 PWA, E5 #57 bulk export all needs-review, past staleness threshold, eligible for auto-approval); #1 favicon/rebrand blocked on human brand decision",
+      "last_commit": "a10227b",
+      "next_task": "part of suite-wide UX/scope/test audit: fixed ceremony timebox display bug (240/90 -> 135/65 min), added first test coverage (ceremonies/retroFormats). E2/E3 remainder/E4/E5 still queued; #1 favicon/rebrand blocked on human brand decision (research-more)",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -41,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     "kanban-designer": {
       "status": "idle",
