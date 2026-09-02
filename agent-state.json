@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:05:51Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-09-02T19:05:51Z"
-  },
+  "updated": "2026-09-02T19:07:22Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -88,7 +85,7 @@
     "improvement-board": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "e184cc7",
+      "last_commit": "35f4c13",
       "next_task": "part of suite-wide UX/scope/test audit: fixed 4 invisible brand-color occurrences (missing 200/300/800/900 shades), added first test coverage (all 4 utils modules). E1 #40/#38 integrations, E2 #41/#37 reporting, E3 remainder #39 custom tags still queued",
       "blockers": [],
       "maturity": "complete",
@@ -97,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "work-profiles": {
       "status": "idle",
