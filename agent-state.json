@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:55:30Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-02T19:55:30Z"
-  },
+  "updated": "2026-09-02T19:58:40Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -143,10 +140,10 @@
       "version": "0.2.2"
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "bbb081f",
-      "next_task": "Management 3.0 references removed, invisible brand-color bug fixed, first test coverage added (31 tests, closes #56). Found and fixed a real decodeInitiative base64-padding bug along the way. This was the last unvisited repo in the Management-3.0/color-bug/test-coverage sweep.",
+      "last_commit": "47b46a0",
+      "next_task": "UX audit fix: i18n-ized hardcoded Save/Cancel buttons, fixed a low-contrast delete icon.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -155,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
