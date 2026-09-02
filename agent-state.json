@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:04:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-02T19:04:00Z"
-  },
+  "updated": "2026-09-02T19:05:44Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -74,7 +71,7 @@
     "team-identity": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "499d6a6",
+      "last_commit": "72b5504",
       "next_task": "part of suite-wide UX/scope/test audit: fixed header nav ordering bug (About link vs language picker), added first test coverage (storage layer + scrumValuesCovered). E1 remainder (#40, charter diffing + base64 encode/decode still untested) and E3 (#42, decompose App.tsx) still queued",
       "blockers": [],
       "maturity": "complete",
@@ -83,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "improvement-board": {
       "status": "idle",
