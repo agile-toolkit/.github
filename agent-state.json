@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:15:15Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-09-02T19:15:15Z"
-  },
+  "updated": "2026-09-02T19:19:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -116,7 +113,7 @@
     "planning-poker": {
       "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "4d8b133",
+      "last_commit": "7af65ac",
       "next_task": "research: E2 accuracy cross-reference (#40) blocked on Sprint Metrics data-model gap (no date field on SprintData) \u2014 needs human call on adding a date field there or dropping the per-sprint framing; no other epics queued",
       "blockers": [],
       "maturity": "complete",
@@ -125,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     "sprint-metrics": {
       "status": "idle",
