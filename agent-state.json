@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-02T11:55:26Z",
-  "lock": null,
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-09-02T11:56:19Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -8,7 +11,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": "agile-toolkit.github.io"
+    "idle": "moving-motivators"
   },
   "apps": {
     "moving-motivators": {
