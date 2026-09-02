@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:43:06Z",
-  "lock": null,
+  "updated": "2026-09-02T19:43:11Z",
+  "lock": {
+    "repo": "work-profiles",
+    "started_at": "2026-09-02T19:43:11Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -97,7 +100,7 @@
       "version": "0.2.2"
     },
     "work-profiles": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "a7f1133",
       "next_task": "research: check issues for human feedback (E1 #54 automated test suite, E2 remainder #55/#57 sibling-app integrations, E3 #56 data portability, E5 #59 credits trend, all needs-review past staleness threshold, eligible for auto-approval); #4/#5 blocked on human approved label; polish backlog #58 unguarded localStorage.setItem calls",
