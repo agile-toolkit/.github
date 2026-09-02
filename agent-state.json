@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T13:09:50Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-02T13:10:00Z"
-  },
+  "updated": "2026-09-02T13:16:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -73,16 +70,17 @@
     },
     "team-identity": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "91d390b",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #45 to main; ROADMAP next epics: Vitest test coverage (#40), charter library JSON export/import (#41), decompose 1017-line App.tsx (#42), all needs-review past 7-day threshold; note: committed .gitignore excludes .artefacts/* except BRIEF.md, GOAL.md/ROADMAP.md force-added",
+      "last_run": "2026-09-02",
+      "last_commit": "bceacd3",
+      "next_task": "research: check issues for human feedback (E1 #40 Vitest coverage, E3 #42 decompose App.tsx, both needs-review past staleness threshold, eligible for auto-approval)",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     "improvement-board": {
       "status": "idle",
