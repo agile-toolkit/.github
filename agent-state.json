@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T12:40:11Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-02T12:40:23Z"
-  },
+  "updated": "2026-09-02T12:48:14Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -31,16 +28,17 @@
     },
     "scrum-facilitator": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "1ba7c82",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #60 to main; ROADMAP next epics: Team Identity participant import (#44), destructive-action confirmation (#47,#55), quality hardening/tests+a11y (#45,#46), offline PWA (#56), bulk history export (#57), all needs-review past 7-day threshold; #1 favicon blocked on human decision; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/ + package-lock.json diff, left untouched",
+      "last_run": "2026-09-02",
+      "last_commit": "92c8233",
+      "next_task": "research: check issues for human feedback (E2 #47/#55 destructive-action confirm, E3 #45/#46 quality hardening, E4 #56 PWA, E5 #57 bulk export all needs-review, past staleness threshold, eligible for auto-approval); #1 favicon/rebrand blocked on human brand decision",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.1"
+      "version": "0.2.0"
     },
     "kanban-designer": {
       "status": "idle",
