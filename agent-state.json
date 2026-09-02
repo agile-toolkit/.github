@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T13:40:35Z",
-  "lock": null,
+  "updated": "2026-09-02T13:40:43Z",
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-02T13:40:43Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
