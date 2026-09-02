@@ -147,7 +147,7 @@
     "agile-toolkit.github.io": {
       "status": "idle",
       "last_run": "2026-09-01",
-      "last_commit": "cb62a43",
+      "last_commit": "326aa4f",
       "next_task": "research: check issues for human feedback first; no epic queued in this repo \u2014 Phase 2 of E2 (activeTeam adoption in Scrum Facilitator / Moving Motivators / others) is each consumer repo's own future epic, not this one",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
@@ -161,7 +161,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.0"
+      "version": "0.3.1"
     }
   },
   "projects": {
