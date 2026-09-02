@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T13:33:08Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-09-02T13:33:08Z"
-  },
+  "updated": "2026-09-02T13:40:35Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -11,7 +8,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": "work-profiles"
+    "idle": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
@@ -115,16 +112,17 @@
     },
     "planning-poker": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "bb23f18",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #49 to main; ROADMAP next epics: #39 mobile swipe-to-vote gesture, #40 estimation-accuracy cross-reference with Sprint Metrics, both needs-review past 7-day threshold; note: pre-existing uncommitted .gitignore change adding blanket .artefacts/ ignore + package-lock.json version bump 0.1.5->0.1.6, left untouched \u2014 worth checking if .gitignore change was intentional (would also swallow BRIEF.md)",
+      "last_run": "2026-09-02",
+      "last_commit": "7cf3cac",
+      "next_task": "research: E2 accuracy cross-reference (#40) blocked on Sprint Metrics data-model gap (no date field on SprintData) \u2014 needs human call on adding a date field there or dropping the per-sprint framing; no other epics queued",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.6"
+      "version": "0.2.0"
     },
     "sprint-metrics": {
       "status": "idle",
