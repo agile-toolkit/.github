@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T19:43:11Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-09-02T19:43:11Z"
-  },
+  "updated": "2026-09-02T19:47:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -100,10 +97,10 @@
       "version": "0.2.2"
     },
     "work-profiles": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "a7f1133",
-      "next_task": "research: check issues for human feedback (E1 #54 automated test suite, E2 remainder #55/#57 sibling-app integrations, E3 #56 data portability, E5 #59 credits trend, all needs-review past staleness threshold, eligible for auto-approval); #4/#5 blocked on human approved label; polish backlog #58 unguarded localStorage.setItem calls",
+      "last_commit": "80a3aef",
+      "next_task": "UX/scope audit fix: removed Project Credits leaderboard rank badge (contradicted GOAL.md no-ranking boundary), guarded 3 unguarded localStorage writes (closes #58), fixed contrast/aria-label gaps, deleted unused ProfileForm.tsx.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -111,7 +108,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "planning-poker": {
       "status": "idle",
