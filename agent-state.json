@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T20:01:12Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-02T20:01:12Z"
-  },
+  "updated": "2026-09-02T20:03:17Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -30,10 +27,10 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "6cff03d",
-      "next_task": "part of suite-wide UX/scope/test audit: fixed ceremony timebox display bug (240/90 -> 135/65 min), added first test coverage (ceremonies/retroFormats). E2/E3 remainder/E4/E5 still queued; #1 favicon/rebrand blocked on human brand decision (research-more)",
+      "last_commit": "ecc5d89",
+      "next_task": "UX audit fix: added confirm-before-discard for resume-session banner.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -41,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "kanban-designer": {
       "status": "idle",
