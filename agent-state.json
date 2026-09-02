@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T19:05:44Z",
-  "lock": null,
+  "updated": "2026-09-02T19:05:51Z",
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-09-02T19:05:51Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
