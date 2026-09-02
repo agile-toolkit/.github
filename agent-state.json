@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T13:46:46Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-02T13:46:46Z"
-  },
+  "updated": "2026-09-02T13:55:25Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -11,7 +8,7 @@
     "not-started": null,
     "stable": "planning-poker",
     "needs-goal": "agile-toolkit.github.io",
-    "idle": "sprint-metrics"
+    "idle": "change-planner"
   },
   "apps": {
     "moving-motivators": {
@@ -143,16 +140,17 @@
     },
     "change-planner": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "e464373",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #63 to main; ROADMAP next epics: E1 Home screen discovery (#53 digest, #57 search), E2 export & sharing (#54 print view, #58 ICS export), E3 RACI tagging (#55), E4 automated test coverage (#56); #59 hardcoded placeholder bug fix demoted to polish backlog; note: pre-existing uncommitted .gitignore change re-ignoring .artefacts/, left untouched \u2014 worth a human decision on whether to formalize .artefacts/ ignore rules with explicit !.artefacts/GOAL.md and !.artefacts/ROADMAP.md exceptions across all 10 repos",
+      "last_run": "2026-09-02",
+      "last_commit": "15994b2",
+      "next_task": "research: check issues for human feedback (E1 remainder #57 search, E2 #54/#58 export/sharing, E3 #55 RACI tagging, E4 #56 Vitest coverage, all needs-review past staleness threshold, eligible for auto-approval)",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
