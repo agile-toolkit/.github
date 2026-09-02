@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T12:54:59Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-09-02T12:55:09Z"
-  },
+  "updated": "2026-09-02T13:09:50Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -59,16 +56,17 @@
     },
     "salary-formula": {
       "status": "idle",
-      "last_run": "2026-07-25",
-      "last_commit": "6a39384",
-      "next_task": "check issues for human feedback; GOAL.md/ROADMAP.md drafted this run, merged PR #47 to main; ROADMAP next epic E1 Data trust & robustness cleanup groups #40 (mixed-currency mislabeling), #42 (inconsistent salary formatting), #43 (unguarded localStorage writes), all needs-review past 7-day threshold; note: repo has a pre-existing uncommitted .gitignore change adding a bare .artefacts/ line (breaks !.artefacts/BRIEF.md negation) \u2014 left untouched, worth human review",
+      "last_run": "2026-09-02",
+      "last_commit": "e92e020",
+      "next_task": "research: no epic queued, ROADMAP polish backlog has 2 items (Team Identity import reads wrong localStorage key team-identity:charter vs actual team-identity-charter; factorBreakdown() dedup) \u2014 consider batching into a chore run",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     "team-identity": {
       "status": "idle",
