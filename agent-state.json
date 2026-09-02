@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-02T20:06:18Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-09-02T20:06:18Z"
-  },
+  "updated": "2026-09-02T20:08:13Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -58,10 +55,10 @@
       "version": "0.2.2"
     },
     "salary-formula": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "01bfa95",
-      "next_task": "research: no epic queued, ROADMAP polish backlog has 2 items (Team Identity import reads wrong localStorage key team-identity:charter vs actual team-identity-charter; factorBreakdown() dedup) \u2014 consider batching into a chore run",
+      "last_commit": "855dd9c",
+      "next_task": "UX audit fix: turned dead-end Work Profiles/Team Identity import hints into clickable links.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -69,7 +66,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
     "team-identity": {
       "status": "idle",
