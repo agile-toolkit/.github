@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T20:05:56Z",
-  "lock": null,
+  "updated": "2026-09-03T20:06:03Z",
+  "lock": {
+    "repo": "salary-formula",
+    "agent": "claude-session",
+    "since": "2026-09-03T20:06:03Z",
+    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 4/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
