@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-09-03T10:08:23.113482Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -111,7 +114,7 @@
       "version": "0.2.3"
     },
     "planning-poker": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "c90d0ed",
       "next_task": "Cross-app audit v0.2.6: receives kanban-designer ?kanban-board= and scrum-facilitator ?participants= now. All known planning-poker-side gaps from the audit are closed.",
