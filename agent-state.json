@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:40:45Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:40:45Z",
-    "task": "Fix close buttons using \u00d7 variant (emoji-to-SVG sweep follow-up)"
-  },
+  "updated": "2026-09-03T16:42:33Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -133,7 +128,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "f98d842",
-      "next_task": "Shipped v0.2.6: replaced 4 decorative close emoji with shared icons.tsx. 3/11 apps done in emoji-to-SVG sweep (kanban-designer, change-planner, sprint-metrics) plus dashboard hub tiles. Remaining by instance count: planning-poker(6), scrum-facilitator(3), moving-motivators(3), improvement-board(3), team-identity(2, careful - has functional symbol emoji too, only touch decorative ones), salary-formula(1), work-profiles(needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement until answered.",
+      "next_task": "Shipped v0.2.7: fixed 4 more close buttons using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining \u00d7 follow-up fixes: improvement-board(1), moving-motivators(1, MotivatorInfo.tsx only). work-profiles(1) needs checking too. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -142,7 +137,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.6"
+      "version": "0.2.7"
     },
     "change-planner": {
       "status": "idle",
