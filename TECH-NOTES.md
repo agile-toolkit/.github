@@ -207,10 +207,29 @@ schema. Same repo also received `?ceremony=<type>` (jump straight into
 a ceremony) and `sprint-metrics:lastSession` (a dismissible "last
 sprint" context banner during retro), neither read before.
 
-Remaining from the same audit, not yet fixed: improvement-board
-(`utils/kanbanLink.ts`/`changePlannerLink.ts` senders look fine —
-still need the receiving apps' `utm_source` handling double-checked),
-salary-formula (`FormulaBuilder.tsx` receiver side), moving-motivators
+**improvement-board** (audited, no code changes needed there) turned up
+a third failure shape: **an issue closed `state_reason: completed` that
+was actually only half-shipped.** `improvement-board#4` ("Sprint
+Metrics → Improvement Board deep-link") and `#13` ("Moving Motivators →
+Improvement Board") were both closed as done. #13 really was done on
+both sides (`utils/movingMotivatorsImport.ts` reads
+`moving-motivators:lastSession` directly, richer than the plain
+deep-link the issue also asked for — that optional third piece, a bare
+`?utm_source=moving-motivators` link from Moving Motivators, stayed
+unbuilt but is now low-value since the richer import supersedes it,
+left as-is). #4 was not: only the Improvement Board receiver
+(`?prefill=`/`utm_source=sprint-metrics`, correctly reading it since
+April) shipped — Sprint Metrics never got the sender-side "Open
+Improvement Board" button the issue's own spec described. **Lesson:**
+an issue tracker's "completed" status describes intent, not verified
+behavior across repos — closing a two-repo integration issue after
+only one repo's PR merges is easy to do by accident and easy to miss
+by reading issue state instead of code. Fixed in sprint-metrics v0.2.4
+(`buildImprovementBoardUrl()` in `sprintData.ts`); commented on the
+issue with what shipped and when.
+
+Remaining from the same audit, not yet fixed: salary-formula
+(`FormulaBuilder.tsx` receiver side), moving-motivators
 (`ResultsView.tsx`'s `ranked`/`topMotivators` field-name mismatch
 noted during the earlier work-profiles pass — check before assuming
 the sender payload is correct).
