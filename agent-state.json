@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T08:59:46Z",
-  "lock": null,
+  "updated": "2026-09-03T08:59:55Z",
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-09-03T08:59:55Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -27,7 +30,7 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "635601e",
       "next_task": "Fixed dark theme: .card/.btn-secondary/.btn-ghost/body used .dark class selector that the app never sets (theme uses data-theme attribute). All 4 selectors now match [data-theme=\"dark\"].",
