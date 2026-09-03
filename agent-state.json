@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:47:15Z",
-  "lock": null,
+  "updated": "2026-09-03T16:47:28Z",
+  "lock": {
+    "repo": "team-identity",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:47:28Z",
+    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep, last main repo) - symbols.ts and custom-symbol placeholder are FUNCTIONAL, must not touch"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
