@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:13:07Z",
-  "lock": null,
+  "updated": "2026-09-03T09:15:43Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-09-03T09:15:43Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -155,7 +158,7 @@
       "version": "0.2.3"
     },
     "agile-toolkit.github.io": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "267a435",
       "next_task": "Fixed design-system/components/LanguagePicker.tsx dark-mode gap (source had zero dark: classes). Propagating the fix to all 9 other app repos next.",
