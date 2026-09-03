@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-03T09:33:10.043739Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -143,10 +140,10 @@
       "version": "0.2.3"
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "8af6877",
-      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly. Suite-wide LanguagePicker dark-mode sweep now complete across all 10 apps.",
+      "next_task": "Cross-app audit: 12 more broken integrations remain across kanban-designer, work-profiles, planning-poker, sprint-metrics, scrum-facilitator, improvement-board, moving-motivators. Change Planner done (mm_snapshot, prefill, salary pendingChangeRecord, MM lastSession reverse-prefill) \u2014 see TECH-NOTES.md / change-planner CHANGELOG 0.2.4.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
