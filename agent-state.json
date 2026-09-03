@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:50:36Z",
-  "lock": null,
+  "updated": "2026-09-03T16:50:44Z",
+  "lock": {
+    "repo": "moving-motivators",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:50:44Z",
+    "task": "Fix MotivatorInfo close button using \u00d7 variant (emoji-to-SVG sweep follow-up, last one)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
