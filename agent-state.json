@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T20:04:32Z",
-  "lock": null,
+  "updated": "2026-09-03T20:04:42Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "agent": "claude-session",
+    "since": "2026-09-03T20:04:42Z",
+    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 3/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
