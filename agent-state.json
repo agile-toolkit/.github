@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:10:19Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:10:19Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 7/10)"
-  },
+  "updated": "2026-09-03T20:11:30Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "work-profiles",
+    "stable": "planning-poker",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -118,8 +113,8 @@
     "planning-poker": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "c90d0ed",
-      "next_task": "Shipped v0.2.10: fixed card-value legend duplication bug (user-reported), hid Why Planning Poker card in Facilitator Mode (user-reported). Verified visually via Playwright. Remaining from user follow-up: broader emoji sweep for planning-poker (target/team/link icons on Home, eye icon x3 on observer badges, leftover votes-checkmark in TeamSession.tsx + 4 i18n locale strings) - needs new icons (TeamIcon, EyeIcon) added to shared design-system icons.tsx first. Same for scrum-facilitator (much larger sweep, ~29 instances - ceremony-type icons, feedback-type icons, action buttons). Batch-designed and visually verified 10 new icon candidates (EyeIcon, SunIcon, QuestionIcon, UploadIcon, DownloadIcon, ThumbsUpIcon, CheckboxIcon/CheckboxEmptyIcon, TeamIcon, ShuffleIcon) - all render correctly, ready to add to design-system/components/icons.tsx next.",
+      "last_commit": "7497104",
+      "next_task": "Shipped v0.2.11: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 7/10 repos done). Remaining: sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. Still pending from earlier user follow-up (separate task): planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) - new icons already added to design-system/icons.tsx (EyeIcon, TeamIcon etc), just needs consuming here. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.10"
+      "version": "0.2.11"
     },
     "sprint-metrics": {
       "status": "idle",
