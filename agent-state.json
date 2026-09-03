@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:00:28Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:00:28Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 8/11 of rollout)"
-  },
+  "updated": "2026-09-03T16:02:40Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -117,9 +112,9 @@
     },
     "planning-poker": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "c90d0ed",
-      "next_task": "Cross-app audit v0.2.7: fixed importFromTeamIdentity dropping every member (payload-shape mismatch, m.name over plain strings). All known planning-poker gaps closed.",
+      "next_task": "Shipped v0.2.8: adopted shared Facilitator Mode pattern (repo 8/11 of rollout). Remaining rollout: sprint-metrics, change-planner. NEW sub-task queued (user follow-up): kanban-designer Design/Track split needs to be even clearer, possibly separate apps - ambiguous scope, needs options presented to user before implementing, like the original mode-split decision.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.5"
+      "version": "0.2.8"
     },
     "sprint-metrics": {
       "status": "idle",
