@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-03T15:21:49.235111Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -158,10 +155,10 @@
       "version": "0.2.3"
     },
     "agile-toolkit.github.io": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "a136325",
-      "next_task": "Fixed design-system/components/AppHeader.tsx dark-mode gap (mirror image of LanguagePicker bug), added design-system/check-drift.mjs to catch this class of bug going forward. Suite-wide LanguagePicker dark-mode sweep complete across all 10 apps; AppHeader residual diffs are cosmetic/deliberate, left as-is.",
+      "next_task": "Fixed v0.3.6: every app card now gets its correct sibling-app data-accent as a top border (was: only live/active status color, plain gray otherwise). Hero banner now theme-aware (cobalt gradient in light, navy in dark). Found: team-identity own App.tsx root has no data-accent=\"amber\" set despite tokens.css section 5 contract documenting it should - a small separate fix for that repo.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
