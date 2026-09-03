@@ -100,3 +100,51 @@ env-only config must:
    fully coded but permanently disabled in production because this one
    step was missing.
 3. Ship `.env.example` documenting the required keys for local dev.
+
+## Shared component drift (design-system/)
+
+`agile-toolkit.github.io/design-system/components/` holds the source of
+truth for UI pieces meant to appear in every app (`LanguagePicker.tsx`,
+`AppHeader.tsx`, `ThemeToggle.tsx`, plus Dashboard-only ones). Adoption
+is copy-paste (`components.md`: "copy into `src/components/` when
+adding to an app") — there is no package/import boundary, so a fix made
+in one app's copy, or a fix made only to the source, does not
+automatically reach anywhere else.
+
+This bit twice on 2026-09-03, both found from a single user report
+("language switcher isn't dark in a lot of apps"):
+- `LanguagePicker.tsx`'s **source** had zero `dark:` classes. 5 of 10
+  apps had copied it before dark mode existed and never revisited it
+  (light-only dropdown in dark mode); the other 5 had already
+  independently patched their own copy, each landing on slightly
+  different shades.
+- `AppHeader.tsx`'s **source** was missing 3 `dark:` additions that
+  every single one of the 10 apps had already independently made —
+  the opposite failure mode: all the copies agreed with each other and
+  disagreed with the source.
+
+Fix applied: brought both source files to full `dark:` coverage
+(cross-checked against whichever apps already had it right), then
+re-copied `LanguagePicker.tsx` into all 10 apps verbatim so they're now
+byte-identical to the source. `AppHeader.tsx` was left as-is in each
+app (the residual per-app diffs are cosmetic class-order/shade
+variance, or in Team Identity's case a deliberate documented prop
+addition — not worth 10 more mechanical commits for zero user-visible
+change).
+
+**Structural fix**: added `design-system/check-drift.mjs` — diffs every
+app's copy of each distributable component against the source and
+reports MATCH / DRIFTED / not-adopted. Not wired into CI (this suite
+has none); run it manually before/after touching a shared component, or
+periodically as its own audit pass. It does not judge — a reported diff
+can be a real bug (as above) or a deliberate override; component authors
+still decide, the script just makes the candidates visible instead of
+requiring someone to notice by accident (as happened here).
+
+A real npm package (or git submodule) for `design-system/` would close
+this gap at the tooling level instead of the honor system — considered
+and deliberately not done: it would need a build-system change in all
+11 repos and a private registry or workspace layout this suite doesn't
+have. `check-drift.mjs` is the pragmatic middle ground; revisit the
+package idea only if drift like this keeps recurring after the script
+exists to catch it.
