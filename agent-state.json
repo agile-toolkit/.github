@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:01:08Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:01:08Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, cross-app persistence)"
-  },
+  "updated": "2026-09-03T20:03:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io",
+    "stable": "moving-motivators",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -19,8 +14,8 @@
     "moving-motivators": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "1b20b3e",
-      "next_task": "Shipped v0.2.9: fixed MotivatorInfo close button using \u00d7 variant. EMOJI-TO-SVG SWEEP NOW FULLY COMPLETE across all 11 apps + dashboard, including the \u00d7 (multiplication sign) variant follow-up in every repo where it was found. USER QUESTION STILL PENDING (no reply, asked twice worth of session time ago): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply, this is the only remaining open item from this sessions user-directed work.",
+      "last_commit": "514f56b",
+      "next_task": "Shipped v0.2.10: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 1/10 repos done) so Facilitator Mode survives navigating between suite apps in one tab. Remaining repos for this same one-line change: scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (all use the shared useFacilitatorMode hook - just swap the key string + sync local useFacilitatorMode.ts doc comment), plus team-identity which has its own inline FACILITATOR_KEY constant not the shared hook - needs finding and changing that constant instead. Dashboard (agile-toolkit.github.io) already used the correct shared key, no change needed there. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.9",
+      "version": "0.2.10",
       "tier": 1
     },
     "scrum-facilitator": {
