@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:47:28Z",
-  "lock": {
-    "repo": "team-identity",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:47:28Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep, last main repo) - symbols.ts and custom-symbol placeholder are FUNCTIONAL, must not touch"
-  },
+  "updated": "2026-09-03T16:49:05Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -75,9 +70,9 @@
     },
     "team-identity": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "f4c843e",
-      "next_task": "Fixed v0.2.5: set data-accent=\"amber\" on all 3 top-level app roots, matching the design-system contract Work Profiles already follows. Was silently falling back to cobalt everywhere.",
+      "next_task": "Shipped v0.2.6: replaced 2 decorative close/check emoji with shared icons.tsx. Identity Symbols picker (functional emoji) left untouched. MAIN emoji-to-SVG sweep now COMPLETE across all 11 apps + dashboard hub tiles. Remaining small follow-ups: \u00d7 variant fixes for improvement-board(1, ImprovementBoard.tsx:424) and moving-motivators(1, MotivatorInfo.tsx:64 - NOT TeamSession \u00d7count which is legit multiplication). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -85,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.4"
+      "version": "0.2.6"
     },
     "improvement-board": {
       "status": "idle",
