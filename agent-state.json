@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T08:57:52Z",
-  "lock": null,
+  "updated": "2026-09-03T08:58:10Z",
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-09-03T08:58:10Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -12,7 +15,7 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "d2bc924",
       "next_task": "UX audit fix: low-contrast unranked/unselected controls fixed (gray-300/700 -> gray-400/600).",
