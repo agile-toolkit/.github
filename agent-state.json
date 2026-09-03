@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:58:33Z",
-  "lock": {
-    "repo": "work-profiles",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:58:33Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 7/11 of rollout)"
-  },
+  "updated": "2026-09-03T16:00:21Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -103,9 +98,9 @@
     },
     "work-profiles": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "35fbca7",
-      "next_task": "Cross-app audit v0.2.4: receives Moving Motivators motivator snapshot now (issue #57 core gap fixed, comment left on issue re: remaining fuller-design scope). Kanban Designer badge integration (#55) still open/needs-review.",
+      "next_task": "Shipped v0.2.5: adopted shared Facilitator Mode pattern (repo 7/11 of rollout). Remaining rollout: planning-poker, sprint-metrics, change-planner.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -113,7 +108,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.5"
     },
     "planning-poker": {
       "status": "idle",
