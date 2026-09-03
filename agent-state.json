@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:19:18Z",
-  "lock": null,
+  "updated": "2026-09-03T16:19:43Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:19:43Z",
+    "task": "Replace decorative close/check emoji with icons.tsx (emoji-to-SVG sweep continuation)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
