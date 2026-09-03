@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-03T14:08:57.252459Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -143,10 +140,10 @@
       "version": "0.2.3"
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "8af6877",
-      "next_task": "Fixed own bug from earlier this session: wrong ImpactLevel literals (increase/decrease vs real positive/negative/neutral) in crossAppImport.ts mm_snapshot parsing. All known change-planner gaps from the cross-app audit are closed.",
+      "next_task": "Added AI Adoption template (v0.2.6), 6th of 6 initiative templates, grounded in current research (MIT GenAI Divide study, ADKAR/Kotter, employee AI-fear reporting).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
