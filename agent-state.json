@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:49:10Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:49:10Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 3/11 of rollout)"
-  },
+  "updated": "2026-09-03T15:51:28Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -33,9 +28,9 @@
     },
     "scrum-facilitator": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "96c0fb0",
-      "next_task": "Cross-app audit v0.2.5: fixed a real data-loss bug (Export to Sprint Metrics wrote to a dead legacy key) plus received ?ceremony=/sprint-metrics:lastSession. Planning Poker participants banner already worked correctly (verified, no changes needed).",
+      "next_task": "Shipped v0.2.6: adopted shared Facilitator Mode pattern (repo 3/11 of rollout). NOTE: local AppHeader.tsx has 2 deliberate style deviations from design-system source (border-gray-700 vs 800, active-pill dark bg brand-700/20) - preserved, only added hideLanguagePicker prop surgically, did not overwrite. Remaining rollout: kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -43,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.4"
+      "version": "0.2.6"
     },
     "kanban-designer": {
       "status": "idle",
