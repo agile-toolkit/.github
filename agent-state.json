@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:29:37Z",
-  "lock": null,
+  "updated": "2026-09-03T16:29:49Z",
+  "lock": {
+    "repo": "salary-formula",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:29:49Z",
+    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
