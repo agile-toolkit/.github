@@ -1,26 +1,21 @@
 {
-  "updated": "2026-09-03T19:39:54Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-03T19:39:54Z",
-    "task": "Fix card-value legend duplication bug, hide Why Planning Poker in Facilitator Mode, continue emoji sweep (user-reported)"
-  },
+  "updated": "2026-09-03T20:16:05Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
-    "in-progress": "agile-toolkit.github.io",
+    "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker",
-    "needs-goal": "agile-toolkit.github.io",
-    "idle": "change-planner"
+    "stable": "team-identity",
+    "needs-goal": null,
+    "idle": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "1b20b3e",
-      "next_task": "Shipped v0.2.9: fixed MotivatorInfo close button using \u00d7 variant. EMOJI-TO-SVG SWEEP NOW FULLY COMPLETE across all 11 apps + dashboard, including the \u00d7 (multiplication sign) variant follow-up in every repo where it was found. USER QUESTION STILL PENDING (no reply, asked twice worth of session time ago): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply, this is the only remaining open item from this sessions user-directed work.",
+      "last_commit": "514f56b",
+      "next_task": "Shipped v0.2.10: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 1/10 repos done) so Facilitator Mode survives navigating between suite apps in one tab. Remaining repos for this same one-line change: scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (all use the shared useFacilitatorMode hook - just swap the key string + sync local useFacilitatorMode.ts doc comment), plus team-identity which has its own inline FACILITATOR_KEY constant not the shared hook - needs finding and changing that constant instead. Dashboard (agile-toolkit.github.io) already used the correct shared key, no change needed there. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,98 +23,14 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.9",
+      "version": "0.2.10",
       "tier": 1
     },
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "96c0fb0",
-      "next_task": "Shipped v0.2.8: replaced 9 decorative close/check/clipboard emoji with shared icons.tsx, including 6 that used the \u00d7 (multiplication sign) variant the original sweep grep missed. 7/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. IMPORTANT: discovered mid-cycle that \u00d7 (not just \u2715) needs checking suite-wide - salary-formula(1 real close button among many legit \u00d7 multiplier notations, already fixed opportunistically), sprint-metrics(4), improvement-board(1), moving-motivators(1, MotivatorInfo.tsx - NOT TeamSession \u00d7count which is legit multiplication), work-profiles(1) still need this follow-up fix. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.2.8"
-    },
-    "kanban-designer": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "0270b02",
-      "next_task": "Shipped v0.3.2: replaced 15 decorative close/check emoji-text-glyph buttons with shared icons.tsx CloseIcon/CheckIcon (currentColor, no visual color change). First app done in the suite-wide emoji-to-SVG sweep. Pattern for remaining apps: grep for \u2715/\u2713 in src/components/*.tsx, copy icons.tsx from design-system, replace each >\u2715</button> or >\u2713</button> occurrence with <CloseIcon .../> or <CheckIcon .../>, size ~w-3 h-3 to w-3.5 h-3.5 depending on context. USER QUESTION PENDING (asked, no reply yet): whether kanban-designer Design/Track split should become route-level within the app or a full separate app/repo - do not implement either until user responds.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.3.2"
-    },
-    "salary-formula": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "4671e47",
-      "next_task": "Shipped v0.2.7: fixed TemplatesModal close button using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete now. Remaining \u00d7 follow-up fixes needed in: sprint-metrics(4), improvement-board(1), moving-motivators(1, MotivatorInfo.tsx only - NOT TeamSession \u00d7count which is legit). work-profiles(1) needs checking too. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.2.7"
-    },
-    "team-identity": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "f4c843e",
-      "next_task": "Shipped v0.2.6: replaced 2 decorative close/check emoji with shared icons.tsx. Identity Symbols picker (functional emoji) left untouched. MAIN emoji-to-SVG sweep now COMPLETE across all 11 apps + dashboard hub tiles. Remaining small follow-ups: \u00d7 variant fixes for improvement-board(1, ImprovementBoard.tsx:424) and moving-motivators(1, MotivatorInfo.tsx:64 - NOT TeamSession \u00d7count which is legit multiplication). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.2.6"
-    },
-    "improvement-board": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "7c03712",
-      "next_task": "Shipped v0.2.7: fixed card delete button using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining: moving-motivators \u00d7 fix (MotivatorInfo.tsx:64 only - NOT TeamSession \u00d7count which is legit multiplication). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.2.7"
-    },
-    "work-profiles": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "35fbca7",
-      "next_task": "Shipped v0.2.6: replaced 3 decorative close emoji (incl. one \u00d7 variant) with shared icons.tsx. 8/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6, main pass not started), team-identity(2, functional symbol emoji must stay untouched - be careful), and quick \u00d7 follow-up fixes for improvement-board(1) and moving-motivators(1, MotivatorInfo.tsx only). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
-      "blockers": [],
-      "maturity": "complete",
-      "current_epic": null,
-      "recent_runs": [
-        "chore",
-        "feature"
-      ],
-      "version": "0.2.6"
-    },
-    "planning-poker": {
-      "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "c90d0ed",
-      "next_task": "Shipped v0.2.9: replaced 5 decorative close emoji with shared icons.tsx. Coffee-cup functional card value untouched. 9/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: team-identity(2, functional symbol emoji must stay untouched - be careful), and quick \u00d7 follow-up fixes for improvement-board(1) and moving-motivators(1, MotivatorInfo.tsx only). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "e93703b",
+      "next_task": "Shipped v0.2.9: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 2/10 repos done). Remaining repos for this one-line change: kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -129,26 +40,95 @@
       ],
       "version": "0.2.9"
     },
-    "sprint-metrics": {
+    "kanban-designer": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "f98d842",
-      "next_task": "Shipped v0.2.7: fixed 4 more close buttons using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining \u00d7 follow-up fixes: improvement-board(1), moving-motivators(1, MotivatorInfo.tsx only). work-profiles(1) needs checking too. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "a978a69",
+      "next_task": "Shipped v0.3.3: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 3/10 repos done). Remaining: salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "chore",
-        "feature",
-        "chore"
+        "feature"
+      ],
+      "version": "0.3.3"
+    },
+    "salary-formula": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "bda98d4",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 4/10 repos done). Remaining: improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature"
+      ],
+      "version": "0.2.8"
+    },
+    "team-identity": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "f36c28a",
+      "next_task": "Shipped v0.2.7: unified inline FACILITATOR_KEY constant to shared agile-toolkit:facilitatorMode. TASK #15 NOW FULLY COMPLETE across all 10 consumer apps + team-identity (inline constant) + dashboard (already correct) - Facilitator Mode now persists across suite app navigation in one tab, per user request. Next open items for future runs: (1) continue the planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) using the icons already added to design-system/icons.tsx in the v0.3.11 dashboard run (EyeIcon, TeamIcon, etc) - not yet consumed by planning-poker. (2) continue the scrum-facilitator emoji sweep (~29 instances - ceremony-type icons, feedback-type icons, action buttons) using those same new icons plus QuestionIcon/UploadIcon/DownloadIcon/ThumbsUpIcon/CheckboxEmptyIcon/CheckboxCheckedIcon/SunIcon/ShuffleIcon. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature"
       ],
       "version": "0.2.7"
     },
-    "change-planner": {
+    "improvement-board": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "8af6877",
-      "next_task": "Shipped v0.2.8: replaced 11 decorative close/check emoji with shared icons.tsx. Left paired status markers (reached/not-reached, done/not-done) as text since only one side would swap cleanly. 2/11 apps done in emoji-to-SVG sweep (kanban-designer, change-planner) plus dashboard hub tiles. Remaining by instance count: planning-poker(6), sprint-metrics(5), scrum-facilitator(3), moving-motivators(3), improvement-board(3), team-identity(2), salary-formula(1), work-profiles(9, needs recount - grep counted 9 but includes non-decorative). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "4d620c4",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 5/10 repos done). Remaining: work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature"
+      ],
+      "version": "0.2.8"
+    },
+    "work-profiles": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "8b4a2b3",
+      "next_task": "Shipped v0.2.7: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 6/10 repos done). Remaining: planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature"
+      ],
+      "version": "0.2.7"
+    },
+    "planning-poker": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "7497104",
+      "next_task": "Shipped v0.2.11: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 7/10 repos done). Remaining: sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. Still pending from earlier user follow-up (separate task): planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) - new icons already added to design-system/icons.tsx (EyeIcon, TeamIcon etc), just needs consuming here. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature"
+      ],
+      "version": "0.2.11"
+    },
+    "sprint-metrics": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "e87479f",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 8/10 repos done). Remaining: change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -159,11 +139,26 @@
       ],
       "version": "0.2.8"
     },
+    "change-planner": {
+      "status": "idle",
+      "last_run": "2026-09-03",
+      "last_commit": "aeb0715",
+      "next_task": "Shipped v0.2.9: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 9/10 repos done). Only remaining repo: team-identity - it has its OWN inline FACILITATOR_KEY constant (not the shared hook, since it originated the pattern before it was promoted to design-system) - find that constant in team-identity src and change its value to agile-toolkit:facilitatorMode too. Once done, Task #15 is fully complete across all 11 apps + dashboard. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "blockers": [],
+      "maturity": "complete",
+      "current_epic": null,
+      "recent_runs": [
+        "chore",
+        "feature",
+        "chore"
+      ],
+      "version": "0.2.9"
+    },
     "agile-toolkit.github.io": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "a136325",
-      "next_task": "Shipped v0.3.10: fixed two user-reported hub tile icon bugs. HandshakeIcon (Team Identity) had broken path geometry (rendered as garbled shape) - removed since it had no other consumers, replaced with new TeamIcon (two overlapping people). PinIcon (Improvement Board) was semantically irrelevant (map pin doesnt represent problem-capture/dialogue/progress-tracking) - replaced with new TrendUpIcon (upward trend arrow). Both verified visually via Playwright screenshot before shipping. Only remaining open item from this session: kanban-designer Design/Track route-level split vs separate app question, still no user reply.",
+      "last_commit": "6c9d740",
+      "next_task": "Shipped v0.3.11: TeamIcon (Team Identity hub tile) still wasn't right per user 2nd report - too similar to Work Profiles' person icon, too generic. Replaced with new IdentityCardIcon (person in ID-card frame), chosen after visually comparing 4 candidates via Playwright. TeamIcon kept but moved to generic icons.tsx for reuse. Added 10 new verified icons to icons.tsx (EyeIcon, SunIcon, QuestionIcon, UploadIcon, DownloadIcon, ThumbsUpIcon, CheckboxEmptyIcon, CheckboxCheckedIcon, ShuffleIcon, TeamIcon) for planning-poker/scrum-facilitator emoji sweep to consume next. Documented useFacilitatorMode's storageKey as ONE SHARED key 'agile-toolkit:facilitatorMode' across every app (was app-prefixed) per user request so Facilitator Mode persists across app navigation - sessionStorage is shared per-origin-per-tab so this is doc-only here, dashboard's App.tsx already used this exact key. REMAINING WORK (new task, not yet started): update every other app's useFacilitatorMode(...) call site to the shared key - moving-motivators, scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (one-line change each), plus team-identity's own inline FACILITATOR_KEY constant (doesn't use the shared hook). Also still pending: planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) and scrum-facilitator emoji sweep (~29 instances) using these new icons. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.10"
+      "version": "0.3.11"
     }
   },
   "projects": {
