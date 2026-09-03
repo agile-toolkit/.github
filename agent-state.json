@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:04:59Z",
-  "lock": null,
+  "updated": "2026-09-03T09:05:08Z",
+  "lock": {
+    "repo": "work-profiles",
+    "started_at": "2026-09-03T09:05:08Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -97,7 +100,7 @@
       "version": "0.2.4"
     },
     "work-profiles": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "80a3aef",
       "next_task": "UX/scope audit fix: removed Project Credits leaderboard rank badge (contradicted GOAL.md no-ranking boundary), guarded 3 unguarded localStorage writes (closes #58), fixed contrast/aria-label gaps, deleted unused ProfileForm.tsx.",
