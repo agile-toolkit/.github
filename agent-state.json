@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:49:05Z",
-  "lock": null,
+  "updated": "2026-09-03T16:49:13Z",
+  "lock": {
+    "repo": "improvement-board",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:49:13Z",
+    "task": "Fix close button using \u00d7 variant (emoji-to-SVG sweep follow-up)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
