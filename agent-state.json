@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-02T20:08:13Z",
-  "lock": null,
+  "updated": "2026-09-03T07:37:16Z",
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-09-03T07:37:16Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -111,7 +114,7 @@
       "version": "0.2.2"
     },
     "planning-poker": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "76e90d6",
       "next_task": "UX audit fix: added missing aria-labels, PIN input inputMode fix, removed unused HomeScreen.tsx dead code.",
