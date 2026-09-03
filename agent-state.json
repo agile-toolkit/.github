@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:03:10Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:03:10Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 2/10)"
-  },
+  "updated": "2026-09-03T20:04:32Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators",
+    "stable": "scrum-facilitator",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -34,8 +29,8 @@
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "96c0fb0",
-      "next_task": "Shipped v0.2.8: replaced 9 decorative close/check/clipboard emoji with shared icons.tsx, including 6 that used the \u00d7 (multiplication sign) variant the original sweep grep missed. 7/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. IMPORTANT: discovered mid-cycle that \u00d7 (not just \u2715) needs checking suite-wide - salary-formula(1 real close button among many legit \u00d7 multiplier notations, already fixed opportunistically), sprint-metrics(4), improvement-board(1), moving-motivators(1, MotivatorInfo.tsx - NOT TeamSession \u00d7count which is legit multiplication), work-profiles(1) still need this follow-up fix. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "e93703b",
+      "next_task": "Shipped v0.2.9: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 2/10 repos done). Remaining repos for this one-line change: kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -43,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.8"
+      "version": "0.2.9"
     },
     "kanban-designer": {
       "status": "idle",
