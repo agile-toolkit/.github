@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T07:45:34Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-03T07:45:34Z"
-  },
+  "updated": "2026-09-03T07:49:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -30,10 +27,10 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "ecc5d89",
-      "next_task": "UX audit fix: added confirm-before-discard for resume-session banner.",
+      "last_commit": "635601e",
+      "next_task": "Fixed dark theme: .card/.btn-secondary/.btn-ghost/body used .dark class selector that the app never sets (theme uses data-theme attribute). All 4 selectors now match [data-theme=\"dark\"].",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -41,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     "kanban-designer": {
       "status": "idle",
