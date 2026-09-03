@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-03T09:49:34.764047Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -125,7 +128,7 @@
       "version": "0.2.5"
     },
     "sprint-metrics": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "f98d842",
       "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
