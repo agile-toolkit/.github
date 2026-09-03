@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "team-identity",
+    "started_at": "2026-09-03T15:27:53.364127Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -69,7 +72,7 @@
       "version": "0.2.3"
     },
     "team-identity": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "f4c843e",
       "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
