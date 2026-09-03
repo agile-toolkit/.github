@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:40:37Z",
-  "lock": null,
+  "updated": "2026-09-03T16:40:45Z",
+  "lock": {
+    "repo": "sprint-metrics",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:40:45Z",
+    "task": "Fix close buttons using \u00d7 variant (emoji-to-SVG sweep follow-up)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
