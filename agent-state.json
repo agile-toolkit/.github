@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T09:11:52Z",
-  "lock": {
-    "repo": "change-planner",
-    "started_at": "2026-09-03T09:11:52Z"
-  },
+  "updated": "2026-09-03T09:13:07Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -143,10 +140,10 @@
       "version": "0.2.3"
     },
     "change-planner": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "47b46a0",
-      "next_task": "UX audit fix: i18n-ized hardcoded Save/Cancel buttons, fixed a low-contrast delete icon.",
+      "last_commit": "8af6877",
+      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly. Suite-wide LanguagePicker dark-mode sweep now complete across all 10 apps.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -155,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
