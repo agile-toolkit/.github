@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-09-03T10:03:12.969273Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -58,10 +55,10 @@
       "version": "0.2.3"
     },
     "salary-formula": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "4671e47",
-      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
+      "next_task": "Cross-app audit v0.2.4: fixed Import from Team Identity reading the wrong key (colon vs hyphen). Work Profiles read (wp-profiles-export) already correct. Flagged for later: Planning Poker importFromTeamIdentity does members.map(m => m.name) but Team Identity members are plain strings, not {name} objects - check if that is also broken.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
