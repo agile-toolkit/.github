@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T19:26:16Z",
-  "lock": null,
+  "updated": "2026-09-03T19:39:54Z",
+  "lock": {
+    "repo": "planning-poker",
+    "agent": "claude-session",
+    "since": "2026-09-03T19:39:54Z",
+    "task": "Fix card-value legend duplication bug, hide Why Planning Poker in Facilitator Mode, continue emoji sweep (user-reported)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
