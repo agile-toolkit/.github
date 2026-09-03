@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:08:53Z",
-  "lock": {
-    "repo": "work-profiles",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:08:53Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 6/10)"
-  },
+  "updated": "2026-09-03T20:10:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "improvement-board",
+    "stable": "work-profiles",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -104,8 +99,8 @@
     "work-profiles": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "35fbca7",
-      "next_task": "Shipped v0.2.6: replaced 3 decorative close emoji (incl. one \u00d7 variant) with shared icons.tsx. 8/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6, main pass not started), team-identity(2, functional symbol emoji must stay untouched - be careful), and quick \u00d7 follow-up fixes for improvement-board(1) and moving-motivators(1, MotivatorInfo.tsx only). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "8b4a2b3",
+      "next_task": "Shipped v0.2.7: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 6/10 repos done). Remaining: planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -113,7 +108,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.6"
+      "version": "0.2.7"
     },
     "planning-poker": {
       "status": "idle",
