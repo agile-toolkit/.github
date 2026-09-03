@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "moving-motivators",
+    "started_at": "2026-09-03T10:09:59.768889Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -12,7 +15,7 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "1b20b3e",
       "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
