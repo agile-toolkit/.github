@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:09:27Z",
-  "lock": null,
+  "updated": "2026-09-03T16:09:34Z",
+  "lock": {
+    "repo": "moving-motivators",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:09:34Z",
+    "task": "Gate FacilitationGuide + About panel behind Facilitator Mode (informational-elements follow-up)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
