@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:11:21Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:11:21Z",
-    "task": "Wire facilitatorMode into CeremonyRunner to gate WhyTooltip/FacilitationTips (informational-elements follow-up)"
-  },
+  "updated": "2026-09-03T16:13:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -35,7 +30,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "96c0fb0",
-      "next_task": "Shipped v0.2.6: adopted shared Facilitator Mode pattern (repo 3/11 of rollout). NOTE: local AppHeader.tsx has 2 deliberate style deviations from design-system source (border-gray-700 vs 800, active-pill dark bg brand-700/20) - preserved, only added hideLanguagePicker prop surgically, did not overwrite. Remaining rollout: kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner.",
+      "next_task": "Shipped v0.2.7: gated CeremonyRunner Why-tooltip + FacilitationTips behind facilitatorMode (were unprotected - component never received the prop). Both major informational-elements gaps (moving-motivators, scrum-facilitator) now fixed. Remaining lower-priority items from the audit: Home-screen text blocks reachable via title-click in kanban-designer/change-planner/salary-formula/planning-poker/team-identity/improvement-board (reachable but less severe, pre-session content); sprint-metrics chart explainers (facilitatorMode now exists there since the core rollout, gating not yet applied). Also still queued: emoji-to-SVG sweep, kanban-designer stronger Design/Track split investigation.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -43,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.6"
+      "version": "0.2.7"
     },
     "kanban-designer": {
       "status": "idle",
