@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T15:55:47Z",
-  "lock": null,
+  "updated": "2026-09-03T15:55:54Z",
+  "lock": {
+    "repo": "improvement-board",
+    "agent": "claude-session",
+    "since": "2026-09-03T15:55:54Z",
+    "task": "Adopt shared Facilitator Mode pattern (repo 6/11 of rollout)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
