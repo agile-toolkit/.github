@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-09-03T09:42:20.752645Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -100,10 +97,10 @@
       "version": "0.2.4"
     },
     "work-profiles": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "35fbca7",
-      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy). All 5 zero-dark repos done; 4 partially-fixed repos (salary-formula, team-identity, sprint-metrics, change-planner) still need normalizing to the exact canonical shades for consistency.",
+      "next_task": "Cross-app audit v0.2.4: receives Moving Motivators motivator snapshot now (issue #57 core gap fixed, comment left on issue re: remaining fuller-design scope). Kanban Designer badge integration (#55) still open/needs-review.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
