@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-03T09:52:16.591788Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -30,10 +27,10 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "96c0fb0",
-      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
+      "next_task": "Cross-app audit v0.2.5: fixed a real data-loss bug (Export to Sprint Metrics wrote to a dead legacy key) plus received ?ceremony=/sprint-metrics:lastSession. Planning Poker participants banner already worked correctly (verified, no changes needed).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
