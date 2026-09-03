@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:07:41Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:07:41Z",
-    "task": "Hide AppCard description text in Facilitator Mode (user-flagged follow-up)"
-  },
+  "updated": "2026-09-03T16:09:27Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -163,7 +158,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "a136325",
-      "next_task": "Shipped v0.3.7: promoted Team Identity own Facilitator Mode into a shared design-system pattern (useFacilitatorMode.ts + FacilitatorToggle.tsx, AppHeader.hideLanguagePicker promoted to canonical), adopted on the Dashboard itself. User asked for facilitator mode on ALL apps + dashboard - this is repo 1 of 11. Remaining: moving-motivators, scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (team-identity already has it, is the origin). Each: copy useFacilitatorMode.ts+FacilitatorToggle.tsx into src/components/, wire into App.tsx header (hideLanguagePicker, hide nav/secondary chrome), add html.facilitator-mode rule to src/tokens.css section 9, add facilitator.toggle_on/off i18n keys x4 locales, docs+version+test+build+commit+push. NOTE: separately, user also asked to replace decorative emoji with colored SVG icons suite-wide (Team Identity symbol-picker emoji are functional/content, keep those) - a research agent is surveying all 11 repos for functional-vs-decorative emoji use; that sweep queued after this facilitator-mode rollout finishes.",
+      "next_task": "Shipped v0.3.8: AppCard description paragraph now hides in Facilitator Mode (user-flagged follow-up), kept as flex-1 spacer for grid alignment. Facilitator-mode rollout core (11 repos) is fully complete. Remaining queued work: informational-elements audit follow-through per-repo (moving-motivators FacilitationGuide+About panel is the biggest gap - no nav-gating exists there at all; scrum-facilitator WhyTooltip/FacilitationTips not wired to facilitatorMode; smaller Home-screen text blocks in kanban-designer/change-planner/salary-formula/planning-poker/team-identity/improvement-board); emoji-to-SVG-icon sweep (audit done, team-identity symbols + planning-poker coffee-cup + dashboard team-symbol chip stay emoji); kanban-designer stronger Design/Track split investigation (ambiguous \"different apps\" scope, needs options presented to user).",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.7"
+      "version": "0.3.8"
     }
   },
   "projects": {
