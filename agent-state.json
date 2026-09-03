@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:33:20Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:33:20Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
-  },
+  "updated": "2026-09-03T16:35:19Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -20,7 +15,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "1b20b3e",
-      "next_task": "Shipped v0.2.7: gated Home screens Facilitation guide link + About panel behind facilitatorMode (were completely unprotected - HomeScreen never received the prop). Remaining informational-elements follow-up: scrum-facilitator WhyTooltip/FacilitationTips on CeremonyRunner (not wired to facilitatorMode at all); smaller Home-screen text blocks in kanban-designer/change-planner/salary-formula/planning-poker/team-identity/improvement-board (lower priority, reachable via title-click but less severe).",
+      "next_task": "Shipped v0.2.8: replaced 3 decorative close emoji with shared icons.tsx. 6/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6), scrum-facilitator(3), team-identity(2, functional symbol emoji must stay untouched), work-profiles(needs recount, earlier grep of 9 included non-decorative endorsement checkmarks - verify each). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.7",
+      "version": "0.2.8",
       "tier": 1
     },
     "scrum-facilitator": {
