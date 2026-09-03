@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-03T09:59:54.185930Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -128,10 +125,10 @@
       "version": "0.2.5"
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "f98d842",
-      "next_task": "Cross-app audit: investigated and found NOT actually broken (correcting earlier audit assumption) - Kanban Designer send-to-Sprint-Metrics (?kanban=) is redundant with the already-working kanban-designer:currentBoard localStorage read (readKanbanCfdCounts in SprintDataView.tsx); Moving Motivators and Planning Poker imports also already work. The one real gap touching this repo is on the RECEIVING side in scrum-facilitator (?ceremony=retro + sprint-metrics:lastSession), not here. No code changes made.",
+      "next_task": "Cross-app audit v0.2.4: sent the missing sender half of improvement-board#4 (velocity decline alert now links to Improvement Board with prefill). Commented on that issue. All known sprint-metrics gaps from the audit are now closed.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
