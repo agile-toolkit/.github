@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T07:39:50Z",
-  "lock": null,
+  "updated": "2026-09-03T07:45:34Z",
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-09-03T07:45:34Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -27,7 +30,7 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "ecc5d89",
       "next_task": "UX audit fix: added confirm-before-discard for resume-session banner.",
