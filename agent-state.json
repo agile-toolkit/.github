@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:51:34Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:51:34Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 4/11 of rollout)"
-  },
+  "updated": "2026-09-03T15:53:43Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -47,9 +42,9 @@
     },
     "kanban-designer": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "0270b02",
-      "next_task": "Shipped v0.3.0: split Design/Track mode per GOAL.md boundary (not a board execution tool). Due dates/assignee/checklist/aging/stats now gated behind an explicit, off-by-default Track toggle. Backward-compat inference (resolveBoardMode) keeps existing tracked boards from silently losing visibility into their own data.",
+      "next_task": "Shipped v0.3.1: adopted shared Facilitator Mode pattern (repo 4/11 of rollout). Hides nav pills + language picker; kept the designer toolbar (undo/redo/export/import/copy-link/clear) visible since those are primary editing actions not secondary chrome. Remaining rollout: salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -57,7 +52,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.3.1"
     },
     "salary-formula": {
       "status": "idle",
