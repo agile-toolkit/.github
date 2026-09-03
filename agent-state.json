@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-09-03T09:46:29.217565Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -111,7 +114,7 @@
       "version": "0.2.3"
     },
     "planning-poker": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "c90d0ed",
       "next_task": "Redesigned home-screen entry cards to match Moving Motivators after user feedback that the split-screen buttons looked worse. Next: systematize this pattern (and others) into design-system/ per user request.",
