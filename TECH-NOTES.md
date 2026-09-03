@@ -187,9 +187,27 @@ reading the actual receiver logic, not just grepping for
 `URLSearchParams` — the grep alone would have (and initially did)
 flagged this as broken.
 
-Remaining from the same audit, not yet fixed: scrum-facilitator
-(receive `?ceremony=retro` + `sprint-metrics:lastSession`; several
-`ExportView.tsx`/`CeremonyComplete.tsx` links), improvement-board
+**scrum-facilitator** (v0.2.5) turned up a second, more serious failure
+shape worth naming separately: not "nobody reads this," but "writes to
+a key nothing reads *anymore*." `ExportView.tsx`'s "Export to Sprint
+Metrics" wrote to the legacy `sprint-metrics-sprints` key from Sprint
+Metrics' pre-multi-project data model. Sprint Metrics' `initAppState()`
+only ever consults that key when its new `sprint-metrics-projects` key
+is completely empty — which is true for at most one page load ever,
+since that same function creates and saves a default project
+synchronously on first visit. So for any user who'd opened Sprint
+Metrics even once before, the button showed a "Sprint added" success
+toast while writing to a key that would never be read again — this
+looks identical to "working" in manual testing unless you check what
+the *receiver* actually does with old keys after a schema migration,
+not just whether a write happens. Fixed to append into the active
+project. Worth a pass over other apps' localStorage writes for the
+same trap wherever a receiver has since migrated its own storage
+schema. Same repo also received `?ceremony=<type>` (jump straight into
+a ceremony) and `sprint-metrics:lastSession` (a dismissible "last
+sprint" context banner during retro), neither read before.
+
+Remaining from the same audit, not yet fixed: improvement-board
 (`utils/kanbanLink.ts`/`changePlannerLink.ts` senders look fine —
 still need the receiving apps' `utm_source` handling double-checked),
 salary-formula (`FormulaBuilder.tsx` receiver side), moving-motivators
