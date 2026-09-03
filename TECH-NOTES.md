@@ -12,6 +12,33 @@ Poker** (host/join by PIN, simultaneous voting, instant reveal) and
 **Moving Motivators** (host/join by PIN, live ranking + assessment). Both
 currently use the same mechanism.
 
+### Security rules (2026-09-03)
+
+The rules are now in version control at `.github/firebase/` and tested
+against the Realtime Database emulator (21 cases, `./test-rules.sh`).
+Before this they existed **only** in the Firebase console — which meant
+the suite's entire access-control model was unreviewable, untestable and
+unknown. See `.github/firebase/README.md` for what they enforce, how to
+deploy them, and the one remaining gap (no `auth != null`, because
+enabling Anonymous Auth is a console change no agent can make).
+
+Two structural bugs were found and fixed while writing them:
+
+- **Both apps wrote `sessions/<pin>` in the same Firebase project.** The
+  deploy workflows inject identical org-level `VITE_FIREBASE_*` secrets,
+  so a Planning Poker PIN and a Moving Motivators PIN were drawn from
+  one 9,000-value space with two incompatible schemas. Either app could
+  silently destroy the other's live session. Now namespaced per app.
+- **PINs were claimed with `set()` and no existence check**, from
+  `Math.floor(1000 + Math.random() * 9000)`, and no session was ever
+  deleted. So the PIN space saturated permanently and new hosts
+  overwrote live sessions. Now `crypto.getRandomValues` over 900,000
+  values, `claimSession` checks-then-writes with retry, a 24h TTL in the
+  rules bounds growth, and `releaseSession` returns a PIN on session end.
+
+`src/session.ts` in both apps is the shared shape; keep the two copies in
+step.
+
 ### Current: Firebase Realtime Database
 
 - **How it works:** each app's `src/firebase.ts` reads `VITE_FIREBASE_*`
@@ -267,3 +294,99 @@ type definition for the literal values rather than inferring them
 from variable names (`impact` sounds like it could be
 "increase/decrease" and isn't) — and a test fixture that was typed by
 the same hand that wrote the bug won't catch it.
+
+
+## Cross-app payloads are untrusted input (2026-09-03)
+
+The audit log above lists eight shipped bugs with one shape: an app read
+another app's payload through `JSON.parse(raw) as SomeType` — a cast,
+which checks nothing at runtime — and then dereferenced it. The author of
+that payload is a *different repository*, free to change its schema
+without telling the reader.
+
+There were 27 such sites. Two consequences, and the second is the one
+that was being missed:
+
+1. A shape mismatch silently produces nothing (the `'increase'` vs
+   `'positive'` bug: a check that was always false, and a test that
+   passed because its fixture used the same wrong literals).
+2. A shape mismatch **throws during render**, React unmounts the tree,
+   and the user gets a blank page — which a reload does not fix, because
+   the offending payload is still in localStorage. The app is bricked.
+
+Two things now stand against that:
+
+- **`ErrorBoundary` at the root of every app** (`design-system/
+  components/ErrorBoundary.tsx`). Its fallback offers *clear this app's
+  saved data*, scoped by the app's own key prefixes so recovering one app
+  cannot destroy a neighbour's data on the shared origin. It is
+  dependency-free by design — a boundary that needs the app's modules to
+  have initialised is no use when initialisation is what failed.
+- **Runtime guards at the boundary itself**, not at the call site. The
+  pattern: parse to `unknown`, check the fields anything downstream will
+  actually dereference, and return `null` or a fully-defaulted object.
+  Never a bare cast. `change-planner/src/utils/crossAppImport.ts` and
+  `sprint-metrics/src/sprintData.ts` (whose `tryParse` now takes a type
+  guard) are the reference implementations.
+
+Rule of thumb when writing a reader for another repo's payload: grep that
+repo's own type definition for the literal values, and write the test
+fixture from *its* types, not from your reader's assumptions.
+
+## Deploys are gated on tests (2026-09-03)
+
+301 tests existed across the suite and CI ran them in **one repo of
+eleven** — every other `deploy.yml` went `npm ci` → `npm run build` →
+publish. Worth naming because the `.artefacts/` pipeline in every
+CLAUDE.md insists "nothing ships without passing Bahnik" while the
+pipeline that actually ships shipped regardless; a green agent handoff
+was not evidence of anything.
+
+All eleven workflows now run `npm test` before `npm run build`. The
+Dashboard's workflow was also the only one using `npm install` rather
+than `npm ci`, ignoring its own lockfile on every deploy; fixed.
+
+## The workspace primitive (2026-09-03)
+
+`GOALS.md` gives the Dashboard "the workspace primitive that everything
+else syncs around", and cross-team persistence is the first paid tier.
+The implementation had three defects, each of which silently destroyed a
+whole team's data:
+
+1. **The dropdown did not switch anything.** It wrote the active *name*
+   only; the data on screen stayed put, so the next **Save** wrote the
+   previous team's data into the workspace you had just switched to.
+2. **Restoring never cleared**, so any app the incoming workspace had no
+   entry for kept showing the outgoing team's data.
+3. **"New workspace" inherited the current one.**
+
+The storage layer is now `agile-toolkit.github.io/src/workspaces.ts`,
+extracted from the component and covered by 18 tests, because the
+interesting part is what happens to megabytes of someone's team data —
+not the dropdown. Quota failures now surface (`WorkspaceQuotaError`)
+instead of being swallowed per key: a snapshot is a full copy of every
+app's data, so N workspaces cost roughly N× inside a ~5 MB origin budget.
+
+Related: `wp-sprint-capacity` and `mm_about_dismissed` matched no prefix
+in `data-keys.ts`, so `claimedByApp` returned `null` and both were
+silently excluded from backup, export and every workspace snapshot. **Any
+new key must match a registered prefix or it does not exist as far as the
+data layer is concerned** — there is now a test asserting every app group
+matches at least one real key.
+
+## The shared team object (2026-09-03)
+
+`agile-toolkit:activeTeam` is what `GOALS.md` calls "what holds it
+together". It was written by 2 apps of 11, and **Team Identity — whose
+stated role is to produce it — was not one of them**. The Dashboard
+inferred a name from `team-identity-charter` on a 5s poll instead, which
+unconditionally reverted any name another app had set, within five
+seconds.
+
+Team Identity now writes the contract on charter save; the Dashboard's
+inference is a one-time backfill for older charters. The remaining work
+is adoption: nine apps still ask for their own team name
+(`scrum-facilitator-team-name` and friends) instead of reading the shared
+one. That is a per-app product decision — what to do when the shared name
+disagrees with the local one — not a mechanical change, so it was left
+for its own epic rather than done silently.

@@ -1,3 +1,9 @@
 scrum-facilitator/
 moving-motivators/
 improvement-board/
+
+# Local test scaffolding for firebase/ (see firebase/README.md)
+firebase/node_modules/
+firebase/database-debug.log
+firebase/firebase-debug.log
+firebase/.firebase/

@@ -1,0 +1,135 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "sessions": {
+      "planning-poker": {
+        "$pin": {
+          ".read": "$pin.matches(/^[0-9]{6}$/) && (!data.exists() || data.child('createdAt').val() > now - 86400000)",
+          ".write": "$pin.matches(/^[0-9]{6}$/) && (!data.exists() || data.child('createdAt').val() > now - 86400000)",
+          ".validate": "!newData.exists() || newData.hasChildren(['phase', 'deck', 'hostId', 'createdAt'])",
+
+          "createdAt": {
+            ".validate": "newData.isNumber() && (data.exists() ? newData.val() === data.val() : newData.val() === now)"
+          },
+          "phase": {
+            ".validate": "newData.isString() && newData.val().matches(/^(lobby|voting|revealed)$/)"
+          },
+          "deck": {
+            ".validate": "newData.isString() && newData.val().matches(/^(fibonacci|tshirt|powers2)$/)"
+          },
+          "hostId": {
+            ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 64"
+          },
+          "currentStory": {
+            ".validate": "newData.isString() && newData.val().length <= 64"
+          },
+          "blindMode": {
+            ".validate": "newData.isBoolean()"
+          },
+
+          "participants": {
+            "$participantId": {
+              ".validate": "!newData.exists() || newData.hasChildren(['name'])",
+              "name": {
+                ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 40"
+              },
+              "isHost": { ".validate": "newData.isBoolean()" },
+              "isObserver": { ".validate": "newData.isBoolean()" },
+              "$other": { ".validate": false }
+            }
+          },
+
+          "stories": {
+            "$storyId": {
+              ".validate": "!newData.exists() || newData.hasChildren(['title', 'order'])",
+              "title": {
+                ".validate": "newData.isString() && newData.val().length <= 200"
+              },
+              "order": { ".validate": "newData.isNumber()" },
+              "finalEstimate": {
+                ".validate": "newData.isString() && newData.val().length <= 16"
+              },
+              "votes": {
+                "$participantId": {
+                  ".validate": "newData.isString() && newData.val().length <= 16"
+                }
+              },
+              "$other": { ".validate": false }
+            }
+          },
+
+          "$other": { ".validate": false }
+        }
+      },
+
+      "moving-motivators": {
+        "$pin": {
+          ".read": "$pin.matches(/^[0-9]{6}$/) && (!data.exists() || data.child('createdAt').val() > now - 86400000)",
+          ".write": "$pin.matches(/^[0-9]{6}$/) && (!data.exists() || data.child('createdAt').val() > now - 86400000)",
+          ".validate": "!newData.exists() || newData.hasChildren(['pin', 'hostId', 'phase', 'createdAt'])",
+
+          "createdAt": {
+            ".validate": "newData.isNumber() && (data.exists() ? newData.val() === data.val() : newData.val() === now)"
+          },
+          "pin": {
+            ".validate": "newData.isString() && newData.val() === $pin"
+          },
+          "hostId": {
+            ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 64"
+          },
+          "phase": {
+            ".validate": "newData.isString() && newData.val().matches(/^(lobby|ranking|assessing|revealed)$/)"
+          },
+          "change": {
+            ".validate": "newData.isString() && newData.val().length <= 500"
+          },
+          "teamName": {
+            ".validate": "newData.isString() && newData.val().length <= 60"
+          },
+
+          "timer": {
+            ".validate": "!newData.exists() || newData.hasChildren(['startedAt', 'durationSecs'])",
+            "startedAt": { ".validate": "newData.isNumber()" },
+            "durationSecs": {
+              ".validate": "newData.isNumber() && newData.val() > 0 && newData.val() <= 7200"
+            },
+            "$other": { ".validate": false }
+          },
+
+          "participants": {
+            "$participantId": {
+              ".validate": "!newData.exists() || newData.hasChildren(['name'])",
+              "name": {
+                ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 40"
+              },
+              "completed": { ".validate": "newData.isBoolean()" },
+              "change": {
+                ".validate": "newData.isString() && newData.val().length <= 500"
+              },
+              "motivators": {
+                "$index": {
+                  ".validate": "newData.hasChildren(['id', 'rank', 'impact'])",
+                  "id": {
+                    ".validate": "newData.isString() && newData.val().matches(/^(curiosity|honor|acceptance|mastery|power|freedom|relatedness|order|goal|status)$/)"
+                  },
+                  "rank": {
+                    ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 20"
+                  },
+                  "impact": {
+                    ".validate": "newData.isString() && newData.val().matches(/^(positive|negative|neutral)$/)"
+                  },
+                  "$other": { ".validate": false }
+                }
+              },
+              "$other": { ".validate": false }
+            }
+          },
+
+          "$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}
