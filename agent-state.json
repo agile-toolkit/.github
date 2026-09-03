@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:10:09Z",
-  "lock": null,
+  "updated": "2026-09-03T09:10:17Z",
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-03T09:10:17Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -125,7 +128,7 @@
       "version": "0.2.5"
     },
     "sprint-metrics": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "aaf0a07",
       "next_task": "UX audit fix: fixed low-contrast delete icons, i18n-ized 3 hardcoded Dismiss aria-labels.",
