@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T19:39:54Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-03T19:39:54Z",
-    "task": "Fix card-value legend duplication bug, hide Why Planning Poker in Facilitator Mode, continue emoji sweep (user-reported)"
-  },
+  "updated": "2026-09-03T19:47:31Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -119,7 +114,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "c90d0ed",
-      "next_task": "Shipped v0.2.9: replaced 5 decorative close emoji with shared icons.tsx. Coffee-cup functional card value untouched. 9/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: team-identity(2, functional symbol emoji must stay untouched - be careful), and quick \u00d7 follow-up fixes for improvement-board(1) and moving-motivators(1, MotivatorInfo.tsx only). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "next_task": "Shipped v0.2.10: fixed card-value legend duplication bug (user-reported), hid Why Planning Poker card in Facilitator Mode (user-reported). Verified visually via Playwright. Remaining from user follow-up: broader emoji sweep for planning-poker (target/team/link icons on Home, eye icon x3 on observer badges, leftover votes-checkmark in TeamSession.tsx + 4 i18n locale strings) - needs new icons (TeamIcon, EyeIcon) added to shared design-system icons.tsx first. Same for scrum-facilitator (much larger sweep, ~29 instances - ceremony-type icons, feedback-type icons, action buttons). Batch-designed and visually verified 10 new icon candidates (EyeIcon, SunIcon, QuestionIcon, UploadIcon, DownloadIcon, ThumbsUpIcon, CheckboxIcon/CheckboxEmptyIcon, TeamIcon, ShuffleIcon) - all render correctly, ready to add to design-system/components/icons.tsx next.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.9"
+      "version": "0.2.10"
     },
     "sprint-metrics": {
       "status": "idle",
