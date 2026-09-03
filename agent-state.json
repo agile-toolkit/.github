@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T07:49:27Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-09-03T07:49:27Z"
-  },
+  "updated": "2026-09-03T07:56:42Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -114,10 +111,10 @@
       "version": "0.2.2"
     },
     "planning-poker": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "cf8ef76",
-      "next_task": "Fixed functional-completeness gap: deploy.yml now passes VITE_FIREBASE_* secrets, matching moving-motivators, so team sessions can actually work on the live site. Trigger a redeploy and verify Start Team Session is enabled.",
+      "last_commit": "6b1b904",
+      "next_task": "Split host/join into two dedicated screens (Host Team Session / Join Team Session), matching Moving Motivators pattern per user request. joinPin deep-links now auto-navigate straight to Join.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -125,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     "sprint-metrics": {
       "status": "idle",
