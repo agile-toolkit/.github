@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-09-03T10:09:59.768889Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -15,10 +12,10 @@
   },
   "apps": {
     "moving-motivators": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "1b20b3e",
-      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
+      "next_task": "Cross-app audit v0.2.5: added topMotivators to moving-motivators:lastSession, fixing a dead Sprint Metrics fallback read. IMPORTANT: discovered while fixing this that my own earlier change-planner v0.2.4 fix used wrong ImpactLevel literals (increase/decrease instead of the real positive/negative/neutral) - re-locking change-planner next to fix my own bug.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
