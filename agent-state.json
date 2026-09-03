@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:44:46Z",
-  "lock": null,
+  "updated": "2026-09-03T16:44:58Z",
+  "lock": {
+    "repo": "planning-poker",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:44:58Z",
+    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation, careful of functional coffee-cup card value)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
