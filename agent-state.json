@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:49:13Z",
-  "lock": {
-    "repo": "improvement-board",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:49:13Z",
-    "task": "Fix close button using \u00d7 variant (emoji-to-SVG sweep follow-up)"
-  },
+  "updated": "2026-09-03T16:50:36Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -91,7 +86,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "7c03712",
-      "next_task": "Shipped v0.2.6: replaced 3 decorative close/check emoji with shared icons.tsx. 5/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6), scrum-facilitator(3), moving-motivators(3), team-identity(2, functional symbol emoji must stay untouched), work-profiles(needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "next_task": "Shipped v0.2.7: fixed card delete button using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining: moving-motivators \u00d7 fix (MotivatorInfo.tsx:64 only - NOT TeamSession \u00d7count which is legit multiplication). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -99,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.6"
+      "version": "0.2.7"
     },
     "work-profiles": {
       "status": "idle",
