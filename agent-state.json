@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T15:46:37Z",
-  "lock": null,
+  "updated": "2026-09-03T15:46:44Z",
+  "lock": {
+    "repo": "moving-motivators",
+    "agent": "claude-session",
+    "since": "2026-09-03T15:46:44Z",
+    "task": "Adopt shared Facilitator Mode pattern (repo 2/11 of rollout)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
