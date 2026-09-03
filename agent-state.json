@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:11:14Z",
-  "lock": null,
+  "updated": "2026-09-03T16:11:21Z",
+  "lock": {
+    "repo": "scrum-facilitator",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:11:21Z",
+    "task": "Wire facilitatorMode into CeremonyRunner to gate WhyTooltip/FacilitationTips (informational-elements follow-up)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
