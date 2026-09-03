@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:13:21Z",
-  "lock": {
-    "repo": "change-planner",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:13:21Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 9/10)"
-  },
+  "updated": "2026-09-03T20:14:38Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "sprint-metrics",
+    "stable": "change-planner",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -147,8 +142,8 @@
     "change-planner": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "8af6877",
-      "next_task": "Shipped v0.2.8: replaced 11 decorative close/check emoji with shared icons.tsx. Left paired status markers (reached/not-reached, done/not-done) as text since only one side would swap cleanly. 2/11 apps done in emoji-to-SVG sweep (kanban-designer, change-planner) plus dashboard hub tiles. Remaining by instance count: planning-poker(6), sprint-metrics(5), scrum-facilitator(3), moving-motivators(3), improvement-board(3), team-identity(2), salary-formula(1), work-profiles(9, needs recount - grep counted 9 but includes non-decorative). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "aeb0715",
+      "next_task": "Shipped v0.2.9: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 9/10 repos done). Only remaining repo: team-identity - it has its OWN inline FACILITATOR_KEY constant (not the shared hook, since it originated the pattern before it was promoted to design-system) - find that constant in team-identity src and change its value to agile-toolkit:facilitatorMode too. Once done, Task #15 is fully complete across all 11 apps + dashboard. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -157,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.8"
+      "version": "0.2.9"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
