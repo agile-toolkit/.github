@@ -148,3 +148,51 @@ and deliberately not done: it would need a build-system change in all
 have. `check-drift.mjs` is the pragmatic middle ground; revisit the
 package idea only if drift like this keeps recurring after the script
 exists to catch it.
+
+## Cross-app "Open in X" link audit (2026-09-03)
+
+A user report ("these links don't actually pass data anywhere") plus
+the explicit standing instruction that this class of bug is ours to
+find, not the user's, triggered a suite-wide audit of every
+`window.open`/`href` that points at another suite app. Finding: most
+senders build a real payload (URL query param or a shared-origin
+`localStorage` write); the receiver frequently never reads it — same
+failure shape as the LanguagePicker/AppHeader drift above, but for data
+flow instead of a shared component. Fixed as receiver in this pass:
+
+- **change-planner** (v0.2.4): Moving Motivators' `?mm_snapshot=`,
+  Improvement Board's `?prefill=`/`description=` convention, Salary
+  Formula's `salary-formula:pendingChangeRecord`; also the reverse
+  direction (Stakeholder Motivator Profiles pulling from Moving
+  Motivators' `moving-motivators:lastSession`).
+- **kanban-designer** (v0.2.4): Improvement Board's `?prefill=<JSON
+  board>`, as a fallback to the app's own `#board=` hash import.
+- **work-profiles** (v0.2.4): Moving Motivators' `?motivators=` /
+  `work-profiles:motivatorSnapshot` (issue #57's core gap — left open
+  for its fuller "attach to an existing profile" design).
+- **planning-poker** (v0.2.6): Kanban Designer's `?kanban-board=`,
+  Scrum Facilitator's `?participants=`.
+
+**Not every flagged link was actually broken** — worth recording so it
+isn't re-flagged. Kanban Designer's "Send to Sprint Metrics" button
+(`?kanban=<base64 JSON>`) looks unread (Sprint Metrics has zero
+`URLSearchParams` usage anywhere), but Sprint Metrics separately reads
+`kanban-designer:currentBoard` — a *different*, already-working
+same-origin localStorage key Kanban Designer keeps live on every board
+edit — and gets the same `{todo, inProgress, done}` counts from it
+(`readKanbanCfdCounts()` in `SprintDataView.tsx`). Since both channels
+carry the same board and both apps share an origin, the query param
+is redundant dead code, not a silent data-loss bug. Confirmed by
+reading the actual receiver logic, not just grepping for
+`URLSearchParams` — the grep alone would have (and initially did)
+flagged this as broken.
+
+Remaining from the same audit, not yet fixed: scrum-facilitator
+(receive `?ceremony=retro` + `sprint-metrics:lastSession`; several
+`ExportView.tsx`/`CeremonyComplete.tsx` links), improvement-board
+(`utils/kanbanLink.ts`/`changePlannerLink.ts` senders look fine —
+still need the receiving apps' `utm_source` handling double-checked),
+salary-formula (`FormulaBuilder.tsx` receiver side), moving-motivators
+(`ResultsView.tsx`'s `ranked`/`topMotivators` field-name mismatch
+noted during the earlier work-profiles pass — check before assuming
+the sender payload is correct).
