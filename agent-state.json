@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T07:49:11Z",
-  "lock": null,
+  "updated": "2026-09-03T07:49:27Z",
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-09-03T07:49:27Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -111,7 +114,7 @@
       "version": "0.2.2"
     },
     "planning-poker": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "cf8ef76",
       "next_task": "Fixed functional-completeness gap: deploy.yml now passes VITE_FIREBASE_* secrets, matching moving-motivators, so team sessions can actually work on the live site. Trigger a redeploy and verify Start Team Session is enabled.",
