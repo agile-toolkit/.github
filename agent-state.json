@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:35:31Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:35:31Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
-  },
+  "updated": "2026-09-03T16:39:31Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -35,7 +30,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "96c0fb0",
-      "next_task": "Shipped v0.2.7: gated CeremonyRunner Why-tooltip + FacilitationTips behind facilitatorMode (were unprotected - component never received the prop). Both major informational-elements gaps (moving-motivators, scrum-facilitator) now fixed. Remaining lower-priority items from the audit: Home-screen text blocks reachable via title-click in kanban-designer/change-planner/salary-formula/planning-poker/team-identity/improvement-board (reachable but less severe, pre-session content); sprint-metrics chart explainers (facilitatorMode now exists there since the core rollout, gating not yet applied). Also still queued: emoji-to-SVG sweep, kanban-designer stronger Design/Track split investigation.",
+      "next_task": "Shipped v0.2.8: replaced 9 decorative close/check/clipboard emoji with shared icons.tsx, including 6 that used the \u00d7 (multiplication sign) variant the original sweep grep missed. 7/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. IMPORTANT: discovered mid-cycle that \u00d7 (not just \u2715) needs checking suite-wide - salary-formula(1 real close button among many legit \u00d7 multiplier notations, already fixed opportunistically), sprint-metrics(4), improvement-board(1), moving-motivators(1, MotivatorInfo.tsx - NOT TeamSession \u00d7count which is legit multiplication), work-profiles(1) still need this follow-up fix. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -43,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     "kanban-designer": {
       "status": "idle",
