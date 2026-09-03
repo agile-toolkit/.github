@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T20:11:30Z",
-  "lock": null,
+  "updated": "2026-09-03T20:11:48Z",
+  "lock": {
+    "repo": "sprint-metrics",
+    "agent": "claude-session",
+    "since": "2026-09-03T20:11:48Z",
+    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 8/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
