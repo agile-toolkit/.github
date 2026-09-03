@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T09:08:36Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-03T09:08:36Z"
-  },
+  "updated": "2026-09-03T09:10:09Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -72,10 +69,10 @@
       "version": "0.2.3"
     },
     "team-identity": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "f7bc0dc",
-      "next_task": "UX audit fix: added confirm-before-delete for saved teams in My Teams library.",
+      "last_commit": "f4c843e",
+      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -83,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     "improvement-board": {
       "status": "idle",
