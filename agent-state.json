@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:11:48Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:11:48Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 8/10)"
-  },
+  "updated": "2026-09-03T20:13:13Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "planning-poker",
+    "stable": "sprint-metrics",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -132,8 +127,8 @@
     "sprint-metrics": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "f98d842",
-      "next_task": "Shipped v0.2.7: fixed 4 more close buttons using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining \u00d7 follow-up fixes: improvement-board(1), moving-motivators(1, MotivatorInfo.tsx only). work-profiles(1) needs checking too. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "e87479f",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 8/10 repos done). Remaining: change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -142,7 +137,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     "change-planner": {
       "status": "idle",
