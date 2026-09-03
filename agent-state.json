@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T09:10:17Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-03T09:10:17Z"
-  },
+  "updated": "2026-09-03T09:11:45Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -128,10 +125,10 @@
       "version": "0.2.5"
     },
     "sprint-metrics": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "aaf0a07",
-      "next_task": "UX audit fix: fixed low-contrast delete icons, i18n-ized 3 hardcoded Dismiss aria-labels.",
+      "last_commit": "f98d842",
+      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -140,7 +137,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     "change-planner": {
       "status": "idle",
