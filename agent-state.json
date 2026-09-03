@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:03:08Z",
-  "lock": null,
+  "updated": "2026-09-03T09:03:15Z",
+  "lock": {
+    "repo": "improvement-board",
+    "started_at": "2026-09-03T09:03:15Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -83,7 +86,7 @@
       "version": "0.2.3"
     },
     "improvement-board": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "ead9ea3",
       "next_task": "UX audit fix: added confirm-before-delete for single items (matching existing bulk-delete confirm), fixed low-contrast delete icons.",
