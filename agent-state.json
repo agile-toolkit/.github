@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:44:58Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:44:58Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation, careful of functional coffee-cup card value)"
-  },
+  "updated": "2026-09-03T16:47:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -119,7 +114,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "c90d0ed",
-      "next_task": "Shipped v0.2.8: adopted shared Facilitator Mode pattern (repo 8/11 of rollout). Remaining rollout: sprint-metrics, change-planner. NEW sub-task queued (user follow-up): kanban-designer Design/Track split needs to be even clearer, possibly separate apps - ambiguous scope, needs options presented to user before implementing, like the original mode-split decision.",
+      "next_task": "Shipped v0.2.9: replaced 5 decorative close emoji with shared icons.tsx. Coffee-cup functional card value untouched. 9/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: team-identity(2, functional symbol emoji must stay untouched - be careful), and quick \u00d7 follow-up fixes for improvement-board(1) and moving-motivators(1, MotivatorInfo.tsx only). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.8"
+      "version": "0.2.9"
     },
     "sprint-metrics": {
       "status": "idle",
