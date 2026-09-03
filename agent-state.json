@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:11:45Z",
-  "lock": null,
+  "updated": "2026-09-03T09:11:52Z",
+  "lock": {
+    "repo": "change-planner",
+    "started_at": "2026-09-03T09:11:52Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -140,7 +143,7 @@
       "version": "0.2.3"
     },
     "change-planner": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "47b46a0",
       "next_task": "UX audit fix: i18n-ized hardcoded Save/Cancel buttons, fixed a low-contrast delete icon.",
