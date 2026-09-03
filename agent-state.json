@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T08:50:09Z",
-  "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-09-03T08:50:09Z"
-  },
+  "updated": "2026-09-03T08:53:57Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -114,10 +111,10 @@
       "version": "0.2.2"
     },
     "planning-poker": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "6b1b904",
-      "next_task": "Split host/join into two dedicated screens (Host Team Session / Join Team Session), matching Moving Motivators pattern per user request. joinPin deep-links now auto-navigate straight to Join.",
+      "last_commit": "c90d0ed",
+      "next_task": "Redesigned home-screen entry cards to match Moving Motivators after user feedback that the split-screen buttons looked worse. Next: systematize this pattern (and others) into design-system/ per user request.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -125,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.4"
+      "version": "0.2.5"
     },
     "sprint-metrics": {
       "status": "idle",
