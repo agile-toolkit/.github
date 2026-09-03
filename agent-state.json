@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T08:53:57Z",
-  "lock": null,
+  "updated": "2026-09-03T08:56:12Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "started_at": "2026-09-03T08:56:12Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -155,7 +158,7 @@
       "version": "0.2.2"
     },
     "agile-toolkit.github.io": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "f1a3634",
       "next_task": "UX audit fix: rewrote 10 factually-wrong/mismatched app-card descriptions (sprint_metrics falsely called a Chrome/Jira extension, change_planner falsely cited PDCA), fixed hardcoded tool count, added a11y landmark.",
