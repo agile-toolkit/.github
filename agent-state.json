@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:07:24Z",
-  "lock": {
-    "repo": "improvement-board",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:07:24Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 5/10)"
-  },
+  "updated": "2026-09-03T20:08:45Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "salary-formula",
+    "stable": "improvement-board",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -90,8 +85,8 @@
     "improvement-board": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "7c03712",
-      "next_task": "Shipped v0.2.7: fixed card delete button using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete. Remaining: moving-motivators \u00d7 fix (MotivatorInfo.tsx:64 only - NOT TeamSession \u00d7count which is legit multiplication). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "4d620c4",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 5/10 repos done). Remaining: work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -99,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     "work-profiles": {
       "status": "idle",
