@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-09-03T09:52:16.591788Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -27,7 +30,7 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "96c0fb0",
       "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
