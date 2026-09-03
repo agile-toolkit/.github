@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:06:03Z",
-  "lock": {
-    "repo": "salary-formula",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:06:03Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 4/10)"
-  },
+  "updated": "2026-09-03T20:07:16Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer",
+    "stable": "salary-formula",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -62,8 +57,8 @@
     "salary-formula": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "4671e47",
-      "next_task": "Shipped v0.2.7: fixed TemplatesModal close button using \u00d7 variant. Emoji-to-SVG sweep for this app fully complete now. Remaining \u00d7 follow-up fixes needed in: sprint-metrics(4), improvement-board(1), moving-motivators(1, MotivatorInfo.tsx only - NOT TeamSession \u00d7count which is legit). work-profiles(1) needs checking too. Remaining for the main sweep: planning-poker(6), team-identity(2, functional symbol emoji must stay untouched), work-profiles(main pass). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "bda98d4",
+      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 4/10 repos done). Remaining: improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -71,7 +66,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     "team-identity": {
       "status": "idle",
