@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T09:03:15Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-09-03T09:03:15Z"
-  },
+  "updated": "2026-09-03T09:04:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -86,10 +83,10 @@
       "version": "0.2.3"
     },
     "improvement-board": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "ead9ea3",
-      "next_task": "UX audit fix: added confirm-before-delete for single items (matching existing bulk-delete confirm), fixed low-contrast delete icons.",
+      "last_commit": "7c03712",
+      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -97,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     "work-profiles": {
       "status": "idle",
