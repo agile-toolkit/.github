@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T15:51:28Z",
-  "lock": null,
+  "updated": "2026-09-03T15:51:34Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "agent": "claude-session",
+    "since": "2026-09-03T15:51:34Z",
+    "task": "Adopt shared Facilitator Mode pattern (repo 4/11 of rollout)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
