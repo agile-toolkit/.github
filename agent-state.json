@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:19:43Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:19:43Z",
-    "task": "Replace decorative close/check emoji with icons.tsx (emoji-to-SVG sweep continuation)"
-  },
+  "updated": "2026-09-03T16:23:18Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -49,7 +44,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "0270b02",
-      "next_task": "Shipped v0.3.1: adopted shared Facilitator Mode pattern (repo 4/11 of rollout). Hides nav pills + language picker; kept the designer toolbar (undo/redo/export/import/copy-link/clear) visible since those are primary editing actions not secondary chrome. Remaining rollout: salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner.",
+      "next_task": "Shipped v0.3.2: replaced 15 decorative close/check emoji-text-glyph buttons with shared icons.tsx CloseIcon/CheckIcon (currentColor, no visual color change). First app done in the suite-wide emoji-to-SVG sweep. Pattern for remaining apps: grep for \u2715/\u2713 in src/components/*.tsx, copy icons.tsx from design-system, replace each >\u2715</button> or >\u2713</button> occurrence with <CloseIcon .../> or <CheckIcon .../>, size ~w-3 h-3 to w-3.5 h-3.5 depending on context. USER QUESTION PENDING (asked, no reply yet): whether kanban-designer Design/Track split should become route-level within the app or a full separate app/repo - do not implement either until user responds.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -57,7 +52,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     "salary-formula": {
       "status": "idle",
