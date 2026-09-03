@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:01:27Z",
-  "lock": null,
+  "updated": "2026-09-03T09:01:36Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-09-03T09:01:36Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -41,7 +44,7 @@
       "version": "0.2.4"
     },
     "kanban-designer": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "233cc15",
       "next_task": "UX audit fix: added aria-labels to icon-only delete buttons, fixed a copy-paste tooltip bug, bumped low-contrast delete-icon colors.",
