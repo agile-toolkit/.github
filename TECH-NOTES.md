@@ -228,8 +228,42 @@ by reading issue state instead of code. Fixed in sprint-metrics v0.2.4
 (`buildImprovementBoardUrl()` in `sprintData.ts`); commented on the
 issue with what shipped and when.
 
-Remaining from the same audit, not yet fixed: salary-formula
-(`FormulaBuilder.tsx` receiver side), moving-motivators
-(`ResultsView.tsx`'s `ranked`/`topMotivators` field-name mismatch
-noted during the earlier work-profiles pass — check before assuming
-the sender payload is correct).
+**salary-formula** (v0.2.4) had two more shapes of the same disease:
+"Import from Team Identity" read `team-identity:charter` (colon) —
+Team Identity has only ever written `team-identity-charter` (hyphen).
+Pure naming drift, not a payload mismatch; fixed by correcting the
+string. **planning-poker** (v0.2.7) had the payload-mismatch twin of
+that same bug in its own `importFromTeamIdentity`: it read the right
+key but mapped `m.name` over Team Identity's `members`, which are
+plain strings (`members?: string[]`), not `{name}` objects — every
+entry came out `undefined`, got filtered away, and the button always
+acted like there was no team. Two different failure mechanisms,
+same visible symptom (button always says "nothing found"), found by
+auditing what a receiver actually asserts about a payload's shape,
+not just whether it reads the right key.
+
+**moving-motivators** (v0.2.5): `moving-motivators:lastSession` never
+had a `topMotivators` field, only `ranked` — Sprint Metrics'
+`loadMotivatorSnapshot()` fallback specifically gates on
+`Array.isArray(parsed?.topMotivators)`, so it was always false and
+that whole receiver path was dead weight. Fixed by adding the field
+(first 3 of `ranked`).
+
+**Self-caught bug, worth naming as its own lesson**: fixing that same
+motivator payload surfaced that this audit's *own* earlier fix —
+change-planner v0.2.4's `parseMmSnapshotParam` — checked
+`changes[id] === 'increase' || 'decrease'` to build an "affects these
+motivators" note. Moving Motivators' real `ImpactLevel` union is
+`'positive' | 'negative' | 'neutral'` (`types.ts`); those two strings
+never appear anywhere. The check was silently always false, so the
+note was always empty — and the test written alongside it passed
+anyway, because it used the same wrong literals as fixture data
+instead of checking against the real union. Caught only because a
+later, unrelated fix in Moving Motivators required looking at its
+actual `ImpactLevel` type and the mismatch became obvious by
+comparison. Fixed in change-planner v0.2.5. The general lesson: when
+writing a receiver for another repo's payload, grep that repo's own
+type definition for the literal values rather than inferring them
+from variable names (`impact` sounds like it could be
+"increase/decrease" and isn't) — and a test fixture that was typed by
+the same hand that wrote the bug won't catch it.
