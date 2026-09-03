@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:31:16Z",
-  "lock": {
-    "repo": "improvement-board",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:31:16Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
-  },
+  "updated": "2026-09-03T16:33:10Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -91,7 +86,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "7c03712",
-      "next_task": "Shipped v0.2.5: adopted shared Facilitator Mode pattern (repo 6/11 of rollout). Remaining rollout: work-profiles, planning-poker, sprint-metrics, change-planner. NEW sub-task queued (user follow-up): also audit and hide informational/educational elements (Learn/About screens reachable outside nav, inline tip panels, home-screen descriptions, dashboard app-card descriptions) behind facilitatorMode - a research agent is surveying all 11 repos for this now, act on it after the 11-repo core rollout finishes.",
+      "next_task": "Shipped v0.2.6: replaced 3 decorative close/check emoji with shared icons.tsx. 5/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6), scrum-facilitator(3), moving-motivators(3), team-identity(2, functional symbol emoji must stay untouched), work-profiles(needs recount). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -99,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.5"
+      "version": "0.2.6"
     },
     "work-profiles": {
       "status": "idle",
