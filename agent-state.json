@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:46:44Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:46:44Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 2/11 of rollout)"
-  },
+  "updated": "2026-09-03T15:49:04Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -18,9 +13,9 @@
   "apps": {
     "moving-motivators": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "1b20b3e",
-      "next_task": "Cross-app audit v0.2.5: added topMotivators to moving-motivators:lastSession, fixing a dead Sprint Metrics fallback read. IMPORTANT: discovered while fixing this that my own earlier change-planner v0.2.4 fix used wrong ImpactLevel literals (increase/decrease instead of the real positive/negative/neutral) - re-locking change-planner next to fix my own bug.",
+      "next_task": "Shipped v0.2.6: adopted shared Facilitator Mode pattern (repo 2/11 of rollout). Remaining: scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. Also queued after rollout: user asked to replace decorative emoji with colored SVG icons suite-wide - a full audit is done (see task list / this session), team-identity symbols.ts + planning-poker coffee-cup card value + dashboard readers.ts team-symbol pass-through are FUNCTIONAL and must stay emoji; everything else audited is DECORATIVE and safe to swap.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.4",
+      "version": "0.2.6",
       "tier": 1
     },
     "scrum-facilitator": {
