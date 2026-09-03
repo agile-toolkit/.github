@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:53:50Z",
-  "lock": {
-    "repo": "salary-formula",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:53:50Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 5/11 of rollout)"
-  },
+  "updated": "2026-09-03T15:55:47Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -61,9 +56,9 @@
     },
     "salary-formula": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "4671e47",
-      "next_task": "Cross-app audit v0.2.4: fixed Import from Team Identity reading the wrong key (colon vs hyphen). Work Profiles read (wp-profiles-export) already correct. Flagged for later: Planning Poker importFromTeamIdentity does members.map(m => m.name) but Team Identity members are plain strings, not {name} objects - check if that is also broken.",
+      "next_task": "Shipped v0.2.5: adopted shared Facilitator Mode pattern (repo 5/11 of rollout). Remaining rollout: improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -71,7 +66,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.5"
     },
     "team-identity": {
       "status": "idle",
