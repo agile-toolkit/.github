@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T08:59:55Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-03T08:59:55Z"
-  },
+  "updated": "2026-09-03T09:01:27Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -30,10 +27,10 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "635601e",
-      "next_task": "Fixed dark theme: .card/.btn-secondary/.btn-ghost/body used .dark class selector that the app never sets (theme uses data-theme attribute). All 4 selectors now match [data-theme=\"dark\"].",
+      "last_commit": "96c0fb0",
+      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -41,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     "kanban-designer": {
       "status": "idle",
