@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "change-planner",
+    "started_at": "2026-09-03T09:33:10.043739Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -140,7 +143,7 @@
       "version": "0.2.3"
     },
     "change-planner": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "8af6877",
       "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly. Suite-wide LanguagePicker dark-mode sweep now complete across all 10 apps.",
