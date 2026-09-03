@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:50:44Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:50:44Z",
-    "task": "Fix MotivatorInfo close button using \u00d7 variant (emoji-to-SVG sweep follow-up, last one)"
-  },
+  "updated": "2026-09-03T16:52:11Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -20,7 +15,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "1b20b3e",
-      "next_task": "Shipped v0.2.8: replaced 3 decorative close emoji with shared icons.tsx. 6/11 apps done in emoji-to-SVG sweep plus dashboard hub tiles. Remaining: planning-poker(6), scrum-facilitator(3), team-identity(2, functional symbol emoji must stay untouched), work-profiles(needs recount, earlier grep of 9 included non-decorative endorsement checkmarks - verify each). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "next_task": "Shipped v0.2.9: fixed MotivatorInfo close button using \u00d7 variant. EMOJI-TO-SVG SWEEP NOW FULLY COMPLETE across all 11 apps + dashboard, including the \u00d7 (multiplication sign) variant follow-up in every repo where it was found. USER QUESTION STILL PENDING (no reply, asked twice worth of session time ago): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply, this is the only remaining open item from this sessions user-directed work.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.8",
+      "version": "0.2.9",
       "tier": 1
     },
     "scrum-facilitator": {
