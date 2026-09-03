@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-09-03T09:58:09.488084Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -86,10 +83,10 @@
       "version": "0.2.4"
     },
     "improvement-board": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "7c03712",
-      "next_task": "Fixed LanguagePicker dark mode (synced with design-system canonical copy).",
+      "next_task": "Cross-app audit: Improvement Board itself is correct on both sides (prefill/utm_source receiver works, improvement-board-items sender works, Moving Motivators bottom-motivator import already built via utils/movingMotivatorsImport.ts). Found: issue #4 (Sprint Metrics to Improvement Board deep-link) was closed as completed but only the receiver half shipped - Sprint Metrics never got the Open Improvement Board button. No code changes made here; the fix belongs in sprint-metrics.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
