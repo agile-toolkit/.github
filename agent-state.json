@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-09-03T15:03:01.554951Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -41,7 +44,7 @@
       "version": "0.2.4"
     },
     "kanban-designer": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "0270b02",
       "next_task": "Cross-app audit: receives Improvement Board prefill now (v0.2.4). Still a sender-only gap: Sprint Metrics (?kanban=) and Planning Poker (?kanban-board=) do not read what Kanban Designer sends them - fix on those repos next.",
