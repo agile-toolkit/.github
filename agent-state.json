@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-03T08:56:12Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-03T08:56:12Z"
-  },
+  "updated": "2026-09-03T08:57:52Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -158,10 +155,10 @@
       "version": "0.2.2"
     },
     "agile-toolkit.github.io": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
-      "last_commit": "f1a3634",
-      "next_task": "UX audit fix: rewrote 10 factually-wrong/mismatched app-card descriptions (sprint_metrics falsely called a Chrome/Jira extension, change_planner falsely cited PDCA), fixed hardcoded tool count, added a11y landmark.",
+      "last_commit": "267a435",
+      "next_task": "Fixed design-system/components/LanguagePicker.tsx dark-mode gap (source had zero dark: classes). Propagating the fix to all 9 other app repos next.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
