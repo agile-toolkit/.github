@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:23:34Z",
-  "lock": {
-    "repo": "change-planner",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:23:34Z",
-    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
-  },
+  "updated": "2026-09-03T16:27:15Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -148,7 +143,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "8af6877",
-      "next_task": "Shipped v0.2.7: adopted shared Facilitator Mode pattern (repo 10/11 of rollout). CORE FACILITATOR MODE ROLLOUT NOW COMPLETE (all 11 repos + design-system source). Remaining follow-up work queued this session: (1) replace decorative emoji with colored SVG icons suite-wide (team-identity symbols.ts + planning-poker coffee-cup card value + dashboard readers.ts team-symbol pass-through stay emoji, full audit done); (2) hide informational/educational elements (Learn screens reachable outside nav, inline tip/guide panels, home-screen About blocks, dashboard app-card descriptions) behind facilitatorMode, full per-repo audit done, top candidates: moving-motivators FacilitationGuide+About panel (no nav-gating exists there at all), scrum-facilitator WhyTooltip/FacilitationTips on CeremonyRunner (facilitatorMode not even threaded down to CeremonyRunner yet), dashboard AppCard descriptions (explicitly user-flagged); (3) investigate a stronger Design/Track split for kanban-designer, ambiguous scope (\"different apps\"?), needs options presented to user before implementing.",
+      "next_task": "Shipped v0.2.8: replaced 11 decorative close/check emoji with shared icons.tsx. Left paired status markers (reached/not-reached, done/not-done) as text since only one side would swap cleanly. 2/11 apps done in emoji-to-SVG sweep (kanban-designer, change-planner) plus dashboard hub tiles. Remaining by instance count: planning-poker(6), sprint-metrics(5), scrum-facilitator(3), moving-motivators(3), improvement-board(3), team-identity(2), salary-formula(1), work-profiles(9, needs recount - grep counted 9 but includes non-decorative). USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -157,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
