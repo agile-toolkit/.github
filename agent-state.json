@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:05:19Z",
-  "lock": {
-    "repo": "change-planner",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:05:19Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 10/11, last of core rollout)"
-  },
+  "updated": "2026-09-03T16:07:17Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -146,9 +141,9 @@
     },
     "change-planner": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "8af6877",
-      "next_task": "Added AI Adoption template (v0.2.6), 6th of 6 initiative templates, grounded in current research (MIT GenAI Divide study, ADKAR/Kotter, employee AI-fear reporting).",
+      "next_task": "Shipped v0.2.7: adopted shared Facilitator Mode pattern (repo 10/11 of rollout). CORE FACILITATOR MODE ROLLOUT NOW COMPLETE (all 11 repos + design-system source). Remaining follow-up work queued this session: (1) replace decorative emoji with colored SVG icons suite-wide (team-identity symbols.ts + planning-poker coffee-cup card value + dashboard readers.ts team-symbol pass-through stay emoji, full audit done); (2) hide informational/educational elements (Learn screens reachable outside nav, inline tip/guide panels, home-screen About blocks, dashboard app-card descriptions) behind facilitatorMode, full per-repo audit done, top candidates: moving-motivators FacilitationGuide+About panel (no nav-gating exists there at all), scrum-facilitator WhyTooltip/FacilitationTips on CeremonyRunner (facilitatorMode not even threaded down to CeremonyRunner yet), dashboard AppCard descriptions (explicitly user-flagged); (3) investigate a stronger Design/Track split for kanban-designer, ambiguous scope (\"different apps\"?), needs options presented to user before implementing.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -157,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.3"
+      "version": "0.2.7"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
