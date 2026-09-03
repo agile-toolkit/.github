@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T16:23:18Z",
-  "lock": null,
+  "updated": "2026-09-03T16:23:34Z",
+  "lock": {
+    "repo": "change-planner",
+    "agent": "claude-session",
+    "since": "2026-09-03T16:23:34Z",
+    "task": "Replace decorative close/check emoji with SVG icons (emoji-to-SVG sweep continuation)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
