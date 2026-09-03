@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T16:14:24Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "agent": "claude-session",
-    "since": "2026-09-03T16:14:24Z",
-    "task": "Build shared colored SVG icon library in design-system (emoji-to-SVG sweep, phase 1)"
-  },
+  "updated": "2026-09-03T16:19:18Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -163,7 +158,7 @@
       "status": "idle",
       "last_run": "2026-09-03",
       "last_commit": "a136325",
-      "next_task": "Shipped v0.3.8: AppCard description paragraph now hides in Facilitator Mode (user-flagged follow-up), kept as flex-1 spacer for grid alignment. Facilitator-mode rollout core (11 repos) is fully complete. Remaining queued work: informational-elements audit follow-through per-repo (moving-motivators FacilitationGuide+About panel is the biggest gap - no nav-gating exists there at all; scrum-facilitator WhyTooltip/FacilitationTips not wired to facilitatorMode; smaller Home-screen text blocks in kanban-designer/change-planner/salary-formula/planning-poker/team-identity/improvement-board); emoji-to-SVG-icon sweep (audit done, team-identity symbols + planning-poker coffee-cup + dashboard team-symbol chip stay emoji); kanban-designer stronger Design/Track split investigation (ambiguous \"different apps\" scope, needs options presented to user).",
+      "next_task": "Shipped v0.3.9: built shared icons.tsx (generic UI-chrome, currentColor) + app-icons.tsx (10 Dashboard hub-tile icons, colored via --app-accent) in design-system/, replaced apps.ts emoji icon field with components. Verified visually in both themes via Playwright. This is phase 1 of the suite-wide emoji-to-SVG sweep the user requested; icons.tsx is ready to copy into any app needing CloseIcon/CheckIcon/WarningIcon/etc. Remaining: roll icons.tsx out to the other 10 apps replacing their decorative emoji (\u2715 close buttons are the highest-frequency target per the audit - kanban-designer ColumnCard.tsx alone has 11 occurrences). Functional emoji stay: team-identity symbols.ts, planning-poker coffee-cup card value, dashboard readers.ts team-symbol pass-through chip.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.8"
+      "version": "0.3.9"
     }
   },
   "projects": {
