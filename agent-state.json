@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T09:16:55Z",
-  "lock": null,
+  "updated": "2026-09-03T15:41:27Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "agent": "claude-session",
+    "since": "2026-09-03T15:41:27Z",
+    "task": "Contribute portable Facilitator Mode (hook + button) to design-system, then roll out to dashboard + all 10 apps"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
