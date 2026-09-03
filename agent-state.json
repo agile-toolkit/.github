@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-03T09:16:55Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-03T15:27:53.364127Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -72,10 +69,10 @@
       "version": "0.2.3"
     },
     "team-identity": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-02",
       "last_commit": "f4c843e",
-      "next_task": "Normalized LanguagePicker dark-mode shades to match design-system canonical copy exactly.",
+      "next_task": "Fixed v0.2.5: set data-accent=\"amber\" on all 3 top-level app roots, matching the design-system contract Work Profiles already follows. Was silently falling back to cobalt everywhere.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
