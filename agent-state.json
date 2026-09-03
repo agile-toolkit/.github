@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-03T20:04:42Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "agent": "claude-session",
-    "since": "2026-09-03T20:04:42Z",
-    "task": "Unify Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 3/10)"
-  },
+  "updated": "2026-09-03T20:05:56Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator",
+    "stable": "kanban-designer",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -48,8 +43,8 @@
     "kanban-designer": {
       "status": "idle",
       "last_run": "2026-09-03",
-      "last_commit": "0270b02",
-      "next_task": "Shipped v0.3.2: replaced 15 decorative close/check emoji-text-glyph buttons with shared icons.tsx CloseIcon/CheckIcon (currentColor, no visual color change). First app done in the suite-wide emoji-to-SVG sweep. Pattern for remaining apps: grep for \u2715/\u2713 in src/components/*.tsx, copy icons.tsx from design-system, replace each >\u2715</button> or >\u2713</button> occurrence with <CloseIcon .../> or <CheckIcon .../>, size ~w-3 h-3 to w-3.5 h-3.5 depending on context. USER QUESTION PENDING (asked, no reply yet): whether kanban-designer Design/Track split should become route-level within the app or a full separate app/repo - do not implement either until user responds.",
+      "last_commit": "a978a69",
+      "next_task": "Shipped v0.3.3: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 3/10 repos done). Remaining: salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -57,7 +52,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     "salary-formula": {
       "status": "idle",
