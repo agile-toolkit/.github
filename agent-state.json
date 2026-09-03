@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-03T15:55:54Z",
-  "lock": {
-    "repo": "improvement-board",
-    "agent": "claude-session",
-    "since": "2026-09-03T15:55:54Z",
-    "task": "Adopt shared Facilitator Mode pattern (repo 6/11 of rollout)"
-  },
+  "updated": "2026-09-03T15:58:26Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -89,9 +84,9 @@
     },
     "improvement-board": {
       "status": "idle",
-      "last_run": "2026-09-02",
+      "last_run": "2026-09-03",
       "last_commit": "7c03712",
-      "next_task": "Cross-app audit: Improvement Board itself is correct on both sides (prefill/utm_source receiver works, improvement-board-items sender works, Moving Motivators bottom-motivator import already built via utils/movingMotivatorsImport.ts). Found: issue #4 (Sprint Metrics to Improvement Board deep-link) was closed as completed but only the receiver half shipped - Sprint Metrics never got the Open Improvement Board button. No code changes made here; the fix belongs in sprint-metrics.",
+      "next_task": "Shipped v0.2.5: adopted shared Facilitator Mode pattern (repo 6/11 of rollout). Remaining rollout: work-profiles, planning-poker, sprint-metrics, change-planner. NEW sub-task queued (user follow-up): also audit and hide informational/educational elements (Learn/About screens reachable outside nav, inline tip panels, home-screen descriptions, dashboard app-card descriptions) behind facilitatorMode - a research agent is surveying all 11 repos for this now, act on it after the 11-repo core rollout finishes.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -99,7 +94,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.4"
+      "version": "0.2.5"
     },
     "work-profiles": {
       "status": "idle",
