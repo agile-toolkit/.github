@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T09:06:50Z",
-  "lock": null,
+  "updated": "2026-09-03T09:06:59Z",
+  "lock": {
+    "repo": "salary-formula",
+    "started_at": "2026-09-03T09:06:59Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -55,7 +58,7 @@
       "version": "0.2.3"
     },
     "salary-formula": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "855dd9c",
       "next_task": "UX audit fix: turned dead-end Work Profiles/Team Identity import hints into clickable links.",
