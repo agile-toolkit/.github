@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-03T07:56:42Z",
-  "lock": null,
+  "updated": "2026-09-03T08:50:09Z",
+  "lock": {
+    "repo": "planning-poker",
+    "started_at": "2026-09-03T08:50:09Z"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": "agile-toolkit.github.io",
@@ -111,7 +114,7 @@
       "version": "0.2.2"
     },
     "planning-poker": {
-      "status": "idle",
+      "status": "in-progress",
       "last_run": "2026-09-02",
       "last_commit": "6b1b904",
       "next_task": "Split host/join into two dedicated screens (Host Team Session / Join Team Session), matching Moving Motivators pattern per user request. joinPin deep-links now auto-navigate straight to Join.",
