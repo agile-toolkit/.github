@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T12:53:02Z",
-  "lock": null,
+  "updated": "2026-09-04T12:53:12Z",
+  "lock": {
+    "repo": "salary-formula",
+    "agent": "claude-session",
+    "since": "2026-09-04T12:53:12Z",
+    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 4/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
