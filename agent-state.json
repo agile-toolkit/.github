@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-04T18:40:00Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-04T18:40:47Z"
-  },
+  "updated": "2026-09-04T18:52:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -183,15 +180,16 @@
     "kanban-tracker": {
       "status": "needs-goal",
       "last_run": "2026-09-04",
-      "last_commit": "4917442",
-      "next_task": "needs-goal: awaiting human GOAL.md. Issue #1 open. GitHub Pages now enabled (issue #3 resolved, deploy job verified green on run #33892280509). Do not start an epic until GOAL.md exists.",
+      "last_commit": "9a271d2",
+      "next_task": "needs-goal (formally): MVP shipped on live user direction (PR #4, v0.2.0) - import + run a board (move cards, checklist, WIP/overdue). Proposed GOAL.md section posted as a comment on issue #1 for a human to bless/edit. Status stays needs-goal per the hard rule until GOAL.md actually exists, even though real functionality now ships. Next: add a Dashboard card (agile-toolkit.github.io) now that kanban-tracker:lastSession is written.",
       "blockers": [],
-      "maturity": null,
+      "maturity": "mvp",
       "current_epic": null,
       "recent_runs": [
-        "chore"
+        "chore",
+        "epic"
       ],
-      "version": "0.1.0",
+      "version": "0.2.0",
       "tier": 0
     }
   },
