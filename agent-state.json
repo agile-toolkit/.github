@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T12:53:12Z",
-  "lock": {
-    "repo": "salary-formula",
-    "agent": "claude-session",
-    "since": "2026-09-04T12:53:12Z",
-    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 4/10)"
-  },
+  "updated": "2026-09-04T12:55:47Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "kanban-designer",
+    "stable": "salary-formula",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -61,9 +56,9 @@
     },
     "salary-formula": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "bda98d4",
-      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 4/10 repos done). Remaining: improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_run": "2026-09-04",
+      "last_commit": "0041884",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 4/10 done). Remaining: team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. USER QUESTION STILL PENDING (no reply, long-running): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -71,7 +66,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.8"
+      "version": "0.3.2"
     },
     "team-identity": {
       "status": "idle",
