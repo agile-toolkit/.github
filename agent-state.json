@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-04T12:38:53Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "agent": "claude-session",
-    "since": "2026-09-04T12:38:53Z",
-    "task": "Add glass/backdrop-blur effect to shared AppHeader.tsx (user reports dashboard nav has it, other apps do not) using existing --glass token"
-  },
+  "updated": "2026-09-04T12:42:59Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
@@ -162,8 +157,8 @@
     "agile-toolkit.github.io": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "b958c68",
-      "next_task": "Shipped v0.4.1: replaced Work Profiles' generic PersonIcon (too similar to Team Identity's icon, same amber accent) with a new MedalIcon fitting the app's own recognized-contributions framing - visually verified at real hub-tile size. Also merged a large concurrent PR (#42, from a different session/human) that landed while this lock was held - it added 31 of its own new shared icons including ClapperIcon/StopwatchIcon/PlayIcon/PauseIcon, which turned out to duplicate what scrum-facilitator's own emoji-sweep run had just added locally (ClapperboardIcon/StopwatchIcon/PlayIcon/PauseIcon) expecting to backport them here later. Resolved the merge conflict keeping PR #42's superset of icons.tsx/components.md and just my MedalIcon addition. FOLLOW-UP TASK #17 updated: next time scrum-facilitator is picked, sync its icons.tsx from design-system (now canonical) and repoint its 2 usages to the existing names instead of its own local duplicates. STILL UNRESOLVED, needs more design work: user asked for a real HandshakeIcon to replace TeamIcon everywhere the handshake emoji was used (Planning Poker App.tsx team-session label, Scrum Facilitator FeedbackPanel + ParticipantPanel x2). Tried 30+ candidate designs this session (wedges+zigzag, thick forearms, trapezoid+clasp-blob, diagonal composition, fist+knuckles) - none read clearly as a handshake at the actual ~20px usage size, they either collapse into mush (detailed versions) or read as an abstract bowtie/dumbbell shape (simplified versions). Reported findings to the user directly rather than shipping an unverified icon; awaiting their direction on how to proceed. USER QUESTION STILL PENDING, no reply, long-running: kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_commit": "fe2cc30",
+      "next_task": "Shipped v0.4.2: AppHeader.tsx's background changed from opaque bg-white/dark:bg-gray-900 to bg-[var(--glass)] backdrop-blur-sm, matching the Dashboard's own bespoke nav which has always had this translucent blur effect - user-reported inconsistency. Uses the --glass token already defined in every app's tokens.css but never actually consumed anywhere until now. Verified the blur renders correctly in both themes with a standalone HTML+CSS test (avoided Tailwind CDN which silently failed to load in the sandboxed browser - worth remembering for future icon/style verification, hand-write the equivalent plain CSS instead of relying on the CDN script). ROLLOUT NEEDED (Task #18): all 10 consumer apps' local AppHeader.tsx copies are now confirmed drifted via check-drift.mjs - moving-motivators, scrum-facilitator, kanban-designer, salary-formula, team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. Each needs: copy the updated file from design-system, verify visually in both themes, bump version, update changelog/roadmap, commit and push - one repo per lock cycle. USER QUESTION STILL PENDING, no reply, long-running: kanban-designer Design/Track route-level split vs separate app - do not implement without a reply. ALSO STILL OPEN: user wants a real HandshakeIcon for handshake-emoji usages - 30+ candidates tried, none read clearly at real icon size, findings reported to user, awaiting their direction.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.4.1"
+      "version": "0.4.2"
     }
   },
   "projects": {
