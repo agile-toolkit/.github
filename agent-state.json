@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T15:25:00Z",
+  "updated": "2026-09-04T15:52:00Z",
   "lock": null,
   "last_picked": {
     "blocked": null,
@@ -43,8 +43,8 @@
     "kanban-designer": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "ecb07ac",
-      "next_task": "Verify CI and merge PR #55 (canonical board export/import schema, branch claude/dreamy-noether-m6aesq) into main; mcp mode could not merge or verify CI itself.",
+      "last_commit": "7c15748",
+      "next_task": "idle - no active epic. PR #55 (canonical board export/import schema) merged to main, CI run #67 green (build+test both pass). Next: kanban-tracker should adopt BOARD_SCHEMA.md when scaffolded.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
