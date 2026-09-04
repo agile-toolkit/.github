@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T12:58:57Z",
-  "lock": null,
+  "updated": "2026-09-04T13:00:50Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "agent": "claude-session",
+    "since": "2026-09-04T13:00:50Z",
+    "task": "Promote IdentityCardIcon from dashboard-only app-icons.tsx into shared icons.tsx (Team Identity app itself needs it too, not just the hub tile)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
