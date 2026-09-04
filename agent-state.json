@@ -179,13 +179,11 @@
       "version": "0.4.3"
     },
     "kanban-tracker": {
-      "status": "blocked",
+      "status": "needs-goal",
       "last_run": "2026-09-04",
       "last_commit": "4917442",
-      "next_task": "fix-blocked: GitHub Pages not enabled on this repo (issue #3) - deploy job 404s. Needs a human to set Settings > Pages > Source: GitHub Actions (session GitHub API access cannot reach repo Settings). Once fixed, restore status to needs-goal (issue #1, GOAL.md still needed) and clear this blocker.",
-      "blockers": [
-        "GitHub Pages not enabled (issue #3) - deploy job fails 404 until a human sets Settings > Pages > Source: GitHub Actions"
-      ],
+      "next_task": "needs-goal: awaiting human GOAL.md. Issue #1 open. GitHub Pages now enabled (issue #3 resolved, deploy job verified green on run #33892280509). Do not start an epic until GOAL.md exists.",
+      "blockers": [],
       "maturity": null,
       "current_epic": null,
       "recent_runs": [
