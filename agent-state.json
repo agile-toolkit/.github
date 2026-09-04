@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T12:46:36Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "agent": "claude-session",
-    "since": "2026-09-04T12:46:36Z",
-    "task": "Sync AppHeader.tsx glass effect (Task #18, 2/10); dedupe local icons.tsx against canonical (Task #17)"
-  },
+  "updated": "2026-09-04T12:50:04Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "moving-motivators",
+    "stable": "scrum-facilitator",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -34,8 +29,8 @@
     "scrum-facilitator": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "f5804a5",
-      "next_task": "Shipped v0.3.1: finished the emoji-to-SVG sweep left open since 0.2.8 - about 30 instances across 13 components replaced using shared icons.tsx (synced fully from design-system, which also drops the removed-upstream broken HandshakeIcon). Added 3 new icons this app needed that design-system does not have yet: ClapperboardIcon (Demo Checklist), StopwatchIcon (overtime badge), PlayIcon and PauseIcon (timer controls) - each screenshot-verified before use, defined locally in this repo icons.tsx with a backport comment. BACKPORT TODO for next agile-toolkit.github.io cycle: copy ClapperboardIcon, StopwatchIcon, PlayIcon, PauseIcon into design-system/components/icons.tsx so other apps can reuse them instead of redefining locally. Also refactored Ceremony.icon (raw emoji string) out of the data model - ceremony-card icons now looked up via new ceremonyIcons.tsx keyed by CeremonyType. Left untouched by design, matching established precedent: the checkmark baked into exported Markdown content, inline planned-to-actual arrow notation, and literal keyboard-shortcut Kbd hints. THE SUITE-WIDE EMOJI-TO-SVG SWEEP IS NOW FULLY COMPLETE across all 11 apps plus dashboard hub tiles - no more known instances of decorative emoji anywhere in the suite. USER QUESTION STILL PENDING, no reply, long-running: kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_commit": "7a4a1c0",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 2/10 done) AND deduped icons.tsx against the now-canonical design-system source (Task #17 COMPLETE) - renamed ClapperboardIcon to ClapperIcon, StopwatchIcon/PlayIcon/PauseIcon kept same names. Remaining for Task #18: kanban-designer, salary-formula, team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -43,7 +38,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     "kanban-designer": {
       "status": "idle",
