@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T12:55:47Z",
-  "lock": null,
+  "updated": "2026-09-04T12:55:58Z",
+  "lock": {
+    "repo": "team-identity",
+    "agent": "claude-session",
+    "since": "2026-09-04T12:55:58Z",
+    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 5/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
