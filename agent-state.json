@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T11:55:29Z",
-  "lock": null,
+  "updated": "2026-09-04T11:55:45Z",
+  "lock": {
+    "repo": "scrum-facilitator",
+    "agent": "claude-session",
+    "since": "2026-09-04T11:55:45Z",
+    "task": "Emoji-to-SVG sweep: ~29 remaining instances across ceremonies data, HomeScreen, CeremonyRunner, DemoChecklistPanel, CeremonyComplete, RetroBoard, ExportView, ImpedimentPanel, FacilitationTips, FeedbackPanel, ParticipantPanel, StickyColumn, StickyNote"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
