@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T11:50:56Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-04T11:50:56Z",
-    "task": "Emoji-to-SVG sweep: target/team/link/eye icons on Home + observer badges, votes-checkmark in TeamSession.tsx"
-  },
+  "updated": "2026-09-04T11:55:29Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity",
+    "stable": "planning-poker",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -117,9 +112,9 @@
     },
     "planning-poker": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "7497104",
-      "next_task": "Shipped v0.2.11: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 7/10 repos done). Remaining: sprint-metrics, change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. Still pending from earlier user follow-up (separate task): planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) - new icons already added to design-system/icons.tsx (EyeIcon, TeamIcon etc), just needs consuming here. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_run": "2026-09-04",
+      "last_commit": "e583742",
+      "next_task": "Shipped v0.3.1: finished the emoji-to-SVG sweep left open in 0.2.9 - replaced target/team-session/link/eye emoji (Home + TeamSession) with TargetIcon/TeamIcon/LinkIcon/EyeIcon, synced icons.tsx fully from design-system (drops unused broken HandshakeIcon). Also fixed hardcoded \u2713 All voted text and voted_badges baked-in checkmark - both now render CheckIcon separately, added team.all_voted i18n key across all 4 locales. Note: repo had moved to v0.3.0 since this session last touched it (another session/run shipped session-integrity/error-boundary/code-splitting work independently) - built on top of that cleanly. Planning Poker emoji sweep is now COMPLETE. Remaining suite-wide open item: scrum-facilitator emoji sweep (~29 instances - ceremony-type icons, feedback-type icons, action buttons) using icons already in design-system (QuestionIcon/UploadIcon/DownloadIcon/ThumbsUpIcon/CheckboxEmptyIcon/CheckboxCheckedIcon/SunIcon/ShuffleIcon/TeamIcon) - not yet started. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.11"
+      "version": "0.3.1"
     },
     "sprint-metrics": {
       "status": "idle",
