@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-04T14:13:26Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "agent": "claude-session",
-    "since": "2026-09-04T14:13:26Z",
-    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 9/10)"
-  },
+  "updated": "2026-09-04T14:17:01Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
@@ -131,9 +126,9 @@
     },
     "sprint-metrics": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "e87479f",
-      "next_task": "Shipped v0.2.8: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 8/10 repos done). Remaining: change-planner (shared hook - swap key string + sync local useFacilitatorMode.ts doc comment), plus team-identity (own inline FACILITATOR_KEY constant, not the shared hook). Dashboard already correct. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_run": "2026-09-04",
+      "last_commit": "dee735e",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 9/10 done). Preserved local class-ordering drift and dark:bg-brand-700/20 nav-pill shade. Also backfilled changelog/roadmap: package.json had already been bumped to 0.3.1 for an icon-sync+CI-Node-bump change with no matching changelog header - retitled the stale Unreleased section as 0.3.1 and added the missing ROADMAP entries. Remaining for Task #18: change-planner (last one, 10/10). No open PRs found anywhere in the 12-repo scope this run.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -142,7 +137,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.8"
+      "version": "0.3.2"
     },
     "change-planner": {
       "status": "idle",
