@@ -1,26 +1,21 @@
 {
-  "updated": "2026-09-04T12:43:16Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "agent": "claude-session",
-    "since": "2026-09-04T12:43:16Z",
-    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 1/10)"
-  },
+  "updated": "2026-09-04T12:46:24Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io",
+    "stable": "moving-motivators",
     "needs-goal": null,
     "idle": "planning-poker"
   },
   "apps": {
     "moving-motivators": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "514f56b",
-      "next_task": "Shipped v0.2.10: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 1/10 repos done) so Facilitator Mode survives navigating between suite apps in one tab. Remaining repos for this same one-line change: scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (all use the shared useFacilitatorMode hook - just swap the key string + sync local useFacilitatorMode.ts doc comment), plus team-identity which has its own inline FACILITATOR_KEY constant not the shared hook - needs finding and changing that constant instead. Dashboard (agile-toolkit.github.io) already used the correct shared key, no change needed there. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_run": "2026-09-04",
+      "last_commit": "82c09d9",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect from design-system (Task #18, 1/10 repos done). Remaining: scrum-facilitator, kanban-designer, salary-formula, team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner - same one-file copy + visual verification in both themes. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -28,7 +23,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.2.10",
+      "version": "0.3.2",
       "tier": 1
     },
     "scrum-facilitator": {
