@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T12:17:52Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "agent": "claude-session",
-    "since": "2026-09-04T12:17:52Z",
-    "task": "Redesign HandshakeIcon (user says current icons dont sound for handshake usages); fix Work Profiles dashboard hub icon (user says it doesnt sound)"
-  },
+  "updated": "2026-09-04T12:32:40Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "scrum-facilitator",
+    "stable": "agile-toolkit.github.io",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -161,9 +156,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "6c9d740",
-      "next_task": "Shipped v0.3.11: TeamIcon (Team Identity hub tile) still wasn't right per user 2nd report - too similar to Work Profiles' person icon, too generic. Replaced with new IdentityCardIcon (person in ID-card frame), chosen after visually comparing 4 candidates via Playwright. TeamIcon kept but moved to generic icons.tsx for reuse. Added 10 new verified icons to icons.tsx (EyeIcon, SunIcon, QuestionIcon, UploadIcon, DownloadIcon, ThumbsUpIcon, CheckboxEmptyIcon, CheckboxCheckedIcon, ShuffleIcon, TeamIcon) for planning-poker/scrum-facilitator emoji sweep to consume next. Documented useFacilitatorMode's storageKey as ONE SHARED key 'agile-toolkit:facilitatorMode' across every app (was app-prefixed) per user request so Facilitator Mode persists across app navigation - sessionStorage is shared per-origin-per-tab so this is doc-only here, dashboard's App.tsx already used this exact key. REMAINING WORK (new task, not yet started): update every other app's useFacilitatorMode(...) call site to the shared key - moving-motivators, scrum-facilitator, kanban-designer, salary-formula, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (one-line change each), plus team-identity's own inline FACILITATOR_KEY constant (doesn't use the shared hook). Also still pending: planning-poker emoji sweep (target/team/link/eye icons, votes-checkmark) and scrum-facilitator emoji sweep (~29 instances) using these new icons. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "last_run": "2026-09-04",
+      "last_commit": "b958c68",
+      "next_task": "Shipped v0.4.1: replaced Work Profiles' generic PersonIcon (too similar to Team Identity's icon, same amber accent) with a new MedalIcon fitting the app's own recognized-contributions framing - visually verified at real hub-tile size. Also merged a large concurrent PR (#42, from a different session/human) that landed while this lock was held - it added 31 of its own new shared icons including ClapperIcon/StopwatchIcon/PlayIcon/PauseIcon, which turned out to duplicate what scrum-facilitator's own emoji-sweep run had just added locally (ClapperboardIcon/StopwatchIcon/PlayIcon/PauseIcon) expecting to backport them here later. Resolved the merge conflict keeping PR #42's superset of icons.tsx/components.md and just my MedalIcon addition. FOLLOW-UP TASK #17 updated: next time scrum-facilitator is picked, sync its icons.tsx from design-system (now canonical) and repoint its 2 usages to the existing names instead of its own local duplicates. STILL UNRESOLVED, needs more design work: user asked for a real HandshakeIcon to replace TeamIcon everywhere the handshake emoji was used (Planning Poker App.tsx team-session label, Scrum Facilitator FeedbackPanel + ParticipantPanel x2). Tried 30+ candidate designs this session (wedges+zigzag, thick forearms, trapezoid+clasp-blob, diagonal composition, fist+knuckles) - none read clearly as a handshake at the actual ~20px usage size, they either collapse into mush (detailed versions) or read as an abstract bowtie/dumbbell shape (simplified versions). Reported findings to the user directly rather than shipping an unverified icon; awaiting their direction on how to proceed. USER QUESTION STILL PENDING, no reply, long-running: kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.3.11"
+      "version": "0.4.1"
     }
   },
   "projects": {
