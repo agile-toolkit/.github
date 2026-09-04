@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-04T18:52:00Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-04T18:51:45Z"
-  },
+  "updated": "2026-09-04T18:59:30Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -164,8 +161,8 @@
     "agile-toolkit.github.io": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "713cb0c",
-      "next_task": "Shipped v0.4.3: promoted IdentityCardIcon from Dashboard-only app-icons.tsx into shared icons.tsx (user reported Team Identity own app still used generic TeamIcon on its intro screen). NEXT STEP for team-identity repo: update its App.tsx line ~582 to import IdentityCardIcon from icons.tsx and replace the TeamIcon usage in the intro-screen hero. Also still pending Task #18: AppHeader glass rollout to improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (5/10 done). Task #14 (kanban-designer split) has a user decision now - split into board-design-only Kanban Designer + separate task-tracking (new app or fold into Sprint Metrics) - needs UX exploration before any code, do not restructure repos yet.",
+      "last_commit": "c66d96e",
+      "next_task": "idle - Kanban Tracker app card added (PR #43), verify CI on c66d96e. No active epic.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -178,7 +175,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.4.3"
+      "version": "0.4.4"
     },
     "kanban-tracker": {
       "status": "needs-goal",
