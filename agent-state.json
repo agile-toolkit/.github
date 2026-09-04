@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-04T14:07:03Z",
-  "lock": {
-    "repo": "planning-poker",
-    "agent": "claude-session",
-    "since": "2026-09-04T14:07:03Z",
-    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 8/10)"
-  },
+  "updated": "2026-09-04T14:12:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
@@ -118,8 +113,8 @@
     "planning-poker": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "e583742",
-      "next_task": "Shipped v0.3.1: finished the emoji-to-SVG sweep left open in 0.2.9 - replaced target/team-session/link/eye emoji (Home + TeamSession) with TargetIcon/TeamIcon/LinkIcon/EyeIcon, synced icons.tsx fully from design-system (drops unused broken HandshakeIcon). Also fixed hardcoded \u2713 All voted text and voted_badges baked-in checkmark - both now render CheckIcon separately, added team.all_voted i18n key across all 4 locales. Note: repo had moved to v0.3.0 since this session last touched it (another session/run shipped session-integrity/error-boundary/code-splitting work independently) - built on top of that cleanly. Planning Poker emoji sweep is now COMPLETE. Remaining suite-wide open item: scrum-facilitator emoji sweep (~29 instances - ceremony-type icons, feedback-type icons, action buttons) using icons already in design-system (QuestionIcon/UploadIcon/DownloadIcon/ThumbsUpIcon/CheckboxEmptyIcon/CheckboxCheckedIcon/SunIcon/ShuffleIcon/TeamIcon) - not yet started. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_commit": "7e56a67",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect from design-system (Task #18, 8/10 done). Preserved local dark-mode shade drift (grid-icon hover colors, nav-pill dark shades). Remaining for Task #18: sprint-metrics, change-planner. No open PRs found anywhere in the 12-repo scope this run (checked, nothing to merge). Task #14 (kanban-designer split): user has now decided - Kanban Designer becomes generic board-design tool for other apps; task-tracking (Track mode) becomes a SEPARATE NEW app (not folded into Sprint Metrics); existing board apps (Improvement Board, Change Planner, Scrum Facilitator retro) should consume boards FROM Kanban Designer, not just hand boards to it one-way. Still needs UX exploration per user's own words before any repo restructuring - and a new repo is out of this session's fixed 12-repo GitHub scope until the user adds it.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -127,7 +122,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     "sprint-metrics": {
       "status": "idle",
