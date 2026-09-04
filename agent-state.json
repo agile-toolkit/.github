@@ -1,6 +1,9 @@
 {
   "updated": "2026-09-04T15:58:00Z",
-  "lock": null,
+  "lock": {
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-04T18:11:07Z"
+  },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
