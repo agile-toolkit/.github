@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T12:50:04Z",
-  "lock": null,
+  "updated": "2026-09-04T12:50:15Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "agent": "claude-session",
+    "since": "2026-09-04T12:50:15Z",
+    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 3/10)"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
