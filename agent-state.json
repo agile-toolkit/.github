@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-03T20:16:05Z",
-  "lock": null,
+  "updated": "2026-09-04T11:50:56Z",
+  "lock": {
+    "repo": "planning-poker",
+    "agent": "claude-session",
+    "since": "2026-09-04T11:50:56Z",
+    "task": "Emoji-to-SVG sweep: target/team/link/eye icons on Home + observer badges, votes-checkmark in TeamSession.tsx"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
