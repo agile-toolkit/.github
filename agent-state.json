@@ -1,6 +1,11 @@
 {
-  "updated": "2026-09-04T12:32:40Z",
-  "lock": null,
+  "updated": "2026-09-04T12:38:53Z",
+  "lock": {
+    "repo": "agile-toolkit.github.io",
+    "agent": "claude-session",
+    "since": "2026-09-04T12:38:53Z",
+    "task": "Add glass/backdrop-blur effect to shared AppHeader.tsx (user reports dashboard nav has it, other apps do not) using existing --glass token"
+  },
   "last_picked": {
     "blocked": null,
     "in-progress": null,
