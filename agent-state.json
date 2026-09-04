@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-04T15:56:30Z",
+  "updated": "2026-09-04T15:58:00Z",
   "lock": null,
   "last_picked": {
-    "blocked": null,
+    "blocked": "kanban-tracker",
     "in-progress": null,
     "scaffolded": null,
     "not-started": "kanban-tracker",
@@ -176,11 +176,13 @@
       "version": "0.4.3"
     },
     "kanban-tracker": {
-      "status": "needs-goal",
+      "status": "blocked",
       "last_run": "2026-09-04",
       "last_commit": "4917442",
-      "next_task": "needs-goal: awaiting human GOAL.md. Issue #1 \"Goal needed: Kanban Tracker\" open with raw material quoted from user chat. Do not start an epic until GOAL.md exists; fix-blocked and Provisional-only work permitted meanwhile.",
-      "blockers": [],
+      "next_task": "fix-blocked: GitHub Pages not enabled on this repo (issue #3) - deploy job 404s. Needs a human to set Settings > Pages > Source: GitHub Actions (session GitHub API access cannot reach repo Settings). Once fixed, restore status to needs-goal (issue #1, GOAL.md still needed) and clear this blocker.",
+      "blockers": [
+        "GitHub Pages not enabled (issue #3) - deploy job fails 404 until a human sets Settings > Pages > Source: GitHub Actions"
+      ],
       "maturity": null,
       "current_epic": null,
       "recent_runs": [
