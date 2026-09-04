@@ -1,11 +1,6 @@
 {
-  "updated": "2026-09-04T14:17:13Z",
-  "lock": {
-    "repo": "change-planner",
-    "agent": "claude-session",
-    "since": "2026-09-04T14:17:13Z",
-    "task": "Sync AppHeader.tsx glass effect from design-system (Task #18, 10/10 - final)"
-  },
+  "updated": "2026-09-04T14:19:51Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
@@ -146,9 +141,9 @@
     },
     "change-planner": {
       "status": "idle",
-      "last_run": "2026-09-03",
-      "last_commit": "aeb0715",
-      "next_task": "Shipped v0.2.9: unified Facilitator Mode storage key to shared agile-toolkit:facilitatorMode (Task #15, 9/10 repos done). Only remaining repo: team-identity - it has its OWN inline FACILITATOR_KEY constant (not the shared hook, since it originated the pattern before it was promoted to design-system) - find that constant in team-identity src and change its value to agile-toolkit:facilitatorMode too. Once done, Task #15 is fully complete across all 11 apps + dashboard. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app - do not implement without a reply.",
+      "last_run": "2026-09-04",
+      "last_commit": "7210740",
+      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 10/10 - COMPLETE, all apps done). Preserved local dark:border-gray-700 and class-ordering drift. Also backfilled changelog/roadmap: package.json had already been bumped to 0.3.1 for an icon-sync+CI-Node-bump change with no matching changelog header (same gap found in sprint-metrics) - retitled the stale Unreleased section as 0.3.1 and added the missing ROADMAP entries. Task #18 is now fully shipped across all 10 consumer apps + the Dashboard's own nav (which already had the effect) + the design-system canonical source. No open PRs found anywhere in the 12-repo scope this run - nothing to merge. Task #14 (kanban-designer split) still needs UX exploration per the user's own words before any repo restructuring - user decided: Kanban Designer becomes generic board-design tool; task-tracking becomes a SEPARATE NEW app; existing board apps (Improvement Board, Change Planner, Scrum Facilitator retro) should consume boards FROM Kanban Designer. A new repo is out of this session's fixed 12-repo scope until the user adds it - UX exploration (screens/flows) can proceed without one.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -157,7 +152,7 @@
         "feature",
         "chore"
       ],
-      "version": "0.2.9"
+      "version": "0.3.2"
     },
     "agile-toolkit.github.io": {
       "status": "idle",
