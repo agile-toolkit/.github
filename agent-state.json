@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-04T18:27:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-09-04T18:37:18Z"
-  },
+  "updated": "2026-09-04T18:40:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -62,16 +59,17 @@
     "salary-formula": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "0041884",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 4/10 done). Remaining: team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. USER QUESTION STILL PENDING (no reply, long-running): kanban-designer Design/Track route-level split vs separate app.",
+      "last_commit": "423f9af",
+      "next_task": "idle - polish backlog cleared (PR #50): dedupe factor breakdown, remove stale roadmap line. Verify CI on 423f9af.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "chore",
-        "feature"
+        "feature",
+        "chore"
       ],
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     "team-identity": {
       "status": "idle",
