@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T13:00:50Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "agent": "claude-session",
-    "since": "2026-09-04T13:00:50Z",
-    "task": "Promote IdentityCardIcon from dashboard-only app-icons.tsx into shared icons.tsx (Team Identity app itself needs it too, not just the hub tile)"
-  },
+  "updated": "2026-09-04T13:04:02Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "team-identity",
+    "stable": "agile-toolkit.github.io",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -162,8 +157,8 @@
     "agile-toolkit.github.io": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "fe2cc30",
-      "next_task": "Shipped v0.4.2: AppHeader.tsx's background changed from opaque bg-white/dark:bg-gray-900 to bg-[var(--glass)] backdrop-blur-sm, matching the Dashboard's own bespoke nav which has always had this translucent blur effect - user-reported inconsistency. Uses the --glass token already defined in every app's tokens.css but never actually consumed anywhere until now. Verified the blur renders correctly in both themes with a standalone HTML+CSS test (avoided Tailwind CDN which silently failed to load in the sandboxed browser - worth remembering for future icon/style verification, hand-write the equivalent plain CSS instead of relying on the CDN script). ROLLOUT NEEDED (Task #18): all 10 consumer apps' local AppHeader.tsx copies are now confirmed drifted via check-drift.mjs - moving-motivators, scrum-facilitator, kanban-designer, salary-formula, team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. Each needs: copy the updated file from design-system, verify visually in both themes, bump version, update changelog/roadmap, commit and push - one repo per lock cycle. USER QUESTION STILL PENDING, no reply, long-running: kanban-designer Design/Track route-level split vs separate app - do not implement without a reply. ALSO STILL OPEN: user wants a real HandshakeIcon for handshake-emoji usages - 30+ candidates tried, none read clearly at real icon size, findings reported to user, awaiting their direction.",
+      "last_commit": "713cb0c",
+      "next_task": "Shipped v0.4.3: promoted IdentityCardIcon from Dashboard-only app-icons.tsx into shared icons.tsx (user reported Team Identity own app still used generic TeamIcon on its intro screen). NEXT STEP for team-identity repo: update its App.tsx line ~582 to import IdentityCardIcon from icons.tsx and replace the TeamIcon usage in the intro-screen hero. Also still pending Task #18: AppHeader glass rollout to improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (5/10 done). Task #14 (kanban-designer split) has a user decision now - split into board-design-only Kanban Designer + separate task-tracking (new app or fold into Sprint Metrics) - needs UX exploration before any code, do not restructure repos yet.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -176,7 +171,7 @@
         "feature",
         "feature"
       ],
-      "version": "0.4.2"
+      "version": "0.4.3"
     }
   },
   "projects": {
