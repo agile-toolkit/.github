@@ -1,14 +1,11 @@
 {
-  "updated": "2026-09-04T15:52:00Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-04T15:51:23Z"
-  },
+  "updated": "2026-09-04T15:56:30Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
-    "not-started": null,
+    "not-started": "kanban-tracker",
     "stable": "work-profiles",
     "needs-goal": null,
     "idle": "kanban-designer"
@@ -179,14 +176,16 @@
       "version": "0.4.3"
     },
     "kanban-tracker": {
-      "status": "not-started",
-      "last_run": null,
-      "last_commit": "81284bd",
-      "next_task": "Scaffold (Vite+React-TS+Tailwind+i18n+Pages deploy) per run-model scaffold task; this app is the new lightweight execution tracker split out per user direction (kanban-designer keeps Track mode) - once scaffolded it should consume boards via BOARD_SCHEMA.md in this meta-repo.",
+      "status": "needs-goal",
+      "last_run": "2026-09-04",
+      "last_commit": "4917442",
+      "next_task": "needs-goal: awaiting human GOAL.md. Issue #1 \"Goal needed: Kanban Tracker\" open with raw material quoted from user chat. Do not start an epic until GOAL.md exists; fix-blocked and Provisional-only work permitted meanwhile.",
       "blockers": [],
       "maturity": null,
       "current_epic": null,
-      "recent_runs": [],
+      "recent_runs": [
+        "chore"
+      ],
       "version": "0.1.0",
       "tier": 0
     }
