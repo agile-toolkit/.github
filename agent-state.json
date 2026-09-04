@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-04T15:58:00Z",
-  "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-04T18:11:07Z"
-  },
+  "updated": "2026-09-04T18:27:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -11,7 +8,7 @@
     "not-started": "kanban-tracker",
     "stable": "work-profiles",
     "needs-goal": null,
-    "idle": "kanban-designer"
+    "idle": "sprint-metrics"
   },
   "apps": {
     "moving-motivators": {
@@ -132,17 +129,18 @@
     "sprint-metrics": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "dee735e",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 9/10 done). Preserved local class-ordering drift and dark:bg-brand-700/20 nav-pill shade. Also backfilled changelog/roadmap: package.json had already been bumped to 0.3.1 for an icon-sync+CI-Node-bump change with no matching changelog header - retitled the stale Unreleased section as 0.3.1 and added the missing ROADMAP entries. Remaining for Task #18: change-planner (last one, 10/10). No open PRs found anywhere in the 12-repo scope this run.",
+      "last_commit": "e69753e",
+      "next_task": "idle - no active epic. PR #64 (AgileEVM, issue #65) merged and CI green. Cost-side CPI/EAC/ETC intentionally deferred (see ROADMAP Polish backlog) - needs a per-sprint actual-cost field to be honest, not yet spec'd as its own epic.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "chore",
         "feature",
-        "chore"
+        "chore",
+        "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.4.0"
     },
     "change-planner": {
       "status": "idle",
