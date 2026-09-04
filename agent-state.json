@@ -1,17 +1,12 @@
 {
-  "updated": "2026-09-04T13:04:12Z",
-  "lock": {
-    "repo": "team-identity",
-    "agent": "claude-session",
-    "since": "2026-09-04T13:04:12Z",
-    "task": "Replace TeamIcon with IdentityCardIcon on intro screen hero (user reported the in-app icon needs updating too, not just the dashboard hub tile)"
-  },
+  "updated": "2026-09-04T13:07:09Z",
+  "lock": null,
   "last_picked": {
     "blocked": null,
     "in-progress": null,
     "scaffolded": null,
     "not-started": null,
-    "stable": "agile-toolkit.github.io",
+    "stable": "team-identity",
     "needs-goal": null,
     "idle": "planning-poker"
   },
@@ -76,8 +71,8 @@
     "team-identity": {
       "status": "idle",
       "last_run": "2026-09-04",
-      "last_commit": "f7e09fb",
-      "next_task": "Shipped v0.3.1: synced AppHeader.tsx glass effect (Task #18, 5/10 done). Remaining: improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. USER DECISION LANDED on the long-pending kanban-designer question (Task #14, RENAMED): split into two products - Kanban Designer becomes a generic board-layout designer usable for boards across multiple suite apps (not just its own), and the task-tracking half (current Track mode) becomes either a new standalone app or folds into Sprint Metrics. User explicitly said this needs UX exploration first, not straight to code - do not restructure repos yet. Next step: spec/UX exploration (open questions logged on task #14) before any build work. Also note: this session cannot create new GitHub repos - scope is fixed to the existing repo list.",
+      "last_commit": "8a4cb05",
+      "next_task": "Shipped v0.3.2: replaced intro screen generic TeamIcon with IdentityCardIcon (user-reported, matching the earlier dashboard hub tile fix). Remaining for Task #18 (AppHeader glass rollout): improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (5/10 done). Task #14 (kanban-designer split) has a user decision - needs UX exploration before code, do not restructure repos yet.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -85,7 +80,7 @@
         "chore",
         "feature"
       ],
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     "improvement-board": {
       "status": "idle",
