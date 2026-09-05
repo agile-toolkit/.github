@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T15:57:00Z",
-  "lock": {
-    "repo": "salary-formula",
-    "started_at": "2026-09-05T15:57:00Z"
-  },
+  "updated": "2026-09-05T16:05:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -64,18 +61,18 @@
     },
     "salary-formula": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "423f9af",
-      "next_task": "idle - polish backlog cleared (PR #50): dedupe factor breakdown, remove stale roadmap line. Verify CI on 423f9af.",
+      "last_run": "2026-09-05",
+      "last_commit": "679b154",
+      "next_task": "idle - no active epic. Approved backlog cleared (PR #51, v0.3.4): #43 (localStorage safeSetItem error handling) and #42 (canonical formatCurrency) were already fully shipped in v0.2.0, closed as an oversight. #40 (mixed-currency mislabeling) had its on-screen fix already shipped in v0.2.0 too, but this run found and fixed a residual gap in two background/cross-app write paths (Sprint Metrics bridge export, Dashboard lastSession summary) that still used the currency selector instead of each profile's own saved currency. Browser-verified via Playwright + localStorage inspection. CI green.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
+        "fix",
         "chore",
-        "feature",
-        "chore"
+        "feature"
       ],
-      "version": "0.3.3"
+      "version": "0.3.4"
     },
     "team-identity": {
       "status": "idle",
