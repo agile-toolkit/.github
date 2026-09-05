@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T14:59:00Z",
-  "lock": {
-    "repo": "scrum-facilitator",
-    "started_at": "2026-09-05T14:59:00Z"
-  },
+  "updated": "2026-09-05T15:31:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -31,19 +28,20 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "in-progress",
+      "status": "idle",
       "last_run": "2026-09-05",
-      "last_commit": "b8cc6bf",
-      "next_task": "Working through the 7-issue approved backlog. Done so far: #47/#55/#46 (shared useConfirmAction hook replacing window.confirm() on sticky-note delete and adding confirmation to resume-banner Discard; motion-safe timer pulse) shipped in PR #63 v0.3.3, CI green, browser-verified via Playwright. #44 (Team Identity import) was already shipped 2026-09-02, closed as an oversight. Remaining: #57 (bulk history export, in progress now), #56 (installable PWA), #45 (Vitest+RTL component test coverage - some data-layer tests already exist).",
+      "last_commit": "0294ca7",
+      "next_task": "idle - no active epic. Full 7-issue approved backlog cleared: #47/#55/#46 (confirm-button pattern + reduced-motion timer, PR #63, v0.3.3), #44 (Team Identity import, already shipped, closed as oversight), #57 (bulk history export, PR #64, v0.3.4), #56 (installable PWA via vite-plugin-pwa, PR #65, v0.3.5 - uses a temporary placeholder icon since favicon.svg is corrupted, blocked separately on #5's brand decision), #45 (Vitest+RTL test coverage for useTimer/useLocalStorage/RetroBoard CRUD, PR #66, v0.3.6). All merged, CI green, browser/test-verified. ROADMAP's Next epics is now empty.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "fix",
-        "chore",
-        "feature"
+        "test",
+        "feature",
+        "feature",
+        "fix"
       ],
-      "version": "0.3.3"
+      "version": "0.3.6"
     },
     "kanban-designer": {
       "status": "idle",
