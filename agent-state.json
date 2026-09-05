@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-04T18:59:30Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-05T04:57:57Z"
-  },
+  "updated": "2026-09-05T05:05:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -183,14 +180,15 @@
     "kanban-tracker": {
       "status": "needs-goal",
       "last_run": "2026-09-04",
-      "last_commit": "9a271d2",
-      "next_task": "needs-goal (formally): MVP shipped on live user direction (PR #4, v0.2.0) - import + run a board (move cards, checklist, WIP/overdue). Proposed GOAL.md section posted as a comment on issue #1 for a human to bless/edit. Status stays needs-goal per the hard rule until GOAL.md actually exists, even though real functionality now ships. Next: add a Dashboard card (agile-toolkit.github.io) now that kanban-tracker:lastSession is written.",
+      "last_commit": "d1b59f8",
+      "next_task": "needs-goal (formally): localStorage Designer-board-import feature shipped (PR #6, v0.2.2) via full spec/UX/UAT/build/QA pipeline invoked directly by the user in a separate session, CI verified green. Issue #1's proposed GOAL.md still awaits human sign-off.",
       "blockers": [],
       "maturity": "mvp",
       "current_epic": null,
       "recent_runs": [
         "chore",
-        "epic"
+        "epic",
+        "feature"
       ],
       "version": "0.2.0",
       "tier": 0
