@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T05:05:00Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-05T05:06:52Z"
-  },
+  "updated": "2026-09-05T05:20:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -182,18 +179,19 @@
     },
     "kanban-tracker": {
       "status": "needs-goal",
-      "last_run": "2026-09-04",
-      "last_commit": "d1b59f8",
-      "next_task": "needs-goal (formally): localStorage Designer-board-import feature shipped (PR #6, v0.2.2) via full spec/UX/UAT/build/QA pipeline invoked directly by the user in a separate session, CI verified green. Issue #1's proposed GOAL.md still awaits human sign-off.",
+      "last_run": "2026-09-05",
+      "last_commit": "2a72aef",
+      "next_task": "needs-goal (formally): full card tracking CRUD shipped (PR #7, v0.3.0) — inline due-date/assignee editing, checklist add/remove (previously toggle-only). Also picked up an unmerged commit from a prior session (archive completed feature folder + lockfile version sync) that had been pushed to the branch but never landed on main. Browser-verified via Playwright, CI green. Part of the user's directive to fully move tracking from Kanban Designer to Kanban Tracker before Designer's Track mode is removed. Next: stats panel, then evaluate drag-and-drop. Issue #1's proposed GOAL.md still awaits human sign-off.",
       "blockers": [],
       "maturity": "mvp",
-      "current_epic": null,
+      "current_epic": "tracker-parity",
       "recent_runs": [
+        "feature",
         "chore",
         "epic",
         "feature"
       ],
-      "version": "0.2.0",
+      "version": "0.3.0",
       "tier": 0
     }
   },
