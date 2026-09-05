@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T20:28:00Z",
-  "lock": {
-    "repo": "work-profiles",
-    "started_at": "2026-09-05T20:28:00Z"
-  },
+  "updated": "2026-09-05T21:15:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -49,17 +46,18 @@
     "kanban-designer": {
       "status": "idle",
       "last_run": "2026-09-05",
-      "last_commit": "d4c4fb8",
-      "next_task": "idle - no active epic. Approved backlog cleared: #45 (CSV export) already shipped, closed as oversight. #43 (card description field) and #44 (keyboard shortcuts help overlay) both shipped in PR #57 (v0.5.1/v0.5.2), merged, CI green, browser-verified via Playwright. #44's shortcuts modal documents keyboard behavior that already existed (Arrow nav, Enter/F2 edit, Delete/Backspace/Escape, Ctrl+Z/Y) rather than adding new bindings. ROADMAP's Next epics is now empty.",
+      "last_commit": "1f761bc",
+      "next_task": "idle - no active epic. Approved backlog cleared (see prior run). Additionally fixed a cross-repo bug while work-profiles was locked: writeCurrentBoard() was dropping each card's assignee field from the kanban-designer:currentBoard snapshot even though it's existed on KanbanCard since #38 - work-profiles#55 needed it. Fixed in PR #58 (v0.5.3), merged, CI green.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
+        "fix",
         "feature",
         "feature",
         "chore"
       ],
-      "version": "0.5.2",
+      "version": "0.5.3",
       "tier": 0
     },
     "salary-formula": {
@@ -109,17 +107,20 @@
     },
     "work-profiles": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "f652c4b",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 7/10 done). Remaining: planning-poker, sprint-metrics, change-planner.",
+      "last_run": "2026-09-05",
+      "last_commit": "8753637",
+      "next_task": "idle - no active epic. Approved backlog cleared: #7 (PWA) already shipped, closed as oversight. #54 (Vitest test suite) completed remaining pure-logic extraction (csvParse.ts, skillLogic.ts), PR #68 v0.3.3. #55 (Kanban Designer active-card count) required a small upstream fix (kanban-designer PR #58 - assignee wasn't actually serialized into the cross-app snapshot despite existing on the card model) before building against the corrected schema, PR #69 v0.3.4. #56 (full JSON backup/restore) PR #70 v0.3.5. #59 (credits monthly trend chart + leaderboard sparklines) PR #71 v0.3.6. #57 (Moving Motivators snapshot integration) was only half-built (read existed but only pre-filled new profiles) - completed the attach-to-existing-profile flow, structured storage, emoji chips, and staleness warning, PR #72 v0.3.7. All merged, CI green, browser/test-verified via Playwright (107 tests total). ROADMAP's approved backlog is now empty.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore",
+        "test",
+        "feature",
+        "feature",
+        "feature",
         "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.3.7"
     },
     "planning-poker": {
       "status": "idle",
@@ -172,7 +173,7 @@
       "last_commit": "c66d96e",
       "next_task": "idle - Kanban Tracker app card added (PR #43), verify CI on c66d96e. No active epic.",
       "blockers": [
-        "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
+        "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times — tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
       "maturity": "complete",
       "tier": 0,
