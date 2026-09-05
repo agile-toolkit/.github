@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-05T15:31:00Z",
-  "lock": null,
+  "updated": "2026-09-05T15:32:00Z",
+  "lock": {
+    "repo": "kanban-designer",
+    "started_at": "2026-09-05T15:32:00Z"
+  },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
