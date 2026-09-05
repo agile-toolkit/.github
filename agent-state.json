@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T05:29:00Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-05T05:29:00Z"
-  },
+  "updated": "2026-09-05T05:35:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -181,20 +178,20 @@
       "version": "0.4.4"
     },
     "kanban-tracker": {
-      "status": "needs-goal",
+      "status": "idle",
       "last_run": "2026-09-05",
-      "last_commit": "924d5bf",
-      "next_task": "needs-goal (formally): stats panel shipped (PR #8, v0.4.0) — total cards, overdue count, aggregate checklist completion, WIP-limit violations, per-column breakdown, toggleable, hidden in Facilitator Mode. Browser-verified via Playwright in light+dark. Part of the user's directive to fully move tracking from Kanban Designer to Kanban Tracker before Designer's Track mode is removed (card CRUD shipped in v0.3.0, this is the second of three pieces). Next: evaluate drag-and-drop card movement (Task #16), then remove Track mode from Kanban Designer (Task #17). Issue #1's proposed GOAL.md still awaits human sign-off.",
+      "last_commit": "7145a86",
+      "next_task": "Tracker-parity epic COMPLETE: card CRUD (v0.3.0), stats panel (v0.4.0), and drag-and-drop card movement (v0.5.0, PR #9) all shipped and browser-verified via Playwright. Drag-and-drop kept the original 'Move to' select alongside it as the accessible/touch-device path, not replaced. Tracker is now a fully self-sufficient execution surface. Unblocks Task #17: remove Track mode from Kanban Designer entirely. Issue #1's proposed GOAL.md still awaits human sign-off (status stays needs-goal in spirit, though no active epic remains to justify it right now).",
       "blockers": [],
       "maturity": "mvp",
-      "current_epic": "tracker-parity",
+      "current_epic": null,
       "recent_runs": [
         "feature",
         "feature",
-        "chore",
-        "epic"
+        "feature",
+        "chore"
       ],
-      "version": "0.4.0",
+      "version": "0.5.0",
       "tier": 0
     }
   },
