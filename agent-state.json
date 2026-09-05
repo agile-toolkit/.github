@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T05:36:00Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-09-05T05:36:00Z"
-  },
+  "updated": "2026-09-05T05:52:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -45,18 +42,18 @@
     },
     "kanban-designer": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "7c15748",
-      "next_task": "idle - no active epic. PR #55 (canonical board export/import schema) merged to main, CI run #67 green (build+test both pass). Next: kanban-tracker should adopt BOARD_SCHEMA.md when scaffolded.",
+      "last_run": "2026-09-05",
+      "last_commit": "27aac0d",
+      "next_task": "idle - no active epic. PR #56 (remove Track mode entirely, v0.5.0) merged to main, CI green. Reverses the earlier Design/Track split: mode toggle, boardMode.ts, due-date/assignee/checklist/card-aging editing, assignee filter, and StatsPanel.tsx all removed, now that Kanban Tracker fully covers that capability against boards imported via BOARD_SCHEMA.md. KanbanCard's dueDate/assignee/checklist/enteredColumnAt fields kept as optional pass-through so round-tripping through Tracker doesn't lose data. Designer is board-design-only again, per GOAL.md's boundary. This closes out the user's full 'move tracking to Kanban Tracker' directive.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore",
         "feature",
+        "chore",
         "feature"
       ],
-      "version": "0.4.3",
+      "version": "0.5.0",
       "tier": 0
     },
     "salary-formula": {
