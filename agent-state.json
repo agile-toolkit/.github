@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-05T21:16:00Z",
+  "updated": "2026-09-05T21:21:00Z",
   "lock": {
-    "repo": "planning-poker",
-    "started_at": "2026-09-05T21:16:00Z"
+    "repo": "sprint-metrics",
+    "started_at": "2026-09-05T21:21:00Z"
   },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
     "scaffolded": null,
     "not-started": "kanban-tracker",
-    "stable": "work-profiles",
+    "stable": "planning-poker",
     "needs-goal": null,
     "idle": "sprint-metrics"
   },
@@ -127,17 +127,18 @@
     },
     "planning-poker": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "7e56a67",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect from design-system (Task #18, 8/10 done). Preserved local dark-mode shade drift (grid-icon hover colors, nav-pill dark shades). Remaining for Task #18: sprint-metrics, change-planner. No open PRs found anywhere in the 12-repo scope this run (checked, nothing to merge). Task #14 (kanban-designer split): user has now decided - Kanban Designer becomes generic board-design tool for other apps; task-tracking (Track mode) becomes a SEPARATE NEW app (not folded into Sprint Metrics); existing board apps (Improvement Board, Change Planner, Scrum Facilitator retro) should consume boards FROM Kanban Designer, not just hand boards to it one-way. Still needs UX exploration per user's own words before any repo restructuring - and a new repo is out of this session's fixed 12-repo GitHub scope until the user adds it.",
+      "last_run": "2026-09-05",
+      "last_commit": "7933aa1",
+      "next_task": "idle - no active epic. Approved backlog cleared: #40 (estimation accuracy cross-reference with Sprint Metrics) - the issue's proposed per-session-to-sprint date matching wasn't buildable (Sprint Metrics' SprintData has no date field, verified against actual sprint-metrics/src/types.ts), so built the coarser overall estimation-vs-delivery trend comparison a prior comment on the issue had already identified as the fallback. New Accuracy sub-tab on Session History, PR #52 v0.3.3, merged, CI green, browser-verified via Playwright (both the populated and not-enough-data states).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore",
+        "feature",
+        "fix",
         "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     "sprint-metrics": {
       "status": "idle",
