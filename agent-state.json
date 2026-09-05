@@ -31,18 +31,19 @@
       "tier": 1
     },
     "scrum-facilitator": {
-      "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "7a4a1c0",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 2/10 done) AND deduped icons.tsx against the now-canonical design-system source (Task #17 COMPLETE) - renamed ClapperboardIcon to ClapperIcon, StopwatchIcon/PlayIcon/PauseIcon kept same names. Remaining for Task #18: kanban-designer, salary-formula, team-identity, improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner. USER QUESTION STILL PENDING (no reply): kanban-designer Design/Track route-level split vs separate app.",
+      "status": "in-progress",
+      "last_run": "2026-09-05",
+      "last_commit": "b8cc6bf",
+      "next_task": "Working through the 7-issue approved backlog. Done so far: #47/#55/#46 (shared useConfirmAction hook replacing window.confirm() on sticky-note delete and adding confirmation to resume-banner Discard; motion-safe timer pulse) shipped in PR #63 v0.3.3, CI green, browser-verified via Playwright. #44 (Team Identity import) was already shipped 2026-09-02, closed as an oversight. Remaining: #57 (bulk history export, in progress now), #56 (installable PWA), #45 (Vitest+RTL component test coverage - some data-layer tests already exist).",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
+        "fix",
         "chore",
         "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     "kanban-designer": {
       "status": "idle",
