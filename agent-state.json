@@ -1,24 +1,21 @@
 {
-  "updated": "2026-09-05T22:29:41Z",
-  "lock": {
-    "repo": "agile-toolkit.github.io",
-    "started_at": "2026-09-05T22:29:41Z"
-  },
+  "updated": "2026-09-05T22:35:44Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
     "scaffolded": null,
     "not-started": "kanban-tracker",
-    "stable": "change-planner",
+    "stable": "agile-toolkit.github.io",
     "needs-goal": null,
-    "idle": "change-planner"
+    "idle": "agile-toolkit.github.io"
   },
   "apps": {
     "moving-motivators": {
       "status": "idle",
       "last_run": "2026-09-05",
       "last_commit": "e56f3ff",
-      "next_task": "idle - no active epic. Approved backlog cleared: #50 already shipped, #53 needs zero changes here (belongs in improvement-board), #49 already shipped (PR #57, just closed as an oversight), #52 (coaching tips panel, v0.3.3, PR #62) shipped and CI green. Browser-verified via Playwright (negative-impact motivator showed the negative-tip template, others showed neutral-tip). All 4 approved-backlog issues for this repo are now closed.",
+      "next_task": "idle - no active epic. Approved backlog cleared: #50 already shipped, #53 needs zero changes here (belongs in improvement-board), #49 already shipped (PR #57, just closed as an oversight), #52 (coaching tips panel, v0.3.3, PR #62) shipped and CI green. Browser-verified via Playwright (negative-impact motivator showed the negative-tip template, others showed neutral-tip). All 4 approved-backlog issues for this repo are now closed. [2026-09-05 addendum, while agile-toolkit.github.io was locked]: found and closed #16 (lastSession persistence + dashboard reader) and #22 (bidirectional Change Planner integration, both phases) as already fully shipped - no code changes needed, just closing oversight.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
@@ -175,9 +172,9 @@
     },
     "agile-toolkit.github.io": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "c66d96e",
-      "next_task": "idle - Kanban Tracker app card added (PR #43), verify CI on c66d96e. No active epic.",
+      "last_run": "2026-09-05",
+      "last_commit": "a7fd4f6",
+      "next_task": "idle - no active epic. Approved backlog cleared: #37 (GOAL.md/ROADMAP.md) was already live on main at the repo root (relocated out of .artefacts/ since the issue was filed) - closed as documentation-already-matches. #32 (Moving Motivators team-session reader) and #33 (Sprint Metrics goal chip) were both already fully implemented in readers.ts (verified line-for-line against source) - added the missing test coverage only, PR #45 v0.4.5. While investigating #32/#22's cross-repo integration, also found moving-motivators#16 (lastSession persistence + dashboard reader) and moving-motivators#22 (bi-directional Moving Motivators <-> Change Planner integration, both phases: ?mm_snapshot= export and ?change= deep link) were already fully shipped - closed both as oversight, no code changes needed there either. ROADMAP's approved backlog is now empty.",
       "blockers": [
         "git tag push (v0.2.0, v0.3.0) returned HTTP 403 both times \u2014 tag refs appear blocked for this session even though branch pushes work; releases/tags not created, version bumps + CHANGELOG entries shipped instead"
       ],
@@ -185,12 +182,12 @@
       "tier": 0,
       "current_epic": null,
       "recent_runs": [
-        "feature",
+        "test",
         "feature",
         "feature",
         "feature"
       ],
-      "version": "0.4.4"
+      "version": "0.4.5"
     },
     "kanban-tracker": {
       "status": "idle",
