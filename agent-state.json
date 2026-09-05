@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-05T05:28:00Z",
-  "lock": null,
+  "updated": "2026-09-05T05:29:00Z",
+  "lock": {
+    "repo": "kanban-tracker",
+    "started_at": "2026-09-05T05:29:00Z"
+  },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
