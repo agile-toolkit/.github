@@ -1,6 +1,9 @@
 {
-  "updated": "2026-09-05T14:58:00Z",
-  "lock": null,
+  "updated": "2026-09-05T14:59:00Z",
+  "lock": {
+    "repo": "scrum-facilitator",
+    "started_at": "2026-09-05T14:59:00Z"
+  },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
