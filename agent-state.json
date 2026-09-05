@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T16:06:00Z",
-  "lock": {
-    "repo": "team-identity",
-    "started_at": "2026-09-05T16:06:00Z"
-  },
+  "updated": "2026-09-05T16:23:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -79,17 +76,18 @@
     },
     "team-identity": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "8a4cb05",
-      "next_task": "Shipped v0.3.2: replaced intro screen generic TeamIcon with IdentityCardIcon (user-reported, matching the earlier dashboard hub tile fix). Remaining for Task #18 (AppHeader glass rollout): improvement-board, work-profiles, planning-poker, sprint-metrics, change-planner (5/10 done). Task #14 (kanban-designer split) has a user decision - needs UX exploration before code, do not restructure repos yet.",
+      "last_run": "2026-09-05",
+      "last_commit": "6f8a81b",
+      "next_task": "idle - no active epic. Approved backlog cleared (PR #48, v0.3.3): #39 (html2canvas code-split) and #41 (JSON export/import) were already fully shipped, closed as oversight. #40 (Vitest coverage) had a first pass already shipped (storage functions, scrumValuesCovered); this run added the two areas left untested (hash encode/decode round-trip, diffCharterFields) plus mergeIntoLibrary coverage - 37/37 tests pass. #42 (split App.tsx, 1017+ lines) done in the same PR: extracted 8 screens into src/components/screens/, a HistoryPanel.tsx, and pure logic into src/charterLogic.ts (avoids a circular import HistoryPanel would've had with App.tsx). App.tsx now ~540 lines. Browser-verified full flow + facilitator/dark mode, no regressions. CI green. Filed #49 (pre-existing, unrelated): duplicate eagle emoji in SYMBOLS data causes a React key warning - not fixed, out of scope for this run's 4 issues.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
+        "refactor",
         "chore",
         "feature"
       ],
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     "improvement-board": {
       "status": "idle",
