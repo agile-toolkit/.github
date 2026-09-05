@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T15:32:00Z",
-  "lock": {
-    "repo": "kanban-designer",
-    "started_at": "2026-09-05T15:32:00Z"
-  },
+  "updated": "2026-09-05T15:55:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -49,17 +46,17 @@
     "kanban-designer": {
       "status": "idle",
       "last_run": "2026-09-05",
-      "last_commit": "27aac0d",
-      "next_task": "idle - no active epic. PR #56 (remove Track mode entirely, v0.5.0) merged to main, CI green. Reverses the earlier Design/Track split: mode toggle, boardMode.ts, due-date/assignee/checklist/card-aging editing, assignee filter, and StatsPanel.tsx all removed, now that Kanban Tracker fully covers that capability against boards imported via BOARD_SCHEMA.md. KanbanCard's dueDate/assignee/checklist/enteredColumnAt fields kept as optional pass-through so round-tripping through Tracker doesn't lose data. Designer is board-design-only again, per GOAL.md's boundary. This closes out the user's full 'move tracking to Kanban Tracker' directive.",
+      "last_commit": "d4c4fb8",
+      "next_task": "idle - no active epic. Approved backlog cleared: #45 (CSV export) already shipped, closed as oversight. #43 (card description field) and #44 (keyboard shortcuts help overlay) both shipped in PR #57 (v0.5.1/v0.5.2), merged, CI green, browser-verified via Playwright. #44's shortcuts modal documents keyboard behavior that already existed (Arrow nav, Enter/F2 edit, Delete/Backspace/Escape, Ctrl+Z/Y) rather than adding new bindings. ROADMAP's Next epics is now empty.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
         "feature",
-        "chore",
-        "feature"
+        "feature",
+        "chore"
       ],
-      "version": "0.5.0",
+      "version": "0.5.2",
       "tier": 0
     },
     "salary-formula": {
