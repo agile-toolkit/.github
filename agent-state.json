@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T05:21:00Z",
-  "lock": {
-    "repo": "kanban-tracker",
-    "started_at": "2026-09-05T05:21:00Z"
-  },
+  "updated": "2026-09-05T05:28:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -183,18 +180,18 @@
     "kanban-tracker": {
       "status": "needs-goal",
       "last_run": "2026-09-05",
-      "last_commit": "2a72aef",
-      "next_task": "needs-goal (formally): full card tracking CRUD shipped (PR #7, v0.3.0) — inline due-date/assignee editing, checklist add/remove (previously toggle-only). Also picked up an unmerged commit from a prior session (archive completed feature folder + lockfile version sync) that had been pushed to the branch but never landed on main. Browser-verified via Playwright, CI green. Part of the user's directive to fully move tracking from Kanban Designer to Kanban Tracker before Designer's Track mode is removed. Next: stats panel, then evaluate drag-and-drop. Issue #1's proposed GOAL.md still awaits human sign-off.",
+      "last_commit": "924d5bf",
+      "next_task": "needs-goal (formally): stats panel shipped (PR #8, v0.4.0) — total cards, overdue count, aggregate checklist completion, WIP-limit violations, per-column breakdown, toggleable, hidden in Facilitator Mode. Browser-verified via Playwright in light+dark. Part of the user's directive to fully move tracking from Kanban Designer to Kanban Tracker before Designer's Track mode is removed (card CRUD shipped in v0.3.0, this is the second of three pieces). Next: evaluate drag-and-drop card movement (Task #16), then remove Track mode from Kanban Designer (Task #17). Issue #1's proposed GOAL.md still awaits human sign-off.",
       "blockers": [],
       "maturity": "mvp",
       "current_epic": "tracker-parity",
       "recent_runs": [
         "feature",
+        "feature",
         "chore",
-        "epic",
-        "feature"
+        "epic"
       ],
-      "version": "0.3.0",
+      "version": "0.4.0",
       "tier": 0
     }
   },
