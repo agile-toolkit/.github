@@ -1,9 +1,6 @@
 {
-  "updated": "2026-09-05T16:24:00Z",
-  "lock": {
-    "repo": "improvement-board",
-    "started_at": "2026-09-05T16:24:00Z"
-  },
+  "updated": "2026-09-05T20:27:00Z",
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
@@ -94,17 +91,18 @@
     },
     "improvement-board": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "62ee762",
-      "next_task": "Shipped v0.3.2: synced AppHeader.tsx glass effect (Task #18, 6/10 done). Remaining: work-profiles, planning-poker, sprint-metrics, change-planner. This app already has an Open in Kanban Designer link + kanbanLink.ts exporting the KanbanBoard shape - relevant reference for Task #14 (kanban-designer split, user decided: separate task-tracking app + existing board apps consume boards from Kanban Designer).",
+      "last_run": "2026-09-05",
+      "last_commit": "d2d2660",
+      "next_task": "idle - no active epic. Full 6-issue approved backlog cleared across PR #46 (v0.4.0) and PR #47 (v0.4.1): #39 (custom tags, filterable, hash-colored), #37 (sprint history analytics - completed-per-sprint bar chart; SprintArchive.items only ever holds a sprint's done items, so the originally-proposed identified-vs-done split isn't recoverable from the data model), #40 (Planning Poker effort badge - reads the actual planning-poker:history key, not the issue's guessed pp-session-history), #38 (Scrum Facilitator retro action-item import), #41 (CSV/Markdown-text export), and #42 (inline title quick-edit, already shipped, closed as oversight). Also implemented moving-motivators#53 Direction A (Assess motivator impact deep-link) since its code belonged in this repo - closed that cross-repo issue too. All browser/test-verified (56 tests), CI green on both PRs.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore",
-        "feature"
+        "feature",
+        "feature",
+        "chore"
       ],
-      "version": "0.3.2"
+      "version": "0.4.1"
     },
     "work-profiles": {
       "status": "idle",
