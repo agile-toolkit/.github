@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-05T21:21:00Z",
+  "updated": "2026-09-05T21:52:00Z",
   "lock": {
-    "repo": "sprint-metrics",
-    "started_at": "2026-09-05T21:21:00Z"
+    "repo": "change-planner",
+    "started_at": "2026-09-05T21:52:00Z"
   },
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
     "scaffolded": null,
     "not-started": "kanban-tracker",
-    "stable": "planning-poker",
+    "stable": "sprint-metrics",
     "needs-goal": null,
     "idle": "sprint-metrics"
   },
@@ -142,19 +142,20 @@
     },
     "sprint-metrics": {
       "status": "idle",
-      "last_run": "2026-09-04",
-      "last_commit": "e69753e",
-      "next_task": "idle - no active epic. PR #64 (AgileEVM, issue #65) merged and CI green. Cost-side CPI/EAC/ETC intentionally deferred (see ROADMAP Polish backlog) - needs a per-sprint actual-cost field to be honest, not yet spec'd as its own epic.",
+      "last_run": "2026-09-05",
+      "last_commit": "b5bac17",
+      "next_task": "idle - no active epic. Approved backlog cleared: #55 (lazy-load html2canvas, PR #66, v0.4.1), #54 (accessible sr-only data tables for all 4 Recharts charts, PR #67, v0.4.2), #56 (Team Identity badge on dashboard, PR #68, v0.4.3), #52 (Scrum Facilitator retro notes import into both add-sprint forms, PR #69, v0.4.4), #53 (Quarterly rollup view - new nav tab, real calendar-quarter parsing when every sprint name supports it else insertion-order batching, PR #70, v0.5.0). All merged, CI green, browser/test-verified via Playwright (52 tests total). ROADMAP's approved backlog is now empty.",
       "blockers": [],
       "maturity": "complete",
       "current_epic": null,
       "recent_runs": [
-        "chore",
         "feature",
-        "chore",
-        "feature"
+        "feature",
+        "feature",
+        "feature",
+        "perf"
       ],
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
     "change-planner": {
       "status": "idle",
