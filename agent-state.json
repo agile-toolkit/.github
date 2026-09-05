@@ -1,9 +1,6 @@
 {
   "updated": "2026-09-05T05:05:00Z",
-  "lock": {
-    "repo": "moving-motivators",
-    "started_at": "2026-09-05T05:02:48Z"
-  },
+  "lock": null,
   "last_picked": {
     "blocked": "kanban-tracker",
     "in-progress": null,
