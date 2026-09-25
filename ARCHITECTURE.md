@@ -304,9 +304,11 @@ adequate if sessions ever carry anything more sensitive.
    "authenticated" into "authorized"; it is the only remaining architectural
    security gap.
 
-Production sourcemaps are published for all eleven apps. For an open-source
-client-side suite this leaks nothing — the source is public — so it is left
-alone.
+Production builds ship no sourcemaps. The source is public, so they leaked
+nothing, but they were dead weight in every Pages deploy.
+Every app's `vite.config.ts` sets `sourcemap: mode === 'debug'`: `npm run
+build` (what `deploy.yml` publishes) emits no `.map` files, and `npm run
+build:debug` produces the same bundle with sourcemaps for local debugging.
 
 ---
 
