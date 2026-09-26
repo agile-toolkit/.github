@@ -150,11 +150,11 @@ It runs under the existing `npm test` step, so every deploy is gated on it.
   specific item: IB card → CP initiative, IB card → MM change, IB card →
   poker story, SM decline → IB item. Storage pull replaces this with "pick
   from list" in the receiver.
-  *Accepted:* accept. The receiver-side picker is one extra click and
+  *Accepted:* the receiver-side picker is one extra click and
   works without the sender being open.
 - **D2 — Should nav hints name the Dashboard?** For example, "Open Scrum
   Facilitator from the Dashboard".
-  *Accepted:* no. Name the data ("Nothing from Scrum Facilitator on
+  *Accepted:* name the data ("Nothing from Scrum Facilitator on
   this device yet"), not the route.
 - **D3 — Planning Poker ↔ Change Planner round trip.** The round trip was
   half-built and is dead on both ends.
