@@ -12,7 +12,7 @@ shared-origin localStorage, and each app shows other apps' data itself.
 |---|---|---|---|---|
 | 1 | `components/ResultsView.tsx:460,474-483,520-523,637-642` | "Assess in Change Planner" (`?mm_snapshot=`) | change-planner | No: CP will build initiatives from `moving-motivators:lastSession` (CP plan) |
 | 2 | `ResultsView.tsx:461,463-472,525-528,643-648` | "Export to Work Profiles" (`?motivators=`), **plus a write into `work-profiles:motivatorSnapshot`** | work-profiles | No: WP will read `moving-motivators:lastSession` (WP plan) |
-| 3 | `components/TeamSession.tsx:348-356,451-460` | "Send to Sprint Metrics" (`?mm=`) | sprint-metrics | No. SM never parsed `?mm=`. It can read `moving-motivators:motivationSnapshot` (SM plan, optional) |
+| 3 | `components/TeamSession.tsx:348-356,451-460` | "Send to Sprint Metrics" (`?mm=`) | sprint-metrics | No. SM never parsed `?mm=`. It can read `moving-motivators:motivationSnapshot` (SM plan, D4) |
 
 ## Delete
 

@@ -43,7 +43,7 @@ Keep `#share=`. It is this app's own share link.
      257-267, 352-355`).
    - Dismissal marker: `change-planner:dismissedMmSession = <savedAt>`.
    - Never delete MM's key.
-2. *(Optional, suite decision D1)* In the Improvement Board import modal,
+2. *(Deferred — D1 accepted the pick-from-list trade-off; not in this feature)* In the Improvement Board import modal,
    add a per-item "New initiative from this item" action. It restores the
    one-item → initiative shortcut that IB's link gave.
 

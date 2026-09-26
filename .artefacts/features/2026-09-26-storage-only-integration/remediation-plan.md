@@ -1,6 +1,6 @@
 # Storage-only integration — suite remediation plan
 
-**Date:** 2026-09-26 · **Scope:** all 11 apps + Dashboard · **Status:** plan, not started
+**Date:** 2026-09-26 · **Scope:** all 11 apps + Dashboard · **Status:** plan approved (D1–D4 accepted), not started
 
 ## The problem
 
@@ -58,7 +58,7 @@ them are already written except where marked.
 | Key (owner) | Written | Read by (after) |
 |---|---|---|
 | `moving-motivators:lastSession` | every solo results | change-planner *(new: create-initiative banner)*, work-profiles *(new: replaces `work-profiles:motivatorSnapshot`)*, team-identity, improvement-board, sprint-metrics |
-| `moving-motivators:motivationSnapshot` | every team reveal | sprint-metrics *(new, optional: prefer team over solo)*, Dashboard |
+| `moving-motivators:motivationSnapshot` | every team reveal | sprint-metrics *(new: preferred over solo when newer, D4)*, Dashboard |
 | `improvement-board-items` | every edit | change-planner, work-profiles, sprint-metrics, kanban-designer *(new)*, planning-poker *(new)*, moving-motivators *(new)* |
 | `kanban-designer:currentBoard` | every board save | sprint-metrics, work-profiles, planning-poker *(new)* |
 | `kanban-designer-boards` | every edit | kanban-tracker |
@@ -144,26 +144,26 @@ non-test file under `src/` and fails on:
 
 It runs under the existing `npm test` step, so every deploy is gated on it.
 
-## Decisions needed (product, not mechanical)
+## Decisions (product, not mechanical) — all accepted 2026-09-26
 
 - **D1 — One-click convenience lost.** Four payload links pre-filled a
   specific item: IB card → CP initiative, IB card → MM change, IB card →
   poker story, SM decline → IB item. Storage pull replaces this with "pick
   from list" in the receiver.
-  *Recommendation:* accept. The receiver-side picker is one extra click and
+  *Accepted:* accept. The receiver-side picker is one extra click and
   works without the sender being open.
 - **D2 — Should nav hints name the Dashboard?** For example, "Open Scrum
   Facilitator from the Dashboard".
-  *Recommendation:* no. Name the data ("Nothing from Scrum Facilitator on
+  *Accepted:* no. Name the data ("Nothing from Scrum Facilitator on
   this device yet"), not the route.
 - **D3 — Planning Poker ↔ Change Planner round trip.** The round trip was
   half-built and is dead on both ends.
-  *Recommendation:* delete it now. If wanted later, rebuild it as
+  *Accepted:* delete it now. If wanted later, rebuild it as
   change-planner publishing `change-planner:storiesForEstimation` and
   reading `planning-poker:history` back, as its own feature.
 - **D4 — Sprint Metrics motivator source.** Should the team snapshot win
   over the latest solo session?
-  *Recommendation:* yes when newer. Optional; nothing is lost if deferred.
+  *Accepted:* yes when newer. In scope for sprint-metrics.
 
 ## Verification per repo (Bahnik)
 

@@ -50,13 +50,13 @@ already reads `kanban-designer:currentBoard`.
    `sprint-metrics:`.
    Check first that SF's review export has the fields needed (date, and
    planned/completed if present). Use SF's `types.ts` for the fixture.
-2. *(Optional, D4)* In `loadMotivatorSnapshot`, prefer
+2. *(D4, accepted)* In `loadMotivatorSnapshot`, prefer
    `moving-motivators:motivationSnapshot` (team) over `lastSession` (solo)
    when it is newer.
 
 ## Tests
 
 - Remove the builder test.
-- Add tests for the review reader and for the "lastSession on every edit"
-  write.
+- Add tests for the review reader, for the "lastSession on every edit"
+  write, and for team-vs-solo motivator selection (newer wins).
 - Adopt `src/__tests__/no-cross-app-links.test.ts`.
